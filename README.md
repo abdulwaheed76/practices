@@ -4,6 +4,7 @@
 # Pull requests / merge requests
 1. ##### linting
 1. ##### functionality correct
+1. ##### Always try best to close, finalize and get old pull/merge requests first
 
 # Coding and development
 1. ##### do only whats required, ask permission beforehand for any deviations
