@@ -1,5 +1,14 @@
 # Git
-1. ##### add ssh keys
+1. ##### add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm.
+
+# Node, npm
+1. ##### use nvm and no other manual/package etc. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm
+
+# IDE
+1. ##### We encourage intellij idea Ultimate edition. If you do not have the license, then at least community edition. If you do not have the hardware resources, you should get them to run intellij. If not, the last case (not preferred) is vscode.
+
+# Operating system
+1. ##### Kubuntu (with k) LTS versions are preferred.
 
 # Pull requests / merge requests
 1. ##### linting
