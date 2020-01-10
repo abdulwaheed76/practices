@@ -22,5 +22,7 @@
 1. ##### CPP - commit, pull, push in same sequence
 1. ##### commit in your own branch, pull from master branch (AND your own branch if multiple people are working on it). Tho this in same squence and do this as often as you can.  
 
+# Online remote groups
+1. ##### Sharing of any personal information or discussing anything not related to work/current tasks is treated miss conduct.
 
 
