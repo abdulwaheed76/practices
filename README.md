@@ -22,8 +22,16 @@ replace   `;`  with `&`
 
 
 # Pull requests / merge requests
-#### linting
+#### CI
+Qe do contineuous integration on github. Make sure all checks are passed and its a green tick with your pull request and commits.
+##### linting
+One of the CI steps is linting. You can autofix with npm scripts in package.json and then manually test for any lint errors before making a Pull request.
 #### functionality correct
+All functionality should be tested before making a PR
+#### Peer review
+Next step is to have a peer review. 
+#### lead review
+Next step is the have a final review by lead / manager
 #### Close Old PR first
 Always try best to close, finalize and get old pull/merge requests first
 
