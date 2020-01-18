@@ -8,7 +8,13 @@
 1. ##### We encourage intellij idea Ultimate edition. If you do not have the license, then at least community edition. If you do not have the hardware resources, you should get them to run intellij. If not, the last case (not preferred) is vscode.
 
 # Operating system
-1. ##### Kubuntu (with k) LTS versions are preferred.
+1. ##### Kubuntu (with k) LTS (ONLY LTS) versions are preferred.
+1. ##### If you use windows, you have to do the following in package.json 
+
+exclude   `.`  (dot) and `/` slash at line starts
+replace `/`  slashes wit `\` blackslashes
+replace   `;`  with `&`
+
 
 # Pull requests / merge requests
 1. ##### linting
@@ -21,6 +27,14 @@
 1. ##### reusable and modular code
 1. ##### CPP - commit, pull, push in same sequence
 1. ##### commit in your own branch, pull from master branch (AND your own branch if multiple people are working on it). Tho this in same squence and do this as often as you can.  
+
+# Directory structure
+### Frontend react based
+### Backend nodejs
+
+# Configuring development environment
+1. ##### CORS restrictions
+1. ##### Localhost nginx config (not needed unless asked)
 
 # Online remote groups
 1. ##### Sharing of any personal information or discussing anything not related to work/current tasks is treated miss conduct.
