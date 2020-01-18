@@ -1,6 +1,6 @@
 # Git
 #### ssh keys
-add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm.
+add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm. https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 
 # Node, npm
 #### nvm
