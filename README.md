@@ -36,6 +36,9 @@ replace   `;`  with `&`
 1. ##### CORS restrictions
 1. ##### Localhost nginx config (not needed unless asked)
 
+# Efficiency
+1. ##### Only do whats needed. Nothing less, nothing more. If you see something wrong or a room for improvement, ask for permission first because what you think is right may be wrong at a different perspective, may have side effects or simply be very good but not needed at the time or at the cost of the current time. So simply ask lead/manager and discuss first.
+
 # Online remote groups
 1. ##### Sharing of any personal information or discussing anything not related to work/current tasks is treated miss conduct.
 
