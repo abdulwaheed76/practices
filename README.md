@@ -24,7 +24,6 @@ replace `/`  slashes with `\` blackslashes
 
 replace   `;`  with `&`
 
-
 # Pull requests / merge requests
 ### prerequisits of PR
 In order to get your code merged in master branch, you need to do the following. Do not make a PR Pull request without the following first done.
@@ -37,7 +36,7 @@ If your project has unit test/ integration tests/ automation tests enforced, do 
 #### functionality correct
 All functionality should be tested before making a PR (self testing)
 #### Release notes
-All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference.
+All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference. This will have some information that is not available in story points. e.g any library used and why preferred, flow of code, technical precautions etc. This is very brief usually from 25 words to 100 words max. 
 #### Peer review
 Next step is to have a peer review. (switch to branch, pull, check manually, then review code on github)
 #### lead review
@@ -46,6 +45,14 @@ Next step is the have a final review by lead / manager
 Always try best to close, finalize and get old pull/merge requests first
 #### One PR per day
 There should be one PR per day. This is mandatory. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
+
+# Project management
+## Agile
+#### story points
+#### stand up
+#### sprints
+## Project management tool
+We had used Jira but prefer easy redmine.
 
 # Coding and development
 ## "Getting things done"
@@ -66,7 +73,8 @@ Always use ES6+ syntax over old. Take it as a mandatory rule.
 If your project is Typescript based, use Typescript wherever possible.
 #### Tests
 We use Jest as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
-## Efficiency
+
+# Efficiency
 #### consistency
 Be consistent in choosing, using, following architecture, libraries, patterns
 #### reusable and modular code
