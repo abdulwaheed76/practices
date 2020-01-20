@@ -10,7 +10,7 @@ Do not install node by any other means but only use nvm. Follow this link and us
 #### Intellij idea
 We encourage intellij idea **Ultimate edition** (very preferred). If you do not have the license, then **at least community edition**. If you do not have the **hardware resources**, you should get them to run intellij. If not, the last case (not preferred) is **vscode**.
 
-Note that you should have **minimum of 4 Gb ram**. Minimum **8Gb recommened** with most **unused plugins disabled** (else you it will consume a lot of cpu and memory)
+Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened** with most **unused plugins disabled** (else you it will consume a lot of cpu and memory)
 
 # Operating system
 #### Kubuntu
@@ -68,22 +68,27 @@ We had used Jira but prefer easy redmine.
 # Coding and development
 ## "Getting things done"
 #### Do only whats required
-Only do whats needed. Nothing less, nothing more. If you see something wrong or a room for improvement, ask permission beforehand for any deviations because if you think something is beneficial, this may not be the case with a different perspective, it may have side effects or simply it may be be very good but not needed at the time or at the cost of the current time. So simply ask lead/manager and discuss first.
+1. **Only do whats needed**. Nothing less, nothing more. Your time is precious. You should be focussed on your **specific targets and goals**. Your time on job is company's **valuable asset** as your targeted efficiency in it is the efficiency of the company! We want to see you valued.
+1. If you see something wrong or a room for improvement, **ask permission beforehand** for any deviations because if you think something is beneficial, that may not be the case with a different perspective, it may have **side effects** or simply it may be be very **good but not needed at the time** or at the cost of the current time. So simply **ask lead/manager and discuss first**.
 #### Improvment
-You might be thinking then, how do we improve the code/funcitonality? Of course, you do but in steps. First target is to complete in a 'good way' and not in a 'perfect way'. Perfection is a step by step process and the steps may reach infinity in some cases. We will not be able to afford time loss for completion at the cost of long perfection sessions. So in short, get first stage workable. Get it approved, move to next stage, get it approved and so on. Do not try to reach stage 10 by wanting to learn and experiment for 9 prior stages in one go. If your code, on the other hand, is below standards, you will ultimately get PR issues anyway... Remember them and do not repeat them. So you/your code improves any way by default. But keep a fine line between personal part of pure self learning (with self motive only) and self experimenting vs completing the task as priority and learning through that (which will be done any way during the process so everyone gets happy).
+1. You might be thinking **then, how do we improve the code/funcitonality?** Of course, you do but **in steps**. **First target is to complete in a 'good way' and not in a 'perfect way'**. 
+1. Perfection is a step by step process and the steps may reach infinity in some cases. We will not be able to afford time loss for completion at the cost of long perfection sessions. 
+1. So in short, get first stage workable. Get it approved, move to next stage, get it approved and so on. Do not try to reach stage 10 by wanting to learn and experiment for 9 prior stages in one go. 
+1. **If your code**, on the other hand, **is below standards**, you will ultimately get **PR issues anyway**... Remember them and do not repeat them. So you/your code improves any way by default. 
+1. But keep a fine line between personal part of pure self learning (with self motive only) and self experimenting vs completing the task as priority and **learning through that** (which will be done any way during the process so everyone gets happy).
 #### Smart done
-Suppose you have 10 things in your todo list. 5 things 100% done is better than 10 things done 50% each.
+Suppose you have 10 things in your todo list. **5 things 100% done is better than 10 things done 50% each**.
 #### Definition of done
 Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
 ## Coding practices
 #### libraries choice
-You should have very good reasons to choose a library. In most of the cases, you should ask lead before choosing a library.
+You should have very good reasons to choose a library. In most of the cases, you should **ask lead before choosing a library**.
 #### ES6+ over old
-Always use ES6+ syntax over old. Take it as a mandatory rule.
-#### TS of JS
-If your project is Typescript based, use Typescript wherever possible.
+**Always use ES6+ syntax over old. Take it as a mandatory rule**.
+#### TS over JS
+If your project is Typescript based, **use Typescript wherever possible**.
 #### Tests
-We use Jest as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
+We use **Jest** as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
 
 # Efficiency
 #### consistency
@@ -91,7 +96,7 @@ Be consistent in choosing, using, following architecture, libraries, patterns
 #### reusable and modular code
 Do not repeat your self
 #### CPP 
-commit, pull, push in same sequence. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from master at least), then push (to your branch). E.g For a team of X number of people, you should do it X times a day. Ie in a team of 3 people, you should do this at least 3 times a day. 
+commit, pull, push in **same sequence**. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from master at least), then push (to your branch). E.g For a **team of X number of people, you should do it X times a day**. Ie in a team of 3 people, you should do this at least 3 times a day. 
 
 # Directory structure
 ### Frontend react based
@@ -107,7 +112,7 @@ To be continued
 
 # Online remote groups
 #### Noise due to group talk
-If you feel theres too much voice conversations in remote group, you can mute the volume but you should be alert for any chat messages. If some one wants to talk to you, (s)he should ping you on chat. You should do the same.
+If you feel theres **too much voice conversations** in remote group, you can **mute the volume** but you should **be alert for any chat messages**. If some one wants to talk to you, (s)he should ping you on chat. You should do the same.
 #### Stay connected all the time
 You should stay connected to group collaboration software all the time
 #### Personal info
