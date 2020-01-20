@@ -72,7 +72,7 @@ If you get CORS errors, you can install browser plugin (one called `allow cors` 
 To be continued
 
 # Online remote groups
+#### Noise due to group talk
+If you feel theres too much voice conversations in remote group, you can mute the volume but you should be alert for any chat messages. If some one wants to talk to you, (s)he should ping you on chat. You should do the same.
 #### Personal info
 Sharing of any personal information or discussing anything not related to work/current tasks is treated miss conduct.
-
-
