@@ -8,13 +8,13 @@ Do not install node by any other means but only use nvm. Follow this link and us
 
 # IDE
 #### Intellij idea
-We encourage intellij idea Ultimate edition (very preferred). If you do not have the license, then at least community edition. If you do not have the hardware resources, you should get them to run intellij. If not, the last case (not preferred) is vscode.
+We encourage intellij idea **Ultimate edition** (very preferred). If you do not have the license, then **at least community edition**. If you do not have the **hardware resources**, you should get them to run intellij. If not, the last case (not preferred) is **vscode**.
 
-Note that you should have minimum of 4 Gb ram. Minimum 8Gb recommened with most unused plugins disabled (else you it will consume a lot of cpu and memory)
+Note that you should have **minimum of 4 Gb ram**. Minimum **8Gb recommened** with most **unused plugins disabled** (else you it will consume a lot of cpu and memory)
 
 # Operating system
 #### Kubuntu
-Kubuntu (with k) LTS (ONLY LTS) versions are preferred. https://kubuntu.com
+**Kubuntu** (with k) LTS (**ONLY LTS**) versions are preferred. https://kubuntu.com
 #### Windows
 If you use windows, you have to do the following in package.json (we have not made special windows commands yet as we mostly use and encourage Linux. This is the same setup we use on servers. So environment differences would be minimum).
 
@@ -26,34 +26,36 @@ replace   `;`  with `&`
 
 # Pull requests / merge requests
 ## PR per feature
-A feature should be divided into following parts/categories and all PRs should be passed step by step. There can be more PRs than the below stated but these are the minimum and more sort of broader category. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should not work on the next PR part until the first PR is merged/approved.
+1. A feature should be divided into following **main parts/categories** and all PRs should be passed step by step. 
+1. There can be more PRs than the below stated but these are the minimum and more sort of **broad categories**. 
+1. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should **not work on the next PR part until the first PR is merged/approved**.
 #### PR #1
-First PR should have all the possible flow/achitecture with empty functions (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
+First PR should have all the possible **flow/achitecture with empty functions** (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
 #### PR #2
-Each function/part in PR #1 will be implemented (with unit tests if it is enforced in the project)
+Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project)
 #### PR #3
-This would be final PR and will also make sure that other parts of application work in harmony with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
+This would be **final PR** and will also make sure that other parts of **application work in harmony** with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
 
 ## prerequisits of PR
-In order to get your code merged in master branch, you need to do the following. Do not make a PR Pull request without the following first done.
+In order to get your code merged in master branch, you need to do the following. **Do not make a PR Pull request without the following first done**.
 #### CI
-We do contineuous integration on github. Make sure all checks are passed and its a green tick with your pull request and commits.
+We do **contineuous integration (CI)** on github. **Make sure all checks are passed** and its a green tick with your pull request and commits.
 #### linting
-One of the CI steps is linting. You can autofix with npm scripts in package.json and then manually test for any lint errors before making a Pull request.
+One of the CI steps is linting. You can **autofix** with npm scripts in package.json and then manually test for any lint errors before making a Pull request. **Manually fix** if something is not autofixed. As a side note, observe autofixed syntax and learn from it.
 #### Tests
 If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them.
-#### functionality correct
-All functionality should be tested before making a PR (self testing)
+#### Self testing
+All functionality should be tested before making a PR (self testing). Run and **test the functionality yourself first**.
 #### Release notes
-All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference. This will have some information that is not available in story points. e.g any library used and why preferred, flow of code, technical precautions etc. This is very brief usually from 25 words to 100 words max. 
+All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference. This will have some **information that is not available in story points**. e.g any library used and why preferred, flow of code, technical precautions etc. This is very brief usually from **25 words to 100 words max**. 
 #### Peer review
-Next step is to have a peer review. (switch to branch, pull, check manually, then review code on github)
+Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
 #### lead review
 Next step is the have a final review by lead / manager
 #### Close Old PR first
-Always try best to close, finalize and get old pull/merge requests first
+Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
 #### One PR per day
-There should be one PR per day. This is mandatory. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
+**There should be one PR per day. This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
 
 # Project management
 ## Agile
