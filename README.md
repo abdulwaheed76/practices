@@ -103,12 +103,13 @@ replace   `;`  with `&`
 ## PR per feature
 1. A feature should be divided into following **main parts/categories** and all PRs should be passed step by step. 
 1. There can be more PRs than the below stated but these are the minimum and more sort of **broad categories**. 
-1. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should **not work on the next PR part until the first PR is merged/approved**.
-#### PR #1
+1. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should **not work/extend code based on same/previous PR functionality, until the first PR is merged/approved**. This is because if there are issues in the intial PR, then the extended code based on that intial PR code will also have issues and consume more and more time. Same philosophy applies to PR categories. E.g do not go to category 2 unless 1 is approved.
+1. You should work on some other feature/project during wait time.
+#### PR 1
 First PR should have all the possible **flow/achitecture with empty functions** (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
-#### PR #2
+#### PR 2
 Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project)
-#### PR #3
+#### PR 3
 This would be **final PR** and will also make sure that other parts of **application work in harmony** with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
 
 ## prerequisits of PR
