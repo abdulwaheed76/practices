@@ -140,6 +140,8 @@ Always try best to close, finalize and **get old pull/merge requests first** bef
 This can be best informed by the following examples. If you are not following these, your PR may get rejected on just the naming conventions. Clear and self explanatory names are critical and save people from a lot of frustration.
 #### Git commit message
 1. add backend min char check on password - login page
+#### Branch name
+1. frontend form validation - login page
 #### PR title
 1. slicing done - login page
 1. frontend form validation - login page
