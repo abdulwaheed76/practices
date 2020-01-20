@@ -233,4 +233,5 @@ If you feel theres **too much voice conversations** in remote group, you can **m
 #### Stay connected all the time
 You should stay connected to group collaboration software all the time
 #### Personal info
-Sharing of any personal information or discussing anything not related to work/current tasks is treated miss conduct.
+1. Sharing of any personal information or discussing anything not related to work/current tasks is treated as a miss conduct.
+1. Using any personal email, phone or contact in any platform, such as but limited to, github, collaboration, chat etc tools is treated as a miss conduct.
