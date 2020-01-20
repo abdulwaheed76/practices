@@ -83,6 +83,16 @@ This can be best informed by the following examples. If you are not following th
 #### Notes for names
 1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
 
+
+
+# Docs
+## API docs
+To be continued
+## Code docs
+To be continued
+
+
+
 # Project management
 ## Agile
 #### story points
