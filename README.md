@@ -67,6 +67,22 @@ Always try best to close, finalize and **get old pull/merge requests first** bef
 
 
 
+# Naming conventions
+This can be best informed by the following examples. If you are not following these, your PR may get rejected on just the naming conventions. Clear and self explanatory names are critical and save people from a lot of frustration.
+#### Git commit message
+1. add backend min char check on password - login page
+#### PR title
+1. slicing done - login page
+1. frontend form validation - login page
+#### Function names
+1. isValidEmail(email)// returns true/false
+#### Variable names
+1. userArray
+1. userMap
+1. users | userList //list of objects
+#### Notes for names
+1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
+
 # Project management
 ## Agile
 #### story points
