@@ -57,16 +57,19 @@ Be consistent in choosing, using, following architecture, libraries, patterns
 #### reusable and modular code
 Do not repeat your self
 #### CPP 
-commit, pull, push in same sequence. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from master at least), then push (to your branch)
-#### commit in your own branch, pull from master branch (AND your own branch if multiple people are working on it). Tho this in same squence and do this as often as you can.  
+commit, pull, push in same sequence. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from master at least), then push (to your branch). E.g For a team of X number of people, you should do it X times a day. Ie in a team of 3 people, you should do this at least 3 times a day. 
 
 # Directory structure
 ### Frontend react based
+To be continued
 ### Backend nodejs
+To be continued
 
 # Configuring development environment
 #### CORS restrictions
+If you get CORS errors, you can install browser plugin (one called `allow cors` for chrome). You have to hit the big icon and make it colored to activate it.
 #### Localhost nginx config (not needed unless asked)
+To be continued
 
 # Online remote groups
 #### Personal info
