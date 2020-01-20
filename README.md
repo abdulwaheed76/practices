@@ -36,6 +36,8 @@ One of the CI steps is linting. You can autofix with npm scripts in package.json
 If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them.
 #### functionality correct
 All functionality should be tested before making a PR (self testing)
+#### Release notes
+All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference.
 #### Peer review
 Next step is to have a peer review. (switch to branch, pull, check manually, then review code on github)
 #### lead review
