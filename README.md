@@ -2,15 +2,21 @@
 #### ssh keys
 add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm. https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+
+
 # Node, npm
 #### nvm
 Do not install node by any other means but only use nvm. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm and https://github.com/nvm-sh/nvm#usage  (go for the latest LTS node version)
+
+
 
 # IDE
 #### Intellij idea
 We encourage intellij idea **Ultimate edition** (very preferred). If you do not have the license, then **at least community edition**. If you do not have the **hardware resources**, you should get them to run intellij. If not, the last case (not preferred) is **vscode**.
 
 Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened** with most **unused plugins disabled** (else you it will consume a lot of cpu and memory)
+
+
 
 # Operating system
 #### Kubuntu
@@ -23,6 +29,8 @@ exclude   `.`  (dot) and `/` slash at line starts
 replace `/`  slashes with `\` blackslashes
 
 replace   `;`  with `&`
+
+
 
 # Pull requests / merge requests
 ## PR per feature
@@ -57,6 +65,8 @@ Always try best to close, finalize and **get old pull/merge requests first** bef
 #### One PR per day
 **There should be one PR per day. This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
 
+
+
 # Project management
 ## Agile
 #### story points
@@ -64,6 +74,8 @@ Always try best to close, finalize and **get old pull/merge requests first** bef
 #### sprints
 ## Project management tool
 We had used Jira but prefer easy redmine.
+
+
 
 # Coding and development
 ## "Getting things done"
@@ -90,6 +102,8 @@ If your project is Typescript based, **use Typescript wherever possible**.
 #### Tests
 We use **Jest** as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
 
+
+
 # Efficiency
 #### consistency
 Be consistent in choosing, using, following architecture, libraries, patterns
@@ -98,17 +112,23 @@ Do not repeat your self
 #### CPP 
 commit, pull, push in **same sequence**. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from master at least), then push (to your branch). E.g For a **team of X number of people, you should do it X times a day**. Ie in a team of 3 people, you should do this at least 3 times a day. 
 
+
+
 # Directory structure
 ### Frontend react based
 To be continued
 ### Backend nodejs
 To be continued
 
+
+
 # Configuring development environment
 #### CORS restrictions
 If you get CORS errors, you can install browser plugin (one called `allow cors` for chrome). You have to hit the big icon and make it colored to activate it.
 #### Localhost nginx config (not needed unless asked)
 To be continued
+
+
 
 # Online remote groups
 #### Noise due to group talk
