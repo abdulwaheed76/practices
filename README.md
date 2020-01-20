@@ -4,7 +4,7 @@ add ssh keys so you do not have to type password everytime and also you will nee
 
 # Node, npm
 #### nvm
-use nvm and no other manual/package etc. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm and https://github.com/nvm-sh/nvm#usage  (go for the latest LTS node version)
+Do not install node by any other means but only use nvm. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm and https://github.com/nvm-sh/nvm#usage  (go for the latest LTS node version)
 
 # IDE
 #### Intellij idea
