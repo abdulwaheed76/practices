@@ -22,7 +22,6 @@ exclude   `.`  (dot) and `/` slash at line starts
 replace `/`  slashes wit `\` blackslashes
 replace   `;`  with `&`
 
-
 # Pull requests / merge requests
 ### prerequisits of PR
 In order to get your code merged in master branch, you need to do the following. Do not make a PR Pull request without the following first done.
@@ -42,14 +41,23 @@ Always try best to close, finalize and get old pull/merge requests first
 There should be one PR per day. This is mandatory. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
 
 # Coding and development
+## "Getting things done"
 #### Do only whats required
 Only do whats needed. Nothing less, nothing more. If you see something wrong or a room for improvement, ask permission beforehand for any deviations because if you think something is beneficial, this may not be the case with a different perspective, it may have side effects or simply it may be be very good but not needed at the time or at the cost of the current time. So simply ask lead/manager and discuss first.
+#### Improvment
+You might be thinking then, how do we improve the code/funcitonality? Of course, you do but in steps. First target is to complete in a 'good way' and not in a 'perfect way'. Perfection is a step by step process and the steps may reach infinity in some cases. We will not be able to afford time loss for completion at the cost of long perfection sessions. So in short, get first stage workable. Get it approved, move to next stage, get it approved and so on. Do not try to reach stage 10 by wanting to learn and experiment for 9 prior stages in one go. If your code is below standards, you will ultimately get PR issues anyway. Remember them and do not repeat them. So you/your code improves any way by default.
+#### Smart done
+Suppose you have 10 things in your todo list. 5 things 100% done is better than 10 things done 50% each.
+#### Definition of done
+Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
 
+## Efficiency
 #### consistency
-be consistent in choosing, using, following architecture, libraries, patterns
+Be consistent in choosing, using, following architecture, libraries, patterns
 #### reusable and modular code
+Do not repeat your self
 #### CPP 
-commit, pull, push in same sequence
+commit, pull, push in same sequence. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from master at least), then push (to your branch)
 #### commit in your own branch, pull from master branch (AND your own branch if multiple people are working on it). Tho this in same squence and do this as often as you can.  
 
 # Directory structure
