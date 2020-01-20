@@ -30,8 +30,10 @@ replace   `;`  with `&`
 In order to get your code merged in master branch, you need to do the following. Do not make a PR Pull request without the following first done.
 #### CI
 We do contineuous integration on github. Make sure all checks are passed and its a green tick with your pull request and commits.
-##### linting
+#### linting
 One of the CI steps is linting. You can autofix with npm scripts in package.json and then manually test for any lint errors before making a Pull request.
+#### Tests
+If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them.
 #### functionality correct
 All functionality should be tested before making a PR (self testing)
 #### Peer review
@@ -48,12 +50,20 @@ There should be one PR per day. This is mandatory. If you fail to get it approve
 #### Do only whats required
 Only do whats needed. Nothing less, nothing more. If you see something wrong or a room for improvement, ask permission beforehand for any deviations because if you think something is beneficial, this may not be the case with a different perspective, it may have side effects or simply it may be be very good but not needed at the time or at the cost of the current time. So simply ask lead/manager and discuss first.
 #### Improvment
-You might be thinking then, how do we improve the code/funcitonality? Of course, you do but in steps. First target is to complete in a 'good way' and not in a 'perfect way'. Perfection is a step by step process and the steps may reach infinity in some cases. We will not be able to afford time loss for completion at the cost of long perfection sessions. So in short, get first stage workable. Get it approved, move to next stage, get it approved and so on. Do not try to reach stage 10 by wanting to learn and experiment for 9 prior stages in one go. If your code is below standards, you will ultimately get PR issues anyway. Remember them and do not repeat them. So you/your code improves any way by default.
+You might be thinking then, how do we improve the code/funcitonality? Of course, you do but in steps. First target is to complete in a 'good way' and not in a 'perfect way'. Perfection is a step by step process and the steps may reach infinity in some cases. We will not be able to afford time loss for completion at the cost of long perfection sessions. So in short, get first stage workable. Get it approved, move to next stage, get it approved and so on. Do not try to reach stage 10 by wanting to learn and experiment for 9 prior stages in one go. If your code, on the other hand, is below standards, you will ultimately get PR issues anyway... Remember them and do not repeat them. So you/your code improves any way by default. But keep a fine line between personal part of pure self learning (with self motive only) and self experimenting vs completing the task as priority and learning through that (which will be done any way during the process so everyone gets happy).
 #### Smart done
 Suppose you have 10 things in your todo list. 5 things 100% done is better than 10 things done 50% each.
 #### Definition of done
 Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
-
+## Coding practices
+#### libraries choice
+You should have very good reasons to choose a library. In most of the cases, you should ask lead before choosing a library.
+#### ES6+ over old
+Always use ES6+ syntax over old. Take it as a mandatory rule.
+#### TS of JS
+If your project is Typescript based, use Typescript wherever possible.
+#### Tests
+We use Jest as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
 ## Efficiency
 #### consistency
 Be consistent in choosing, using, following architecture, libraries, patterns
@@ -77,5 +87,7 @@ To be continued
 # Online remote groups
 #### Noise due to group talk
 If you feel theres too much voice conversations in remote group, you can mute the volume but you should be alert for any chat messages. If some one wants to talk to you, (s)he should ping you on chat. You should do the same.
+#### Stay connected all the time
+You should stay connected to group collaboration software all the time
 #### Personal info
 Sharing of any personal information or discussing anything not related to work/current tasks is treated miss conduct.
