@@ -130,8 +130,11 @@ All PRs should have release notes about the functionality you made in that PR. I
 Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
 #### lead review
 Next step is the have a final review by lead / manager
+#### Issues in PR
+If there are any issues in PR, they should be replied/typed in reply text box as fixed or replied to the question or a comment. Ultimately **all issues should be marked as resolved by the issue creater by clicking the resolve button**. The developer / PR creater should not press this button but only the issue creater should.
 #### Close Old PR first
 Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
+## Daily PRs routine
 #### One PR per day
 **There should be one PR per day. This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
 
