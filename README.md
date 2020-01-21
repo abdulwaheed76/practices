@@ -115,8 +115,10 @@ This would be **final PR** and will also make sure that other parts of **applica
 
 ## prerequisits of PR
 In order to get your code merged in master branch, you need to do the following. **Do not make a PR Pull request without the following first done**.
+#### Create branch
+Create a new branch by first cloning your project git repository, then creating a new branch from master. Start coding in it.
 #### Pull from branch and master
-Before pushing code for PR, make sure you have done CPP (commit(in your branch), pull (from your branch and master), push (to your branch))
+Before pushing code for PR, make sure you have done CPP (commit(in your branch), pull (from your branch if others are working on it too. If not, then simply from master), push (to your branch))
 #### CI
 We do **contineuous integration (CI)** on github. **Make sure all checks are passed** and its a green tick with your pull request and commits.
 #### linting
