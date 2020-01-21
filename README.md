@@ -105,13 +105,13 @@ replace   `;`  with `&`
 1. There can be more PRs than the below stated but these are the minimum and more sort of **broad categories**. 
 1. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should **not work/extend code based on same/previous PR functionality, until the first PR is merged/approved**. This is because if there are issues in the intial PR, then the extended code based on that intial PR code will also have issues and consume more and more time. Same philosophy applies to PR categories. E.g do not go to category 2 unless 1 is approved.
 1. You should work on some other feature/project during wait time.
-#### PR 1
+#### PR part 1
 1. First PR should have all the possible **flow/achitecture with directories, files and empty functions** with //TODO comments inside (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
 1. There are many approaches in industry to make flow before coding e.g **UML** diagrams, test cases (where test cases are written before writing actual code (**TDD** test driven development)), or simply writing **empty functions/interfaces** etc.
 1. Some people may say, "**what if the code is likely or will change in future? is PR 1 useless?**". Well, no. If its likely to change at a greater percentage, it means the plan and structure initally made needed improvement. Secondly, if some of it will change anyway, the effort to make initial design should have given more advantage over the minor con/disadvantage (to just remove/change an empty function/file).
-#### PR 2
+#### PR part 2
 Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project)
-#### PR 3
+#### PR part 3
 This would be **final PR** and will also make sure that other parts of **application work in harmony** with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
 
 ## prerequisits of PR
@@ -140,7 +140,7 @@ If there are any issues in PR, they should be replied/typed in reply text box as
 Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
 ## Daily PRs routine
 #### One PR per day
-**There should be one PR per day** (which is consisting of all PR1+PR2+PR3 categories). **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
+**There should be one PR per day** (which is consisting of all PR part 1 + PR part 2 + PR part 3). **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
 
 
 
