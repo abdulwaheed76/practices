@@ -215,6 +215,10 @@ We use **Jest** as the testing library for unit tests and integration test. For 
 #### css over js
 **Only** use css/scss (scss preferred) for libraries like material ui etc that offer both Javascript based style configurations and css based style configurations. Put css/scss code in separate files for each component. There should be no inline styles as well. This strategy is important as it increases page performance a bit and also decouples development. A css coder can work (almost) independantly from a javascript developer on the same projects. Spliting css and js files also improves the said. Further more, it also decouples style (css) and interation (javascript) logic, giving better structure to code as well.
 
+## Frontend react
+#### One file per component
+Create one js/jsx file and one .scss file for each component. Do not worry about more files and directories. Worry about more number of lines in one file.
+
 # Efficiency
 #### consistency
 Be consistent in choosing, using, following architecture, libraries, patterns
