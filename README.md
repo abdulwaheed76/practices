@@ -155,6 +155,8 @@ This can be best informed by the following examples. If you are not following th
 1. userArray
 1. userMap
 1. users | userList //list of objects
+#### Directory names
+1. loginServices
 #### Notes for names
 1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
 
