@@ -106,7 +106,8 @@ replace   `;`  with `&`
 1. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should **not work/extend code based on same/previous PR functionality, until the first PR is merged/approved**. This is because if there are issues in the intial PR, then the extended code based on that intial PR code will also have issues and consume more and more time. Same philosophy applies to PR categories. E.g do not go to category 2 unless 1 is approved.
 1. You should work on some other feature/project during wait time.
 #### PR 1
-First PR should have all the possible **flow/achitecture with empty functions** (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
+1. First PR should have all the possible **flow/achitecture with directories, files and empty functions** with //TODO comments inside (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
+1. There are many approaches in industry to make flow before coding e.g UML diagrams, test cases (where test cases are written before writing actual code (TDD test driven development)), or simply writing empty functions/interfaces etc.
 #### PR 2
 Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project)
 #### PR 3
