@@ -107,7 +107,8 @@ replace   `;`  with `&`
 1. You should work on some other feature/project during wait time.
 #### PR 1
 1. First PR should have all the possible **flow/achitecture with directories, files and empty functions** with //TODO comments inside (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
-1. There are many approaches in industry to make flow before coding e.g UML diagrams, test cases (where test cases are written before writing actual code (TDD test driven development)), or simply writing empty functions/interfaces etc.
+1. There are many approaches in industry to make flow before coding e.g **UML** diagrams, test cases (where test cases are written before writing actual code (**TDD** test driven development)), or simply writing **empty functions/interfaces** etc.
+1. Some people may say, "**what if the code is likely or will change in future? is PR 1 useless?**". Well, no. Ff its likely to change at a greater percentage, it means the plan and structure initally made needed improvement. Secondly, if some of it will change anyway, the effort to make initial design should have given more advantage over the minor con/disadvantage (to just remove/change an empty function/file).
 #### PR 2
 Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project)
 #### PR 3
