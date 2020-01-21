@@ -233,8 +233,24 @@ commit, pull, push in **same sequence**. Do this as frequently as you can. Seque
 ### Frontend react based
 To be continued
 ### Backend nodejs
-To be continued
-
+The following is incomplete but gives an idea
+```
+src
+      modules
+            login
+                  controller
+                        loginController.js
+                  service
+                        authService.js
+                        //some other
+                  dao // database access object
+                        loginDao.js
+                  utils
+                        loginUtils.js
+      shared
+            services
+            utils                                                 
+```
 
 
 # Configuring development environment
