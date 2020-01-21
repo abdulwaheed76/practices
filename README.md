@@ -145,7 +145,7 @@ This can be best informed by the following examples. If you are not following th
 #### Git commit message
 1. add backend min char check on password - login page
 #### Branch name
-1. frontend form validation - login page
+1. frontend-form-validation--login-page
 #### PR title
 1. slicing done - login page
 1. frontend form validation - login page
