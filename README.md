@@ -211,7 +211,8 @@ If your project is Typescript based, **use Typescript wherever possible**.
 We use **Jest** as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
 
 ## Frontend
-#### **Only** use css/scss (scss preferred) for libraries like material ui etc that offer both Javascript based style configurations and css based style configurations. Put css/scss code in separate files for each component.
+#### css over js
+**Only** use css/scss (scss preferred) for libraries like material ui etc that offer both Javascript based style configurations and css based style configurations. Put css/scss code in separate files for each component. There should be no inline styles as well.
 
 # Efficiency
 #### consistency
