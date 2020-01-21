@@ -159,6 +159,9 @@ This can be best informed by the following examples. If you are not following th
 1. userArray
 1. userMap
 1. users | userList //list of objects
+#### Css variable names
+1. list-item
+1. list-item-container
 #### Directory names
 1. loginServices
 #### Notes for names
@@ -211,9 +214,17 @@ If your project is Typescript based, **use Typescript wherever possible**.
 #### Tests
 We use **Jest** as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
 
+## Javascript
+#### Never disable linting
+Do not disable linting without permission.
+
 ## Frontend
 #### css over js
 **Only** use css/scss (scss preferred) for libraries like material ui etc that offer both Javascript based style configurations and css based style configurations. Put css/scss code in separate files for each component. There should be no inline styles as well. This strategy is important as it increases page performance a bit and also decouples development. A css coder can work (almost) independantly from a javascript developer on the same projects. Spliting css and js files also improves the said. Further more, it also decouples style (css) and interation (javascript) logic, giving better structure to code as well.
+##### External cdn or other links
+Never use (until informed by manager), any kind of external links of css, images, javascripts in html or js files like `<link src=.../>` or `<img src.../>`. It is agreed that resource loading via third party increases performance and decreases server/network load but specially in a SAAS app or single page app (SPA), we use our own optimized and/or bundled resources and/or if its PWA, this goes further strict as caching is involved. So do not use third party linked resources. Use `import`.
+#### Images
+Extending above point further, to use images or make them background etc, use image paths in css/scss files as css/scss syntax.
 
 ## Frontend react
 #### One file per component
