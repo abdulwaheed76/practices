@@ -184,7 +184,9 @@ We had used Jira but prefer easy redmine.
 
 
 # Coding and development
+
 ## "Getting things done"
+
 #### Do only whats required
 1. **Only do whats needed**. Nothing less, nothing more. Your time is precious. You should be focussed on your **specific targets and goals**. Your time on job is company's **valuable asset** as your targeted efficiency in it is the efficiency of the company! We want to see you valued.
 1. If you see something wrong or a room for improvement, **ask permission beforehand** for any deviations because if you think something is beneficial, that may not be the case with a different perspective, it may have **side effects** or simply it may be be very **good but not needed at the time** or at the cost of the current time. So simply **ask lead/manager and discuss first**.
@@ -208,7 +210,8 @@ If your project is Typescript based, **use Typescript wherever possible**.
 #### Tests
 We use **Jest** as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
 
-
+## Frontend
+#### **Only** use css/scss (scss preferred) for libraries like material ui etc that offer both Javascript based style configurations and css based style configurations. Put css/scss code in separate files for each component.
 
 # Efficiency
 #### consistency
