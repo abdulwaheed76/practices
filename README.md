@@ -260,7 +260,62 @@ commit, pull, push in **same sequence**. Do this as frequently as you can. Seque
 
 # Directory structure
 ### Frontend react based
-To be continued
+```
+src
+    components (or modules)    
+        base
+            shared
+                menus
+                    xyzMenu
+                        xyzMenu.jsx
+                        .scss
+                buttons
+                    xyzButton
+                    abcButton
+                accordians
+                    abc
+            header
+                headerComp.jsx
+                headerComp.scss
+                level
+                    levelComp.jsx
+                    levelComp.scss
+                Balance
+                    // 
+                    //
+                notifications
+                    //
+            navBar
+            drawer
+        tasks
+            list
+                taskListComp.jsx
+                //.scss
+                taskListItemComp.jsx
+                //.scss
+            task
+                taskDetails
+                    taskEdit
+                        taskEditComp.jsx
+                        //scss
+                        taskRuleDetailComp.jsx
+                        //scss
+                    taskPreview
+                        taskPreviewComp.jsx
+                        //scss
+                taskTabs
+                    taskInfoTabComp.jsx
+                    taskSampleTextTab.jsx
+        dashboard
+                //
+                //
+                //
+        projects
+                //
+                //
+                //
+
+```
 ### Backend nodejs
 The following is incomplete but gives an idea
 ```
