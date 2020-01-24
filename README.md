@@ -246,7 +246,7 @@ Extending above point further, to use images or make them background etc, use im
 
 ## Frontend react
 #### One file per component
-Create one js/jsx file and one .scss file for each component. Do not worry about more files and directories. Worry about more number of lines in one file.
+Create one js/jsx file and one .scss file for each component. Do not worry about more files and directories. Worry about more number of lines in one file. Create a separate scss/css file for each componenet .jsx file even if the component is small enough or the scss/css file have fewer lines of code.
 
 # Efficiency
 #### consistency
