@@ -200,6 +200,10 @@ To be continued
 #### story points
 #### stand up
 #### sprints
+#### Ownership
+Sprints are ownership of the team overall, success of a sprint is success of the full team (regardless of individual tasks). You can say you may hold at least 1% to 10% responsibility of overall team work. You own 100% of the taks specificily assigned to you. Responsibility includes, but not limited to, completing the task with at least minimum quality and absolutely agreed time mentioned in estimates.
+#### Deviations
+If you encounter any deviation in attainable preplaned timeline estimates, promptly inform the reasons and circumstances to your lead and project manager.
 ## Project management tool
 We had used Jira but prefer easy redmine.
 
