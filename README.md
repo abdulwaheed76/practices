@@ -200,6 +200,10 @@ To be continued
 #### story points
 #### stand up
 #### sprints
+#### Ownership
+Sprints are ownership of the team overall, success of a sprint is success of the full team (regardless of individual tasks). You can say you may hold at least 1% to 10% responsibility of overall team work. You own 100% of the taks specificily assigned to you. Responsibility includes, but not limited to, completing the task with at least minimum quality and absolutely agreed time mentioned in estimates.
+#### Deviations
+If you encounter any deviation in attainable preplaned timeline estimates, promptly inform the reasons and circumstances to your lead and project manager.
 ## Project management tool
 We had used Jira but prefer easy redmine.
 
@@ -246,7 +250,7 @@ Extending above point further, to use images or make them background etc, use im
 
 ## Frontend react
 #### One file per component
-Create one js/jsx file and one .scss file for each component. Do not worry about more files and directories. Worry about more number of lines in one file.
+Create one js/jsx file and one .scss file for each component. Do not worry about more files and directories. Worry about more number of lines in one file. Create a separate scss/css file for each componenet .jsx file even if the component is small enough or the scss/css file have fewer lines of code.
 
 # Efficiency
 #### consistency
@@ -260,7 +264,62 @@ commit, pull, push in **same sequence**. Do this as frequently as you can. Seque
 
 # Directory structure
 ### Frontend react based
-To be continued
+```
+src
+    components (or modules)    
+        base
+            shared
+                menus
+                    xyzMenu
+                        xyzMenu.jsx
+                        .scss
+                buttons
+                    xyzButton
+                    abcButton
+                accordians
+                    abc
+            header
+                headerComp.jsx
+                headerComp.scss
+                level
+                    levelComp.jsx
+                    levelComp.scss
+                Balance
+                    // 
+                    //
+                notifications
+                    //
+            navBar
+            drawer
+        tasks
+            list
+                taskListComp.jsx
+                //.scss
+                taskListItemComp.jsx
+                //.scss
+            task
+                taskDetails
+                    taskEdit
+                        taskEditComp.jsx
+                        //scss
+                        taskRuleDetailComp.jsx
+                        //scss
+                    taskPreview
+                        taskPreviewComp.jsx
+                        //scss
+                taskTabs
+                    taskInfoTabComp.jsx
+                    taskSampleTextTab.jsx
+        dashboard
+                //
+                //
+                //
+        projects
+                //
+                //
+                //
+
+```
 ### Backend nodejs
 The following is incomplete but gives an idea
 ```
