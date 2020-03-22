@@ -100,7 +100,7 @@ add ssh keys so you do not have to type password everytime and also you will nee
 1. Design - Graphic design (Adobe photoshop, Illustrator etc)
 
 #### Task understanding
-After reading the issue type, description and title of the task carefully, read the parent task (story or any other kind of ticket) and read all the way up to the top most ticket.
+After reading the issue type, description and title of the task carefully, read the parent task (story or any other kind of ticket) and read all the way up to the top most ticket. Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
 
 #### Execution
 1. Observe due date, estimated hours and discuss if needed
