@@ -184,7 +184,11 @@ Always try best to close, finalize and **get old pull/merge requests first** bef
 #### One PR per day
 **There should be one PR per day** (which is consisting of all PR part 1 + PR part 2 + PR part 3). **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
 
-
+# QA Quality Assurance
+#### No such thing
+1. If you are a developer, in your world, there should be no such thing as "External dedicated QA" testing your work.
+1. It is **not normal, implicit or casual to assume there there will be bugs and someone will find those and report back to you**. Actually the qualities of a **good developer** is that (s)he understands requirements and checks his code and functionality well enough before declaring those as complete.
+1. The peer review mentioned above in git PRs is only for improvements. Do not ever rely on those or expect that someone will spoon feed you about your mistakes. Mistakes are deficiencies those should be minimized rather being casual about them.
 
 # Naming conventions
 This can be best informed by the following examples. If you are not following these, your PR may get rejected on just the naming conventions. Clear and self explanatory names are critical and save people from a lot of frustration.
