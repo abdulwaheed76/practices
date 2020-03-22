@@ -1,5 +1,10 @@
 - [Git](#git)
       - [ssh keys](#ssh-keys)
+- [Project managemnt tool](#project-managemnt-tool)
+      - [Task / issue types](#task---issue-types)
+      - [Task understanding](#task-understanding)
+      - [Execution](#execution)
+      - [Priority](#priority)
 - [Node, npm](#node--npm)
       - [nvm](#nvm)
 - [IDE](#ide)
@@ -26,6 +31,8 @@
       - [Close Old PR first](#close-old-pr-first)
   * [Daily PRs routine](#daily-prs-routine)
       - [One PR per day](#one-pr-per-day)
+- [QA Quality Assurance](#qa-quality-assurance)
+      - [No such thing](#no-such-thing)
 - [Naming conventions](#naming-conventions)
       - [Git commit message](#git-commit-message)
       - [Branch name](#branch-name)
@@ -43,6 +50,8 @@
       - [story points](#story-points)
       - [stand up](#stand-up)
       - [sprints](#sprints)
+      - [Ownership](#ownership)
+      - [Deviations](#deviations)
   * [Project management tool](#project-management-tool)
 - [Coding and development](#coding-and-development)
   * ["Getting things done"](#-getting-things-done-)
@@ -79,9 +88,6 @@
       - [Personal info](#personal-info)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
 
 # Git
 #### ssh keys
