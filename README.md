@@ -102,6 +102,7 @@ add ssh keys so you do not have to type password everytime and also you will nee
 1. Slice - HTML CSS slicing mostly
 1. Back - Backend
 1. Estimation - Requirement understanding and estimation time. This does not include development time. However if something is so unclear and very small amount of development is needed (usually less that 5%), it can be included in it. But 95 to 100 time is usually spend on research and requirement understanding.
+1. Research - Only or mostly research (95% above)
 1. JS	- Javascript		
 1. Design - Graphic design (Adobe photoshop, Illustrator etc)
 
