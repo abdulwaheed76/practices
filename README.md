@@ -53,7 +53,7 @@
       - [Execution](#execution)
       - [Priority](#priority)
       - [How to see my tasks](#how-to-see-my-tasks)
-- [Estimation](#estimation)
+  * [Estimation](#estimation)
 - [Coding and development](#coding-and-development)
   * ["Getting things done"](#-getting-things-done-)
       - [Do only whats required](#do-only-whats-required)
