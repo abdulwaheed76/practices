@@ -93,45 +93,6 @@
 #### ssh keys
 add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm. https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-# Project managemnt tool
-
-#### Task / issue types
-1. Epic - This is the super main end of top most hierirachy. Its children may and usually are divided into multiple sprints
-1. Story 
-1. Bug	
-1. Slice - HTML CSS slicing mostly
-1. Back - Backend
-1. Estimation - Requirement understanding and estimation time. This does not include development time. However if something is so unclear and very small amount of development is needed (usually less that 5%), it can be included in it. But 95 to 100 time is usually spend on research and requirement understanding.
-1. Research - Only or mostly research (95% above)
-1. JS	- Javascript		
-1. Design - Graphic design (Adobe photoshop, Illustrator etc)
-
-#### Task understanding
-After reading the issue type, description and title of the task carefully, read the parent task (story or any other kind of ticket) and read all the way up to the top most ticket. Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
-
-#### Execution
-1. Observe due date, estimated hours and discuss if needed
-1. Change status of task to "In progress" at the moment you start working on it. This is important to do as other stakeholders will know what is being started and being done.
-1. During the work in progress, keep on changin the percentage done accordingly.
-1. When finished, create PR (git pull request) and paste the link in that ticket.
-1. After that, mark it as "Completed" and percentage done to 100%.
-1. The task will be reviewed, and status will be changed to "Approved" (in which you do not need to do anything further) or to "Rejected" (in this case you should make the task status to "In progress" and then "Completed" again after fixing the objections raised).
-
-#### Priority
-Of course, start a the tasks with most highest priority first.
-
-#### How to see my tasks
-1. You can click "my page" button at top left corner but it will show limited tasks. To see full task list of all projects, you should click "projects" at top and then "issues" menu. Or simply got to "/issues" url. If graphical gantt view is required, you can click "gantt" menu or simply go to "/issues/gantt".
-1. You can play with filters above the tasklist displayed. For example, if you uncheck "assignee", you will see all tasks in all projects.
-1. You can also use the shortcut links at the right side. E.g "custom queries" > "assigned to me" and ask manager to create more for you if needed
-
-# Estimation
-1. Estimation is the process of understanding the requirements first.
-1. Then coming up with an action plan (tools, libraries, frameworks, process and so on with a long list of connected things).
-1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
-1. Time spend on estimation (which means all the above), is usually 2% to 10% maximum of the total time to develop the application. 1. There is no limit on how deep someone can go in understanding, polishing a diamond, optimizing something. A developer can make a login page in 1 hour and in 100 hours as well (trying to keep on beautifying and optimizing and adding features).
-1. Time to estimate, with smartness, should be of balance (not too low to not be unclarity and not too high to not waste time).
-1. See [getting-things-done](#getting-things-done) for more information
 
 # Node, npm
 #### nvm
@@ -253,8 +214,44 @@ Sprints are ownership of the team overall, success of a sprint is success of the
 #### Deviations
 If you encounter any deviation in attainable preplaned timeline estimates, promptly inform the reasons and circumstances to your lead and project manager.
 ## Project management tool
-We had used Jira but prefer easy redmine.
+#### Task / issue types
+1. Epic - This is the super main end of top most hierirachy. Its children may and usually are divided into multiple sprints
+1. Story 
+1. Bug	
+1. Slice - HTML CSS slicing mostly
+1. Back - Backend
+1. Estimation - Requirement understanding and estimation time. This does not include development time. However if something is so unclear and very small amount of development is needed (usually less that 5%), it can be included in it. But 95 to 100 time is usually spend on research and requirement understanding.
+1. Research - Only or mostly research (95% above)
+1. JS	- Javascript		
+1. Design - Graphic design (Adobe photoshop, Illustrator etc)
 
+#### Task understanding
+After reading the issue type, description and title of the task carefully, read the parent task (story or any other kind of ticket) and read all the way up to the top most ticket. Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
+
+#### Execution
+1. Observe due date, estimated hours and discuss if needed
+1. Change status of task to "In progress" at the moment you start working on it. This is important to do as other stakeholders will know what is being started and being done.
+1. During the work in progress, keep on changin the percentage done accordingly.
+1. When finished, create PR (git pull request) and paste the link in that ticket.
+1. After that, mark it as "Completed" and percentage done to 100%.
+1. The task will be reviewed, and status will be changed to "Approved" (in which you do not need to do anything further) or to "Rejected" (in this case you should make the task status to "In progress" and then "Completed" again after fixing the objections raised).
+
+#### Priority
+Of course, start a the tasks with most highest priority first.
+
+#### How to see my tasks
+1. You can click "my page" button at top left corner but it will show limited tasks. To see full task list of all projects, you should click "projects" at top and then "issues" menu. Or simply got to "/issues" url. If graphical gantt view is required, you can click "gantt" menu or simply go to "/issues/gantt".
+1. You can play with filters above the tasklist displayed. For example, if you uncheck "assignee", you will see all tasks in all projects.
+1. You can also use the shortcut links at the right side. E.g "custom queries" > "assigned to me" and ask manager to create more for you if needed
+
+
+# Estimation
+1. Estimation is the process of understanding the requirements first.
+1. Then coming up with an action plan (tools, libraries, frameworks, process and so on with a long list of connected things).
+1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
+1. Time spend on estimation (which means all the above), is usually 2% to 10% maximum of the total time to develop the application. 1. There is no limit on how deep someone can go in understanding, polishing a diamond, optimizing something. A developer can make a login page in 1 hour and in 100 hours as well (trying to keep on beautifying and optimizing and adding features).
+1. Time to estimate, with smartness, should be of balance (not too low to not be unclarity and not too high to not waste time).
+1. See [getting-things-done](#getting-things-done) for more information
 
 
 # Coding and development
