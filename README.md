@@ -246,8 +246,7 @@ Of course, start a the tasks with most highest priority first.
 1. You can play with filters above the tasklist displayed. For example, if you uncheck "assignee", you will see all tasks in all projects.
 1. You can also use the shortcut links at the right side. E.g "custom queries" > "assigned to me" and ask manager to create more for you if needed
 
-
-# Estimation
+## Estimation
 1. Estimation is the process of understanding the requirements first.
 1. Then coming up with an action plan (tools, libraries, frameworks, process and so on with a long list of connected things).
 1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
