@@ -125,6 +125,14 @@ Of course, start a the tasks with most highest priority first.
 1. You can play with filters above the tasklist displayed. For example, if you uncheck "assignee", you will see all tasks in all projects.
 1. You can also use the shortcut links at the right side. E.g "custom queries" > "assigned to me" and ask manager to create more for you if needed
 
+# Estimation
+1. Estimation is the process of understanding the requirements first.
+1. Then coming up with an action plan (tools, libraries, frameworks, process and so on with a long list of connected things).
+1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
+1. Time spend on estimation (which means all the above), is usually 2% to 10% maximum of the total time to develop the application. 1. There is no limit on how deep someone can go in understanding, polishing a diamond, optimizing something. A developer can make a login page in 1 hour and in 100 hours as well (trying to keep on beautifying and optimizing and adding features).
+1. Time to estimate, with smartness, should be of balance (not too low to not be unclarity and not too high to not waste time).
+1. See [getting-things-done](#getting-things-done) for more information
+
 # Node, npm
 #### nvm
 Do not install node by any other means but only use nvm. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm and https://github.com/nvm-sh/nvm#usage  (go for the latest LTS node version)
