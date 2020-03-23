@@ -239,6 +239,12 @@ After reading the issue type, description and title of the task carefully, read 
 1. After that, mark it as "Completed" and percentage done to 100%.
 1. The task will be reviewed, and status will be changed to "Approved" (in which you do not need to do anything further) or to "Rejected" (in this case you should make the task status to "In progress" and then "Completed" again after fixing the objections raised).
 
+#### Do it yourself
+1. Do what was written in description of task + parent tasks (when instructions in parent are in scope)
+1. Please do the needful in order to declare the task as complete / change in progress via percentage or status etc.
+1. Move to next task and change its status as well (and percentage when needed).
+1. Do this automatically every time yourself so you do not have to be reminded for each ticket.
+
 #### Priority
 Of course, start a the tasks with most highest priority first.
 
