@@ -413,3 +413,27 @@ You should stay connected to group collaboration software all the time
 #### Personal info
 1. Sharing of any personal information or discussing anything not related to work/current tasks is treated as a miss conduct.
 1. Using any personal email, phone or contact in any platform, such as but limited to, github, collaboration, chat etc tools is treated as a miss conduct.
+
+# Daily routine
+## What to do at day start
+Do the following in exact sequence
+#### Log in start time
+in attendance app if provided to you
+#### Message manager
+about your presence
+#### Refresh task list
+assigned to you and observe any changes (specially priority and dates) and act accoringly
+#### Plan or ask questions
+If anything is unclear for the day ahead, ask questions from manager. If all is clear, plan what to do next.
+
+## What to do at day end
+Do the followings in exact sequence
+#### Work and tickets complete
+Make sure the work assigned to you for the day is complete. Take good care to make sure that the git PR, PM tool ticket fields and all required things are complete and accurate.
+#### Plan or ask questions
+If anything is unclear for the next day, ask questions from manager. If all is clear, plan what to do next.
+#### Message manager
+at least 1 hour to 45 minutes before signing off so (s)he can discuss things or collaborate with you if needed.
+#### Log sign out time
+in attendance app if provided to you
+
