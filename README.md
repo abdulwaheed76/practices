@@ -1,10 +1,5 @@
 - [Git](#git)
       - [ssh keys](#ssh-keys)
-- [Project managemnt tool](#project-managemnt-tool)
-      - [Task / issue types](#task---issue-types)
-      - [Task understanding](#task-understanding)
-      - [Execution](#execution)
-      - [Priority](#priority)
 - [Node, npm](#node--npm)
       - [nvm](#nvm)
 - [IDE](#ide)
@@ -53,6 +48,12 @@
       - [Ownership](#ownership)
       - [Deviations](#deviations)
   * [Project management tool](#project-management-tool)
+      - [Task / issue types](#task---issue-types)
+      - [Task understanding](#task-understanding)
+      - [Execution](#execution)
+      - [Priority](#priority)
+      - [How to see my tasks](#how-to-see-my-tasks)
+- [Estimation](#estimation)
 - [Coding and development](#coding-and-development)
   * ["Getting things done"](#-getting-things-done-)
       - [Do only whats required](#do-only-whats-required)
@@ -88,6 +89,7 @@
       - [Personal info](#personal-info)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # Git
 #### ssh keys
