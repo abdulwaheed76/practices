@@ -267,7 +267,9 @@ Of course, start a the tasks with most highest priority first.
 # You
 ## Who are our favourites? Top qualities?
 Weighed according to numbers below
-1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE qualities are 2. a) Compliance / responsible behaviour : Not letting us repeat ever- Anything informed and instructed once, should never be needed to be repeated, should happen and complied in future with care. b) Dedication - You should work hard with your heart and motivation. A determination to become better. If you have these two qualities, you just got passed 50% acceptability already. Rest will follow (for us and for your career).
+1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE qualities are combination of two.
+  - Compliance / responsible behaviour : Not letting us repeat ever- Anything informed and instructed once, should never be needed to be repeated, should happen and complied in future with care. 
+  - Dedication - You should work hard with your heart and motivation. A determination to become better. If you have these two qualities, you just got passed 50% acceptability already. Rest will follow (for us and for your career).
 1. Your skills
 1. Your experience
 1. Your qualification
