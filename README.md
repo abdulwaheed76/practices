@@ -261,9 +261,16 @@ Of course, start a the tasks with most highest priority first.
 1. Then coming up with an action plan (tools, libraries, frameworks, process and so on with a long list of connected things).
 1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
 1. Time spend on estimation (which means all the above), is usually 2% to 10% maximum of the total time to develop the application. 1. There is no limit on how deep someone can go in understanding, polishing a diamond, optimizing something. A developer can make a login page in 1 hour and in 100 hours as well (trying to keep on beautifying and optimizing and adding features).
-1. Time to estimate, with smartness, should be of balance (not too low to not be unclarity and not too high to not waste time).
+1. Time to estimate, with smartness, should be of balance (not too low to not have unclarity and not too high to not waste time).
 1. See [getting-things-done](#getting-things-done) for more information
 
+# You
+## Who are our favourites? Top qualities?
+Weighed according to numbers below
+1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE qualities are 2. a) Compliance / responsible behaviour : Not letting us repeat ever- Anything informed and instructed once, should never be needed to be repeated, should happen and complied in future with care. b) Dedication - You should work hard with your heart and motivation. A determination to become better. If you have these two qualities, you just got passed 50% acceptability already. Rest will follow (for us and for your career).
+1. Your skills
+1. Your experience
+1. Your qualification
 
 # Coding and development
 
