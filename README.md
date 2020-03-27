@@ -235,7 +235,7 @@ After reading the issue type, description and title of the task carefully, read 
 1. Observe due date, estimated hours and discuss if needed
 1. Change status of task to "In progress" at the moment you start working on it. This is important to do as other stakeholders will know what is being started and being done.
 1. During the work in progress, keep on changin the percentage done accordingly.
-1. When finished, create PR (git pull request) and paste the link in that ticket.
+1. When finished, create PR (git pull request) and paste the link in that ticket. Usually there should be an individual PR and branch for each ticket and its functionality. Code of other tickets and functionality should usually not be in it. If the ticket is very closely dependant and coupled with siblings, then the parent story of the ticket should have one branch and PR. All children (siblings of the ticket in example) can then use same branch/PR.
 1. After that, mark it as "Completed" and percentage done to 100%.
 1. The task will be reviewed, and status will be changed to "Approved" (in which you do not need to do anything further) or to "Rejected" (in this case you should make the task status to "In progress" and then "Completed" again after fixing the objections raised).
 
