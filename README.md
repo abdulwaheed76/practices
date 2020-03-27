@@ -154,7 +154,11 @@ If your project has unit test/ integration tests/ automation tests enforced, do 
 #### Self testing
 All functionality should be tested before making a PR (self testing). Run and **test the functionality yourself first**.
 #### Release notes
-All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference. This will have some **information that is not available in story points**. e.g any library used and why preferred, flow of code, technical precautions etc. This is very brief usually from **25 words to 100 words max**. 
+All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference or at least what approach did you took to complete the task. This will have some **information that is not available in story points**. e.g any library used and why preferred, flow of code, technical precautions etc. This is very brief usually from **25 words to 100 words max**. Few example:
+1. Had to convert .ai to .svg via 'outline conversion' ref https://somesite.com else text in svg gets distorted.
+1. Preferring XYZ lib as ABC is deprecated (or has DEF issues) or GHI security concerns.
+1. Using http v2 due to tons of advantages (list or provide link)
+1. Pending things
 #### Peer review
 Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
 #### lead review
