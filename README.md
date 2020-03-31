@@ -452,3 +452,7 @@ at least 1 hour to 45 minutes before signing off so (s)he can discuss things or 
 #### Log sign out time
 in attendance app if provided to you
 
+## Attendance
+#### Late sign-in
+You should not come late in any and all cases unless you have explicit permission to come late from your manager or HR for that day. Few resources might want to or had worked late in the last working day. This does not except them from coming on time on the next day.
+
