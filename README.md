@@ -170,11 +170,11 @@ If there are any issues in PR, they should be replied/typed in reply text box as
 #### Close Old PR first
 Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
 ## Daily PRs routine
+
 #### One PR per day
+There should be one PR per day (which is consisting of all PR part 1 + PR part 2). **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
 
-**There should be one PR per day** (which is consisting of all PR part 1 + PR part 2). **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
-
-**PR 2 after PR 1 approval only**
+#### PR 2 after PR 1 approval only
 Do not move to PR 2 if PR 1 is not approved. If you wait for the reviewer, you can do other tasks and PRs but do not move to PR 2 if PR 1 is not approved
 
 
