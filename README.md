@@ -139,7 +139,8 @@ Each function/part in PR #1 will be **implemented** (with unit tests if it is en
 #### PR part 3
 This would be **final PR** and will also make sure that other parts of **application work in harmony** with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
 
-This is usually at the end of multiple stories or full project
+#### Combined PR of multiple tickets
+PR 1 and PR 3 for multiple tickets and stories can be combined in one PR but PR 2 for each story should be separate. As PR 3 usually at the end of multiple stories or full project and may cover multiple stories/tickets and PR 1 is simple and small structure and can also be made for multiple stories/tickets.
 
 ## prerequisits of PR
 In order to get your code merged in master branch, you need to do the following. **Do not make a PR Pull request without the following first done**.
@@ -250,7 +251,7 @@ After reading the issue type, description and title of the task carefully, read 
 1. Change status of task to "In progress" at the moment you start working on it. This is important to do as other stakeholders will know what is being started and being done.
 1. During the work in progress, keep on changin the percentage done accordingly.
 1. When finished, create PR (git pull request) and paste the link in the parent story of that ticket. Usually there should be an individual PR and branch for each story and its functionality. Code of other tickets and functionality should usually not be in it. 
-1. After that, mark it as "Completed" and percentage done to 100%.
+1. After that, mark it as "Completed" and percentage done to 100%. A task should be marked complete if only PR 1 and PR 2 are created flawlessly.
 1. The task will be reviewed, and status will be changed to "Approved" (in which you do not need to do anything further) or to "Rejected" (in this case you should make the task status to "In progress" and then "Completed" again after fixing the objections raised).
 
 #### Do it yourself
