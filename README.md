@@ -230,6 +230,8 @@ If you encounter any deviation in attainable preplaned timeline estimates, promp
 #### Timelines
 Once sprints and/or ticket estimats and plans are created and agreed upon, if there are delays in timeline without a reasonalbe cause, then the delay is the responsibility of the developer. (S)he should cover up the missed deadlines by any means possible to ensure reasonable efficiency.
 
+It is the professional responsibility of the candidate, at any level, to provide reasonable estimates and accomplish the tasks in that reasonable timeframe. In cases of otherwise, in absence of justified reasons, it is a negative mark on the repute of the candidate.
+
 
 ## Project management tool
 #### Task / issue types
