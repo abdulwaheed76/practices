@@ -444,9 +444,11 @@ Do the following in exact sequence
 #### Log in start time
 in attendance app if provided to you
 #### Message manager
-about your presence
+about your presence and check your emails/messanger/app for any messages that may need your attention.
+#### Keep communication app onn
+Whatever is your persistant communication medium, make sure it is always connected and available during sign in and sign off time
 #### Refresh task list
-assigned to you and observe any changes (specially priority and dates) and act accoringly
+assigned to you and observe any changes (specially priority and dates) and act accoringly.
 #### Plan or ask questions
 If anything is unclear for the day ahead, ask questions from manager. If all is clear, plan what to do next.
 
