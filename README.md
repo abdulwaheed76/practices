@@ -178,6 +178,16 @@ There should be one PR per day (which is consisting of all PR part 1 + PR part 2
 #### PR 2 after PR 1 approval only
 Do not move to PR 2 or code anything for it if PR 1 is not approved. If you wait for the reviewer, you can do other tasks and PRs but do not move to PR 2 if PR 1 is not approved
 
+#### Early review
+We emphasis on early review rather than complete all and get it reviewed after that. e.g you make an app of 10 things / steps.
+
+If you had made a mistake at step 2, then all steps from 2-10 might get influenced to be in the wrong direction. 
+
+In thise case, if review is done at step 10 (completion of app), then it would be a "too late to find" senario and all/ most of 2-10 steps might need a refactor.
+
+Whereas if the review on each step (2 in this case), only 2 will be corrected and later steps will be aligned to it.
+
+The later is safer, more efficient, more time saving, needs lesser effort as a whole, gives more certainty and many other benefits.
 
 # QA Quality Assurance
 #### No such thing
