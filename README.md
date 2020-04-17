@@ -239,7 +239,7 @@ Suppose you are going from city A to city B. Before journey, you would plan your
 
 If a hazard comes like train out of order or delayed, or type puncture of a car. You should have a backup plan to resolve the situation. Get an alternative route/vehicle at the spot or plan it slightly before the journey even. e.g a taxi, or rent a bicycle, or simply try to fix the tyre (whatever is best suited and quickest).
 
-*IF you are a proactive problem solver* (which is expected from a developer quite implicitly), *you will get the job done in almost same time* or very slight negligible deviations anyway. If you were not able to, then either planning needs improvement or problem solving needs improvement or there was a 100% natural unstoppable hazzard (e.g earth got destroyed and all died). There is NO third reason.
+**IF you are a proactive problem solver** (which is expected from a developer quite implicitly), **you will get the job done in almost same time** or very slight negligible deviations anyway. If you were not able to, then either planning needs improvement or problem solving needs improvement or there was a 100% natural unstoppable hazzard (e.g earth got destroyed and all died). There is NO third reason.
 
 To explain, a soldier might say: if we had to go to a city from another city in a predetermined time, we will find a way; any way; and get the job done. There are only few corner cases in which you can't do it. E.g you get stuck by lightening and die on the way.
 
