@@ -255,8 +255,8 @@ To explain, a soldier might say: if we had to go to a city from another city in 
 
 #### How can I improve estimate and execution
 Ask few questions to your self
-1. Are you spending time on things those are not important compared to critical path? Think again. Analyse the day.
-1. When you started working, did you proportioned total available time of the day into tasks or you kept stuck on 2nd task out of 10 tasks and the day passed?
+1. Are you spending more time on things those are not important compared to critical path and more important tasks? Or even slightest postion of your activity is not even needed but you do it pationately, striving hard? Think again. Analyse the day.
+1. When you started working, did you proportioned total available time of the day into tasks or you kept stuck on 2nd task out of 10 tasks and the day passed and you found that task 3-10 for far more important than 2?
 1. Think again, what other developers (who finish work on time) do, that you do not. Theres always something else than simple hardwork. Maybe smartwork? planned work? more intelligent work? more skillful work? Combination of all that defeats timeline issues.
 1. Do this every day. It is 100% that all need improvement. Find out things that you can improve. Doing this daily and consistently is the key.
 
