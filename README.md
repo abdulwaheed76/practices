@@ -503,3 +503,28 @@ in attendance app if provided to you
 #### Late sign-in
 You should not come late in any and all cases unless you have explicit permission to come late from your manager or HR for that day. Few resources might want to or had worked late in the last working day. This does not except them from coming on time on the next day.
 
+# Tutorials
+## Javascript Misc
+### Recommended authors
+Academind https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/playlists
+
+## Backend Node.js
+
+### Node core
+Lynda Node essential training by Alex banks
+
+### Testing / Jest
+Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest.
+
+## Frontent React
+
+### React core
+Lynda React essential training by 
+
+## Git / github
+
+### Git
+Lynda Git Essential Training: The Basics with Kevin Skoglund
+### Github
+
+Lynda Github Essential Training
