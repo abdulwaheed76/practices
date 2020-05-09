@@ -12,6 +12,7 @@
       - [PR part 1](#pr-part-1)
       - [PR part 2](#pr-part-2)
       - [PR part 3](#pr-part-3)
+      - [Combined PR of multiple tickets](#combined-pr-of-multiple-tickets)
   * [prerequisits of PR](#prerequisits-of-pr)
       - [Create branch](#create-branch)
       - [Pull from branch and master](#pull-from-branch-and-master)
@@ -26,6 +27,8 @@
       - [Close Old PR first](#close-old-pr-first)
   * [Daily PRs routine](#daily-prs-routine)
       - [One PR per day](#one-pr-per-day)
+      - [PR 2 after PR 1 approval only](#pr-2-after-pr-1-approval-only)
+      - [Early review](#early-review)
 - [QA Quality Assurance](#qa-quality-assurance)
       - [No such thing](#no-such-thing)
 - [Naming conventions](#naming-conventions)
@@ -43,19 +46,27 @@
 - [Project management](#project-management)
   * [Agile](#agile)
       - [story points](#story-points)
+        * [What can't we just start coding. Why spend so much time in plan?](#what-can-t-we-just-start-coding-why-spend-so-much-time-in-plan-)
       - [stand up](#stand-up)
       - [sprints](#sprints)
       - [Ownership](#ownership)
       - [Deviations](#deviations)
+      - [Timelines](#timelines)
+      - [I got late due to problems](#i-got-late-due-to-problems)
+      - [How can I improve estimate and execution](#how-can-i-improve-estimate-and-execution)
   * [Project management tool](#project-management-tool)
       - [Task / issue types](#task---issue-types)
       - [Task understanding](#task-understanding)
       - [Execution](#execution)
+      - [Do it yourself](#do-it-yourself)
       - [Priority](#priority)
       - [How to see my tasks](#how-to-see-my-tasks)
+      - [Your work time](#your-work-time)
   * [Estimation](#estimation)
+- [You](#you)
+  * [Who are our favourites? Top qualities?](#who-are-our-favourites--top-qualities-)
 - [Coding and development](#coding-and-development)
-  * ["Getting things done"](#-getting-things-done-)
+  * [Getting things done](#getting-things-done)
       - [Do only whats required](#do-only-whats-required)
       - [Improvment](#improvment)
       - [Smart done](#smart-done)
@@ -87,8 +98,38 @@
       - [Noise due to group talk](#noise-due-to-group-talk)
       - [Stay connected all the time](#stay-connected-all-the-time)
       - [Personal info](#personal-info)
+- [Daily routine](#daily-routine)
+  * [What to do at day start](#what-to-do-at-day-start)
+      - [Log in start time](#log-in-start-time)
+      - [Message manager](#message-manager)
+      - [Keep communication app onn](#keep-communication-app-onn)
+      - [Refresh task list](#refresh-task-list)
+      - [Plan or ask questions](#plan-or-ask-questions)
+  * [What to do at day end](#what-to-do-at-day-end)
+      - [Work and tickets complete](#work-and-tickets-complete)
+      - [Plan or ask questions](#plan-or-ask-questions-1)
+      - [Message manager](#message-manager-1)
+      - [Log sign out time](#log-sign-out-time)
+  * [Attendance](#attendance)
+      - [Late sign-in](#late-sign-in)
+- [Tutorials](#tutorials)
+  * [Javascript Misc](#javascript-misc)
+    + [Recommended authors](#recommended-authors)
+  * [Backend Node.js](#backend-nodejs)
+    + [Node core](#node-core)
+    + [Testing / Jest](#testing---jest)
+  * [Frontent React](#frontent-react)
+    + [React core](#react-core)
+  * [Git / github](#git---github)
+    + [Git](#git-1)
+    + [Github](#github)
+  * [Project tool](#project-tool)
+    + [Info gathering](#info-gathering)
+  * [Basics](#basics)
+    + [Architecture for newbies](#architecture-for-newbies)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 # Git
@@ -507,36 +548,38 @@ You should not come late in any and all cases unless you have explicit permissio
 # Tutorials
 ## Javascript Misc
 ### Recommended authors
-Academind https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/playlists
+1. Academind https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/playlists
 
 ## Backend Node.js
 
 ### Node core
-Lynda Node essential training by Alex banks
+1. Lynda Node essential training by Alex banks
 
 ### Testing / Jest
-Testing intro https://www.youtube.com/watch?v=r9HdJ8P6GQI
-~~Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest~~ Disregard this.
+1. Testing intro https://www.youtube.com/watch?v=r9HdJ8P6GQI
+1. ~~Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest~~ Disregard this.
 
 ## Frontent React
 
 ### React core
-Lynda React essential training by 
+1. Lynda React essential training by 
 
 ## Git / github
 
 ### Git
-Pull request/ Merge request: https://youtu.be/uPt-bP_bKmQ
-Lynda Git Essential Training: The Basics with Kevin Skoglund
+1. Pull request/ Merge request: https://youtu.be/uPt-bP_bKmQ
+1. Lynda Git Essential Training: The Basics with Kevin Skoglund
 ### Github
 
-Lynda Github Essential Training
+1. Lynda Github Essential Training
 
 ## Project tool
 ### Info gathering
-Project tool - Info gathering https://youtu.be/vt4ymkGjco8
-Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
+1. Project tool - Info gathering https://youtu.be/vt4ymkGjco8
+1. Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
 
 ## Basics
-### Architecture
-Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
+### Architecture for newbies
+1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
+1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
+1. react intro newbie 1 - https://youtu.be/CWNX5U_spmE
