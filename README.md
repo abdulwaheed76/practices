@@ -515,7 +515,8 @@ Academind https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/playlists
 Lynda Node essential training by Alex banks
 
 ### Testing / Jest
-Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest.
+Testing intro https://www.youtube.com/watch?v=r9HdJ8P6GQI
+~~Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest~~ Disregard this.
 
 ## Frontent React
 
