@@ -524,6 +524,7 @@ Lynda React essential training by
 ## Git / github
 
 ### Git
+Pull request/ Merge request: https://youtu.be/uPt-bP_bKmQ
 Lynda Git Essential Training: The Basics with Kevin Skoglund
 ### Github
 
