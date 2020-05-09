@@ -534,4 +534,9 @@ Lynda Github Essential Training
 
 ## Project tool
 ### Info gathering
-Info gathering https://youtu.be/vt4ymkGjco8
+Project tool - Info gathering https://youtu.be/vt4ymkGjco8
+Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
+
+## Basics
+### Architecture
+Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
