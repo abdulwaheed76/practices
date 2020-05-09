@@ -531,3 +531,7 @@ Lynda Git Essential Training: The Basics with Kevin Skoglund
 ### Github
 
 Lynda Github Essential Training
+
+## Project tool
+### Info gathering
+Info gathering https://youtu.be/vt4ymkGjco8
