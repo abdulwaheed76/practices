@@ -272,6 +272,7 @@ To be continued
 1. Epic - For requirements and vision. This is the super main end of top most hierirachy. Its children may and usually are divided into multiple sprints
 1. Story - For requirements and vision. 
 1. Bug[SL/BK/JS/D] - A defect in delivery for slicing / backend / Javascript / Design.
+1. Test[uFE/uBK/iFE/iBK/e2e] - Tests for unit test for frontend, unit test for backend, integration test for frontend, integration test for backend, end to end test.
 1. Slice - HTML CSS slicing mostly
 1. Back - Backend
 1. Estimation - Requirement understanding and estimation time. This does not include development time. However if something is so unclear and very small amount of development is needed (usually less that 5%), it can be included in it. But 95 to 100 time is usually spend on research and requirement understanding.
