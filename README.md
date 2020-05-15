@@ -230,6 +230,9 @@ Whereas if the review on each step (2 in this case), only 2 will be corrected an
 
 The later is safer, more efficient, more time saving, needs lesser effort as a whole, gives more certainty and many other benefits.
 
+#### How to solve PR issues
+When an issue in PR is created, it should be fixed, code pushed, and a comment should be given in reply to the issue. A simplest comment can be 'Fixed'. Then the creater of the issue should resolve the issue by hiting  the resolve button. Not the developer. When all issues are resolved, PR can be merged.
+
 # QA Quality Assurance
 #### No such thing
 1. If you are a developer, in your world, there should be no such thing as "External dedicated QA" testing your work.
@@ -521,6 +524,7 @@ try
   });
 catch
 ```
+Related code and DAOs can be grouped in knex.transaction block. If code is not related, you can have multiple separate knex.transaction blocks isolated.
 
 # Online remote groups
 #### Noise due to group talk
