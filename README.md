@@ -505,7 +505,22 @@ If you get CORS errors, you can install browser plugin (one called `allow cors` 
 #### Localhost nginx config (not needed unless asked)
 To be continued
 
-
+# Tech notes
+## Backend
+### Node.js
+#### Knex transactions
+Any database access objects DAOs should not be declared or called without trx.
+Sudo code:
+```
+try
+  await knex.transaction(async (trx) => {
+     other code
+     const v = await someDao(trx, param, param)
+     other code2
+     const v2 = await some2Dao(trx, param, param)
+  });
+catch
+```
 
 # Online remote groups
 #### Noise due to group talk
