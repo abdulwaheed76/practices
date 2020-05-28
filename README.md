@@ -214,7 +214,9 @@ Always try best to close, finalize and **get old pull/merge requests first** bef
 ## Daily PRs routine
 
 #### One PR per day
-There should be one PR per day (which is consisting of all PR part 1 + PR part 2). **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
+There should be one PR per day (which is consisting of all PR part 1 + PR part 2). The PR should have a complete functionality including test code. **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
+
+See [getting-things-done](#getting-things-done) for more information
 
 #### PR 2 after PR 1 approval only
 Do not move to PR 2 or code anything for it if PR 1 is not approved. If you wait for the reviewer, you can do other tasks and PRs but do not move to PR 2 if PR 1 is not approved
@@ -385,6 +387,9 @@ Weighed according to numbers below
 1. But keep a fine line between personal part of pure self learning (with self motive only) and self experimenting vs completing the task as priority and **learning through that** (which will be done any way during the process so everyone gets happy).
 #### Smart done
 Suppose you have 10 things in your todo list. **5 things 100% done is better than 10 things done 50% each**.
+If you have multiple things, do one by one, but each fully complete.
+If you have only one thing, divide it into parts. Do those parts one by one, each complete at a time.
+
 #### Definition of done
 Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
 ## Coding practices
