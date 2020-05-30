@@ -278,7 +278,7 @@ To be continued
 ## Agile
 #### story points
 Each story / ticket is given points based on its complexity and time to complete. This is achieved when requirements are understood and best course of action suitable for the current business needs is concluded.
-##### What can't we just start coding. Why spend so much time in plan?
+##### Why can't we just start coding. Why spend so much time in plan?
 1. In short, it is to act and make an "informed decision". It is good for both business and developer though a developer may want to just code for practice or just due to interest or passion on something that attracts him/her. That thing, strategy, solution or way to doing the task may or may not even be the best way or decision for the business needs. Think like a developer and also think about the business needs. Keep yourself in the shoes of the product owner. If you have questions on how to think like one, ask questions.
 1. At no point should a ticket be started for execution until the best plan of action, strategy, requirements are clear, defined and approved. E.g you want to go from city A to city B. If you search a bit and not just blindly hit the road in your car in garage, maybe a new bus services goes there in more comfort, shorter time, on a newly made highway you didn't knew about before. Or maybe a cost effective bullet train. Or maybe there is a curfew news you missed that can get you in jail or severe. Longer or critical journeys may include feul comparisons or going to a different city at all (changing course). All this cannot be decided without understanding requirments and creating best course of action.
 
@@ -312,6 +312,13 @@ Ask few questions to your self
 1. Do this every day. It is 100% that all need improvement. Find out things that you can improve. Doing this daily and consistently is the key.
 
 To be continued
+
+### Change in requirements
+#### I created something and it got changed. Why?
+Change in any project is "normal". Change could be due to many reasons; for improvement or business needs or any other. Of course everytime a change happens, a new story is written. New design & strategy, new requirments and new estimates could be a normal thing to do again. Change -> new story -> new strategy === normal process of project
+
+#### Ok but if it had to change, why did we do it like that in the first place?
+Sometimes we don't know what the future will be. And sometimes we do know but despite that we do not do many things due to many reasons e.g but not limited to, priorities, business needs for the current time, not being fully sure of future features or even those will be needed in future.
 
 ## Project management tool
 #### Task / issue types
@@ -530,14 +537,6 @@ try
 catch
 ```
 Related code and DAOs can be grouped in knex.transaction block. If code is not related, you can have multiple separate knex.transaction blocks isolated.
-
-# FAQs
-## Change in requirements
-#### I created something and it got changed. Why?
-Change in any project is "normal". Change could be due to many reasons; for improvement or business needs or any other. Of course everytime a change happens, a new story is written. New design & strategy, new requirments and new estimates could be a normal thing to do again. Change -> new story -> new strategy === normal process of project
-
-#### Ok but if it had to change, why did we do it like that in the first place?
-Sometimes we don't know what the future will be. And sometimes we do know but despite that we do not do many things due to many reasons e.g but not limited to, priorities, business needs for the current time, not being fully sure of future features or even those will be needed in future.
 
 # Online remote groups
 #### Noise due to group talk
