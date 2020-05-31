@@ -266,6 +266,7 @@ This can be best informed by the following examples. If you are not following th
 
 # Comments
 ## Code comments
+#### Commented code for later use
 If unused commented code is present and developer needs it for future reference, move it to the bottom most of file.
 
 # Docs
