@@ -264,7 +264,9 @@ This can be best informed by the following examples. If you are not following th
 #### Notes for names
 1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
 
-
+# Comments
+## Code comments
+If unused commented code is present and developer needs it for future reference, move it to the bottom most of file.
 
 # Docs
 ## API docs
