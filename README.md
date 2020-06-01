@@ -141,6 +141,8 @@ add ssh keys so you do not have to type password everytime and also you will nee
 #### nvm
 Do not install node by any other means but only use nvm. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm and https://github.com/nvm-sh/nvm#usage  (go for the latest LTS node version)
 
+For windows: https://github.com/coreybutler/nvm-windows
+
 
 
 # IDE
@@ -163,6 +165,9 @@ replace `/`  slashes with `\` blackslashes
 
 replace   `;`  with `&`
 
+You should try your **best** not to use windows but linux for develoment as it will be same with deployment/ production environment and save you from a lot of issues.
+
+Expertise in Linux is also a key important skill in the developers life which he would face the need for any way.
 
 
 # Pull requests / merge requests
@@ -176,7 +181,7 @@ replace   `;`  with `&`
 1. There are many approaches in industry to make flow before coding e.g **UML** diagrams, test cases (where test cases are written before writing actual code (**TDD** test driven development)), or simply writing **empty functions/interfaces** etc.
 1. Some people may say, "**what if the code is likely or will change in future? is PR 1 useless?**". Well, no. If its likely to change at a greater percentage, it means the plan and structure initally made needed improvement. Secondly, if some of it will change anyway, the effort to make initial design should have given more advantage over the minor con/disadvantage (to just remove/change an empty function/file).
 #### PR part 2
-Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project)
+Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project).
 #### PR part 3
 This would be **final PR** and will also make sure that other parts of **application work in harmony** with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
 
