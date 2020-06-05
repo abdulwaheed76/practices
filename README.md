@@ -154,9 +154,11 @@ Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened** wit
 
 
 # Operating system
-#### Kubuntu
-**Kubuntu** (with k) LTS (**ONLY LTS**) versions are preferred. https://kubuntu.com
-#### Windows
+#### *ubuntu LTS
+(**ONLY LTS**) versions are preferred
+1. If you have 16G plus ram and a quadcore and ok the invest system resources on beauty and features.**Kubuntu** (with k) LTS. https://kubuntu.com
+2. If you don't have enough resources or just want performance with ok to medium UI. **Xubuntu** (with X) LTS. https://xubuntu.com
+#### Windows (NOT preferred)
 If you use windows, you have to do the following in package.json (we have not made special windows commands yet as we mostly use and encourage Linux. This is the same setup we use on servers. So environment differences would be minimum).
 
 exclude   `.`  (dot) and `/` slash at line starts
