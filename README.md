@@ -512,7 +512,7 @@ src
                   controller
                         loginController.js         // functions name: someController();
                   service
-                        auth.js
+                        auth.js                    // functions name: some();
                         //some other
                   dao // database access object
                         loginDao.js                // functions name: someFuncDao();
