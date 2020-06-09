@@ -267,7 +267,7 @@ This can be best informed by the following examples. If you are not following th
 1. list-item
 1. list-item-container
 #### Directory names
-1. loginServices
+1. directoryName
 #### Notes for names
 1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
 
@@ -510,14 +510,14 @@ src
       modules
             login
                   controller
-                        loginController.js
+                        loginController.js         // functions name: someController();
                   service
-                        authService.js
+                        auth.js
                         //some other
                   dao // database access object
-                        loginDao.js
+                        loginDao.js                // functions name: someFuncDao();
                   utils
-                        loginUtils.js
+                        loginUtils.js              // // functions name: someUtil();
       shared
             services
             utils                                                 
