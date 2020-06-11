@@ -653,8 +653,17 @@ You should not come late in any and all cases unless you have explicit permissio
 
 # Tutorials
 ## Javascript Misc
+
+### Javascript core 
+official first priority tutorials
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript
+1. https://tc39.es/ecma262/ || https://ecma-international.org/ecma-262/10.0/index.html || https://github.com/tc39/ecma262
+1. Other references https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources
+
 ### Recommended authors
+1. Lynda/ Linkedin learning
 1. Academind https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/playlists
+
 
 ## Backend Node.js
 
@@ -685,10 +694,7 @@ You should not come late in any and all cases unless you have explicit permissio
 1. Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
 
 ## Basics
-### Javascript core 
-official first priority tutorials
-1. https://developer.mozilla.org/en-US/docs/Web/JavaScript
-1. https://tc39.es/ecma262/ || https://ecma-international.org/ecma-262/10.0/index.html || https://github.com/tc39/ecma262
+
 ### Architecture for newbies
 1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
 1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
