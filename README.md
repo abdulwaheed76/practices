@@ -527,8 +527,60 @@ src
 # Configuring development environment
 #### CORS restrictions
 If you get CORS errors, you can install browser plugin (one called `allow cors` for chrome). You have to hit the big icon and make it colored to activate it.
-#### Localhost nginx config (not needed unless asked)
-To be continued
+#### Localhost nginx config 
+
+Note: 
+1. Replace `projectName` with real project name
+1. You can use different ports for each project. e.g 4321 (backend) + 5321 (frontend) for one project and 2321,3321 for another. 6321,7321 for another, 8321,9321 for another.
+1. Avoid port 3000.
+
+Put entries in host files. 
+`sudo nano /etc/hosts`
+
+add
+```
+127.0.0.1       projectName.com 
+127.0.0.1       api.projectName.com
+```
+hit ctrl + o or command + o
+```
+sudo apt install nginx Use homebrew for mac of course
+sudo nano /etc/nginx/sites-available/projectName.local  (different location maybe for mac)
+```
+
+add
+
+```
+server {
+    server_name projectName.com;
+    root /tmp;
+    location / {
+        proxy_pass http://localhost:5321;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+    }
+}
+
+server {
+    server_name api.projectName.com;
+    root /tmp;
+    location / {
+        proxy_pass http://localhost:4321;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+    }
+}
+
+```
+Change ports in above script if you have multiple projects.
+
+```
+sudo ln -s /etc/nginx/sites-available/projectName.local /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo nginx restart
+```
 
 # Tech notes
 ## Backend
