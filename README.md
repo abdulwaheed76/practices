@@ -5,8 +5,8 @@
 - [IDE](#ide)
       - [Intellij idea](#intellij-idea)
 - [Operating system](#operating-system)
-      - [Kubuntu](#kubuntu)
-      - [Windows](#windows)
+      - [*ubuntu LTS](#-ubuntu-lts)
+      - [Windows (NOT preferred)](#windows--not-preferred-)
 - [Pull requests / merge requests](#pull-requests---merge-requests)
   * [PR per feature](#pr-per-feature)
       - [PR part 1](#pr-part-1)
@@ -29,6 +29,7 @@
       - [One PR per day](#one-pr-per-day)
       - [PR 2 after PR 1 approval only](#pr-2-after-pr-1-approval-only)
       - [Early review](#early-review)
+      - [How to solve PR issues](#how-to-solve-pr-issues)
 - [QA Quality Assurance](#qa-quality-assurance)
       - [No such thing](#no-such-thing)
 - [Naming conventions](#naming-conventions)
@@ -40,13 +41,16 @@
       - [Css variable names](#css-variable-names)
       - [Directory names](#directory-names)
       - [Notes for names](#notes-for-names)
+- [Comments](#comments)
+  * [Code comments](#code-comments)
+      - [Commented code for later use](#commented-code-for-later-use)
 - [Docs](#docs)
   * [API docs](#api-docs)
   * [Code docs](#code-docs)
 - [Project management](#project-management)
   * [Agile](#agile)
       - [story points](#story-points)
-        * [What can't we just start coding. Why spend so much time in plan?](#what-can-t-we-just-start-coding-why-spend-so-much-time-in-plan-)
+        * [Why can't we just start coding. Why spend so much time in plan?](#why-can-t-we-just-start-coding-why-spend-so-much-time-in-plan-)
       - [stand up](#stand-up)
       - [sprints](#sprints)
       - [Ownership](#ownership)
@@ -54,6 +58,9 @@
       - [Timelines](#timelines)
       - [I got late due to problems](#i-got-late-due-to-problems)
       - [How can I improve estimate and execution](#how-can-i-improve-estimate-and-execution)
+    + [Change in requirements](#change-in-requirements)
+      - [I created something and it got changed. Why?](#i-created-something-and-it-got-changed-why-)
+      - [Ok but if it had to change, why did we do it like that in the first place?](#ok-but-if-it-had-to-change--why-did-we-do-it-like-that-in-the-first-place-)
   * [Project management tool](#project-management-tool)
       - [Task / issue types](#task---issue-types)
       - [Task understanding](#task-understanding)
@@ -93,7 +100,11 @@
     + [Backend nodejs](#backend-nodejs)
 - [Configuring development environment](#configuring-development-environment)
       - [CORS restrictions](#cors-restrictions)
-      - [Localhost nginx config (not needed unless asked)](#localhost-nginx-config--not-needed-unless-asked-)
+      - [Localhost nginx config](#localhost-nginx-config)
+- [Tech notes](#tech-notes)
+  * [Backend](#backend)
+    + [Node.js](#nodejs)
+      - [Knex transactions](#knex-transactions)
 - [Online remote groups](#online-remote-groups)
       - [Noise due to group talk](#noise-due-to-group-talk)
       - [Stay connected all the time](#stay-connected-all-the-time)
@@ -126,9 +137,11 @@
   * [Project tool](#project-tool)
     + [Info gathering](#info-gathering)
   * [Basics](#basics)
+    + [Javascript core](#javascript-core)
     + [Architecture for newbies](#architecture-for-newbies)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -672,6 +685,10 @@ You should not come late in any and all cases unless you have explicit permissio
 1. Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
 
 ## Basics
+### Javascript core 
+official first priority tutorials
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript
+1. https://tc39.es/ecma262/ || https://ecma-international.org/ecma-262/10.0/index.html || https://github.com/tc39/ecma262
 ### Architecture for newbies
 1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
 1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
