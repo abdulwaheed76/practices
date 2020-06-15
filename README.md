@@ -592,7 +592,7 @@ Change ports in above script if you have multiple projects.
 ```
 sudo ln -s /etc/nginx/sites-available/projectName.local /etc/nginx/sites-enabled/
 sudo nginx -t
-sudo nginx restart
+sudo service nginx restart
 ```
 
 # Tech notes
