@@ -647,12 +647,11 @@ at least 1 hour to 45 minutes before signing off so (s)he can discuss things or 
 #### Log sign out time
 in attendance app if provided to you
 
-## Early signout
-Early signout is not allowed. If you do, you should spend that time in the next day in addition to the days time. If you think you have completed your tasks before dayend time, **a)** thinkg again and make sure they are fully completed **b)** if they are completed, ask for next tasks if project manager is available. If project manager is not available, start reading and understanding the next stories and tasks for future. 
-
 ## Attendance
 #### Late sign-in
 You should not come late in any and all cases unless you have explicit permission to come late from your manager or HR for that day. Few resources might want to or had worked late in the last working day. This does not except them from coming on time on the next day.
+#### Early signout
+Early signout is not allowed. If you do, you should spend that time in the next day in addition to the days time. If you think you have completed your tasks before dayend time, **a)** thinkg again and make sure they are fully completed **b)** if they are completed, ask for next tasks if project manager is available. If project manager is not available, start reading and understanding the next stories and tasks for future. 
 
 # Tutorials
 ## Javascript Misc
