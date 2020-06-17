@@ -392,6 +392,59 @@ Of course, start a the tasks with most highest priority first.
 1. Time to estimate, with smartness, should be of balance (not too low to not have unclarity and not too high to not waste time).
 1. See [getting-things-done](#getting-things-done) for more information
 
+### Sample estimation
+Suppose you have to make a login page. How much time will it take? You answer might fall between 2 hours to 1 week. All depends on the joint mixture of requirements, your understandings, your skillset. Lets make a WBS and estimate
+1. 1 hour : BK: Backend datababase design
+1. 2 hours: BK: User authentacation (middleware and routes)
+1. 0.5 hour: SL: Frontend slicing
+1. 1 hour: JS: Javascript interactivity
+
+Ok, good. you go 4.5 hours of work. But 
+1. How will the frontend page look like? 
+      1. Will we use bootstrap, matarial ui, foundation or custom code?
+      1. Will we use sass? or plain css is fine?
+      1. Will we use javascript for animation or css?
+      1. Will we use html5 validation or Javascript based or react based validation?
+      1. Any library we will use?
+1. Which libs to use for JS
+      1. Will we use captcha?
+      1. Will we use 2 factor authentication
+      1. Will we use redux?
+1. What measures to take for backend
+      1. Libs?
+      1. Security precautions?
+      1. So on.
+      
+#### Finalize understanding first
+This is just an example, there will and must be many other questions (assuming that the requirements were not clear enough. We have to make them clear then and provide WBS based estimates. If anything is missing, explore and ask.
+
+#### Nothing is missing but I don't know estimates.
+If this is the case, there can be the folowing or more reasons
+1. The task is not of your level and you need to learn before implmenting.
+1. You have not done enough effort to breakdown the WBS properly.
+1. None of above but the task is a bit new to you or you have not done this before OR things are of unclear or unpredictable nature. In this case (which is rare), make a POC (proof of concept). e.g you are not confident on an api integration. In this case, quickly make POSTMAP calls and check it.
+      
+#### Your duty to clear up requirments
+It is your duty to clear up requirements and make up your understandings in such a way that the product owner or project manager does not says "Why you did this? where is that feature? this should have been done differently or this is missing". So clear up scope of responsibility before giving estimates and far before performing any development.
+
+#### Correct estimation
+1. 1 hour : BK: Backend datababase design
+      1. {hours} : {Item}
+      1. {hours} : {Item}
+      1. {hours} : {Item}
+1. 2 hours: BK: User authentacation (middleware and routes)
+      1. {hours} : {Item}
+      1. {hours} : {Item}
+            1. {hours} : {Item}
+            1. {hours} : {Item}
+      1. {hours} : {Item}
+1. 0.5 hour: SL: Frontend slicing
+      1. {hours} : {Item}
+      1. {hours} : {Item}
+1. 1 hour: JS: Javascript interactivity
+      1. {hours} : {Item}
+      1. {hours} : {Item}
+
 # You
 ## Who are our favourites? Top qualities?
 Weighed according to numbers below
