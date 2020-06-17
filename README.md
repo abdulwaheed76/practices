@@ -427,23 +427,26 @@ If this is the case, there can be the folowing or more reasons
 #### Your duty to clear up requirments
 It is your duty to clear up requirements and make up your understandings in such a way that the product owner or project manager does not says "Why you did this? where is that feature? this should have been done differently or this is missing". So clear up scope of responsibility before giving estimates and far before performing any development.
 
-#### Correct estimation
+#### Correct estimation - exaeplary
+1. 1 hour : Research on xyz // If unclear things/ POC needed. This should be done before any other execution or final estimation
 1. 1 hour : BK: Backend datababase design
-      1. {hours} : {Item}
-      1. {hours} : {Item}
-      1. {hours} : {Item}
+      1. {hours} : {Item} // core thinking, designing
+      1. {hours} : {Item} // creating schema in knex migration
+      1. {hours} : {Item} // test cases // further sub divide into kinds of tests
 1. 2 hours: BK: User authentacation (middleware and routes)
-      1. {hours} : {Item}
-      1. {hours} : {Item}
-            1. {hours} : {Item}
-            1. {hours} : {Item}
-      1. {hours} : {Item}
+      1. {hours} : {Item} // setting basic routes
+      1. {hours} : {Item} // writting middleware
+            1. {hours} : {Item} // redis database implementation
+            1. {hours} : {Item} // midleware finalization with redis + session + cookies
+      1. {hours} : {Item} // test cases
+            1. {hours} : {Item} // integration tests
+            1. {hours} : {Item} // unit tests
 1. 0.5 hour: SL: Frontend slicing
-      1. {hours} : {Item}
-      1. {hours} : {Item}
+      1. {hours} : {Item} // html part
+      1. {hours} : {Item} // css part OR sass part
 1. 1 hour: JS: Javascript interactivity
-      1. {hours} : {Item}
-      1. {hours} : {Item}
+      1. {hours} : {Item} // core
+      1. {hours} : {Item} // Integration tests
 
 # You
 ## Who are our favourites? Top qualities?
