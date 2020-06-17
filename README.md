@@ -416,16 +416,16 @@ Ok, good. you go 4.5 hours of work. But
       1. So on.
       
 #### Finalize understanding first
-This is just an example, there will and must be many other questions (assuming that the requirements were not clear enough. We have to make them clear then and provide WBS based estimates. If anything is missing, explore and ask.
+This is just an example, there will and must be many other questions (assuming that the requirements were not clear enough). We have to make them clear then and provide WBS based estimates. If anything is missing, explore and ask.
 
 #### Nothing is missing but I don't know estimates.
 If this is the case, there can be the folowing or more reasons
-1. The task is not of your level and you need to learn before implmenting.
-1. You have not done enough effort to breakdown the WBS properly.
-1. None of above but the task is a bit new to you or you have not done this before OR things are of unclear or unpredictable nature. In this case (which is rare), make a POC (proof of concept). e.g you are not confident on an api integration. In this case, quickly make POSTMAP calls and check it.
+1. The task is not of your level and you need to learn before implmenting. In this case, the "specific" thing you have to learn and the time for that should also go in WBS. Once thats done, further WBS will continue (portions dependant on it).
+1. You have not done enough effort to breakdown the WBS properly. If so, do it.
+1. None of above but the task is a bit new to you or you have not done this before OR things are of unclear or unpredictable nature. In this case (which is rare), make a POC (proof of concept). e.g you are not confident on an api integration. In this case, quickly make POSTMAP calls and check it. If this is the case, the "specific" thing you will make POC "without which you cannot proceed", should also go in WBS. Once thats done, further WBS will continue (portions dependant on it).
       
 #### Your duty to clear up requirments
-It is your duty to clear up requirements and make up your understandings in such a way that the product owner or project manager does not says "Why you did this? where is that feature? this should have been done differently or this is missing". So clear up scope of responsibility before giving estimates and far before performing any development.
+Clients, product owners, project managers may try their best to clarify things but it is your duty to clear up requirements and make up your understandings in such a way that the product owner or project manager does not says "Why you did this? where is that feature? this should have been done differently or this is missing". So clear up scope of responsibility before giving estimates and far before performing any development.
 
 #### Correct estimation - exaeplary
 1. 1 hour : Research on xyz // If unclear things/ POC needed. This should be done before any other execution or final estimation
@@ -447,6 +447,9 @@ It is your duty to clear up requirements and make up your understandings in such
 1. 1 hour: JS: Javascript interactivity
       1. {hours} : {Item} // core
       1. {hours} : {Item} // Integration tests
+
+#### What happenes if estimates do not match outcome
+Your job performance score will be affected.
 
 # You
 ## Who are our favourites? Top qualities?
