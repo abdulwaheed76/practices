@@ -307,6 +307,13 @@ Each story / ticket is given points based on its complexity and time to complete
 
 #### stand up
 #### sprints
+Our typical schedule and sequence of doing things:
+1. Do the 'estimates' ticket of each story to have an understanding of requirments, action plan andnestimated time to execute for each.
+1. Once (and only when) above is approved, create PR 1 for each story.
+1. Once (and only when) above is approved, create PR 2 for each story.
+1. Once (and only when) above is approved, create PR 3 (optional).
+1. Attend retrospective meeting.
+
 #### Ownership
 Sprints are ownership of the team overall, success of a sprint is success of the full team (regardless of individual tasks). You can say you may hold at least 1% to 10% responsibility of overall team work. You own 100% of the taks specificily assigned to you. Responsibility includes, but not limited to, completing the task with at least minimum quality and absolutely agreed time mentioned in estimates.
 #### Deviations
@@ -428,7 +435,9 @@ If this is the case, there can be the folowing or more reasons
 Clients, product owners, project managers may try their best to clarify things but it is your duty to clear up requirements and make up your understandings in such a way that the product owner or project manager does not says "Why you did this? where is that feature? this should have been done differently or this is missing". So clear up scope of responsibility before giving estimates and far before performing any development.
 
 #### Correct estimation - exaeplary
-1. 1 hour : Research on xyz // If unclear things/ POC needed. This should be done before any other execution or final estimation
+1. 1 {hours} : Estimation and understanding requirements
+      1. 0.5 {hours} : Basic understandings of task
+      1. 0.5 {hours} : Talk, Research on xyz // If unclear things/ POC needed. This should be done before any other execution or final estimation of xyz or related things
 1. 1 hour : BK: Backend datababase design
       1. {hours} : {Item} // core thinking, designing
       1. {hours} : {Item} // creating schema in knex migration
