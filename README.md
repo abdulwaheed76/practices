@@ -309,9 +309,13 @@ Each story / ticket is given points based on its complexity and time to complete
 #### sprints
 Our typical schedule and sequence of doing things:
 1. Do the 'estimates' ticket of each story to have an understanding of requirments, action plan andnestimated time to execute for each.
+      1. Get estimationes for each story approved step by step, one by one.
 1. Once (and only when) above is approved, create PR 1 for each story.
+      1. Get PR 1 for each story approved step by step, one by one.
 1. Once (and only when) above is approved, create PR 2 for each story.
+      1. Get PR 2 for each story approved step by step, one by one.
 1. Once (and only when) above is approved, create PR 3 (optional).
+1. Finish the work accuretly as per needs, on time.
 1. Attend retrospective meeting.
 
 #### Ownership
