@@ -592,7 +592,7 @@ src
 The following is incomplete but gives an idea
 ```
 src
-      base  // haveing shared things or base core things
+      base  // having shared things or base core things
             controllers
                   // files or directories having files
             service
@@ -603,17 +603,14 @@ src
             // note: later this can be turned as module imported independantly
                   base
                         // base files to access / respond i18n for backend and frontend
-                  public
-                        auth 
+                  public 
+                        auth // bundle
                               fe    // language files used by frontend
-                                    en // English language files
-                                          // files or directories having files
-                                    tr // Turkish
-                                          // files or directories having files
-                                    fr // Friench
-                                          // files or directories having files
+                                    en.js
+                                    tr.js
+                                    fr.js
                               bk    // language used by backend
-                                    // same directory structure as above
+                                    // same structure as above
                         someOther
                               // save directory structure as above
                   private
