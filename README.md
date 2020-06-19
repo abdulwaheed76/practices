@@ -592,20 +592,56 @@ src
 The following is incomplete but gives an idea
 ```
 src
+      base  // haveing shared things or base core things
+            controllers
+                  // files or directories having files
+            service
+                  // files or directories having files
+            utils
+                  // files or directories having files
+            i18n  // contains language files for backend and frontend.
+            // note: later this can be turned as module imported independantly
+                  base
+                        // base files to access / respond i18n for backend and frontend
+                  public
+                        auth 
+                              fe    // language files used by frontend
+                                    en // English language files
+                                          // files or directories having files
+                                    tr // Turkish
+                                          // files or directories having files
+                                    fr // Friench
+                                          // files or directories having files
+                              bk    // language used by backend
+                                    // same directory structure as above
+                        someOther
+                              // save directory structure as above
+                  private
+                        userProfile // same directory structure as of auth module above
+                        userDashboard // same
+                        someOther   // same
+                     
       modules
-            login
-                  controller
-                        loginController.js         // functions name: someController();
-                  service
-                        auth.js                    // functions name: some();
-                        //some other
-                  dao // database access object
-                        loginDao.js                // functions name: someFuncDao();
-                  utils
-                        loginUtils.js              // // functions name: someUtil();
-      shared
-            services
-            utils                                                 
+            public      // includes things that can be used without login
+                  auth  // auth module containing login, change password, register, etc
+                        controller
+                              loginController.js         // functions name: someController();
+                        service
+                              auth.js                    // functions name: some();
+                              //some other
+                        dao // database access object
+                              loginDao.js                // functions name: someFuncDao();
+                        utils
+                              loginUtils.js              // // functions name: someUtil();
+                  someOther
+                        // same directory structure as above
+            private     // access after login
+                  userProfile 
+                        // same directory structure as in auth module above
+                  userDashboard 
+                        // same as above
+                  someOther
+                        // same as above                                               
 ```
 
 
