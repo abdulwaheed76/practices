@@ -603,21 +603,15 @@ src
             // note: later this can be turned as module imported independantly
                   base
                         // base files to access / respond i18n for backend and frontend
-                  public 
-                        auth // bundle
-                              fe    // language files used by frontend
-                                    en.js
-                                    tr.js
-                                    fr.js
-                              bk    // language used by backend
-                                    // same structure as above
-                        someOther
-                              // save directory structure as above
-                  private
-                        userProfile // same directory structure as of auth module above
-                        userDashboard // same
-                        someOther   // same
-                     
+                  public // bundle of auth + contact page + any other
+                        fe    // language files used by frontend
+                              en.js
+                              tr.js
+                              fr.js
+                        bk    // language used by backend
+                              // same structure as above
+                  user (profile + dashboard + settings module) // same directory structure as of public module above
+                  someOther   // same
       modules
             public      // includes things that can be used without login
                   auth  // auth module containing login, change password, register, etc
@@ -632,13 +626,13 @@ src
                               loginUtils.js              // // functions name: someUtil();
                   someOther
                         // same directory structure as above
-            private     // access after login
+            user     // access after login
                   userProfile 
                         // same directory structure as in auth module above
                   userDashboard 
                         // same as above
-                  someOther
-                        // same as above                                               
+            someOther
+                  // same as above                                               
 ```
 
 
