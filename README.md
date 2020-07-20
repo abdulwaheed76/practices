@@ -204,31 +204,43 @@ This would be **final PR** and will also make sure that other parts of **applica
 PR 1 and PR 3 for multiple tickets and stories can be combined in one PR but PR 2 for each story should be separate. As PR 3 usually at the end of multiple stories or full project and may cover multiple stories/tickets and PR 1 is simple and small structure and can also be made for multiple stories/tickets.
 
 ## prerequisits of PR
-In order to get your code merged in master branch, you need to do the following. **Do not make a PR Pull request without the following first done**.
-#### Create branch
-Create a new branch by first cloning your project git repository, then creating a new branch from master. Start coding in it.
-#### Pull from branch and master
-Before pushing code for PR, make sure you have done CPP (commit(in your branch), pull (from your branch if others are working on it too. If not, then simply from master), push (to your branch))
+In order to get your code merged in daily-stable-master branch (for PR 1 and PR 2), you need to do the following. **Do not make a PR Pull request without the following first done**.
+#### Create a fork and branch
+Create a fork from original repository into your own company account, then clone your project git repository locally (by default the main default branch will be daily-stable-master). Create a new branch from it (the main default branch). Start coding in it.
+
+It is to note that PR 3 is a separate process of merging daily-stable-master branch into master branch at major releases. Usually done by leads.
+
+You may see tutorials at bottom about forking and PRs
+
+#### Pull from branch and default branch
+Before pushing code for PR, make sure you have done CPP (commit(in your branch), pull (from your branch if others are working on it too. If not, then simply from default branch), push (to your branch))
 #### CI
 We do **contineuous integration (CI)** on github. **Make sure all checks are passed** and its a green tick with your pull request and commits.
 #### linting
 One of the CI steps is linting. You can **autofix** with npm scripts in package.json and then manually test for any lint errors before making a Pull request. **Manually fix** if something is not autofixed. As a side note, observe autofixed syntax and learn from it.
+
 #### Tests
-If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them.
+If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them. In most cases, integration tests are mandatory. Do not forget to ask from your manager.
+
 #### Self testing
 All functionality should be tested before making a PR (self testing). Run and **test the functionality yourself first**.
+
 #### Release notes
 All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference or at least what approach did you took to complete the task. This will have some **information that is not available in story points**. e.g any library used and why preferred, flow of code, technical precautions etc. This is very brief usually from **25 words to 100 words max**. Few example:
 1. Had to convert .ai to .svg via 'outline conversion' ref https://somesite.com else text in svg gets distorted.
 1. Preferring XYZ lib as ABC is deprecated (or has DEF issues) or GHI security concerns.
 1. Using http v2 due to tons of advantages (list or provide link)
 1. Pending things
+
 #### Peer review
 Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
+
 #### lead review
 Next step is the have a final review by lead / manager
+
 #### Issues in PR
 If there are any issues in PR, they should be replied/typed in reply text box as fixed or replied to the question or a comment. Ultimately **all issues should be marked as resolved by the issue creater by clicking the resolve button**. The developer / PR creater should not press this button but only the issue creater should.
+
 #### Close Old PR first
 Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
 ## Daily PRs routine
@@ -526,7 +538,7 @@ Be consistent in choosing, using, following architecture, libraries, patterns
 #### reusable and modular code
 Do not repeat your self
 #### CPP 
-commit, pull, push in **same sequence**. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from master at least), then push (to your branch). E.g For a **team of X number of people, you should do it X times a day**. Ie in a team of 3 people, you should do this at least 3 times a day. 
+commit, pull, push in **same sequence**. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from default branch at least), then push (to your branch). E.g For a **team of X number of people, you should do it X times a day**. Ie in a team of 3 people, you should do this at least 3 times a day. 
 
 
 
@@ -784,9 +796,10 @@ official first priority tutorials
 
 ### Git
 1. Pull request/ Merge request: https://youtu.be/uPt-bP_bKmQ
+1. Forking at github https://www.youtube.com/watch?v=nT8KGYVurIU
 1. Lynda Git Essential Training: The Basics with Kevin Skoglund
-### Github
 
+### Github
 1. Lynda Github Essential Training
 
 ## Project tool
