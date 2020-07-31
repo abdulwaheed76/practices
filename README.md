@@ -769,7 +769,7 @@ Early signout is not allowed. If you do, you should spend that time in the next 
 Quality and efficient work demands dicipline. Time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time. 
 
 #### Default penalty
-USD $2 per rule broken (unless provided differently in any rule).
+USD $2 per rule broken, each time its broken (unless penalty amount is provided differently in any rule).
 
 #### Written approvals
 Any exception permissions or written approvals should be kep saved by employee for future reference. E.g snapshot of chat, email etc.
