@@ -514,7 +514,7 @@ You should have very good reasons to choose a library. In most of the cases, you
 #### TS over JS
 If your project is Typescript based, **use Typescript wherever possible**.
 #### Tests
-We use **Jest** as the testing library for unit tests and integration test. For automation test, the choice is of project manager.
+We use **Jest** as the testing library for unit tests and integration test and **Cypress** for automation e2e tests.
 
 ## Javascript
 #### Never disable linting
@@ -846,8 +846,9 @@ official first priority tutorials
 ### Node core
 1. Lynda Node essential training by Alex banks
 
-### Testing / Jest
+### Testing / Jest / Cypress
 1. Testing intro https://www.youtube.com/watch?v=r9HdJ8P6GQI
+1. Cypress https://www.youtube.com/watch?v=LcGHiFnBh3Y
 1. ~~Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest~~ Disregard this.
 
 ## Frontent React
