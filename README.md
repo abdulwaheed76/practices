@@ -766,7 +766,7 @@ You should not come late in any and all cases unless you have explicit permissio
 Early signout is not allowed. If you do, you should spend that time in the next day in addition to the days time. If you think you have completed your tasks before dayend time, **a)** thinkg again and make sure they are fully completed **b)** if they are completed, ask for next tasks if project manager is available. If project manager is not available, start reading and understanding the next stories and tasks for future. 
 
 # Penalties
-Quality and efficient work demands dicipline. Time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time. 
+Quality and efficient work demands discipline. Time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time. 
 
 #### Default penalty
 USD $2 per rule broken, each time its broken (unless penalty amount is provided differently in any rule).
