@@ -761,8 +761,52 @@ in attendance app if provided to you
 ## Attendance
 #### Late sign-in
 You should not come late in any and all cases unless you have explicit permission to come late from your manager or HR for that day. Few resources might want to or had worked late in the last working day. This does not except them from coming on time on the next day.
+
 #### Early signout
 Early signout is not allowed. If you do, you should spend that time in the next day in addition to the days time. If you think you have completed your tasks before dayend time, **a)** thinkg again and make sure they are fully completed **b)** if they are completed, ask for next tasks if project manager is available. If project manager is not available, start reading and understanding the next stories and tasks for future. 
+
+# Penalties
+Quality and efficient work demands dicipline. Time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time. 
+
+#### Default penalty
+USD $2 per rule broken (unless provided differently in any rule).
+
+#### Written approvals
+Any exception permissions or written approvals should be kep saved by employee for future reference. E.g snapshot of chat, email etc.
+
+## Code reviews
+
+#### General
+1. Use of any library or framework without written approval in non-PR-1 PRs.
+1. Repeating a mistake that was previously corrected by a lead/manager/reviewer (penalty is half of default penalty in this case)
+1. Not being able to create a stable PR at least one and half hour before end of signoff time.
+
+#### Personal info
+1. Putting real names of anyone (instead of `user, user1, user2` in any part of code, image or any kind of asset/document or communication medium in any form.
+1. Putting any kind of personal info that is not official. For example, but not limited to, personal email or phone in any part of code, image or any kind of asset/document or communication medium in any form.
+
+#### All languages
+1. Creating PR with console errors in browser, network tab errors in browser, application tab in browser or commandline erros of any kind.
+1. Creating PR without integration tests coded, of at least all APIs in current post. The integration test should not just test the response code but also verify the data again (in database or whatever source is applicable) after hitting the API. 
+
+#### Javascript, Typescript
+1. Creating PR with lint errors. Lint errors are not just errors shown in IDE but also via command line and scripts for example, but not limited to, eslint commandline.
+1. Creating PR with compile or transpile errors e.g but not limited to, by babel, typescript compile (tsc), webpack, etc.
+1. Changing, suppressing or disabling any project base configurations like eslint rules, tsconfig, esconfig, babel, package.json scripts
+
+#### Typescript
+1. Use of `any` or `unknown` without written approval
+1. In typescript, using any non-javacript feature other than providing types (temporary rule for now).
+
+#### Java
+1. Not using maven for dependancies but adding libs directly
+
+## Routine
+
+#### Attendance
+1. Not informing timely (at least 24hours) in writing before a non-emergency leave.
+
+
 
 # Tutorials
 ## Javascript Misc
