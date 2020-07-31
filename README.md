@@ -335,7 +335,7 @@ Sprints are ownership of the team overall, success of a sprint is success of the
 #### Deviations
 If you encounter any deviation in attainable preplaned timeline estimates, promptly inform the reasons and circumstances to your lead and project manager. Inform far ahead and as soon as possible when deviations are anticipated. NOT at the end or when time had elapsed.
 #### Timelines
-Once sprints and/or ticket estimats and plans are created and agreed upon, if there are delays in timeline without a reasonalbe cause, then the delay is the responsibility of the developer. (S)he should cover up the missed deadlines by any means possible to ensure reasonable efficiency.
+Once sprints and/or ticket estimats and plans are created and agreed upon, if there are delays in timeline without a reasonalbe cause, then the delay is the responsibility of the developer. (S)he should cover up the missed deadlines by any means possible to ensure reasonable efficiency. This may involve working for more time or any ways of being smarter and more productive to cover deadlines.
 
 It is the professional responsibility of the candidate, at any level, to provide reasonable estimates and accomplish the tasks in that reasonable timeframe. In cases of otherwise, in absence of justified reasons, it is a negative mark on the repute of the candidate.
 
@@ -771,25 +771,26 @@ Quality and efficient work demands discipline. Time of reviewers and managers is
 However, rather being appreciative also on diciplined and well mannered, responsible employees, we also announce rewards!
 
 #### Default reward
-If you have not broken any rule in a month, you get one default reward. Which is 10% of your salary
+If you have not broken any rule in a month, you get 1-2 default rewards. Which is 5% per default reward of your salary. This can total up to 10% of your salary.
 
 #### Default penalty
-Penalty amount per penalty is 1% of your monthly salary. E.g if you salary is 10,000, penalty is 100.
+Penalty amount per penalty is 1% of your monthly salary. E.g if your salary is 10,000, penalty is 100.
 This is default amount unless penalty amount is provided differently in any rule).
-Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6.
+Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6. Then on same day he put his name in code. Not total penalties are 7.
 
 #### Note for managers.
 If a manager knowingly does not reports (to management) a rule breakage by employee, he will pay 10 times of the penalty from his own pocket to the company.
 
 #### Written approvals
-Any exception permissions or written approvals should be kep saved by employee for future reference. E.g snapshot of chat, email etc.
+Any exception permissions or written approvals should be kep saved by employee for future reference. E.g snapshot of chat, email etc. Else the approval is not valid.
 
 ## Code reviews
 
 #### General
 1. Use of any library or framework without written approval in non-PR-1 PRs.
-1. Repeating a mistake that was previously corrected by a lead/manager/reviewer (penalty is half of default penalty in this case)
+1. Repeating a mistake (small or large) that was previously corrected by a lead/manager/reviewer (penalty is half of default penalty in this case)
 1. Not being able to create a stable PR at least one and half hour before end of signoff time.
+1. Not reviewing a PR (of someone else) within 2 hours of being informed.
 
 #### Personal info
 1. Putting real names of anyone (instead of `user, user1, user2` in any part of code, image or any kind of asset/document or communication medium in any form.
@@ -797,7 +798,9 @@ Any exception permissions or written approvals should be kep saved by employee f
 
 #### All languages
 1. Creating PR with console errors in browser, network tab errors in browser, application tab in browser or commandline erros of any kind.
-1. Creating PR without integration tests coded, of at least all APIs in current post. The integration test should not just test the response code but also verify the data again (in database or whatever source is applicable) after hitting the API. 
+1. Creating PR without unit tests (in backend), integration tests (in backend) of at least all Rest endpoint APIs and e2e tests in frontend (at least 1 per view screen). 
+      1. The integration test should not just test the response code but also verify the data again (in database or whatever source is applicable) after hitting the API. 
+      1. Screen is a unique page content. E.g ignoring header, footer, nav bar (common things), login page is one screen, register is another, add user another, list user is another.
 
 #### Javascript, Typescript
 1. Creating PR with lint errors. Lint errors are not just errors shown in IDE but also via command line and scripts for example, but not limited to, eslint commandline.
@@ -809,7 +812,8 @@ Any exception permissions or written approvals should be kep saved by employee f
 1. In typescript, using any non-javacript feature other than providing types (temporary rule for now).
 
 #### Java
-1. Not using maven for dependancies but adding libs directly
+1. Not using maven or gradle for dependancies but adding lib files directly
+1. Not testing with .jar before PR
 
 ## Routine
 
@@ -819,7 +823,7 @@ Any exception permissions or written approvals should be kep saved by employee f
 
 #### Behaviour
 1. Not followin anything mentioned in appointment, policy, practices or any ammendmends in the said things. Panelty will be per rule not followed per day or number of times a rule is broken in a day.
-1. Asking for information that is already clearly present in appointment, policy or practices documents. This means employee had not carefully read the said and is irresponsibly consuming managemnt's time. If something is really missing, we welcome questions.
+1. Asking for information that is already clearly present in appointment, policy or practices documents. This means employee had not carefully read the said and is irresponsibly consuming managemnt's time. However, if something is really missing, we welcome questions.
 
 
 
