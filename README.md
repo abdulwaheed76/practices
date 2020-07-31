@@ -765,11 +765,21 @@ You should not come late in any and all cases unless you have explicit permissio
 #### Early signout
 Early signout is not allowed. If you do, you should spend that time in the next day in addition to the days time. If you think you have completed your tasks before dayend time, **a)** thinkg again and make sure they are fully completed **b)** if they are completed, ask for next tasks if project manager is available. If project manager is not available, start reading and understanding the next stories and tasks for future. 
 
-# Penalties
-Quality and efficient work demands discipline. Time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time. 
+# Penalties and rewards
+Quality and efficient work demands discipline. Time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time.
+
+However, rather being appreciative also on diciplined and well mannered, responsible employees, we also announce rewards!
+
+#### Default reward
+If you have not broken any rule in a month, you get one default reward. Which is 10% of your salary
 
 #### Default penalty
-USD $2 per rule broken, each time its broken (unless penalty amount is provided differently in any rule).
+Penalty amount per penalty is 1% of your monthly salary. E.g if you salary is 10,000, penalty is 100.
+This is default amount unless penalty amount is provided differently in any rule).
+Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6.
+
+#### Note for managers.
+If a manager knowingly does not reports (to management) a rule breakage by employee, he will pay 10 times of the penalty from his own pocket to the company.
 
 #### Written approvals
 Any exception permissions or written approvals should be kep saved by employee for future reference. E.g snapshot of chat, email etc.
@@ -805,6 +815,11 @@ Any exception permissions or written approvals should be kep saved by employee f
 
 #### Attendance
 1. Not informing timely (at least 24hours) in writing before a non-emergency leave.
+1. Not following "Daily routine" section on what to do at day start and day end. 
+
+#### Behaviour
+1. Not followin anything mentioned in appointment, policy, practices or any ammendmends in the said things. Panelty will be per rule not followed per day or number of times a rule is broken in a day.
+1. Asking for information that is already clearly present in appointment, policy or practices documents. This means employee had not carefully read the said and is irresponsibly consuming managemnt's time. If something is really missing, we welcome questions.
 
 
 
