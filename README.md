@@ -792,6 +792,9 @@ Any exception permissions or written approvals should be kep saved by employee f
 1. Not being able to create a stable PR at least one and half hour before end of signoff time.
 1. Not reviewing a PR (of someone else) within 2 hours of being informed.
 
+#### General coding
+1. Giving unclear variable/ function/ class names. E.g `maxSize` does not tells what it is and unit. Instead it can be `maxUploadFileSizeInMB` or `upload.maxFileSizeInMB`. In short, when a person sees the name, he should exactly know what it is.
+
 #### Personal info
 1. Putting real names of anyone (instead of `user, user1, user2` in any part of code, image or any kind of asset/document or communication medium in any form.
 1. Putting any kind of personal info that is not official. For example, but not limited to, personal email or phone in any part of code, image or any kind of asset/document or communication medium in any form.
@@ -810,6 +813,10 @@ Any exception permissions or written approvals should be kep saved by employee f
 #### Typescript
 1. Use of `any` or `unknown` without written approval
 1. In typescript, using any non-javacript feature other than providing types (temporary rule for now).
+
+#### Frontend / react
+1. Coding inline (s)css styles or any kind of view code in any way inline. It should go in separate file.
+1. Coding (s)css styles or any kind of view code in any way in react component file or file having html code. It should go in separate file.
 
 #### Java
 1. Not using maven or gradle for dependancies but adding lib files directly
