@@ -222,6 +222,23 @@ One of the CI steps is linting. You can **autofix** with npm scripts in package.
 #### Tests
 If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them. In most cases, integration tests are mandatory. Do not forget to ask from your manager.
 
+Following are the default coverages if not overriden by manager.
+
+##### Backend
+1. **Unit tests and integration tests**: Use Jest
+      1. Controller functions should have **100% coverage**. These will be unit tests (not endpoint tests making ajax calls). For example, you will test loginCtr.js's function loginUser('/path/login',req,res,next); by constructing req.query or req.body params and calling these functions. No need for network call.
+      1. Everything in base directory such as Base Daos should have **100% coverage**
+      1. Rest of the code should have at least **50% coverage**. Tip: most used/referred or most important functions should be tested in prioroty.
+1. **Endpoint tests** (type of integration test where network call is made)
+      1. Endpoint tests will be making an ajax call to '/path/login' but will check status code only. Currently not applicatble.
+      
+##### Frontend
+1. Non react component function unit test: Use Jest with at least **50% coverage**.
+1. React components: Use Jest + Enzyme (Currently not applicable)
+1. E2e end to end: Use Cypress
+      1. Test coverage is at least **1 test per view screen**. Screen is a unique page content. E.g ignoring header, footer, nav bar (common things but also included in screen and needs test), login page is one screen, register is another, add user another, list user is another. This should test CRUD operation(s) of that screen. e.g user created page should fill form, hit submit, then view updated data, then edit it, then delete it, then add again, view it (wait for element and match with expected result).
+      
+
 #### Self testing
 All functionality should be tested before making a PR (self testing). Run and **test the functionality yourself first**.
 
@@ -269,13 +286,16 @@ When an issue in PR is created, it should be fixed, code pushed, and a comment s
 
 # Pull request / merge request model B
 This is an alternative and discretion of manager to adapt for projects. In model B
-1. Developer will create PR on github but Github will not be used for issue creation. Instead, reviewer will type issues inside code with signature, commit and push e.g `//{ABC}:PRI text here`. And developer will respond below this line after changing code like this `//{CDE}: text here`. Commit and push. 
-1. Once the code changes, conversation like this ends, the manager will cut and paste this conversation at the end of file. And approve PR after changing `//{ABC}:PRI` to `//{ABC}:PRRI`. Cuting and pasting at bottom like this means issue is accepted as resolved.
+1. Developer will create PR on github but Github will not be used for issue creation. Instead, reviewer will type issues inside code with signature, commit and push e.g `// {ABC}:PRI text here`. And developer will respond below this line after changing code like this `// {CDE}: text here`. Commit and push. 
+1. Once the code changes, conversation like this ends, the manager will cut and paste this conversation at the end of file. And approve PR after changing `// {ABC}:PRI` to `// {ABC}:PRRI`. Cuting and pasting at bottom like this means issue is accepted as resolved.
+1. For commenting, you can use simple abbreviations like `// {ABC}: text here`
 1. This will keep a record of all PR issues at end of each file.
 1. Abbreviations to note here are
       1. {ABC} or {CDE} - Name abreviation. E.g John Corner is JOC. You should set one signature and be consistend on it.
       1. PRI - Pull request issue
       1. PRRI - Pull request resolved issue.
+1. These issues can be referenced during and after the PR by searching `}:PRI` or `}:PRRI`
+1. The `/* */` can be used instead of `//` for multi line comments if needed.
 
 # QA Quality Assurance
 #### No such thing
@@ -642,7 +662,7 @@ src
             public      // includes things that can be used without login
                   auth  // auth module containing login, change password, register, etc
                         controller
-                              loginCtr.js         // functions name: someController();
+                              loginCtr.js         // functions name: someCtr();
                         service
                               auth.js                    // functions name: some();
                               //some other
@@ -806,11 +826,20 @@ Any exception permissions or written approvals should be kep saved by employee f
 1. Repeating a mistake (small or large) that was previously corrected by a lead/manager/reviewer (penalty is half of default penalty in this case)
 1. Not being able to create a stable PR at least one and half hour before end of signoff time.
 1. Not reviewing a PR (of someone else) within 2 hours of being informed.
+1. Providing a PR title that is not the ticket name nor self explanatory.
 
 #### General coding
 1. Giving unclear variable/ function/ class names. E.g `maxSize` does not tells what it is and unit. Instead it can be `maxUploadFileSizeInMB` or `upload.maxFileSizeInMB`. In short, when a person sees the name, he should exactly know what it is.
 1. Not following the file, variable, function or class naming conventions stated in this doc e.g but not limited to having controller abreviation in controller files and functions.
 1. Not following directory structure stated in this doc. E.g but not limited to controller, dao, service directories
+1. Using console logs without a logger library or logger function.
+1. Using strings or numbers that cannot be referred from configs, constants or cannot be auto completed while coding via Intellij Idea IDE. (exceptions of course are config files, constants, typescript types etc that actually provide the feature to be referred by other consumers)
+1. Keeping unused code in middle of file.
+
+#### Configs
+1. Not using database name, user name, password same as project name (with or without hyphens)
+1. Using ports other than x321 port numbers where x can be from 1-9
+1. Commiting your own configs that work for you but no need for other developers. E.g putting your own different database name or username and committing, pushing it.
 
 #### Linux compatibility
 1. Creating PR that is missing code for or is incompatible or is not tested on ubuntu LTS operating system.
@@ -821,14 +850,14 @@ Any exception permissions or written approvals should be kep saved by employee f
 
 #### All languages
 1. Creating PR with console errors in browser, network tab errors in browser, application tab in browser or commandline erros of any kind.
-1. Creating PR without unit tests (in backend), integration tests (in backend) of at least all Rest endpoint APIs and e2e tests in frontend (at least 1 per view screen). 
-      1. The integration test should not just test the response code but also verify the data again (in database or whatever source is applicable) after hitting the API. 
-      1. Screen is a unique page content. E.g ignoring header, footer, nav bar (common things), login page is one screen, register is another, add user another, list user is another.
+1. Creating PR without minimum test coverage in each category (stated in this document)
+1. Creating a PR where app does not starts or tests do not run or run with errors.      
 
 #### Javascript, Typescript
 1. Creating PR with lint errors. Lint errors are not just errors shown in IDE but also via command line and scripts for example, but not limited to, eslint commandline.
 1. Creating PR with compile or transpile errors e.g but not limited to, by babel, typescript compile (tsc), webpack, etc.
 1. Changing, suppressing or disabling any project base configurations like eslint rules, tsconfig, esconfig, babel, package.json scripts
+1. Using raw string based knex queries where proper knex syntax is possible. (one fourth of default panelty per query)
 
 #### Typescript
 1. Use of `any` or `unknown` without written approval
@@ -837,6 +866,10 @@ Any exception permissions or written approvals should be kep saved by employee f
 #### Frontend / react
 1. Coding inline (s)css styles or any kind of view code in any way inline. It should go in separate file.
 1. Coding (s)css styles or any kind of view code in any way in react component file or file having html code. It should go in separate file.
+1. If more than one components are being used and passed same props, then that called function (or wrapper of it if its a third party lib), should have default prop values that can be overriden when and if needed)
+
+#### React
+1. Referencing and third party css, javascipt resource other than including it in bundle.js as code. You should use `import lib from 'package` (Valid rule if bundling is used)
 
 #### Java
 1. Not using maven or gradle for dependancies but adding lib files directly
