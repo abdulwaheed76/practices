@@ -267,6 +267,16 @@ The later is safer, more efficient, more time saving, needs lesser effort as a w
 #### How to solve PR issues
 When an issue in PR is created, it should be fixed, code pushed, and a comment should be given in reply to the issue. A simplest comment can be 'Fixed'. Then the creater of the issue should resolve the issue by hiting  the resolve button. Not the developer. When all issues are resolved, PR can be merged.
 
+# Pull request / merge request model B
+This is an alternative and discretion of manager to adapt for projects. In model B
+1. Developer will create PR on github but Github will not be used for issue creation. Instead, reviewer will type issues inside code with signature, commit and push e.g `//{ABC}:PRI text here`. And developer will respond below this line after changing code like this `//{CDE}: text here`. Commit and push. 
+1. Once the code changes, conversation like this ends, the manager will cut and paste this conversation at the end of file. And approve PR after changing `//{ABC}:PRI` to `//{ABC}:PRRI`. Cuting and pasting at bottom like this means issue is accepted as resolved.
+1. This will keep a record of all PR issues at end of each file.
+1. Abbreviations to note here are
+      1. {ABC} or {CDE} - Name abreviation. E.g John Corner is JOC. You should set one signature and be consistend on it.
+      1. PRI - Pull request issue
+      1. PRRI - Pull request resolved issue.
+
 # QA Quality Assurance
 #### No such thing
 1. If you are a developer, in your world, there should be no such thing as "External dedicated QA" testing your work.
@@ -609,6 +619,10 @@ src
                   // files or directories having files
             service
                   // files or directories having files
+            middleware
+                  // someSharedFunctionalityOrDirName
+                        // someMW.js
+                        // someOtherMW.js
             utils
                   // files or directories having files
             i18n  // contains language files for backend and frontend.
@@ -628,7 +642,7 @@ src
             public      // includes things that can be used without login
                   auth  // auth module containing login, change password, register, etc
                         controller
-                              loginController.js         // functions name: someController();
+                              loginCtr.js         // functions name: someController();
                         service
                               auth.js                    // functions name: some();
                               //some other
@@ -788,12 +802,18 @@ Any exception permissions or written approvals should be kep saved by employee f
 
 #### General
 1. Use of any library or framework without written approval in non-PR-1 PRs.
+1. Use of any library or framework or tool that creates/writes code for you. For example, but not limited to, create-react-app from create-react-app.dev website
 1. Repeating a mistake (small or large) that was previously corrected by a lead/manager/reviewer (penalty is half of default penalty in this case)
 1. Not being able to create a stable PR at least one and half hour before end of signoff time.
 1. Not reviewing a PR (of someone else) within 2 hours of being informed.
 
 #### General coding
 1. Giving unclear variable/ function/ class names. E.g `maxSize` does not tells what it is and unit. Instead it can be `maxUploadFileSizeInMB` or `upload.maxFileSizeInMB`. In short, when a person sees the name, he should exactly know what it is.
+1. Not following the file, variable, function or class naming conventions stated in this doc e.g but not limited to having controller abreviation in controller files and functions.
+1. Not following directory structure stated in this doc. E.g but not limited to controller, dao, service directories
+
+#### Linux compatibility
+1. Creating PR that is missing code for or is incompatible or is not tested on ubuntu LTS operating system.
 
 #### Personal info
 1. Putting real names of anyone (instead of `user, user1, user2` in any part of code, image or any kind of asset/document or communication medium in any form.
