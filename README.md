@@ -988,10 +988,17 @@ official first priority tutorials
 1. Modified decision / condition coverage https://www.youtube.com/watch?v=DivaWCNohdw
 
 ### Testing libraries
+1. React https://reactjs.org/docs/test-utils.html
+1. Some good testing lib comparisons https://stackoverflow.com/a/54152893
 1. Testing intro https://www.youtube.com/watch?v=r9HdJ8P6GQI
 1. Cypress https://www.youtube.com/watch?v=LcGHiFnBh3Y
 1. Enzyme vs React-testing-library https://youtu.be/SyAYO5w-nUI?t=1987
+1. Enzyme shallow vs mount https://youtu.be/4_pZizupR7U?t=884
 1. ~~Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest~~ Disregard this.
+
+#### Enzyme 
+1. Basic info and examples https://enzymejs.github.io/enzyme/
+1. Setup https://enzymejs.github.io/enzyme/docs/guides/jest.html
 
 ### Mock testing
 1. Mock libs and data https://www.youtube.com/watch?v=4Fl5GH4eYZ8&t=909s, https://youtu.be/Ngj2f1n9pUw?t=459
