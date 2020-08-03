@@ -993,6 +993,9 @@ official first priority tutorials
 1. Enzyme vs React-testing-library https://youtu.be/SyAYO5w-nUI?t=1987
 1. ~~Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest~~ Disregard this.
 
+### Mock testing
+1. Mock libs and data https://www.youtube.com/watch?v=4Fl5GH4eYZ8&t=909s, https://youtu.be/Ngj2f1n9pUw?t=459
+
 ## Frontent React
 
 ### React core
