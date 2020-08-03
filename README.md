@@ -227,16 +227,91 @@ Following are the default coverages if not overriden by manager.
 ##### Backend
 1. **Unit tests and integration tests**: Use Jest
       1. Controller functions should have **100% coverage**. These will be unit tests (not endpoint tests making ajax calls). For example, you will test loginCtr.js's function loginUser('/path/login',req,res,next); by constructing req.query or req.body params and calling these functions. No need for network call.
-      1. Everything in base directory such as Base Daos should have **100% coverage**
-      1. Rest of the code should have at least **50% coverage**. Tip: most used/referred or most important functions should be tested in prioroty.
+      1. Everything in base directory such as Base Daos or services should have **100% coverage**
+      1. Everything in shared directories should have **100% coverage**
+      1. Rest of the code should have at least **10% coverage** (for now). Tip: most used/referred or most important functions should be tested in prioroty. Important thing to note here is that **if you test any function, you should test it 100%**. If not, leave that function.
 1. **Endpoint tests** (type of integration test where network call is made)
-      1. Endpoint tests will be making an ajax call to '/path/login' but will check status code only. Currently not applicatble.
+      1. Endpoint tests will be making an ajax call to '/path/login' but will check status code only. **Currently not applicatble**.
+
+###### Config to use for backend
+jestconfig.js
+```
+{
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 10,
+        "functions": 10,
+        "lines": 10,
+        "statements": 10
+      },
+      "./**/controler/": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      },
+      "./**/base/": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      },
+       },
+      "./**/**shared**/": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}
+```
+
       
-##### Frontend
-1. Non react component function unit test: Use Jest with at least **50% coverage**.
-1. React components: Use Jest + Enzyme (Currently not applicable)
-1. E2e end to end: Use Cypress
+##### Frontend react
+1. Non react component function unit test: Use Jest with at least **10% coverage**.
+1. React components: Use Jest + Enzyme or React-testing-library should have **20% coverage** for all components (**Currently not applicable**)
+1. Anything in base or shared directories should have at least **50% coverage**.
+1. E2e end to end: Use Cypress (**Currently not applicable**)
       1. Test coverage is at least **1 test per view screen**. Screen is a unique page content. E.g ignoring header, footer, nav bar (common things but also included in screen and needs test), login page is one screen, register is another, add user another, list user is another. This should test CRUD operation(s) of that screen but **only focus on UI** and some data visibility in it. e.g in a user creation page, test should fill form, hit submit, then view updated data, then edit it, then delete it, then add again, view it (wait for element and match with expected result). There is no need to redo and retest things that are already been tested in controller integration testing at backend.
+      
+###### Config to use for frontend react
+jestconfig.js
+```
+{
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 10,
+        "functions": 10,
+        "lines": 10,
+        "statements": 10
+      },
+      "./**/*Comp.*": {
+        "branches": 20,
+        "functions": 20,
+        "lines": 20,
+        "statements": 20
+      },
+      "./**/base/": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      },
+       },
+      "./**/**shared**/": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    }
+  }
+}
+```
       
 
 #### Self testing
@@ -906,9 +981,16 @@ official first priority tutorials
 ### Node core
 1. Lynda Node essential training by Alex banks
 
-### Testing / Jest / Cypress
+### Testing coverage
+1. Statement coverage https://www.youtube.com/watch?v=9PSrhH2gtkU
+1. Branch coverage https://www.youtube.com/watch?v=JkJFxPy08rk
+1. Condition coverage https://www.youtube.com/watch?v=ZnPmJd5aqyw
+1. Modified decision / condition coverage https://www.youtube.com/watch?v=DivaWCNohdw
+
+### Testing libraries
 1. Testing intro https://www.youtube.com/watch?v=r9HdJ8P6GQI
 1. Cypress https://www.youtube.com/watch?v=LcGHiFnBh3Y
+1. Enzyme vs React-testing-library https://youtu.be/SyAYO5w-nUI?t=1987
 1. ~~Api testing https://youtu.be/7VNgjfmv_fE?t=381  to 5 mins (the later code for mongo is irrelevant). The same logic can be applied for Jest~~ Disregard this.
 
 ## Frontent React
