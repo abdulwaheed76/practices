@@ -224,12 +224,20 @@ If your project has unit test/ integration tests/ automation tests enforced, do 
 
 Following are the default coverages if not overriden by manager.
 
+##### Tools to use only
+1. Jest
+1. React-testing-library
+1. Enzyme (not permitted to use for now. Use React-testing-library)
+1. Cypress (not testing e2e for now but later could be used after approval to use)
+1. Puppeteer (not permitted to use for now. Use Cypress)
+1. Mocking: No need for now as knex will have read test database. For endpoint and end to end testing, we are not making network calls however cypress/puppeteer will make real calls when used.
+
 ##### Backend
 1. **Unit tests and integration tests**: Use Jest
       1. Controller functions should have **100% coverage**. These will be unit tests (not endpoint tests making ajax calls). For example, you will test loginCtr.js's function loginUser('/path/login',req,res,next); by constructing req.query or req.body params and calling these functions. No need for network call.
       1. Everything in base directory such as Base Daos or services should have **100% coverage**
       1. Everything in shared directories should have **100% coverage**
-      1. Rest of the code should have at least **10% coverage** (for now). Tip: most used/referred or most important functions should be tested in prioroty. Important thing to note here is that **if you test any function, you should test it 100%**. If not, leave that function.
+      1. Rest of the code should have at least **10% coverage** (for now). Most used/referred and most important functions should be tested in prioroty. Important thing to note here is that **if you test any function, you should test it 100%**. If not, leave that function.
 1. **Endpoint tests** (type of integration test where network call is made)
       1. Endpoint tests will be making an ajax call to '/path/login' but will check status code only. **Currently not applicatble**.
 
