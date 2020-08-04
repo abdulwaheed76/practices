@@ -887,10 +887,15 @@ Quality and efficient work demands discipline. Time of reviewers and managers is
 
 However, rather being appreciative also on diciplined and well mannered, responsible employees, we also announce rewards!
 
-#### Default reward
-If you have not broken any rule in a month, you get 1-2 default rewards. Which is 5% per default reward of your salary. This can total up to 10% of your salary.
+Model type assigned (single or multiple) to you will be informed to you by your manager.
 
-#### Default penalty
+#### Default reward (Model A)
+If rule breakage count is less than 3 in a week, you will get 5% of your base salary as bonus reward per for that week. 
+
+#### Default penalty (Model A)
+If rule breakage count is more than or equal to 3 in a week, you will not get any kind of bonus in any plans or models, e.g but not limited to FIB.
+
+#### Default penalty (Model B)
 Penalty amount per penalty is 1% of your monthly salary. E.g if your salary is 10,000, penalty is 100.
 This is default amount unless penalty amount is provided differently in any rule).
 Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6. Then on same day he put his name in code. Not total penalties are 7.
