@@ -210,8 +210,8 @@ It will include and a react app for example:
 
 Notes: Example of child components hierarchy but with no implmentation is
 ```
-doSomeParent(){doSomeChild1(); someOtheCode;}
-doSomeChild1(){doSomeChild2(); someOtherCodeMaybe;}
+doSomeParent(){doSomeChild1(); someOtheCode; someLibCalls;}
+doSomeChild1(){doSomeChild2(); someOtherPseudoCodeMaybe;} // to make a flow for PR 2 person to understand and implement
 doSomeChild2(){/* implementation in PR 2 only */}
 ```
 #### PR part 2
