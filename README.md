@@ -198,9 +198,9 @@ Expertise in Linux is also a key important skill in the developers life which he
 
 ##### Frontend example of PR 1
 It will include and a react app for example:
-1. All functions that ever would be needed (for example, but not limited to, service, ajax call functions, alert, validation, on submit funnctions, util)
+1. All functions that ever would be needed (for example, but not limited to, routes, service, ajax call functions, alert, validation, on submit funnctions, util)
 1. All components that ever would be needed
-      1. Each component will have a body of sketchy html with no css styles. This is to have a viewable sketchy layout to be understood by the person that will do PR 2. This will be more like a wireframe.
+      1. Each component will have a body of sketchy html with no css styles. This is to have a viewable sketchy layout to be understood by the person that will do PR 2. This will be more like a wireframe. The app should run with working routes and sketchy structure of html/components viewable in browser.
       1. Each component will call child components as well.
 1. Choice of libraries /frameworks and imports / configs of same
 
