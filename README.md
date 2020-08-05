@@ -210,8 +210,8 @@ It will include and a react app for example:
 
 Notes: Example of child components hierarchy but with no implmentation is
 ```
-doSomeParent(){doSomeChild1();}
-doSomeChild1(){doSomeChild2();}
+doSomeParent(){doSomeChild1(); someOtheCode;}
+doSomeChild1(){doSomeChild2(); someOtherCodeMaybe;}
 doSomeChild2(){/* implementation in PR 2 only */}
 ```
 #### PR part 2
@@ -219,7 +219,11 @@ Each function/part in PR #1 will be **implemented** (with unit tests if it is en
 
 ##### Frontend example of PR 2
 1. All css styling
-1. implementation of everything. E.g but not limited to functions, components, ajax calls, alerts, etc
+1. Implementation of everything. E.g but not limited to functions, components, ajax calls, alerts, etc. If PR 1 was made correctly, there should be no need to create any new functions/classes/items in PR 2. Just implementation would be needed.
+
+##### Backend example of PR 2
+1. Implementation of everything. If PR 1 was made correctly, there should be no need to create any new functions/classes/items in PR 2. Just implementation would be needed.
+
 #### PR part 3
 This would be **final PR** and will also make sure that other parts of **application work in harmony** with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
 
