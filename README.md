@@ -936,7 +936,7 @@ Any exception permissions or written approvals should be kep saved by employee f
 ## Code reviews
 
 #### General
-1. Use of any library or framework without written approval in non-PR-1 PRs.
+1. Use of any library or framework without written approval in non-PR-1 PRs. Managers should also create and publish a list off approved libs, framework for PR-2/3.
 1. Use of any library or framework or tool that creates/writes code for you. For example, but not limited to, create-react-app from create-react-app.dev website
 1. Repeating a mistake (small or large) that was previously corrected by a lead/manager/reviewer (penalty is half of default penalty in this case)
 1. Not being able to create a stable PR at least one and half hour before end of signoff time.
@@ -1001,7 +1001,15 @@ Any exception permissions or written approvals should be kep saved by employee f
 1. Not followin anything mentioned in appointment, policy, practices or any ammendmends in the said things. Panelty will be per rule not followed per day or number of times a rule is broken in a day.
 1. Asking for information that is already clearly present in appointment, policy or practices documents. This means employee had not carefully read the said and is irresponsibly consuming managemnt's time. However, if something is really missing, we welcome questions.
 
-
+# List of libs/framework approved for PR 2/3
+```
+    All exact version number of libs mentioned in tpl project package.json
+    any types for typescript
+    "@material-ui/*": "4.*",
+    "clsx": "1.*",
+    "material-table": "^1.68.0",
+    "moment": "^2.27.0",
+```
 
 # Tutorials
 ## Javascript Misc
