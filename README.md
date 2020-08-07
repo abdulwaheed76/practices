@@ -970,7 +970,7 @@ Any exception permissions or written approvals should be kep saved by employee f
 1. Creating a PR where app does not starts or tests do not run or run with errors.      
 
 #### Javascript, Typescript
-1. Creating PR with lint errors. Lint errors are not just errors shown in IDE but also via command line and scripts for example, but not limited to, eslint commandline.
+1. Creating PR with lint errors, TSC errors, terminal/console errors, browser console errors. Lint and TSC errors are not just errors shown in IDE but also via command line and scripts for example, but not limited to, eslint commandline, TSC commandline (even if your project uses webpack or some other automation tool / script to compile.
 1. Creating PR with compile or transpile errors e.g but not limited to, by babel, typescript compile (tsc), webpack, etc.
 1. Changing, suppressing or disabling any project base configurations like eslint rules, tsconfig, esconfig, babel, package.json scripts
 1. Using raw string based knex queries where proper knex syntax is possible. (one fourth of default panelty per query)
@@ -1004,7 +1004,7 @@ Any exception permissions or written approvals should be kep saved by employee f
 # List of libs/framework approved for PR 2/3
 ```
     All exact version number of libs mentioned in tpl project package.json
-    any types for typescript
+    any @types for typescript
     "@material-ui/*": "4.*",
     "clsx": "1.*",
     "material-table": "^1.68.0",
