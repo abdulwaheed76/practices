@@ -955,6 +955,7 @@ Any exception permissions or written approvals should be kep saved by employee f
 1. Not using database name, user name, password same as project name (with or without hyphens)
 1. Using ports other than x321 port numbers where x can be from 1-9
 1. Commiting your own configs that work for you but no need for other developers. E.g putting your own different database name or username and committing, pushing it.
+1. Configs like eslint, babel, package.json scripts etc: Change of configs should not be done directly but via change in tpl projects or modules (whatever had been made and used for the project).
 
 #### Linux compatibility
 1. Creating PR that is missing code for or is incompatible or is not tested on ubuntu LTS operating system.
