@@ -980,8 +980,8 @@ Any exception permissions or written approvals should be kep saved by employee f
 
 #### Frontend / react
 1. Coding inline (s)css styles or any kind of view code in any way inline. It should go in separate file.
-1. Coding (s)css styles or any kind of view code in any way in react component file or file having html code. It should go in separate file.
-1. If more than one components are being used and passed same props, then that called function (or wrapper of it if its a third party lib), should have default prop values that can be overriden when and if needed)
+1. Coding (s)css styles or any kind of view code in any way in react component file or file having html code. It should go in separate file. Even if the style is not a pure (s)css syntax but some object like of material ui parameter etc, anything to do with styles goes in a separate file with style name in file name or a .scss. If former, style object can be imported anywhere and used.
+1. If more than one components are using a child component and passing the same props every time (or it is anticipated in near future), then that called function (or wrapper of it if its a third party lib), should have default prop values that can be overriden when and if needed)
 
 #### React
 1. Referencing and third party css, javascipt resource other than including it in bundle.js as code. You should use `import lib from 'package` (Valid rule if bundling is used)
