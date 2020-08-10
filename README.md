@@ -910,14 +910,18 @@ You should not come late in any and all cases unless you have explicit permissio
 Early signout is not allowed. If you do, you should spend that time in the next day in addition to the days time. If you think you have completed your tasks before dayend time, **a)** thinkg again and make sure they are fully completed **b)** if they are completed, ask for next tasks if project manager is available. If project manager is not available, start reading and understanding the next stories and tasks for future. 
 
 # Penalties and rewards
-Quality and efficient work demands discipline. Time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time.
+Bright career of developer and quality and efficient work at company side demands discipline. Time of developer is precious and time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time.
 
 However, rather being appreciative also on diciplined and well mannered, responsible employees, we also announce rewards!
 
 Model type assigned (single or multiple) to you will be informed to you by your manager.
 
+### Terms / efinition
+1. Time duration: Week: starts at 1 hour after office start time on Monday. Ends at the same time next Monday.
+1. Rule/ Penalty point/ penalty: One point broken one time is one count per time duration. Multiple penalty count if same point broken multiple times per time duration. Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6. Then on same day he put his name in code. Not total penalties are 7.
+
 #### Default reward (Model A)
-If rule breakage count is less than 3 in a week, you will get 5% of your base salary as bonus reward per for that week. 
+If rule breakage count is less than 3 in a week, you will get 5% of your base salary as bonus reward per for that week. E.g your salary is 10,000, you will get weekly 500 bonus.
 
 #### Default penalty (Model A)
 If rule breakage count is more than or equal to 3 in a week, you will not get any kind of bonus in any plans or models, e.g but not limited to FIB.
@@ -925,7 +929,6 @@ If rule breakage count is more than or equal to 3 in a week, you will not get an
 #### Default penalty (Model B)
 Penalty amount per penalty is 1% of your monthly salary. E.g if your salary is 10,000, penalty is 100.
 This is default amount unless penalty amount is provided differently in any rule).
-Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6. Then on same day he put his name in code. Not total penalties are 7.
 
 #### Note for managers.
 If a manager knowingly does not reports (to management) a rule breakage by employee, he will pay 10 times of the penalty from his own pocket to the company.
@@ -936,37 +939,38 @@ Any exception permissions or written approvals should be kep saved by employee f
 ## Code reviews
 
 #### General
-1. Use of any library or framework without written approval in non-PR-1 PRs. Managers should also create and publish a list off approved libs, framework for PR-2/3.
-1. Use of any library or framework or tool that creates/writes code for you. For example, but not limited to, create-react-app from create-react-app.dev website
+1. Use of any library or framework without written approval in non-PR-1 PRs or which is not in the approved list mentioned here. Managers should also create and publish a list off approved libs, framework for PR-2/3.
+1. Use of any (unapproved in writing) library or framework or tool that creates/writes code for you. For example, but not limited to, create-react-app from create-react-app.dev website
 1. Repeating a mistake (small or large) that was previously corrected by a lead/manager/reviewer (penalty is half of default penalty in this case)
 1. Not being able to create a stable PR at least one and half hour before end of signoff time.
 1. Not reviewing a PR (of someone else) within 2 hours of being informed.
 1. Providing a PR title that is not the ticket name nor self explanatory.
 
 #### General coding
-1. Giving unclear variable/ function/ class names. E.g `maxSize` does not tells what it is and unit. Instead it can be `maxUploadFileSizeInMB` or `upload.maxFileSizeInMB`. In short, when a person sees the name, he should exactly know what it is.
+1. Giving unclear variable/ function/ class names. E.g `maxSize` does not tells what it is and unit of measure. Instead it can be `maxUploadFileSizeInMB` or `upload.maxFileSizeInMB`. In short, when a person sees the name, he should exactly know what it is.
 1. Not following the file, variable, function or class naming conventions stated in this doc e.g but not limited to having controller abreviation in controller files and functions.
 1. Not following directory structure stated in this doc. E.g but not limited to controller, dao, service directories
 1. Using console logs without a logger library or logger function.
 1. Using strings or numbers that cannot be referred from configs, constants or cannot be auto completed while coding via Intellij Idea IDE. (exceptions of course are config files, constants, typescript types etc that actually provide the feature to be referred by other consumers)
-1. Keeping unused code in middle of file.
+1. Keeping unused code in middle of file. Put them at bottom of file.
 
 #### Configs
-1. Not using database name, user name, password same as project name (with or without hyphens)
+1. Not using database name, user name, password same as project name (without hyphens). e.g `some-name-bk` can be `somename`
 1. Using ports other than x321 port numbers where x can be from 1-9
 1. Commiting your own configs that work for you but no need for other developers. E.g putting your own different database name or username and committing, pushing it.
-1. Configs like eslint, babel, package.json scripts etc: Change of configs should not be done directly but via change in tpl projects or modules (whatever had been made and used for the project).
+1. Changing configs like eslint, babel, package.json scripts etc: Change of configs should not be done directly but via change in tpl projects or modules (whatever had been made and used for the project).
 
 #### Linux compatibility
 1. Creating PR that is missing code for or is incompatible or is not tested on ubuntu LTS operating system.
+1. Not testing with nginx/apache with hosts file based local domain.
 
 #### Personal info
 1. Putting real names of anyone (instead of `user, user1, user2` in any part of code, image or any kind of asset/document or communication medium in any form.
 1. Putting any kind of personal info that is not official. For example, but not limited to, personal email or phone in any part of code, image or any kind of asset/document or communication medium in any form.
 
 #### All languages
-1. Creating PR with console errors in browser, network tab errors in browser, application tab in browser or commandline erros of any kind.
-1. Creating PR without minimum test coverage in each category (stated in this document)
+1. Creating PR with console errors in browser, network tab errors in browser, application tab in browser or commandline erros of any kind. Or PWA service, application, cache errors.
+1. Creating PR without minimum test coverage in each category (stated in this document). Test coverage should be provided by manager in project readme file or via email.
 1. Creating a PR where app does not starts or tests do not run or run with errors.      
 
 #### Javascript, Typescript
@@ -981,24 +985,28 @@ Any exception permissions or written approvals should be kep saved by employee f
 
 #### Frontend / react
 1. Coding inline (s)css styles or any kind of view code in any way inline. It should go in separate file.
-1. Coding (s)css styles or any kind of view code in any way in react component file or file having html code. It should go in separate file. Even if the style is not a pure (s)css syntax but some object like of material ui parameter etc, anything to do with styles goes in a separate file with style name in file name or a .scss. If former, style object can be imported anywhere and used.
+1. Coding (s)css styles or any kind of view code in any way in react component file or file having html code. It should go in separate file. Even if the style is not a pure (s)css syntax but some object like of material ui parameter etc, anything to do with styles goes in a separate file with style name in file name or a .scss. If former, style object can be imported in the view component file and used.
 1. If more than one components are using a child component and passing the same props every time (or it is anticipated in near future), then that called function (or wrapper of it if its a third party lib), should have default prop values that can be overriden when and if needed)
 
 #### React
-1. Referencing and third party css, javascipt resource other than including it in bundle.js as code. You should use `import lib from 'package` (Valid rule if bundling is used)
+1. Referencing any third party css, javascipt resource other than including it in bundle.js as code. You should use `import` lib from `package` (Valid rule if bundling is used)
 
 #### Java
 1. Not using maven or gradle for dependancies but adding lib files directly
 1. Not testing with .jar before PR
+
+### Python
+To be added soon
 
 ## Routine
 
 #### Attendance
 1. Not informing timely (at least 24hours) in writing before a non-emergency leave.
 1. Not following "Daily routine" section on what to do at day start and day end. 
+1. Not taking mandatory break from work for at least 30 minutes.
 
 #### Behaviour
-1. Not followin anything mentioned in appointment, policy, practices or any ammendmends in the said things. Panelty will be per rule not followed per day or number of times a rule is broken in a day.
+1. Not followin anything mentioned in appointment, policy, practices or any ammendmends in the said things. 
 1. Asking for information that is already clearly present in appointment, policy or practices documents. This means employee had not carefully read the said and is irresponsibly consuming managemnt's time. However, if something is really missing, we welcome questions.
 
 # List of libs/framework approved for PR 2/3
