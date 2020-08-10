@@ -916,7 +916,7 @@ However, rather being appreciative also on diciplined and well mannered, respons
 
 Model type assigned (single or multiple) to you will be informed to you by your manager.
 
-### Terms / efinition
+### Terms / definition
 1. Time duration: Week: starts at 1 hour after office start time on Monday. Ends at the same time next Monday.
 1. Rule/ Penalty point/ penalty: One point broken one time is one count per time duration. Multiple penalty count if same point broken multiple times per time duration. Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6. Then on same day he put his name in code. Not total penalties are 7.
 
