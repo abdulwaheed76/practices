@@ -254,9 +254,9 @@ Following are the default coverages if not overriden by manager.
 ##### Tools to use only
 1. Jest
 1. React-testing-library
-1. Enzyme (not permitted to use for now. Use React-testing-library)
-1. Cypress (not testing e2e for now but later could be used after approval to use)
-1. Puppeteer (not permitted to use for now. Use Cypress)
+1. ~~Enzyme~~-- (not permitted to use for now. Use React-testing-library)
+1. ~~Cypress~~ (not testing e2e for now but later could be used after approval to use)
+1. ~~Puppeteer~~ (not permitted to use for now. Use Cypress)
 1. Mocking: No need for now as knex will have read test database. For endpoint and end to end testing, we are not making network calls however cypress/puppeteer will make real calls when used.
 
 ##### Backend
@@ -307,7 +307,7 @@ jestconfig.js
       
 ##### Frontend react
 1. Non react component function unit test: Use Jest with at least **10% coverage**.
-1. React components: Use Jest + Enzyme or React-testing-library should have **20% coverage** for all components (**Currently not applicable**)
+1. React components: Use Jest + React-testing-library should have **20% coverage** for all components
 1. Anything in base or shared directories should have at least **50% coverage**.
 1. E2e end to end: Use Cypress (**Currently not applicable**)
       1. Test coverage is at least **1 test per view screen**. Screen is a unique page content. E.g ignoring header, footer, nav bar (common things but also included in screen and needs test), login page is one screen, register is another, add user another, list user is another. This should test CRUD operation(s) of that screen but **only focus on UI** and some data visibility in it. e.g in a user creation page, test should fill form, hit submit, then view updated data, then edit it, then delete it, then add again, view it (wait for element and match with expected result). There is no need to redo and retest things that are already been tested in controller integration testing at backend.
