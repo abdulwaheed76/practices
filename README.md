@@ -971,7 +971,8 @@ Any exception permissions or written approvals should be kep saved by employee f
 #### All languages
 1. Creating PR with console errors in browser, network tab errors in browser, application tab in browser or commandline erros of any kind. Or PWA service, application, cache errors.
 1. Creating PR without minimum test coverage in each category (stated in this document). Test coverage should be provided by manager in project readme file or via email.
-1. Creating a PR where app does not starts or tests do not run or run with errors.      
+1. Creating a PR where app does not starts or tests do not run or run with errors.  
+1. Not taking pull from master/ daily master or merge branch before making PR
 
 #### Javascript, Typescript
 1. Creating PR with lint errors, TSC errors, terminal/console errors, browser console errors. Lint and TSC errors are not just errors shown in IDE but also via command line and scripts for example, but not limited to, eslint commandline, TSC commandline, browser console errors (even if your project uses webpack or some other automation tool / script to compile).
