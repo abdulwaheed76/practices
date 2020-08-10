@@ -1074,6 +1074,9 @@ official first priority tutorials
 
 ## Basics
 
+### Algorithms
+1. Big O notation https://www.youtube.com/watch?v=IR_S8BC8KI0
+
 ### Architecture for newbies
 1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
 1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
