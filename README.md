@@ -280,19 +280,19 @@ jestconfig.js
         "lines": 10,
         "statements": 10
       },
-      "./**/controller/": {
+      "./dist/src/**/controller/*": {
         "branches": 100,
         "functions": 100,
         "lines": 100,
         "statements": 100
       },
-      "./**/base/": {
+      "./dist/src/base/**/*": {
         "branches": 100,
         "functions": 100,
         "lines": 100,
         "statements": 100
       },
-      "./**/**shared**/": {
+      "./dist/src/**/shared/**": {
         "branches": 100,
         "functions": 100,
         "lines": 100,
