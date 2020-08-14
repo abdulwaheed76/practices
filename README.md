@@ -280,7 +280,7 @@ jestconfig.js
         "lines": 10,
         "statements": 10
       },
-      "./**/controler/": {
+      "./**/controller/": {
         "branches": 100,
         "functions": 100,
         "lines": 100,
@@ -292,7 +292,6 @@ jestconfig.js
         "lines": 100,
         "statements": 100
       },
-       },
       "./**/**shared**/": {
         "branches": 100,
         "functions": 100,
