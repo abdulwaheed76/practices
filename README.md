@@ -790,7 +790,14 @@ src
                   userDashboard 
                         // same as above
             someOther
-                  // same as above                                               
+                  // same as above     
+            shared
+                  user
+                        same directors like above modules controller, dao, utils, i18n
+                  email
+                        same
+                  someOther
+                        same
 ```
 
 
