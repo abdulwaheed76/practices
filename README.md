@@ -779,6 +779,9 @@ src
                               loginDao.js                // functions name: someFuncDao();
                         utils
                               loginUtils.js              // // functions name: someUtil();
+                        i18n
+                              en.js
+                              tr.js
                   someOther
                         // same directory structure as above
             user     // access after login
