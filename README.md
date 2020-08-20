@@ -358,6 +358,34 @@ All PRs should have release notes about the functionality you made in that PR. I
 1. Using http v2 due to tons of advantages (list or provide link)
 1. Pending things
 
+##### Process flow 
+Process flow should be in text form and part of git. One of the reason is that git can show diffs and changes better than changes in diagrams
+Sample:
+```
+                abc <----
+                |       |
+               / \      |
+             yes  no ---
+             |
+           some thing ---> some case(note 1)
+           more here
+```
+an other example
+```
+                login 
+                |       
+          Registered?   
+               / \      
+             yes  no 
+             |
+        credentials
+        correct?
+         / \      
+        yes  no 
+        |      |
+       login  show error
+```
+
 #### Peer review
 Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
 
