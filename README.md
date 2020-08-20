@@ -359,7 +359,8 @@ All PRs should have release notes about the functionality you made in that PR. I
 1. Pending things
 
 ##### Process flow 
-Process flow should be in text form and part of git. One of the reason is that git can show diffs and changes better than changes in diagrams
+Process flow should be in text form as DOT files ( https://en.wikipedia.org/wiki/DOT_(graph_description_language) ) and part of git. One of the reason is that git can show diffs and changes better than changes in diagrams.
+
 Sample:
 ```
                 abc <----
