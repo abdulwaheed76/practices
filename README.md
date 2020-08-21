@@ -1127,6 +1127,39 @@ official first priority tutorials
 
 ### Algorithms
 1. Big O notation https://www.youtube.com/watch?v=IR_S8BC8KI0
+1. Live testing https://edotor.net/
+1. (do not use) ERD exampmles https://mamchenkov.net/wordpress/2015/08/20/graphviz-dot-erds-network-diagrams/
+1. (do not use) ERD example https://stackoverflow.com/questions/56832652/erd-diagram-with-graphviz-how-to-improve-the-rendering-layout
+1. For ERD, better use:
+```
+digraph G {
+subgraph cluster0 {
+node [style=filled,color=white];
+style=filled;
+color=lightgrey;
+a0 -> a1 -> a2 -> a3;
+label = "process #1";
+}
+subgraph cluster1 {
+node [style=filled];
+b0 -> b1 -> b2 -> b3;
+label = "process #2";
+color=blue
+}
+start -> a0;
+start -> b0;
+a1 -> b3;
+b2 -> a3;
+a3 -> a0;
+a3 -> end;
+b3 -> end;
+start [shape=Mdiamond];
+end [shape=Msquare];
+}
+```
+
+### Dot files and graphviz
+1. Dot files https://www.youtube.com/watch?v=QjUaNXNuNMs
 
 ### Architecture for newbies
 1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
