@@ -390,6 +390,9 @@ sample dot file (can be viewed in https://edotor.net/)
 
 ```
 digraph G {
+    graph [  splines="true"  forcelabels="true"  pad="1,0.25"  nodesep="2"  overlap="false"  bgcolor="white"   ];
+    node [ style="solid"  shape="box"  fontname="Arial"  fontsize="14"  fontcolor="black" ];
+    
     subgraph cluster0 { 
         label = "user"; node [style=filled,color=white]; style=filled; color=lightgrey; 
         user__id -> 
@@ -414,6 +417,9 @@ Alternatively
 
 ```
 digraph G {
+    graph [  splines="true"  forcelabels="true"  pad="1,0.25"  nodesep="2"  overlap="false"  bgcolor="white"   ];
+    node [ style="solid"  shape="box"  fontname="Arial"  fontsize="14"  fontcolor="black" ];
+    
     subgraph cluster0 { 
         label = "user"; node [style=filled,color=white]; style=filled; color=lightgrey; 
         "user   id" -> 
