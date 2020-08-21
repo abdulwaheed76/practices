@@ -386,6 +386,29 @@ an other example
         |      |
        login  show error
 ```
+sample dot file (can be viewed in https://edotor.net/)
+
+```
+digraph G {
+    subgraph cluster0 { 
+        label = "user"; node [style=filled,color=white]; style=filled; color=lightgrey; 
+        user__id -> 
+        user__login -> 
+        user__type  
+        [style=invis];    
+    }
+    subgraph cluster1 {
+        label = "user_details"; color=blue; node [style=filled];
+        user_details__id -> 
+        user_details__userId ->
+        user_details__firstname -> 
+        user_details__lastname
+        [style=invis];
+    }
+
+    user_details__userId -> user__id;
+}
+```
 
 #### Peer review
 Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
@@ -1130,39 +1153,6 @@ official first priority tutorials
 1. Live testing https://edotor.net/
 1. (do not use) ERD exampmles https://mamchenkov.net/wordpress/2015/08/20/graphviz-dot-erds-network-diagrams/
 1. (do not use) ERD example https://stackoverflow.com/questions/56832652/erd-diagram-with-graphviz-how-to-improve-the-rendering-layout
-1. For ERD, better use:
-```
-digraph G {
-    subgraph cluster0 {
-        node [style=filled,color=white];
-        style=filled;
-        color=lightgrey;
-        a0 -> 
-        a1 -> 
-        a2 -> 
-        a3 ;
-        label = "process #1";
-        }
-    subgraph cluster1 {
-        node [style=filled];
-        b0 -> 
-        b1 -> 
-        b2 -> 
-        b3;
-        label = "process #2";
-        color=blue
-    }
-    start -> a0;
-    start -> b0;
-    a1 -> b3;
-    b2 -> a3;
-    a3 -> a0;
-    a3 -> end;
-    b3 -> end;
-    start [shape=Mdiamond];
-    end [shape=Msquare];
-}
-```
 
 ### Dot files and graphviz
 1. Dot files https://www.youtube.com/watch?v=QjUaNXNuNMs
