@@ -388,6 +388,8 @@ an other example
 ```
 sample dot file (can be viewed in https://edotor.net/)
 
+listen to conversation about layout https://youtu.be/M00Mh43NQvE
+
 ```
 digraph G {
     graph [  splines="true"  forcelabels="true"  pad="1,0.25"  nodesep="2"  overlap="false"  bgcolor="white"   ];
