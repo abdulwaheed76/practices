@@ -410,6 +410,30 @@ digraph G {
 }
 ```
 
+Alternatively
+
+```
+digraph G {
+    subgraph cluster0 { 
+        label = "user"; node [style=filled,color=white]; style=filled; color=lightgrey; 
+        "user   id" -> 
+        user__login -> 
+        user__type  
+        [style=invis];    
+    }
+    subgraph cluster1 {
+        label = "user_details"; color=blue; node [style=filled];
+        user_details__id -> 
+        "user_details   userId" ->
+        user_details__firstname -> 
+        user_details__lastname
+        [style=invis];
+    }
+
+    "user_details   userId" -> "user   id";
+}
+```
+
 #### Peer review
 Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
 
