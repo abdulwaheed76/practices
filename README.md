@@ -1180,6 +1180,7 @@ official first priority tutorials
 
 ### Dot files and graphviz
 1. Dot files https://www.youtube.com/watch?v=QjUaNXNuNMs
+1. Dot file Docs https://www.graphviz.org/pdf/dotguide.pdf
 
 ### Architecture for newbies
 1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
