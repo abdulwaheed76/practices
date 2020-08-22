@@ -390,6 +390,49 @@ sample dot file (can be viewed in https://edotor.net/)
 
 listen to conversation about layout https://youtu.be/M00Mh43NQvE
 
+Mini UML
+```
+digraph {
+    node [
+        style="solid" 
+        shape="box"  
+    ]
+    subgraph cluster_auth_ctr { label= "controller/authCtr.ts"
+        loginController;
+    }
+
+    subgraph cluster_auth { label= "service/login.ts"
+        "login(id, pass)";
+        "functionCalledByLogin()";
+        "other()";
+    }
+
+    subgraph cluster_auth_dao { label= "dao/authDao.ts"
+        "getUserByLoginId(id)";
+    }
+
+    loginController -> "login(id, pass)" -> "getUserByLoginId(id)";
+    "login(id, pass)" -> "functionCalledByLogin()" [label = "< can be anything"]
+
+}
+```
+Process flow
+```
+digraph {
+    node [shape="box"]
+    graph [splines="splines"]
+    
+
+    login -> password_matched -> 
+             route_to_dashboard;
+    subgraph cluster_logs {label="loging"; logFailedAttempt}
+    login -> password_not_matched -> count_failed_retry_in_memory;
+             password_not_matched -> logFailedAttempt;
+             password_not_matched -> login [label="Show error message and threshhold"];
+}
+
+```
+ERD
 ```
 digraph G {
     graph [
