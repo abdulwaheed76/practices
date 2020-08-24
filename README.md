@@ -1073,14 +1073,20 @@ Model type assigned (single or multiple) to you will be informed to you by your 
 1. Rule/ Penalty point/ penalty: One point broken one time is one count per time duration. Multiple penalty count if same point broken multiple times per time duration. Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6. Then on same day he put his name in code. Not total penalties are 7.
 
 #### Default reward (Model A)
-If rule breakage count is less than 3 in a week, you will get 5% of your base salary as bonus reward per for that week. E.g your salary is 10,000, you will get weekly 500 bonus.
+If rule breakage count is less than 3 in a week, you will get 5% of your base salary as bonus reward for that week. E.g your salary is 10,000, you will get weekly 500 bonus.
 
 #### Default penalty (Model A)
-If rule breakage count is more than or equal to 3 in a week, you will not get any kind of bonus in any plans or models, e.g but not limited to FIB.
+If rule breakage count is more than or equal to 3 in a week, you will not get any kind of bonus in this or any other plans or models, e.g but not limited to FIB.
 
 #### Default penalty (Model B)
 Penalty amount per penalty is 1% of your monthly salary. E.g if your salary is 10,000, penalty is 100.
 This is default amount unless penalty amount is provided differently in any rule).
+
+#### FIB reward / penalty (Model A)
+1. Mentioned in policy doc
+
+#### FIB reward (Model B)
+1. If you complete your weekly sprint targets on time and with accuracy/ desired quality, you will get 5% of your base salary as bonus reward for that week.
 
 #### Note for managers.
 If a manager knowingly does not reports (to management) a rule breakage by employee, he will pay 10 times of the penalty from his own pocket to the company.
