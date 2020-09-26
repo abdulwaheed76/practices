@@ -1229,6 +1229,7 @@ official first priority tutorials
 ### Git
 1. Pull request/ Merge request: https://youtu.be/uPt-bP_bKmQ
 1. Forking at github https://www.youtube.com/watch?v=nT8KGYVurIU
+1. Pull, push, commit with Forks https://youtu.be/J5xli-BmDzM
 1. Lynda Git Essential Training: The Basics with Kevin Skoglund
 
 ### Github
