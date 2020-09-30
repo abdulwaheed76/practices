@@ -1239,6 +1239,8 @@ official first priority tutorials
 ### Info gathering
 1. Project tool - Info gathering https://youtu.be/vt4ymkGjco8
 1. Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
+1. Project tool - gantt and stories https://youtu.be/wiq8lbz2RhE
+1. Project tool - task life cycle https://youtu.be/-0EH_lFeYBk
 
 ## Basics
 
