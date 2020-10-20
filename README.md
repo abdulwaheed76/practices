@@ -818,6 +818,10 @@ Do not repeat your self
 #### CPP 
 commit, pull, push in **same sequence**. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from default branch at least), then push (to your branch). E.g For a **team of X number of people, you should do it X times a day**. Ie in a team of 3 people, you should do this at least 3 times a day. 
 
+If you are using forks, then you should add `superorigin` of main repository by `git remote add superorigin urlOfab159abRepository_thatYouUsedToForkInTheFirstPlace`
+
+Then you should pull from there instead. e.g `git pull superorigin master`
+
 
 
 # Directory structure
