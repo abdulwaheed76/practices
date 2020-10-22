@@ -1180,6 +1180,8 @@ To be added soon
     "clsx": "1.*",
     "material-table": "^1.68.0",
     "moment": "^2.27.0",
+    react-alert": "^7.0.2",
+    "react-alert-template-basic
 ```
 
 # Tutorials
