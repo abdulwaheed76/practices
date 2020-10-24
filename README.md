@@ -196,6 +196,13 @@ Expertise in Linux is also a key important skill in the developers life which he
 1. There are many approaches in industry to make flow before coding e.g **UML** diagrams, test cases (where test cases are written before writing actual code (**TDD** test driven development)), or simply writing **empty functions/interfaces** etc.
 1. Some people may say, "**what if the code is likely or will change in future? is PR 1 useless?**". Well, no. If its likely to change at a greater percentage, it means the plan and structure initally made needed improvement. Secondly, if some of it will change anyway, the effort to make initial design should have given more advantage over the minor con/disadvantage (to just remove/change an empty function/file).
 
+##### PR 1 as full strategy
+Make empty function chain (one function calling another and that calling another etc) and make new files as well if needed.
+Note: Make PR 1 in such a way that you **would not have to create a new function or file in PR 2 version**.
+I.e all **functions and files should be ideally created in PR 1 in full to have full strategy**.
+
+PR 2 will only have implementation of that (filling empty functions with body etc). Assume, no new fucntions / files will be allowed in PR 2 to be made
+
 ##### Frontend example of PR 1
 It will include and a react app for example:
 1. All functions that ever would be needed (for example, but not limited to, routes, service, ajax call functions, alert, validation, on submit funnctions, util)
