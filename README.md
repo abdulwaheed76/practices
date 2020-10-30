@@ -953,9 +953,10 @@ tests
 
 
 # Configuring development environment
-#### CORS restrictions
+## CORS restrictions
 If you get CORS errors, you can install browser plugin (one called `allow cors` for chrome). You have to hit the big icon and make it colored to activate it.
-#### Localhost nginx config 
+
+## Localhost nginx config 
 
 Note: 
 1. Replace `projectName` with real project name
@@ -1011,9 +1012,8 @@ sudo service nginx restart
 ```
 
 # Tech notes
-## Backend
-### Node.js
-#### Knex transactions
+
+## Node.js Knex transactions
 Any database access objects DAOs should not be declared or called without trx.
 Sudo code:
 ```
@@ -1022,18 +1022,18 @@ try
      other code
      const v = await someDao(trx, param, param)
      other code2
-     const v2 = await some2Dao(trx, param, param)
+     const v2 = await someOtherDao(trx, param, param)
   });
 catch
 ```
 Related code and DAOs can be grouped in knex.transaction block. If code is not related, you can have multiple separate knex.transaction blocks isolated.
 
 # Online remote groups
-#### Noise due to group talk
+## Noise due to group talk
 If you feel theres **too much voice conversations** in remote group, you can **mute the volume** but you should **be alert for any chat messages**. If some one wants to talk to you, (s)he should ping you on chat. You should do the same.
-#### Stay connected all the time
+## Stay connected all the time
 You should stay connected to group collaboration software all the time
-#### Personal info
+## Personal info
 1. Sharing of any personal information or discussing anything not related to work/current tasks is treated as a miss conduct.
 1. Using any personal email, phone or contact in any platform, such as but limited to, github, collaboration, chat etc tools is treated as a miss conduct.
 
@@ -1053,20 +1053,20 @@ If anything is unclear for the day ahead, ask questions from manager. If all is 
 
 ## What to do at day end
 Do the followings in exact sequence
-#### Work and tickets complete
+## Work and tickets complete
 Make sure the work assigned to you for the day is complete. Take good care to make sure that the git PR, PM tool ticket fields and all required things are complete and accurate.
-#### Plan or ask questions
+## Plan or ask questions
 If anything is unclear for the next day, ask questions from manager. If all is clear, plan what to do next.
-#### Message manager
+## Message manager
 at least 1 hour to 45 minutes before signing off so (s)he can discuss things or collaborate with you if needed.
-#### Log sign out time
+## Log sign out time
 in attendance app if provided to you
 
-## Attendance
-#### Late sign-in
+# Attendance
+## Late sign-in
 You should not come late in any and all cases unless you have explicit permission to come late from your manager or HR for that day. Few resources might want to or had worked late in the last working day. This does not except them from coming on time on the next day.
 
-#### Early signout
+## Early signout
 Early signout is not allowed. If you do, you should spend that time in the next day in addition to the days time. If you think you have completed your tasks before dayend time, **a)** thinkg again and make sure they are fully completed **b)** if they are completed, ask for next tasks if project manager is available. If project manager is not available, start reading and understanding the next stories and tasks for future. 
 
 # Penalties and rewards
