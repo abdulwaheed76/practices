@@ -1,156 +1,75 @@
-- [Git](#git)
-      - [ssh keys](#ssh-keys)
-- [Node, npm](#node--npm)
-      - [nvm](#nvm)
-- [IDE](#ide)
-      - [Intellij idea](#intellij-idea)
-- [Operating system](#operating-system)
-      - [*ubuntu LTS](#-ubuntu-lts)
-      - [Windows (NOT preferred)](#windows--not-preferred-)
-- [Pull requests / merge requests](#pull-requests---merge-requests)
-  * [PR per feature](#pr-per-feature)
-      - [PR part 1](#pr-part-1)
-      - [PR part 2](#pr-part-2)
-      - [PR part 3](#pr-part-3)
-      - [Combined PR of multiple tickets](#combined-pr-of-multiple-tickets)
-  * [prerequisits of PR](#prerequisits-of-pr)
-      - [Create branch](#create-branch)
-      - [Pull from branch and master](#pull-from-branch-and-master)
-      - [CI](#ci)
-      - [linting](#linting)
-      - [Tests](#tests)
-      - [Self testing](#self-testing)
-      - [Release notes](#release-notes)
-      - [Peer review](#peer-review)
-      - [lead review](#lead-review)
-      - [Issues in PR](#issues-in-pr)
-      - [Close Old PR first](#close-old-pr-first)
-  * [Daily PRs routine](#daily-prs-routine)
-      - [One PR per day](#one-pr-per-day)
-      - [PR 2 after PR 1 approval only](#pr-2-after-pr-1-approval-only)
-      - [Early review](#early-review)
-      - [How to solve PR issues](#how-to-solve-pr-issues)
-- [QA Quality Assurance](#qa-quality-assurance)
-      - [No such thing](#no-such-thing)
-- [Naming conventions](#naming-conventions)
-      - [Git commit message](#git-commit-message)
-      - [Branch name](#branch-name)
-      - [PR title](#pr-title)
-      - [Function names](#function-names)
-      - [Variable names](#variable-names)
-      - [Css variable names](#css-variable-names)
-      - [Directory names](#directory-names)
-      - [Notes for names](#notes-for-names)
-- [Comments](#comments)
-  * [Code comments](#code-comments)
-      - [Commented code for later use](#commented-code-for-later-use)
-- [Docs](#docs)
-  * [API docs](#api-docs)
-  * [Code docs](#code-docs)
-- [Project management](#project-management)
-  * [Agile](#agile)
-      - [story points](#story-points)
-        * [Why can't we just start coding. Why spend so much time in plan?](#why-can-t-we-just-start-coding-why-spend-so-much-time-in-plan-)
-      - [stand up](#stand-up)
-      - [sprints](#sprints)
-      - [Ownership](#ownership)
-      - [Deviations](#deviations)
-      - [Timelines](#timelines)
-      - [I got late due to problems](#i-got-late-due-to-problems)
-      - [How can I improve estimate and execution](#how-can-i-improve-estimate-and-execution)
-    + [Change in requirements](#change-in-requirements)
-      - [I created something and it got changed. Why?](#i-created-something-and-it-got-changed-why-)
-      - [Ok but if it had to change, why did we do it like that in the first place?](#ok-but-if-it-had-to-change--why-did-we-do-it-like-that-in-the-first-place-)
-  * [Project management tool](#project-management-tool)
-      - [Task / issue types](#task---issue-types)
-      - [Task understanding](#task-understanding)
-      - [Execution](#execution)
-      - [Do it yourself](#do-it-yourself)
-      - [Priority](#priority)
-      - [How to see my tasks](#how-to-see-my-tasks)
-      - [Your work time](#your-work-time)
-  * [Estimation](#estimation)
-- [You](#you)
-  * [Who are our favourites? Top qualities?](#who-are-our-favourites--top-qualities-)
-- [Coding and development](#coding-and-development)
-  * [Getting things done](#getting-things-done)
-      - [Do only whats required](#do-only-whats-required)
-      - [Improvment](#improvment)
-      - [Smart done](#smart-done)
-      - [Definition of done](#definition-of-done)
-  * [Coding practices](#coding-practices)
-      - [libraries choice](#libraries-choice)
-      - [ES6+ over old](#es6--over-old)
-      - [TS over JS](#ts-over-js)
-      - [Tests](#tests-1)
-  * [Javascript](#javascript)
-      - [Never disable linting](#never-disable-linting)
-  * [Frontend](#frontend)
-      - [css over js](#css-over-js)
-        * [External cdn or other links](#external-cdn-or-other-links)
-      - [Images](#images)
-  * [Frontend react](#frontend-react)
-      - [One file per component](#one-file-per-component)
-- [Efficiency](#efficiency)
-      - [consistency](#consistency)
-      - [reusable and modular code](#reusable-and-modular-code)
-      - [CPP](#cpp)
-- [Directory structure](#directory-structure)
-    + [Frontend react based](#frontend-react-based)
-    + [Backend nodejs](#backend-nodejs)
-- [Configuring development environment](#configuring-development-environment)
-      - [CORS restrictions](#cors-restrictions)
-      - [Localhost nginx config](#localhost-nginx-config)
-- [Tech notes](#tech-notes)
-  * [Backend](#backend)
-    + [Node.js](#nodejs)
-      - [Knex transactions](#knex-transactions)
-- [Online remote groups](#online-remote-groups)
-      - [Noise due to group talk](#noise-due-to-group-talk)
-      - [Stay connected all the time](#stay-connected-all-the-time)
-      - [Personal info](#personal-info)
-- [Daily routine](#daily-routine)
-  * [What to do at day start](#what-to-do-at-day-start)
-      - [Log in start time](#log-in-start-time)
-      - [Message manager](#message-manager)
-      - [Keep communication app onn](#keep-communication-app-onn)
-      - [Refresh task list](#refresh-task-list)
-      - [Plan or ask questions](#plan-or-ask-questions)
-  * [What to do at day end](#what-to-do-at-day-end)
-      - [Work and tickets complete](#work-and-tickets-complete)
-      - [Plan or ask questions](#plan-or-ask-questions-1)
-      - [Message manager](#message-manager-1)
-      - [Log sign out time](#log-sign-out-time)
-  * [Attendance](#attendance)
-      - [Late sign-in](#late-sign-in)
-- [Tutorials](#tutorials)
-  * [Javascript Misc](#javascript-misc)
-    + [Recommended authors](#recommended-authors)
-  * [Backend Node.js](#backend-nodejs)
-    + [Node core](#node-core)
-    + [Testing / Jest](#testing---jest)
-  * [Frontent React](#frontent-react)
-    + [React core](#react-core)
-  * [Git / github](#git---github)
-    + [Git](#git-1)
-    + [Github](#github)
-  * [Project tool](#project-tool)
-    + [Info gathering](#info-gathering)
-  * [Basics](#basics)
-    + [Javascript core](#javascript-core)
-    + [Architecture for newbies](#architecture-for-newbies)
+# Table of contents
 
+- [Development Env Setup](#development-env-setup)
+  - [Git](#git)
+  - [Node, npm](#node-npm)
+  - [IDE](#ide)
+  - [Operating system](#operating-system)
+  - [Database Redis](#database-redis)
+  - [Database postgres](#database-postgres)
+- [Development process](#development-process)
+  - [Pull requests / merge requests](#pull-requests--merge-requests)
+  - [Daily PRs routine](#daily-prs-routine)
+  - [Pull request / merge request model B](#pull-request--merge-request-model-b)
+  - [Tests](#tests)
+  - [Documentation](#documentation)
+  - [API docs](#api-docs)
+  - [Code docs](#code-docs)
+- [Post development](#post-development)
+  - [Release notes](#release-notes)
+  - [Peer review](#peer-review)
+  - [lead review](#lead-review)
+- [QA Quality Assurance](#qa-quality-assurance)
+- [Development guidlines](#development-guidlines)
+  - [Naming conventions](#naming-conventions)
+  - [Comments](#comments)
+  - [Code comments](#code-comments)
+- [Project management](#project-management)
+  - [Agile](#agile)
+  - [Project management tool](#project-management-tool)
+- [Estimation](#estimation)
+- [You](#you)
+  - [Who are our favourites? Top qualities?](#who-are-our-favourites-top-qualities)
+- [Execution](#execution)
+  - [Getting things done](#getting-things-done)
+  - [Coding practices](#coding-practices)
+  - [Javascript](#javascript)
+  - [Frontend](#frontend)
+  - [Frontend react](#frontend-react)
+- [Efficiency](#efficiency)
+- [Directory structure](#directory-structure)
+- [Configuring development environment](#configuring-development-environment)
+- [Tech notes](#tech-notes)
+  - [Backend](#backend)
+- [Online remote groups](#online-remote-groups)
+- [Daily routine](#daily-routine)
+  - [What to do at day start](#what-to-do-at-day-start)
+  - [What to do at day end](#what-to-do-at-day-end)
+  - [Attendance](#attendance)
+- [Penalties and rewards](#penalties-and-rewards)
+  - [Code reviews](#code-reviews)
+  - [Routine](#routine)
+- [List of libs/framework approved for PR 2/3](#list-of-libsframework-approved-for-pr-23)
+- [Tutorials](#tutorials)
+  - [Javascript Misc](#javascript-misc)
+  - [Backend Node.js](#backend-nodejs)
+  - [Frontent React](#frontent-react)
+  - [Git / github](#git--github)
+  - [Project tool](#project-tool)
+  - [Basics](#basics)
+
+https://luciopaiva.com/markdown-toc/
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
-
-# Git
+# Development Env Setup
+## Git
 #### ssh keys
 add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm. https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
-# Node, npm
+## Node, npm
 #### nvm
 Do not install node by any other means but only use nvm. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm and https://github.com/nvm-sh/nvm#usage  (go for the latest LTS node version)
 
@@ -158,7 +77,7 @@ For windows: https://github.com/coreybutler/nvm-windows
 
 
 
-# IDE
+## IDE
 #### Intellij idea
 We encourage intellij idea **Ultimate edition** (very preferred). If you do not have the license, then **at least community edition**. If you do not have the **hardware resources**, you should get them to run intellij. If not, the last case (not preferred) is **vscode**.
 
@@ -166,7 +85,7 @@ Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened** wit
 
 
 
-# Operating system
+## Operating system
 #### *ubuntu LTS
 (**ONLY LTS**) versions are preferred
 1. **Kubuntu** (with k) If you have 16G plus ram and a quadcore and ok to invest system resources on beauty and features. LTS. https://kubuntu.com
@@ -184,9 +103,29 @@ You should try your **best** not to use windows but linux for develoment as it w
 
 Expertise in Linux is also a key important skill in the developers life which he would face the need for any way.
 
+## Database Redis
+On Ubuntu its simple to do `sudo apt install redis-server`. On windows its hard to find a clean setup. Ask you manager for download file if you are unable to find one in 5-10 minutes.
 
-# Pull requests / merge requests
-## PR per feature
+## Database postgres
+On ubuntu, use the following commands
+```
+sudo apt install postgresql
+sudo -u postgres psql;
+create database mydb;
+create user myuser with encrypted password 'mypass';
+grant all privileges on database mydb to myuser;
+\c mydb;
+CREATE EXTENSION "uuid-ossp";
+
+```
+`mydb,myuser,mypass` etc should be replaced with the credentials and details given in your project config file. See your config file to create matching datbase and user/pass.
+
+For windows, visit https://www.postgresql.org/download/ and download pgadmin as well.
+You should search youtube on how to create database, user, set password in pgadmin/postgres.
+
+# Development process
+## Pull requests / merge requests
+### PR per feature
 1. A feature should be divided into following **main parts/categories** and all PRs should be passed step by step. 
 1. There can be more PRs than the below stated but these are the minimum and more sort of **broad categories**. 
 1. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should **not work/extend code based on same/previous PR functionality, until the first PR is merged/approved**. This is because if there are issues in the intial PR, then the extended code based on that intial PR code will also have issues and consume more and more time. Same philosophy applies to PR categories. E.g do not go to category 2 unless 1 is approved.
@@ -237,7 +176,7 @@ This would be **final PR** and will also make sure that other parts of **applica
 #### Combined PR of multiple tickets
 PR 1 and PR 3 for multiple tickets and stories can be combined in one PR but PR 2 for each story should be separate. As PR 3 usually at the end of multiple stories or full project and may cover multiple stories/tickets and PR 1 is simple and small structure and can also be made for multiple stories/tickets.
 
-## prerequisits of PR
+### prerequisits of PR
 In order to get your code merged in daily-stable-master branch (for PR 1 and PR 2), you need to do the following. **Do not make a PR Pull request without the following first done**.
 #### Create a fork and branch
 Create a fork from original repository into your own company account, then clone your project git repository locally (by default the main default branch will be daily-stable-master). Create a new branch from it (the main default branch). Start coding in it.
@@ -253,12 +192,54 @@ We do **contineuous integration (CI)** on github. **Make sure all checks are pas
 #### linting
 One of the CI steps is linting. You can **autofix** with npm scripts in package.json and then manually test for any lint errors before making a Pull request. **Manually fix** if something is not autofixed. As a side note, observe autofixed syntax and learn from it.
 
-#### Tests
+### Issues in PR
+If there are any issues in PR, they should be replied/typed in reply text box as fixed or replied to the question or a comment. Ultimately **all issues should be marked as resolved by the issue creater by clicking the resolve button**. The developer / PR creater should not press this button but only the issue creater should.
+
+### Close Old PR first
+Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
+## Daily PRs routine
+
+### One PR per day
+There should be one PR per day (which is consisting of all PR part 1 + PR part 2). The PR should have a complete functionality including test code. **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
+
+See [getting-things-done](#getting-things-done) for more information
+
+### PR 2 after PR 1 approval only
+Do not move to PR 2 or code anything for it if PR 1 is not approved. If you wait for the reviewer, you can do other tasks and PRs but do not move to PR 2 if PR 1 is not approved
+
+### Early review
+We emphasis on early review rather than complete all and get it reviewed after that. e.g you make an app of 10 things / steps.
+
+If you had made a mistake at step 2, then all steps from 2-10 might get influenced to be in the wrong direction. 
+
+In thise case, if review is done at step 10 (completion of app), then it would be a "too late to find" senario and all/ most of 2-10 steps might need a refactor.
+
+Whereas if the review on each step (2 in this case), only 2 will be corrected and later steps will be aligned to it.
+
+The later is safer, more efficient, more time saving, needs lesser effort as a whole, gives more certainty and many other benefits.
+
+### How to solve PR issues
+When an issue in PR is created, it should be fixed, code pushed, and a comment should be given in reply to the issue. A simplest comment can be 'Fixed'. Then the creater of the issue should resolve the issue by hiting  the resolve button. Not the developer. When all issues are resolved, PR can be merged.
+
+## Pull request / merge request model B
+This is an alternative and discretion of manager to adapt for projects. In model B
+1. Developer will create PR on github but Github will not be used for issue creation. Instead, reviewer will type issues inside code with signature, commit and push e.g `// {ABC}:PRI text here`. And developer will respond below this line after changing code like this `// {CDE}: text here`. Commit and push. 
+1. Once the code changes, conversation like this ends, the manager will cut and paste this conversation at the end of file. And approve PR after changing `// {ABC}:PRI` to `// {ABC}:PRRI`. Cuting and pasting at bottom like this means issue is accepted as resolved.
+1. For commenting, you can use simple abbreviations like `// {ABC}: text here`
+1. This will keep a record of all PR issues at end of each file.
+1. Abbreviations to note here are
+      1. {ABC} or {CDE} - Name abreviation. E.g John Corner is JOC. You should set one signature and be consistend on it.
+      1. PRI - Pull request issue
+      1. PRRI - Pull request resolved issue.
+1. These issues can be referenced during and after the PR by searching `}:PRI` or `}:PRRI`
+1. The `/* */` can be used instead of `//` for multi line comments if needed.
+
+## Tests
 If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them. In most cases, integration tests are mandatory. Do not forget to ask from your manager.
 
 Following are the default coverages if not overriden by manager.
 
-##### Tools to use only
+#### Tools to use only for tests
 1. Jest
 1. React-testing-library
 1. ~~Enzyme~~-- (not permitted to use for now. Use React-testing-library)
@@ -358,14 +339,10 @@ jestconfig.js
 #### Self testing
 All functionality should be tested before making a PR (self testing). Run and **test the functionality yourself first**.
 
-#### Release notes
-All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference or at least what approach did you took to complete the task. This will have some **information that is not available in story points**. e.g any library used and why preferred, flow of code, technical precautions etc. This is very brief usually from **25 words to 100 words max**. Few example:
-1. Had to convert .ai to .svg via 'outline conversion' ref https://somesite.com else text in svg gets distorted.
-1. Preferring XYZ lib as ABC is deprecated (or has DEF issues) or GHI security concerns.
-1. Using http v2 due to tons of advantages (list or provide link)
-1. Pending things
 
-##### Process flow 
+## Documentation
+
+### Process flow 
 Process flow should be in text form as DOT files ( https://en.wikipedia.org/wiki/DOT_(graph_description_language) ) and part of git. One of the reason is that git can show diffs and changes better than changes in diagrams.
 
 Sample:
@@ -503,54 +480,27 @@ digraph G {
 }
 ```
 
+## API docs
+To be continued
+## Code docs
+To be continued
 
-#### Peer review
+# Post development
+
+## Release notes
+All PRs should have release notes about the functionality you made in that PR. It should briefly describe about the business flow, technical flow, any third party lib used and reason for its preference or at least what approach did you took to complete the task. This will have some **information that is not available in story points**. e.g any library used and why preferred, flow of code, technical precautions etc. This is very brief usually from **25 words to 100 words max**. Few example:
+1. Had to convert .ai to .svg via 'outline conversion' ref https://somesite.com else text in svg gets distorted.
+1. Preferring XYZ lib as ABC is deprecated (or has DEF issues) or GHI security concerns.
+1. Using http v2 due to tons of advantages (list or provide link)
+1. Pending things
+## Peer review
 Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
 
-#### lead review
-Next step is the have a final review by lead / manager
+## lead review
+Next step is the have a final review by lead / manager.
+Each lead / managers / reviewer should add a comment of approval or reject at the end of review so that the final reviewer can decide to merge the PR finally.
 
-#### Issues in PR
-If there are any issues in PR, they should be replied/typed in reply text box as fixed or replied to the question or a comment. Ultimately **all issues should be marked as resolved by the issue creater by clicking the resolve button**. The developer / PR creater should not press this button but only the issue creater should.
 
-#### Close Old PR first
-Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
-## Daily PRs routine
-
-#### One PR per day
-There should be one PR per day (which is consisting of all PR part 1 + PR part 2). The PR should have a complete functionality including test code. **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
-
-See [getting-things-done](#getting-things-done) for more information
-
-#### PR 2 after PR 1 approval only
-Do not move to PR 2 or code anything for it if PR 1 is not approved. If you wait for the reviewer, you can do other tasks and PRs but do not move to PR 2 if PR 1 is not approved
-
-#### Early review
-We emphasis on early review rather than complete all and get it reviewed after that. e.g you make an app of 10 things / steps.
-
-If you had made a mistake at step 2, then all steps from 2-10 might get influenced to be in the wrong direction. 
-
-In thise case, if review is done at step 10 (completion of app), then it would be a "too late to find" senario and all/ most of 2-10 steps might need a refactor.
-
-Whereas if the review on each step (2 in this case), only 2 will be corrected and later steps will be aligned to it.
-
-The later is safer, more efficient, more time saving, needs lesser effort as a whole, gives more certainty and many other benefits.
-
-#### How to solve PR issues
-When an issue in PR is created, it should be fixed, code pushed, and a comment should be given in reply to the issue. A simplest comment can be 'Fixed'. Then the creater of the issue should resolve the issue by hiting  the resolve button. Not the developer. When all issues are resolved, PR can be merged.
-
-# Pull request / merge request model B
-This is an alternative and discretion of manager to adapt for projects. In model B
-1. Developer will create PR on github but Github will not be used for issue creation. Instead, reviewer will type issues inside code with signature, commit and push e.g `// {ABC}:PRI text here`. And developer will respond below this line after changing code like this `// {CDE}: text here`. Commit and push. 
-1. Once the code changes, conversation like this ends, the manager will cut and paste this conversation at the end of file. And approve PR after changing `// {ABC}:PRI` to `// {ABC}:PRRI`. Cuting and pasting at bottom like this means issue is accepted as resolved.
-1. For commenting, you can use simple abbreviations like `// {ABC}: text here`
-1. This will keep a record of all PR issues at end of each file.
-1. Abbreviations to note here are
-      1. {ABC} or {CDE} - Name abreviation. E.g John Corner is JOC. You should set one signature and be consistend on it.
-      1. PRI - Pull request issue
-      1. PRRI - Pull request resolved issue.
-1. These issues can be referenced during and after the PR by searching `}:PRI` or `}:PRRI`
-1. The `/* */` can be used instead of `//` for multi line comments if needed.
 
 # QA Quality Assurance
 #### No such thing
@@ -558,7 +508,8 @@ This is an alternative and discretion of manager to adapt for projects. In model
 1. It is **not normal, implicit or casual to assume there there will be bugs and someone will find those and report back to you**. Actually the qualities of a **good developer** is that (s)he understands requirements and checks his code and functionality well enough before declaring those as complete.
 1. The peer review mentioned above in git PRs is only for improvements. Do not ever rely on those or expect that someone will spoon feed you about your mistakes. Mistakes are deficiencies those should be minimized rather being casual about them.
 
-# Naming conventions
+#Development guidlines
+## Naming conventions
 This can be best informed by the following examples. If you are not following these, your PR may get rejected on just the naming conventions. Clear and self explanatory names are critical and save people from a lot of frustration.
 #### Git commit message
 1. add backend min char check on password - login page
@@ -581,16 +532,11 @@ This can be best informed by the following examples. If you are not following th
 #### Notes for names
 1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
 
-# Comments
+## Comments
 ## Code comments
 #### Commented code for later use
 If unused commented code is present and developer needs it for future reference, move it to the bottom most of file.
 
-# Docs
-## API docs
-To be continued
-## Code docs
-To be continued
 
 
 
@@ -692,7 +638,7 @@ Of course, start a the tasks with most highest priority first.
 #### Your work time
 1. Each day, the total estimated time of tickets done by you should be equal to the daily work time expected from you. The ticket estimated time is entered by project manager and is viewable in the field "Estimated time" in each ticket.
 
-## Estimation
+# Estimation
 1. Estimation is the process of understanding the requirements first.
 1. Then coming up with an action plan (tools, libraries, frameworks, process and so on with a long list of connected things).
 1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
@@ -771,7 +717,7 @@ Weighed according to numbers below
 1. Your experience
 1. Your qualification
 
-# Coding and development
+# Execution
 
 ## Getting things done
 
@@ -791,6 +737,8 @@ If you have only one thing, divide it into parts. Do those parts one by one, eac
 
 #### Definition of done
 Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
+
+---------------------------------
 ## Coding practices
 #### libraries choice
 You should have very good reasons to choose a library. In most of the cases, you should **ask lead before choosing a library**.
