@@ -8,9 +8,6 @@
   - [Database Redis](#database-redis)
   - [Database postgres](#database-postgres)
 - [Development process](#development-process)
-  - [Pull requests / merge requests](#pull-requests--merge-requests)
-  - [Daily PRs routine](#daily-prs-routine)
-  - [Pull request / merge request model B](#pull-request--merge-request-model-b)
   - [Tests](#tests)
   - [Documentation](#documentation)
   - [API docs](#api-docs)
@@ -19,25 +16,64 @@
   - [Release notes](#release-notes)
   - [Peer review](#peer-review)
   - [lead review](#lead-review)
+  - [Pull requests / merge requests](#pull-requests--merge-requests)
+  - [Daily PRs routine](#daily-prs-routine)
+  - [Pull request / merge request model B](#pull-request--merge-request-model-b)
 - [QA Quality Assurance](#qa-quality-assurance)
-- [Development guidlines](#development-guidlines)
+- [Development process](#development-process)
+  - [CPP - commit, pull, push](#cpp---commit-pull-push)
   - [Naming conventions](#naming-conventions)
+  - [Git commit message](#git-commit-message)
+  - [Branch name](#branch-name)
+  - [PR title](#pr-title)
+  - [Function names](#function-names)
+  - [Variable names](#variable-names)
+  - [Css variable names](#css-variable-names)
+  - [Directory names](#directory-names)
+  - [Notes for names](#notes-for-names)
   - [Comments](#comments)
   - [Code comments](#code-comments)
 - [Project management](#project-management)
   - [Agile](#agile)
-  - [Project management tool](#project-management-tool)
-- [Estimation](#estimation)
+- [Work and self management](#work-and-self-management)
+  - [Ownership](#ownership)
+  - [Deviations](#deviations)
+  - [Timelines](#timelines)
+  - [I got late due to problems](#i-got-late-due-to-problems)
+  - [Change in requirements](#change-in-requirements)
+  - [Getting things done](#getting-things-done)
+  - [Do only whats required](#do-only-whats-required)
+  - [Improvment in steps](#improvment-in-steps)
+  - [Smart done](#smart-done)
+  - [Definition of done](#definition-of-done)
 - [You](#you)
   - [Who are our favourites? Top qualities?](#who-are-our-favourites-top-qualities)
-- [Execution](#execution)
-  - [Getting things done](#getting-things-done)
-  - [Coding practices](#coding-practices)
+- [Project management tool](#project-management-tool)
+  - [Task / issue types](#task--issue-types)
+  - [Task understanding](#task-understanding)
+  - [Execution in PM tool](#execution-in-pm-tool)
+  - [Do it yourself](#do-it-yourself)
+  - [Priority](#priority)
+  - [How to see my tasks](#how-to-see-my-tasks)
+  - [Your work time](#your-work-time)
+- [Estimations and requirement gathering](#estimations-and-requirement-gathering)
+  - [How can I improve estimate and execution](#how-can-i-improve-estimate-and-execution)
+  - [What is estimation](#what-is-estimation)
+  - [Sample estimation](#sample-estimation)
+  - [Finalize understanding first](#finalize-understanding-first)
+  - [Nothing is missing but I don't know estimates.](#nothing-is-missing-but-i-dont-know-estimates)
+  - [Your duty to clear up requirments](#your-duty-to-clear-up-requirments)
+  - [Correct estimation - examplary](#correct-estimation---examplary)
+  - [What happenes if estimates do not match outcome](#what-happenes-if-estimates-do-not-match-outcome)
+- [Coding practices](#coding-practices)
+  - [libraries choice](#libraries-choice)
+  - [TS over JS](#ts-over-js)
   - [Javascript](#javascript)
   - [Frontend](#frontend)
   - [Frontend react](#frontend-react)
-- [Efficiency](#efficiency)
-- [Directory structure](#directory-structure)
+  - [Code Efficiency](#code-efficiency)
+  - [Directory structure](#directory-structure)
+  - [```](#)
 - [Configuring development environment](#configuring-development-environment)
 - [Tech notes](#tech-notes)
   - [Backend](#backend)
@@ -104,7 +140,7 @@ You should try your **best** not to use windows but linux for develoment as it w
 Expertise in Linux is also a key important skill in the developers life which he would face the need for any way.
 
 ## Database Redis
-On Ubuntu its simple to do `sudo apt install redis-server`. On windows its hard to find a clean setup. Ask you manager for download file if you are unable to find one in 5-10 minutes.
+On Ubuntu its simple to do `sudo apt install redis-server`. On windows its hard to find a clean setup. Ask you manager for download file if you are unable to find one in 5-10 minutes. As of November 2020, `https://redis.io/download` does not have redis for windows available.
 
 ## Database postgres
 On ubuntu, use the following commands
@@ -124,115 +160,7 @@ For windows, visit https://www.postgresql.org/download/ and download pgadmin as 
 You should search youtube on how to create database, user, set password in pgadmin/postgres.
 
 # Development process
-## Pull requests / merge requests
-### PR per feature
-1. A feature should be divided into following **main parts/categories** and all PRs should be passed step by step. 
-1. There can be more PRs than the below stated but these are the minimum and more sort of **broad categories**. 
-1. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should **not work/extend code based on same/previous PR functionality, until the first PR is merged/approved**. This is because if there are issues in the intial PR, then the extended code based on that intial PR code will also have issues and consume more and more time. Same philosophy applies to PR categories. E.g do not go to category 2 unless 1 is approved.
-1. You should work on some other feature/project during wait time.
-#### PR part 1
-1. First PR should have all the possible **flow/achitecture with directories, files and empty functions** with //TODO comments and pseudo code inside (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
-1. There are many approaches in industry to make flow before coding e.g **UML** diagrams, test cases (where test cases are written before writing actual code (**TDD** test driven development)), or simply writing **empty functions/interfaces** etc.
-1. Some people may say, "**what if the code is likely or will change in future? is PR 1 useless?**". Well, no. If its likely to change at a greater percentage, it means the plan and structure initally made needed improvement. Secondly, if some of it will change anyway, the effort to make initial design should have given more advantage over the minor con/disadvantage (to just remove/change an empty function/file).
 
-##### PR 1 as full strategy
-Make empty function chain (one function calling another and that calling another etc) and make new files as well if needed.
-Note: Make PR 1 in such a way that you **would not have to create a new function or file in PR 2 version**.
-I.e all **functions and files should be ideally created in PR 1 in full to have full strategy**.
-
-PR 2 will only have implementation of that (filling empty functions with body etc). Assume, no new fucntions / files will be allowed in PR 2 to be made
-
-##### Frontend example of PR 1
-It will include and a react app for example:
-1. All functions that ever would be needed (for example, but not limited to, routes, service, ajax call functions, alert, validation, on submit funnctions, util)
-1. All components that ever would be needed
-      1. Each component will have a body of sketchy html with no css styles. This is to have a viewable sketchy layout to be understood by the person that will do PR 2. This will be more like a wireframe. The app should run with working routes and sketchy structure of html/components viewable in browser.
-      1. Each component will call child components as well.
-1. Choice of libraries /frameworks and imports / configs of same
-
-##### Backend example of PR 1
-1. All functions tha ever would be needed but with no implementation code with all child components but no implementation.
-1. Choice of libraries /frameworks and imports / configs of same
-
-Notes: Example of child components hierarchy but with no implmentation is
-```
-doSomeParent(){doSomeChild1(); someOtheCode; someLibCalls;}
-doSomeChild1(){doSomeChild2(); someOtherPseudoCodeMaybe;} // to make a flow for PR 2 person to understand and implement
-doSomeChild2(){/* implementation in PR 2 only */}
-```
-#### PR part 2
-Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project).
-
-##### Frontend example of PR 2
-1. All css styling
-1. Implementation of everything. E.g but not limited to functions, components, ajax calls, alerts, etc. If PR 1 was made correctly, there should be no need to create any new functions/classes/items in PR 2. Just implementation would be needed.
-
-##### Backend example of PR 2
-1. Implementation of everything. If PR 1 was made correctly, there should be no need to create any new functions/classes/items in PR 2. Just implementation would be needed.
-
-#### PR part 3
-This would be **final PR** and will also make sure that other parts of **application work in harmony** with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
-
-#### Combined PR of multiple tickets
-PR 1 and PR 3 for multiple tickets and stories can be combined in one PR but PR 2 for each story should be separate. As PR 3 usually at the end of multiple stories or full project and may cover multiple stories/tickets and PR 1 is simple and small structure and can also be made for multiple stories/tickets.
-
-### prerequisits of PR
-In order to get your code merged in daily-stable-master branch (for PR 1 and PR 2), you need to do the following. **Do not make a PR Pull request without the following first done**.
-#### Create a fork and branch
-Create a fork from original repository into your own company account, then clone your project git repository locally (by default the main default branch will be daily-stable-master). Create a new branch from it (the main default branch). Start coding in it.
-
-It is to note that PR 3 is a separate process of merging daily-stable-master branch into master branch at major releases. Usually done by leads.
-
-You may see tutorials at bottom about forking and PRs
-
-#### Pull from branch and default branch
-Before pushing code for PR, make sure you have done CPP (commit(in your branch), pull (from your branch if others are working on it too. If not, then simply from default branch), push (to your branch))
-#### CI
-We do **contineuous integration (CI)** on github. **Make sure all checks are passed** and its a green tick with your pull request and commits.
-#### linting
-One of the CI steps is linting. You can **autofix** with npm scripts in package.json and then manually test for any lint errors before making a Pull request. **Manually fix** if something is not autofixed. As a side note, observe autofixed syntax and learn from it.
-
-### Issues in PR
-If there are any issues in PR, they should be replied/typed in reply text box as fixed or replied to the question or a comment. Ultimately **all issues should be marked as resolved by the issue creater by clicking the resolve button**. The developer / PR creater should not press this button but only the issue creater should.
-
-### Close Old PR first
-Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
-## Daily PRs routine
-
-### One PR per day
-There should be one PR per day (which is consisting of all PR part 1 + PR part 2). The PR should have a complete functionality including test code. **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
-
-See [getting-things-done](#getting-things-done) for more information
-
-### PR 2 after PR 1 approval only
-Do not move to PR 2 or code anything for it if PR 1 is not approved. If you wait for the reviewer, you can do other tasks and PRs but do not move to PR 2 if PR 1 is not approved
-
-### Early review
-We emphasis on early review rather than complete all and get it reviewed after that. e.g you make an app of 10 things / steps.
-
-If you had made a mistake at step 2, then all steps from 2-10 might get influenced to be in the wrong direction. 
-
-In thise case, if review is done at step 10 (completion of app), then it would be a "too late to find" senario and all/ most of 2-10 steps might need a refactor.
-
-Whereas if the review on each step (2 in this case), only 2 will be corrected and later steps will be aligned to it.
-
-The later is safer, more efficient, more time saving, needs lesser effort as a whole, gives more certainty and many other benefits.
-
-### How to solve PR issues
-When an issue in PR is created, it should be fixed, code pushed, and a comment should be given in reply to the issue. A simplest comment can be 'Fixed'. Then the creater of the issue should resolve the issue by hiting  the resolve button. Not the developer. When all issues are resolved, PR can be merged.
-
-## Pull request / merge request model B
-This is an alternative and discretion of manager to adapt for projects. In model B
-1. Developer will create PR on github but Github will not be used for issue creation. Instead, reviewer will type issues inside code with signature, commit and push e.g `// {ABC}:PRI text here`. And developer will respond below this line after changing code like this `// {CDE}: text here`. Commit and push. 
-1. Once the code changes, conversation like this ends, the manager will cut and paste this conversation at the end of file. And approve PR after changing `// {ABC}:PRI` to `// {ABC}:PRRI`. Cuting and pasting at bottom like this means issue is accepted as resolved.
-1. For commenting, you can use simple abbreviations like `// {ABC}: text here`
-1. This will keep a record of all PR issues at end of each file.
-1. Abbreviations to note here are
-      1. {ABC} or {CDE} - Name abreviation. E.g John Corner is JOC. You should set one signature and be consistend on it.
-      1. PRI - Pull request issue
-      1. PRRI - Pull request resolved issue.
-1. These issues can be referenced during and after the PR by searching `}:PRI` or `}:PRRI`
-1. The `/* */` can be used instead of `//` for multi line comments if needed.
 
 ## Tests
 If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them. In most cases, integration tests are mandatory. Do not forget to ask from your manager.
@@ -500,7 +428,115 @@ Next step is to have a peer review. (Peer should switch to branch, pull, check m
 Next step is the have a final review by lead / manager.
 Each lead / managers / reviewer should add a comment of approval or reject at the end of review so that the final reviewer can decide to merge the PR finally.
 
+## Pull requests / merge requests
+### PR per feature
+1. A feature should be divided into following **main parts/categories** and all PRs should be passed step by step. 
+1. There can be more PRs than the below stated but these are the minimum and more sort of **broad categories**. 
+1. Developer should write the `category number` in PR title. E.g `login page PR category #1`. Developer should **not work/extend code based on same/previous PR functionality, until the first PR is merged/approved**. This is because if there are issues in the intial PR, then the extended code based on that intial PR code will also have issues and consume more and more time. Same philosophy applies to PR categories. E.g do not go to category 2 unless 1 is approved.
+1. You should work on some other feature/project during wait time.
+#### PR part 1
+1. First PR should have all the possible **flow/achitecture with directories, files and empty functions** with //TODO comments and pseudo code inside (and interfaces if Typescript is used). This will tell the approace of the the developer, will help the developer envision the big picture/process/strategy. It will also get the code flow review at a much earlier stage and will eliminate gaps in expectations far ahead of time.
+1. There are many approaches in industry to make flow before coding e.g **UML** diagrams, test cases (where test cases are written before writing actual code (**TDD** test driven development)), or simply writing **empty functions/interfaces** etc.
+1. Some people may say, "**what if the code is likely or will change in future? is PR 1 useless?**". Well, no. If its likely to change at a greater percentage, it means the plan and structure initally made needed improvement. Secondly, if some of it will change anyway, the effort to make initial design should have given more advantage over the minor con/disadvantage (to just remove/change an empty function/file).
 
+##### PR 1 as full strategy
+Make empty function chain (one function calling another and that calling another etc) and make new files as well if needed.
+Note: Make PR 1 in such a way that you **would not have to create a new function or file in PR 2 version**.
+I.e all **functions and files should be ideally created in PR 1 in full to have full strategy**.
+
+PR 2 will only have implementation of that (filling empty functions with body etc). Assume, no new fucntions / files will be allowed in PR 2 to be made
+
+##### Frontend example of PR 1
+It will include and a react app for example:
+1. All functions that ever would be needed (for example, but not limited to, routes, service, ajax call functions, alert, validation, on submit funnctions, util)
+1. All components that ever would be needed
+      1. Each component will have a body of sketchy html with no css styles. This is to have a viewable sketchy layout to be understood by the person that will do PR 2. This will be more like a wireframe. The app should run with working routes and sketchy structure of html/components viewable in browser.
+      1. Each component will call child components as well.
+1. Choice of libraries /frameworks and imports / configs of same
+
+##### Backend example of PR 1
+1. All functions tha ever would be needed but with no implementation code with all child components but no implementation.
+1. Choice of libraries /frameworks and imports / configs of same
+
+Notes: Example of child components hierarchy but with no implmentation is
+```
+doSomeParent(){doSomeChild1(); someOtheCode; someLibCalls;}
+doSomeChild1(){doSomeChild2(); someOtherPseudoCodeMaybe;} // to make a flow for PR 2 person to understand and implement
+doSomeChild2(){/* implementation in PR 2 only */}
+```
+#### PR part 2
+Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project).
+
+##### Frontend example of PR 2
+1. All css styling
+1. Implementation of everything. E.g but not limited to functions, components, ajax calls, alerts, etc. If PR 1 was made correctly, there should be no need to create any new functions/classes/items in PR 2. Just implementation would be needed.
+
+##### Backend example of PR 2
+1. Implementation of everything. If PR 1 was made correctly, there should be no need to create any new functions/classes/items in PR 2. Just implementation would be needed.
+
+#### PR part 3
+This would be **final PR** and will also make sure that other parts of **application work in harmony** with the current task. If integration tests and/or automation tests are enforced in the project, this PR should have those too).
+
+#### Combined PR of multiple tickets
+PR 1 and PR 3 for multiple tickets and stories can be combined in one PR but PR 2 for each story should be separate. As PR 3 usually at the end of multiple stories or full project and may cover multiple stories/tickets and PR 1 is simple and small structure and can also be made for multiple stories/tickets.
+
+### prerequisits of PR
+In order to get your code merged in daily-stable-master branch (for PR 1 and PR 2), you need to do the following. **Do not make a PR Pull request without the following first done**.
+#### Create a fork and branch
+Create a fork from original repository into your own company account, then clone your project git repository locally (by default the main default branch will be daily-stable-master). Create a new branch from it (the main default branch). Start coding in it.
+
+It is to note that PR 3 is a separate process of merging daily-stable-master branch into master branch at major releases. Usually done by leads.
+
+You may see tutorials at bottom about forking and PRs
+
+#### Pull from branch and default branch
+Before pushing code for PR, make sure you have done CPP (commit(in your branch), pull (from your branch if others are working on it too. If not, then simply from default branch), push (to your branch))
+#### CI
+We do **contineuous integration (CI)** on github. **Make sure all checks are passed** and its a green tick with your pull request and commits.
+#### linting
+One of the CI steps is linting. You can **autofix** with npm scripts in package.json and then manually test for any lint errors before making a Pull request. **Manually fix** if something is not autofixed. As a side note, observe autofixed syntax and learn from it.
+
+### Issues in PR
+If there are any issues in PR, they should be replied/typed in reply text box as fixed or replied to the question or a comment. Ultimately **all issues should be marked as resolved by the issue creater by clicking the resolve button**. The developer / PR creater should not press this button but only the issue creater should.
+
+### Close Old PR first
+Always try best to close, finalize and **get old pull/merge requests first** before proceeding to new ones.
+## Daily PRs routine
+
+### One PR per day
+There should be one PR per day (which is consisting of all PR part 1 + PR part 2). The PR should have a complete functionality including test code. **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
+
+See [getting-things-done](#getting-things-done) for more information
+
+### PR 2 after PR 1 approval only
+Do not move to PR 2 or code anything for it if PR 1 is not approved. If you wait for the reviewer, you can do other tasks and PRs but do not move to PR 2 if PR 1 is not approved
+
+### Early review
+We emphasis on early review rather than complete all and get it reviewed after that. e.g you make an app of 10 things / steps.
+
+If you had made a mistake at step 2, then all steps from 2-10 might get influenced to be in the wrong direction. 
+
+In thise case, if review is done at step 10 (completion of app), then it would be a "too late to find" senario and all/ most of 2-10 steps might need a refactor.
+
+Whereas if the review on each step (2 in this case), only 2 will be corrected and later steps will be aligned to it.
+
+The later is safer, more efficient, more time saving, needs lesser effort as a whole, gives more certainty and many other benefits.
+
+### How to solve PR issues
+When an issue in PR is created, it should be fixed, code pushed, and a comment should be given in reply to the issue. A simplest comment can be 'Fixed'. Then the creater of the issue should resolve the issue by hiting  the resolve button. Not the developer. When all issues are resolved, PR can be merged.
+
+## Pull request / merge request model B
+This is an alternative and discretion of manager to adapt for projects. In model B
+1. Developer will create PR on github but Github will not be used for issue creation. Instead, reviewer will type issues inside code with signature, commit and push e.g `// {ABC}:PRI text here`. And developer will respond below this line after changing code like this `// {CDE}: text here`. Commit and push. 
+1. Once the code changes, conversation like this ends, the manager will cut and paste this conversation at the end of file. And approve PR after changing `// {ABC}:PRI` to `// {ABC}:PRRI`. Cuting and pasting at bottom like this means issue is accepted as resolved.
+1. For commenting, you can use simple abbreviations like `// {ABC}: text here`
+1. This will keep a record of all PR issues at end of each file.
+1. Abbreviations to note here are
+      1. {ABC} or {CDE} - Name abreviation. E.g John Corner is JOC. You should set one signature and be consistend on it.
+      1. PRI - Pull request issue
+      1. PRRI - Pull request resolved issue.
+1. These issues can be referenced during and after the PR by searching `}:PRI` or `}:PRRI`
+1. The `/* */` can be used instead of `//` for multi line comments if needed.
 
 # QA Quality Assurance
 #### No such thing
@@ -508,28 +544,35 @@ Each lead / managers / reviewer should add a comment of approval or reject at th
 1. It is **not normal, implicit or casual to assume there there will be bugs and someone will find those and report back to you**. Actually the qualities of a **good developer** is that (s)he understands requirements and checks his code and functionality well enough before declaring those as complete.
 1. The peer review mentioned above in git PRs is only for improvements. Do not ever rely on those or expect that someone will spoon feed you about your mistakes. Mistakes are deficiencies those should be minimized rather being casual about them.
 
-#Development guidlines
+# Development process
+## CPP - commit, pull, push 
+commit, pull, push in **same sequence**. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from default branch at least), then push (to your branch). E.g For a **team of X number of people, you should do it X times a day**. Ie in a team of 3 people, you should do this at least 3 times a day. 
+
+If you are using forks, then you should add `superorigin` of main repository by `git remote add superorigin urlOfab159abRepository_thatYouUsedToForkInTheFirstPlace`
+
+Then you should pull from there instead. e.g `git pull superorigin master`
+
 ## Naming conventions
 This can be best informed by the following examples. If you are not following these, your PR may get rejected on just the naming conventions. Clear and self explanatory names are critical and save people from a lot of frustration.
-#### Git commit message
+## Git commit message
 1. add backend min char check on password - login page
-#### Branch name
+## Branch name
 1. frontend-form-validation--login-page
-#### PR title
+## PR title
 1. slicing done - login page
 1. frontend form validation - login page
-#### Function names
+## Function names
 1. isValidEmail(email)// returns true/false
-#### Variable names
+## Variable names
 1. userArray
 1. userMap
 1. users | userList //list of objects
-#### Css variable names
+## Css variable names
 1. list-item
 1. list-item-container
-#### Directory names
+## Directory names
 1. directoryName
-#### Notes for names
+## Notes for names
 1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
 
 ## Comments
@@ -561,16 +604,18 @@ Our typical schedule and sequence of doing things:
 1. Finish the work accuretly as per needs, on time.
 1. Attend retrospective meeting.
 
-#### Ownership
+# Work and self management
+
+## Ownership
 Sprints are ownership of the team overall, success of a sprint is success of the full team (regardless of individual tasks). You can say you may hold at least 1% to 10% responsibility of overall team work. You own 100% of the taks specificily assigned to you. Responsibility includes, but not limited to, completing the task with at least minimum quality and absolutely agreed time mentioned in estimates.
-#### Deviations
+## Deviations
 If you encounter any deviation in attainable preplaned timeline estimates, promptly inform the reasons and circumstances to your lead and project manager. Inform far ahead and as soon as possible when deviations are anticipated. NOT at the end or when time had elapsed.
-#### Timelines
+## Timelines
 Once sprints and/or ticket estimats and plans are created and agreed upon, if there are delays in timeline without a reasonalbe cause, then the delay is the responsibility of the developer. (S)he should cover up the missed deadlines by any means possible to ensure reasonable efficiency. This may involve working for more time or any ways of being smarter and more productive to cover deadlines.
 
 It is the professional responsibility of the candidate, at any level, to provide reasonable estimates and accomplish the tasks in that reasonable timeframe. In cases of otherwise, in absence of justified reasons, it is a negative mark on the repute of the candidate.
 
-#### I got late due to problems
+## I got late due to problems
 Someone might say "I got late because I encountered problems". Well, provided that you planned the project / task with due care and you are a proactive problem solver, the timeline should not be in deviation. 
 
 Suppose you are going from city A to city B. Before journey, you would plan your journey, what to use as transport (train/bus/car), whats the journely time by each, time and money needed, schedule and see road blocks, make strategy before acting etc.
@@ -581,24 +626,52 @@ If a hazard comes like train out of order or delayed, or type puncture of a car.
 
 To explain, a soldier might say: if we had to go to a city from another city in a predetermined time, we will find a way; any way; and get the job done. There are only few corner cases in which you can't do it. E.g you get stuck by lightening and die on the way.
 
-#### How can I improve estimate and execution
-Ask few questions to your self
-1. Are you spending more time on things those are not important compared to critical path and more important tasks? Or even slightest postion of your activity is not even needed but you do it pationately, striving hard? Think again. Analyse the day.
-1. When you started working, did you proportioned total available time of the day into tasks or you kept stuck on 2nd task out of 10 tasks and the day passed and you found that task 3-10 for far more important than 2?
-1. Think again, what other developers (who finish work on time) do, that you do not. Theres always something else than simple hardwork. Maybe smartwork? planned work? more intelligent work? more skillful work? Combination of all that defeats timeline issues.
-1. Do this every day. It is 100% that all need improvement. Find out things that you can improve. Doing this daily and consistently is the key.
 
-To be continued
 
-### Change in requirements
+## Change in requirements
 #### I created something and it got changed. Why?
 Change in any project is "normal". Change could be due to many reasons; for improvement or business needs or any other. Of course everytime a change happens, a new story is written. New design & strategy, new requirments and new estimates could be a normal thing to do again. Change -> new story -> new strategy === normal process of project
 
 #### Ok but if it had to change, why did we do it like that in the first place?
 Sometimes we don't know what the future will be. And sometimes we do know but despite that we do not do many things due to many reasons e.g but not limited to, priorities, business needs for the current time, not being fully sure of future features or even those will be needed in future.
 
-## Project management tool
-#### Task / issue types
+
+
+
+## Getting things done
+Read as follows:
+## Do only whats required
+1. **Only do whats needed**. Nothing less, nothing more. Your time is precious. You should be focussed on your **specific targets and goals**. Your time on job is company's **valuable asset** as your targeted efficiency in it is the efficiency of the company! We want to see you valued.
+1. If you see something wrong or a room for improvement, **ask permission beforehand** for any deviations because if you think something is beneficial, that may not be the case with a different perspective, it may have **side effects** or simply it may be be very **good but not needed at the time** or at the cost of the current time. So simply **ask lead/manager and discuss first**.
+
+## Improvment in steps
+1. You might be thinking **then, how do we improve the code/funcitonality?** Of course, you do but **in steps**. **First target is to complete in a 'good way' and 'as instructed' but not in a 'perfect way'**. 
+1. Perfection is a step by step process and the steps may reach infinity in some cases. We will not be able to afford time loss for completion at the cost of long perfection sessions. 
+1. So in short, get first stage workable. Get it approved, move to next stage, get it approved and so on. Do not try to reach stage 10 by wanting to learn and experiment for 9 prior stages in one go. 
+1. **If your code**, on the other hand, **is below standards**, you will ultimately get **PR issues anyway**... Remember them and do not repeat them. So you/your code improves any way by default. 
+1. But keep a fine line between personal part of pure self learning (with self motive only) and self experimenting vs completing the task as priority and **learning through that** (which will be done any way during the process so everyone gets happy).
+
+## Smart done
+Suppose you have 10 things in your todo list. **5 things 100% done is better than 10 things done 50% each**.
+If you have multiple things, do one by one, but each fully complete.
+If you have only one thing, divide it into parts. Do those parts one by one, each complete at a time.
+
+## Definition of done
+Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
+
+
+# You
+## Who are our favourites? Top qualities?
+Weighed according to numbers below
+1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE qualities are combination of two.
+  - Compliance / responsible behaviour : Not letting us repeat ever- Anything informed and instructed once, should never be needed to be repeated, should happen and complied in future with care. 
+  - Dedication - You should work hard with your heart and motivation. A determination to become better. If you have these two qualities, you just got passed 50% acceptability already. Rest will follow (for us and for your career).
+1. Your skills
+1. Your experience
+1. Your qualification
+
+# Project management tool
+## Task / issue types
 1. Epic - For requirements and vision. This is the super main end of top most hierirachy. Its children may and usually are divided into multiple sprints
 1. Story - For requirements and vision. 
 1. Bug[SL/BK/JS/D] - A defect in delivery for slicing / backend / Javascript / Design.
@@ -610,10 +683,10 @@ Sometimes we don't know what the future will be. And sometimes we do know but de
 1. JS	- Javascript		
 1. Design - Graphic design (Adobe photoshop, Illustrator etc)
 
-#### Task understanding
+## Task understanding
 After reading the issue type, description and title of the task carefully, read the parent task (story or any other kind of ticket) and read all the way up to the top most ticket. Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
 
-#### Execution
+## Execution in PM tool
 1. Observe due date, estimated hours and discuss if needed
 1. Change status of task to "In progress" at the moment you start working on it. This is important to do as other stakeholders will know what is being started and being done.
 1. During the work in progress, keep on changin the percentage done accordingly.
@@ -621,24 +694,35 @@ After reading the issue type, description and title of the task carefully, read 
 1. After that, mark it as "Completed" and percentage done to 100%. A task should be marked complete if only PR 1 and PR 2 are created flawlessly.
 1. The task will be reviewed, and status will be changed to "Approved" (in which you do not need to do anything further) or to "Rejected" (in this case you should make the task status to "In progress" and then "Completed" again after fixing the objections raised).
 
-#### Do it yourself
+## Do it yourself
 1. Do what was written in description of task + parent tasks (when instructions in parent are in scope)
 1. Please do the needful in order to declare the task as complete / change in progress via percentage or status etc.
 1. Move to next task and change its status as well (and percentage when needed).
 1. Do this automatically every time yourself so you do not have to be reminded for each ticket.
 
-#### Priority
+## Priority
 Of course, start a the tasks with most highest priority first.
 
-#### How to see my tasks
+## How to see my tasks
 1. You can click "my page" button at top left corner but it will show limited tasks. To see full task list of all projects, you should click "projects" at top and then "issues" menu. Or simply got to "/issues" url. If graphical gantt view is required, you can click "gantt" menu or simply go to "/issues/gantt".
 1. You can play with filters above the tasklist displayed. For example, if you uncheck "assignee", you will see all tasks in all projects.
 1. You can also use the shortcut links at the right side. E.g "custom queries" > "assigned to me" and ask manager to create more for you if needed
 
-#### Your work time
+## Your work time
 1. Each day, the total estimated time of tickets done by you should be equal to the daily work time expected from you. The ticket estimated time is entered by project manager and is viewable in the field "Estimated time" in each ticket.
 
-# Estimation
+# Estimations and requirement gathering
+## How can I improve estimate and execution
+Ask few questions to your self
+1. Are you spending more time on things those are not important compared to critical path and more important tasks? Or even slightest postion of your activity is not even needed but you do it pationately, striving hard? Think again. Analyse the day.
+1. When you started working, did you proportioned total available time of the day into tasks or you kept stuck on 2nd task out of 10 tasks and the day passed and you found that task 3-10 for far more important than 2?
+1. Think again, what other developers (who finish work on time) do, that you do not. Theres always something else than simple hardwork. Maybe smartwork? planned work? more intelligent work? more skillful work? Combination of all that defeats timeline issues.
+1. Do this every day. It is 100% that all need improvement. Find out things that you can improve. Doing this daily and consistently is the key.
+
+To be continued
+
+## What is estimation
+
 1. Estimation is the process of understanding the requirements first.
 1. Then coming up with an action plan (tools, libraries, frameworks, process and so on with a long list of connected things).
 1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
@@ -646,7 +730,7 @@ Of course, start a the tasks with most highest priority first.
 1. Time to estimate, with smartness, should be of balance (not too low to not have unclarity and not too high to not waste time).
 1. See [getting-things-done](#getting-things-done) for more information
 
-### Sample estimation
+## Sample estimation
 Suppose you have to make a login page. How much time will it take? You answer might fall between 2 hours to 1 week. All depends on the joint mixture of requirements, your understandings, your skillset. Lets make a WBS and estimate
 1. 1 hour : BK: Backend datababase design
 1. 2 hours: BK: User authentacation (middleware and routes)
@@ -669,19 +753,19 @@ Ok, good. you go 4.5 hours of work. But
       1. Security precautions?
       1. So on.
       
-#### Finalize understanding first
+## Finalize understanding first
 This is just an example, there will and must be many other questions (assuming that the requirements were not clear enough). We have to make them clear then and provide WBS based estimates. If anything is missing, explore and ask.
 
-#### Nothing is missing but I don't know estimates.
+## Nothing is missing but I don't know estimates.
 If this is the case, there can be the folowing or more reasons
 1. The task is not of your level and you need to learn before implmenting. In this case, the "specific" thing you have to learn and the time for that should also go in WBS. Once thats done, further WBS will continue (portions dependant on it).
 1. You have not done enough effort to breakdown the WBS properly. If so, do it.
 1. None of above but the task is a bit new to you or you have not done this before OR things are of unclear or unpredictable nature. In this case (which is rare), make a POC (proof of concept). e.g you are not confident on an api integration. In this case, quickly make POSTMAP calls and check it. If this is the case, the "specific" thing you will make POC "without which you cannot proceed", should also go in WBS. Once thats done, further WBS will continue (portions dependant on it).
       
-#### Your duty to clear up requirments
+## Your duty to clear up requirments
 Clients, product owners, project managers may try their best to clarify things but it is your duty to clear up requirements and make up your understandings in such a way that the product owner or project manager does not says "Why you did this? where is that feature? this should have been done differently or this is missing". So clear up scope of responsibility before giving estimates and far before performing any development.
 
-#### Correct estimation - exaeplary
+## Correct estimation - examplary
 1. 1 {hours} : Estimation and understanding requirements
       1. 0.5 {hours} : Basic understandings of task
       1. 0.5 {hours} : Talk, Research on xyz // If unclear things/ POC needed. This should be done before any other execution or final estimation of xyz or related things
@@ -704,47 +788,18 @@ Clients, product owners, project managers may try their best to clarify things b
       1. {hours} : {Item} // core
       1. {hours} : {Item} // Integration tests
 
-#### What happenes if estimates do not match outcome
+## What happenes if estimates do not match outcome
 Your job performance score will be affected.
 
-# You
-## Who are our favourites? Top qualities?
-Weighed according to numbers below
-1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE qualities are combination of two.
-  - Compliance / responsible behaviour : Not letting us repeat ever- Anything informed and instructed once, should never be needed to be repeated, should happen and complied in future with care. 
-  - Dedication - You should work hard with your heart and motivation. A determination to become better. If you have these two qualities, you just got passed 50% acceptability already. Rest will follow (for us and for your career).
-1. Your skills
-1. Your experience
-1. Your qualification
 
-# Execution
 
-## Getting things done
 
-#### Do only whats required
-1. **Only do whats needed**. Nothing less, nothing more. Your time is precious. You should be focussed on your **specific targets and goals**. Your time on job is company's **valuable asset** as your targeted efficiency in it is the efficiency of the company! We want to see you valued.
-1. If you see something wrong or a room for improvement, **ask permission beforehand** for any deviations because if you think something is beneficial, that may not be the case with a different perspective, it may have **side effects** or simply it may be be very **good but not needed at the time** or at the cost of the current time. So simply **ask lead/manager and discuss first**.
-#### Improvment
-1. You might be thinking **then, how do we improve the code/funcitonality?** Of course, you do but **in steps**. **First target is to complete in a 'good way' and 'as instructed' but not in a 'perfect way'**. 
-1. Perfection is a step by step process and the steps may reach infinity in some cases. We will not be able to afford time loss for completion at the cost of long perfection sessions. 
-1. So in short, get first stage workable. Get it approved, move to next stage, get it approved and so on. Do not try to reach stage 10 by wanting to learn and experiment for 9 prior stages in one go. 
-1. **If your code**, on the other hand, **is below standards**, you will ultimately get **PR issues anyway**... Remember them and do not repeat them. So you/your code improves any way by default. 
-1. But keep a fine line between personal part of pure self learning (with self motive only) and self experimenting vs completing the task as priority and **learning through that** (which will be done any way during the process so everyone gets happy).
-#### Smart done
-Suppose you have 10 things in your todo list. **5 things 100% done is better than 10 things done 50% each**.
-If you have multiple things, do one by one, but each fully complete.
-If you have only one thing, divide it into parts. Do those parts one by one, each complete at a time.
-
-#### Definition of done
-Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
-
----------------------------------
-## Coding practices
-#### libraries choice
+# Coding practices
+## libraries choice
 You should have very good reasons to choose a library. In most of the cases, you should **ask lead before choosing a library**.
 #### ES6+ over old
 **Always use ES6+ syntax over old. Take it as a mandatory rule**.
-#### TS over JS
+## TS over JS
 If your project is Typescript based, **use Typescript wherever possible**.
 #### Tests
 We use **Jest** as the testing library for unit tests and integration test and **Cypress** for automation e2e tests.
@@ -765,21 +820,14 @@ Extending above point further, to use images or make them background etc, use im
 #### One file per component
 Create one js/jsx file and one .scss file for each component. Do not worry about more files and directories. Worry about more number of lines in one file. Create a separate scss/css file for each componenet .jsx file even if the component is small enough or the scss/css file have fewer lines of code.
 
-# Efficiency
+## Code Efficiency
 #### consistency
 Be consistent in choosing, using, following architecture, libraries, patterns
 #### reusable and modular code
 Do not repeat your self
-#### CPP 
-commit, pull, push in **same sequence**. Do this as frequently as you can. Sequence is important. Commit first, then pull (from your branch AND from default branch at least), then push (to your branch). E.g For a **team of X number of people, you should do it X times a day**. Ie in a team of 3 people, you should do this at least 3 times a day. 
-
-If you are using forks, then you should add `superorigin` of main repository by `git remote add superorigin urlOfab159abRepository_thatYouUsedToForkInTheFirstPlace`
-
-Then you should pull from there instead. e.g `git pull superorigin master`
 
 
-
-# Directory structure
+## Directory structure
 ### Frontend react based
 ```
 src
@@ -901,6 +949,7 @@ src
                         
 tests
 ```
+-------------------------------------------------------
 
 
 # Configuring development environment
