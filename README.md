@@ -152,11 +152,13 @@ Expertise in Linux is also a key important skill in the developers life which he
 ## Database Redis
 On Ubuntu its simple to do `sudo apt install redis-server`. On windows its hard to find a clean setup. Ask you manager for download file if you are unable to find one in 5-10 minutes. As of November 2020, `https://redis.io/download` does not have redis for windows available.
 
+(for windows go to program files, locate redis folder, then go to bin folder. In windows explorer location bar, type cmd. Then type `redis-cli`. If you get a command prompt `theip>`. If this happens, it means redis is running.) If not, you need to start redis within bin folder. (to be continued).
+
 ## Database postgres
 On ubuntu, use the following commands
 ```
 sudo apt install postgresql
-sudo -u postgres psql;
+sudo -u postgres psql;    (for windows go to program files, locate postgres folder, then go to bin folder. In windows explorer location bar, type cmd. Then type `psql -U postgres`. You will be prompted for password that you setup during installation. Rest is same for linux and windows)
 create database mydb;
 create user myuser with encrypted password 'mypass';
 grant all privileges on database mydb to myuser;
