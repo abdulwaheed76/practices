@@ -1265,6 +1265,10 @@ official first priority tutorials
 1. Project tool - gantt and stories https://youtu.be/wiq8lbz2RhE
 1. Project tool - task life cycle https://youtu.be/-0EH_lFeYBk
 
+## Basic way of working
+### Directory structure
+1. Node, react https://youtu.be/grnmgw9vqDk
+
 ## Basics
 
 ### Algorithms
