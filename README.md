@@ -1246,8 +1246,9 @@ official first priority tutorials
 ### React core
 1. Lynda React essential training by 
 
-### 
+### Angular
 1. Angular 8 urdu https://www.youtube.com/watch?v=wGPZJDw3Ee4&ab_channel=LearnInUrdu
+1. Angular https://www.youtube.com/watch?v=k5E2AVpwsko&t=5606s
 
 ## Git / github
 
