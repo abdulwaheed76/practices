@@ -1095,7 +1095,7 @@ Model type assigned (single or multiple) to you will be informed to you by your 
 #### Default reward (Model A)
 You will miss a bonus for 3 rules broken. Another 3 will make you lose the next bonus amount. The limit is upto 12 rules breakeage which results in 4 missed bonuses in a month.
 
-If no rule is broken, you will get 20% of your base salary as bonus reward for that month. E.g your salary is 10,000, you will get weekly 2000 bonus.
+If no rule is broken, you will get 20% of your base salary as bonus reward for that month. E.g your salary is 10,000, you will get monthly 2000 bonus.
 
 
 
