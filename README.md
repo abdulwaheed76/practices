@@ -1241,10 +1241,13 @@ official first priority tutorials
 ### Mock testing
 1. Mock libs and data https://www.youtube.com/watch?v=4Fl5GH4eYZ8&t=909s, https://youtu.be/Ngj2f1n9pUw?t=459
 
-## Frontent React
+## Frontent
 
 ### React core
 1. Lynda React essential training by 
+
+### 
+1. Angular 8 urdu https://www.youtube.com/watch?v=wGPZJDw3Ee4&ab_channel=LearnInUrdu
 
 ## Git / github
 
