@@ -1093,7 +1093,7 @@ Model type assigned (single or multiple) to you will be informed to you by your 
 1. Rule/ Penalty point/ penalty: One point broken one time is one count per time duration. Multiple penalty count if same point broken multiple times per time duration. Penalty will be charged each time a rule is broken. This can be once or multiple times per day. E.g You made 2 PRs with lint errors in both, and third PR had console errors in browser. You will be changed 3 penalties. Next day you did the say. Again 3 penalties totalling 6. Then on same day he put his name in code. Not total penalties are 7.
 
 #### Default reward (Model A)
-You will miss a bonus for 3 rules broken. Another 3 will make you lose the next bonus amount. The limit is upto 12 rules breakeage which results in 4 missed bonuses in a month.
+One reward is 5% of your salary. There are 4 rewards in a month. You will miss a reward for 3 rules broken. Another 3 will make you lose the next reward amount. The limit is upto 12 rules breakeage which results in 4 missed rewards in a month.
 
 If no rule is broken, you will get 20% of your base salary as bonus reward for that month. E.g your salary is 10,000, you will get monthly 2000 bonus.
 
