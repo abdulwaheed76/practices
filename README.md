@@ -1249,10 +1249,25 @@ official first priority tutorials
 
 ### React core
 1. Lynda React essential training by 
+1. react components https://www.youtube.com/watch?v=Y2hgEGPzTZY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=4
+1. react props https://www.youtube.com/watch?v=m7OWXtbiXX8&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=9
+1. react state https://www.youtube.com/watch?v=4ORZ1GmjaMc&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=10    
+1. routing https://www.youtube.com/watch?v=yQf1KbGiwiI
+1. component usage, data binding, retrive and display data in table/UI/form from object
+    1. conditional rendering https://www.youtube.com/watch?v=7o5FPaVA9m0
+    1. list rendering https://www.youtube.com/watch?v=5s8Ol9uw-yM
+    1. array rendering with unique id https://www.youtube.com/watch?v=ke1pkMV44iU
+    1. form handling https://www.youtube.com/watch?v=7Vo_VCcWupQ&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=21
+    1. useState https://www.youtube.com/watch?v=O6P86uwfdR0
+1. Ajax calls, custom hooks https://www.youtube.com/watch?v=lvQgZqvIY6M&feature=youtu.be
 
 ### Angular
 1. Angular 8 urdu https://www.youtube.com/watch?v=wGPZJDw3Ee4&ab_channel=LearnInUrdu
 1. Angular https://www.youtube.com/watch?v=k5E2AVpwsko&t=5606s
+
+### Knex 
+1. updating    https://www.youtube.com/watch?v=aWLlh_Gn_oA
+1. select https://www.youtube.com/watch?v=GbVP4Ac2QAo
 
 ## Git / github
 
