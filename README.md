@@ -961,6 +961,25 @@ src
                         
 tests
 ```
+
+# Coding rules
+Currently experimental but 100% enfored.
+
+## Basic coding rules
+1. If a function / code block can be logically divided into sub parts, then it MUST be. e.g `login(){if(getUserByLoginId(){ checkPassword(); authenticateUser();}}`  < a little invalid pseudo code but tells the purpose.
+1. A function / class should only do ONE thing. Not more than one.
+1. Any code you write should be close for modification and open for extension. In other words, you should neven edit old code. It should be written in such a way that editing won't be needed (even a new feature or change in feature is required).
+1. Arrange functions/class in relevant folders and files. Do not worry if your functions are too small or you have created too many tiny functions or too many files.
+1. Inheritence not allowed. Use composition
+1. No switch statments or if/else acting like switch statements. Use functions in objects.
+1. DRY. Do not repeat yourself. Take this religiously. 
+1. Mostly comments mostly means deficiency in code to explain itself. But few times, those are needed. Decide with care.
+
+
+
+
+
+
 -------------------------------------------------------
 
 
