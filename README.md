@@ -1265,6 +1265,11 @@ official first priority tutorials
 ### Mock testing
 1. Mock libs and data https://www.youtube.com/watch?v=4Fl5GH4eYZ8&t=909s, https://youtu.be/Ngj2f1n9pUw?t=459
 
+## i18n
+
+1. i18n basics https://youtu.be/LrVxEM_7GzE
+1. i18n example https://youtu.be/FLJBguJRxFA
+
 ## Frontent
 
 ### React core
