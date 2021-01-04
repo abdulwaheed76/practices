@@ -976,7 +976,8 @@ Currently experimental but 100% enfored.
 1. DRY. Do not repeat yourself. Take this religiously. 
 1. Mostly comments mostly means deficiency in code to explain itself. But few times, those are needed. Decide with care.
 
-
+## Typescript
+1. Use types or objects as return types and params like `PersonModel` or `Type personName Pick<person, fname|lname>` or `Type personName Exclude<person, email`. Do not pass individual params/return types like `name, email`
 
 
 
