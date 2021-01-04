@@ -1272,6 +1272,8 @@ official first priority tutorials
 
 ## Frontent
 
+### Typescript
+1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
 ### React core
 1. Lynda React essential training by 
 1. react components https://www.youtube.com/watch?v=Y2hgEGPzTZY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=4
