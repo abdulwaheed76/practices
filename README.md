@@ -1228,7 +1228,7 @@ To be added soon
 # Tutorials
 
 ## Code
-1. Code PR 1, 2 (Pull request) https://youtu.be/BJuwXc10bow
+1. Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
 
 ## Javascript Misc
 
