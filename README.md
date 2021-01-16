@@ -1280,7 +1280,8 @@ official first priority tutorials
 ### Typescript
 1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
 ### React core
-1. Lynda React essential training by 
+1. React in 5 minutes https://www.youtube.com/watch?v=MRIMT0xPXFI
+1. React in 30 mins with a todo list app https://youtu.be/hQAHSlTtcmY?t=171
 1. react components https://www.youtube.com/watch?v=Y2hgEGPzTZY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=4
 1. react props https://www.youtube.com/watch?v=m7OWXtbiXX8&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=9
 1. react state https://www.youtube.com/watch?v=4ORZ1GmjaMc&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=10    
@@ -1292,6 +1293,7 @@ official first priority tutorials
     1. form handling https://www.youtube.com/watch?v=7Vo_VCcWupQ&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=21
     1. useState https://www.youtube.com/watch?v=O6P86uwfdR0
 1. Ajax calls, custom hooks https://www.youtube.com/watch?v=lvQgZqvIY6M&feature=youtu.be
+1. Lynda React essential training 
 
 ### Angular
 1. Angular 8 urdu https://www.youtube.com/watch?v=wGPZJDw3Ee4&ab_channel=LearnInUrdu
