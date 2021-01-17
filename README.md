@@ -968,13 +968,21 @@ Currently experimental but 100% enfored.
 ## Basic coding rules
 1. If a function / code block can be logically divided into sub parts, then it MUST be. e.g `login(){if(getUserByLoginId(){ checkPassword(); authenticateUser();}}`  < a little invalid pseudo code but tells the purpose.
 1. A function / class MUST only do ONE thing. Not more than one.
-1. Any code you write MUST be close for modification and open for extension. In other words, you should neven edit old code. It should be written in such a way that editing won't be needed (even a new feature or change in feature is required).
+1. Any code you write MUST be close for modification and open for extension. In other words, you should never edit old code. It should be written in such a way that editing won't be needed (even a new feature or change in feature is required). When you write code, ask yourself a question that will this code be needed to change/be edited if more features are required to be added OR the code you are writing can be `extended` by `adding` more code to it? Edit is bad, extend is good.
 1. Arrange functions/class in relevant folders and files. Do not worry if your functions are too small or you have created too many tiny functions or too many files.
 1. Inheritence not allowed unless you really think its needed and you get apermission from project manager. For everything else, use composition instead.
 1. No switch statments or if/else acting like switch statements. Use functions in objects.
 1. No function parameters more than 3. If needed, make an object and pass that instead.
 1. DRY. Do not repeat yourself. Take this religiously. 
 1. Mostly comments mostly means deficiency in code to explain itself. But few times, those are needed. Decide with care.
+
+
+## Choosing a library or framework
+Ask yourself before chossing a library
+1. Total time needed to understand, implement and then change or maintain the library is less than the same time to create your own code?
+1. Whats the downloads count, date of release, bugs, users, comunity support, etc of the libray / framework and other alternative options to it? 
+1. Does it just does the job OR the overall benefits are less than the harms?
+
 
 ## Typescript
 1. Use types or objects as return types and params like `PersonModel` or `Type personName Pick<person, fname|lname>` or `Type personName Exclude<person, email`. Do not pass individual params/return types like `name, email`
