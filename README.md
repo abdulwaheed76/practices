@@ -1285,6 +1285,9 @@ official first priority tutorials
 
 ## Frontent
 
+### Mix
+1. How to bypass frontend form validation https://youtu.be/lXttrBti82E
+
 ### Typescript
 1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
 ### React core
