@@ -550,11 +550,6 @@ This is an alternative and discretion of manager to adapt for projects. In model
 1. These issues can be referenced during and after the PR by searching `}:PRI` or `}:PRRI`
 1. The `/* */` can be used instead of `//` for multi line comments if needed.
 
-# QA Quality Assurance
-#### No such thing
-1. If you are a developer, in your world, there should be no such thing as "External dedicated QA" testing your work.
-1. It is **not normal, implicit or casual to assume there there will be bugs and someone will find those and report back to you**. Actually the qualities of a **good developer** is that (s)he understands requirements and checks his code and functionality well enough before declaring those as complete.
-1. The peer review mentioned above in git PRs is only for improvements. Do not ever rely on those or expect that someone will spoon feed you about your mistakes. Mistakes are deficiencies those should be minimized rather being casual about them.
 
 # Development process
 ## CPP - commit, pull, push 
@@ -617,6 +612,24 @@ Our typical schedule and sequence of doing things:
 1. Attend retrospective meeting.
 
 # Work and self management
+
+## Most important things to take care
+1. **No Mistakes**  <- this is a point, not comment. This is the most important thing to do. You might be surpried to know but these are the most costly things in coding, a war / battle, a race, a mission, almost all kinds of work. The following are most damaging kinds of mistakes.
+        1. **Requirement understanding** - Do exactly whats required, not less, not more. If any doubhts/suggestions, ask lead/manager.
+        1. **Mistakes in code, functionality**, specially mistakes those are repeated/similar in previous tasks. Every mistake (or group of mistakes) causes a review cycle, an issue, a new pull/push, multiplied time of engagement (developer, reviewer(s)).
+        **Remedy**: PR 1 with verbal but brief explaination of strategy to lead/manager before starting to code.
+1. Async (non-blocking) collaboration - 
+        1. Engage a peer / lead / manager only when blocked / unsure of outcome or if the outcome is desired or not. If you are **not blocked**, you should not ask before **scheduled meeting** time.
+        1. If a problem conversation does not makes a **positive progress towards a solution in 5-10 minutes** of a verbal meeting, 
+              1. it should be either dealt by helper person via anydesk (less preferred as help seeking and helper, both will be blocked/engaged at same time) 
+              1. or entirly at his own computer by taking pull from branch of help seeker developer. In this case, both developers are not blocked by each other in same task. One can do another task meanwhile the other solves it. For learnign purpose, the helper can then explain it breifly after its done. This is less time consuming overall.
+1. Good good practices and architecture. TBC
+        
+## QA Quality Assurance
+#### No such thing as QA
+1. If you are a developer, in your world, there should be no such thing as "External dedicated QA" testing your work.
+1. It is **not normal, implicit or casual to assume there there will be bugs and someone will find those and report back to you**. Actually the qualities of a **good developer** is that (s)he understands requirements and checks his code and functionality well enough before declaring those as complete.
+1. The peer review mentioned above in git PRs is only for improvements. Do not ever rely on those or expect that someone will spoon feed you about your mistakes. Mistakes are deficiencies those should be minimized rather being casual about them.
 
 ## Ownership
 Sprints are ownership of the team overall, success of a sprint is success of the full team (regardless of individual tasks). You can say you may hold at least 1% to 10% responsibility of overall team work. You own 100% of the taks specificily assigned to you. Responsibility includes, but not limited to, completing the task with at least minimum quality and absolutely agreed time mentioned in estimates.
