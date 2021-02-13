@@ -988,6 +988,7 @@ Currently experimental but 100% enfored.
 1. No function parameters more than 3. If needed, make an object and pass that instead.
 1. DRY. Do not repeat yourself. Take this religiously. 
 1. Mostly comments mostly means deficiency in code to explain itself. But few times, those are needed. Decide with care.
+1. No lint errors or warnings.
 
 
 ## Choosing a library or framework
