@@ -114,6 +114,9 @@ https://luciopaiva.com/markdown-toc/
 #### ssh keys
 add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm. https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+### Remove name, email 
+locally and on github.com settings
+
 
 ## Node, npm
 #### nvm
@@ -124,11 +127,10 @@ For windows: https://github.com/coreybutler/nvm-windows
 
 
 ## IDE
-#### Intellij idea
-We encourage intellij idea **Ultimate edition** (very preferred). If you do not have the license, then **at least community edition**. If you do not have the **hardware resources**, you should get them to run intellij. If not, the last case (not preferred) is **vscode**.
+#### Intellij idea, vim, vscode
+We encourage **vim** or intellij idea **Ultimate edition**. If you do not have the license, then **at least community edition**. If you do not have the **hardware resources**, you should get them to run intellij. If not, the last case (not preferred) is **vscode**.
 
 Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened** with most **unused plugins disabled** (else you it will consume a lot of cpu and memory)
-
 
 
 ## Operating system
@@ -136,14 +138,17 @@ Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened** wit
 (**ONLY LTS**) versions are preferred
 1. **Kubuntu** (with k) If you have 16G plus ram and a quadcore and ok to invest system resources on beauty and features. LTS. https://kubuntu.com
 2. **Xubuntu** (with X) LTS If you don't have enough resources or just want performance with ok to medium UI. https://xubuntu.org
+
 #### Windows (NOT preferred)
-If you use windows, you have to do the following in package.json (we have not made special windows commands yet as we mostly use and encourage Linux. This is the same setup we use on servers. So environment differences would be minimum).
+Try using virtualbox based ubuntu server with `bridged network` option in network tab so you get an ip for the machine to which you can access to (via browser or IDE in wondws for coding)
 
-exclude   `.`  (dot) and `/` slash at line starts
+~~If you use windows, you have to do the following in package.json (we have not made special windows commands yet as we mostly use and encourage Linux. This is the same setup we use on servers. So environment differences would be minimum).--
 
-replace `/`  slashes with `\` blackslashes
+~~exclude   `.`  (dot) and `/` slash at line starts~~
 
-replace   `;`  with `&`
+~~replace `/`  slashes with `\` blackslashes~~
+
+~~replace   `;`  with `&`~~
 
 You should try your **best** not to use windows but linux for develoment as it will be same with deployment/ production environment and save you from a lot of issues.
 
