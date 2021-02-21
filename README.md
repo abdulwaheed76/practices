@@ -142,7 +142,7 @@ Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened** wit
 #### Windows (NOT preferred)
 Try using virtualbox based ubuntu server with `bridged network` option in network tab so you get an ip for the machine to which you can access to (via browser or IDE in wondws for coding)
 
-~~If you use windows, you have to do the following in package.json (we have not made special windows commands yet as we mostly use and encourage Linux. This is the same setup we use on servers. So environment differences would be minimum).--
+~~If you use windows, you have to do the following in package.json (we have not made special windows commands yet as we mostly use and encourage Linux. This is the same setup we use on servers. So environment differences would be minimum)~~
 
 ~~exclude   `.`  (dot) and `/` slash at line starts~~
 
