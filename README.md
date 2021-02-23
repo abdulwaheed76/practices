@@ -1334,6 +1334,7 @@ official first priority tutorials
 ### Knex 
 1. updating    https://www.youtube.com/watch?v=aWLlh_Gn_oA
 1. select https://www.youtube.com/watch?v=GbVP4Ac2QAo
+1. migrations https://www.youtube.com/watch?v=YEh7yPr8oGE
 
 ## Git / github
 
