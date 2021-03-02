@@ -689,6 +689,16 @@ If you have only one thing, divide it into parts. Do those parts one by one, eac
 ## Definition of done
 Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
 
+## Definition of mistake
+1. ANY thing that is done outside explicit rules of company policy and this practices doc. e.g but NOT limited to 
+    1. not following code rules, 
+    2. causing PR issues those are not just a difference of opinion. 
+    3. missing prominent / critical issues while reviewing a PR (someone else's code)
+3. ANY thing that shows absence of due care, ownership and responsible behaviour. e.g but NOT limited to
+    1. not taking enough measures to undertand requirments of a task
+    2. forgetting or implementing requirments incorrectly
+    3. proposing or implementing something that is least expected from one's level
+To be continued..
 
 # You
 ## Who are our favourites? Top qualities?
