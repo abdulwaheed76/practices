@@ -691,13 +691,16 @@ Completion of a task with minimum acceptable qaulity (does whats needed, passes 
 
 ## Definition of mistake
 1. ANY thing that is done outside explicit rules of company policy and this practices doc. e.g but NOT limited to 
-    1. not following code rules, 
-    2. causing PR issues those are not just a difference of opinion. 
-    3. missing prominent / critical issues while reviewing a PR (someone else's code)
-3. ANY thing that shows absence of due care, ownership and responsible behaviour. e.g but NOT limited to
-    1. not taking enough measures to undertand requirments of a task
-    2. forgetting or implementing requirments incorrectly
-    3. proposing or implementing something that is least expected from one's level
+    1. not following **code** rules, 
+    2. causing **PR issues** to be filed which are not just a difference of opinion but technical / business mistake or carelessness. 
+    3. missing prominent / critical issues while **reviewing a PR** (someone else's code)
+1. ANY thing that shows absence of due care, ownership and responsible behaviour. e.g but NOT limited to
+    1. not taking enough measures to undertand **requirments** of a task. It is your responsibility to clear up things if not clear already.
+    2. forgetting** or implementing requirments **incorrectly**
+    3. **asking** the same thing **more than once** (you should take notes if you fear to forget) or not following anything said by lead / manager thus (s)he had to remind more than once.
+1. Proposing, researching, concluding or implementing ANY thing that is least expected from one's level e.g but NOT limited to 
+    1. **missing** some important aspect of documentation while research or study
+    2. **making a PR issue**, suggesting something without proper knowledge and **certainity**
 To be continued..
 
 # You
