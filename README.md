@@ -1349,6 +1349,23 @@ official first priority tutorials
 1. select https://www.youtube.com/watch?v=GbVP4Ac2QAo
 1. migrations https://www.youtube.com/watch?v=YEh7yPr8oGE
 
+
+### Spring
+1. spring intro in 10 mns https://www.youtube.com/watch?v=gq4S-ovWVlM
+spring boot https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
+
+1. spring https://www.youtube.com/watch?v=GB8k2-Egfv0&list=PLC97BDEFDCDD169D7
+
+### Hibernate
+1. hibernate https://www.youtube.com/watch?v=Yv2xctJxE-w&list=PL4AFF701184976B25
+
+### Maven
+maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
+
+### Java Mix
+1. For detailed javaee related concepts (caustion, few are a bit old so you should make sure if anything is depricated), https://innovalog.atlassian.net/wiki/spaces/JMCF/pages/141892372/Calculated+scripted+Text+Html+custom+field+type
+1. spring boot, jpa, hibernate in 1 hour https://www.youtube.com/watch?v=MaI0_XdpdP8
+
 ## Git / github
 
 ### Git
