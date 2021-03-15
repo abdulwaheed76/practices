@@ -1352,8 +1352,7 @@ official first priority tutorials
 
 ### Spring
 1. spring intro in 10 mns https://www.youtube.com/watch?v=gq4S-ovWVlM
-spring boot https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
-
+1. spring boot https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
 1. spring https://www.youtube.com/watch?v=GB8k2-Egfv0&list=PLC97BDEFDCDD169D7
 
 ### Hibernate
