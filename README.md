@@ -1409,3 +1409,17 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 
 
 
+# Queue
+### How to delete branches and start fresh fetch
+
+backup (manual copy paste your project; in case you loose code)
+```
+git branch -d <yourBranchName>
+git push -d <yourForkOrigin <yourBranchName>
+
+git fetch superOrigin -a
+git checkout -b <yourBranch> superOrigin/<branchNameAtSuperOrigin>
+
+git log  < check all commits tally with github page of superOrigin branch)
+```
+
