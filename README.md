@@ -1423,3 +1423,9 @@ git checkout -b <yourBranch> superOrigin/<branchNameAtSuperOrigin>
 git log  < check all commits tally with github page of superOrigin branch)
 ```
 
+### Maven commands
+
+`mvn -U clean install`
+`mvn dependency:purge-local-repository` 
+`mvn spring-boot:run`
+
