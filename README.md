@@ -1430,3 +1430,11 @@ mvn -U clean install
 mvn dependency:purge-local-repository
 mvn spring-boot:run
 ```
+
+### Remote collaboration
+1. Let the world, your friends, neighbours and your family know that you are *on duty* while  in office timings.
+2. Let all know that this is your career and this career will be with you for life time.
+3. Let them know that this is remote work but not less formal than any on-premises office work or duty.
+4. You are not expected to be absent/ unreacheable without informing your manager and then informing again on your return.
+5. Internet issues, computer issues, etc. These are not even meant to be discussed here as you all are adults. If primary pc or internet makes problems, install zoom and discord on mobile as backup (always) and have a cheap data package for mobile sim card (always). Make a hotspot. In short, do whats needed as its your responsibility.
+6. Failure to not make measures or repeated absence may result in cards being issued. https://github.com/thesircle/cq-policy#disciplinary-procedure
