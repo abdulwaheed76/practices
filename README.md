@@ -1441,3 +1441,8 @@ mvn spring-boot:run
     1. If primary pc or internet makes problems, install zoom and discord on mobile as backup (always) and have a cheap data package for mobile sim card (always). Make a hotspot. In short, do whats needed as its your responsibility. 
     2. If you have a mic / speaker issue, connect with your mobile phone based zoom / discord and share screen in desktop with another user (instance of ) zoom / discord.
 8. Failure to not make measures or repeated absence may result in cards being issued. https://github.com/thesircle/cq-policy#disciplinary-procedure
+
+
+### Effective delegation
+1. If you ever have to repeat yourself exactly or mostly same on the same topic, it means delegation is not efficient. If you think similar 
+2. tbc
