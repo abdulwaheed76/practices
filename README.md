@@ -1426,6 +1426,7 @@ git log  < check all commits tally with github page of superOrigin branch)
 ### Maven commands
 
 ```
+sudo apt install maven
 mvn -U clean install
 mvn dependency:purge-local-repository
 mvn spring-boot:run
