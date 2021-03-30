@@ -1423,10 +1423,14 @@ git checkout -b <yourBranch> superOrigin/<branchNameAtSuperOrigin>
 git log  < check all commits tally with github page of superOrigin branch)
 ```
 
-### Maven commands
+### Maven and spring commands
 
 ```
+sudo apt install default-jdk
 sudo apt install maven
+```
+In project directory:
+```
 mvn -U clean install
 mvn dependency:purge-local-repository
 mvn spring-boot:run
