@@ -1245,11 +1245,13 @@ To be added soon
 ## Routine
 
 #### Attendance
+Avoid
 1. Not informing timely (at least 24hours) in writing before a non-emergency leave.
 1. Not following "Daily routine" section on what to do at day start and day end. 
-1. Not taking mandatory break from work for at least 30 minutes.
+1. Not taking mandatory break from work for at least 30 minutes in the midle of day (and 1 hour in total during all day (prayer, lunch, rest etc).
 
 #### Behaviour
+Avoid
 1. Not followin anything mentioned in appointment, policy, practices or any ammendmends in the said things. 
 1. Asking for information that is already clearly present in appointment, policy or practices documents. This means employee had not carefully read the said and is irresponsibly consuming managemnt's time. However, if something is really missing, we welcome questions.
 
