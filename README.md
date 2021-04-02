@@ -165,9 +165,9 @@ On ubuntu, use the following commands
 sudo apt install postgresql
 sudo -u postgres psql;    (for windows go to program files, locate postgres folder, then go to bin folder. In windows explorer location bar, type cmd. Then type `psql -U postgres`. You will be prompted for password that you setup during installation. Rest is same for linux and windows)
 create database mydb;
-create user myuser with encrypted password 'mypass';
-grant all privileges on database mydb to myuser;
 \c mydb;
+create user myuser with encrypted password 'mypass';
+grant all privileges on database mydb to myuser; // some times for some hibernate apps, this is needed: GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO myuser; 
 CREATE EXTENSION "uuid-ossp";
 
 ```
