@@ -1453,3 +1453,14 @@ mvn spring-boot:run
 ### Effective delegation
 1. If you ever have to repeat yourself exactly or mostly same on the same topic, it means delegation is not efficient. If you think similar 
 2. tbc
+
+### NPM package issues
+If any issues in packages, do this:
+```
+delete node_modules
+make sure you have node LTS version (latest). Using nvm for this is easier(optional but recommended). See how to use nvm at link in this doc.
+do:
+npm cache clean --force
+npm cache verify
+npm i
+```
