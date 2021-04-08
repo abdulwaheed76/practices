@@ -1477,7 +1477,7 @@ mysql -u<userName> -p<Password> -h<Host> <dbName>   <  <path/to/file.sql>       
 ```
 pg_dump -U <user>  -h <host> -p <port-LeaveThisIfDefaultPort>  <dbName> -Fc > <fileName>   // dump
 
-psql <dbname> < <filenameToRestore>  // restore
+pg_restore <dbname> < <filenameToRestore>  // restore
 ```
 
 ### Postgres connect
