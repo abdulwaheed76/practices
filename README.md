@@ -1464,3 +1464,12 @@ npm cache clean --force
 npm cache verify
 npm i
 ```
+
+### Mysql backup/restore
+```
+mysqldump -u<userName> -p<Password> -h<Host> <dbName>   >  <path/to/file.sql>     //backup
+
+mysql -u<userName> -p<Password> -h<Host> <dbName>   <  <path/to/file.sql>            //restore
+
+```
+
