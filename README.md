@@ -1472,6 +1472,10 @@ mysqldump -u<userName> -p<Password> -h<Host> <dbName>   >  <path/to/file.sql>   
 mysql -u<userName> -p<Password> -h<Host> <dbName>   <  <path/to/file.sql>            //restore
 
 ```
+### Mysql misc
+display tables in cmd  `pager less -SFX;`
+
+
 ### Postgres backup/restore
 
 ```
