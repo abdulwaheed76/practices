@@ -1473,7 +1473,9 @@ mysql -u<userName> -p<Password> -h<Host> <dbName>   <  <path/to/file.sql>       
 
 ```
 ### Mysql misc
-display tables in cmd  `pager less -SFX;`
+1. display tables in cmd  `pager less -SFX;`
+1. privilage for applications `ALTER USER 'user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_new_password';  FLUSH PRIVILEGES;`
+
 
 
 ### Postgres backup/restore
