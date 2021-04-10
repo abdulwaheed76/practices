@@ -1479,6 +1479,12 @@ mysql -u<userName> -p<Password> -h<Host> <dbName>   <  <path/to/file.sql>       
 4. Create user: `CREATE USER 'nativeuser'@'localhost'IDENTIFIED WITH mysql_native_password BY 'password';`
 5. If you already have created user with some other way and facing issues with connecting via an application, you can do:  `ALTER USER 'user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_new_password';  FLUSH PRIVILEGES;`
 
+queue
+
+```
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+```
 
 
 ### Postgres backup/restore
