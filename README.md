@@ -120,9 +120,11 @@ locally and on github.com settings
 
 ## Node, npm
 #### nvm
-Do not install node by any other means but only use nvm. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm and https://github.com/nvm-sh/nvm#usage  (go for the latest LTS node version)
+Do not install node by any other means but only use nvm. Follow this link and use latest LTS version of node. https://github.com/nvm-sh/nvm (download by wget command, don't forget to copy/paste the export options in terminal and then install the latest **LTS** version of nodejs via https://github.com/nvm-sh/nvm#usage  e.g `nvm i 14.16.1`
 
 For windows: https://github.com/coreybutler/nvm-windows
+
+
 
 
 
