@@ -1480,7 +1480,7 @@ mysql -u<userName> -p<Password> -h<Host> <dbName>   <  <path/to/file.sql>       
 3. `create database <name>;`
 4. Create user: `CREATE USER 'nativeuser'@'localhost'IDENTIFIED WITH mysql_native_password BY 'password';`
 5. If you already have created user with some other way and facing issues with connecting via an application, you can do:  `ALTER USER 'user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_new_password';  FLUSH PRIVILEGES;`
-
+6. see relations FKs in workbench https://youtu.be/E0krzfu2jxc?t=60
 queue
 
 ```
