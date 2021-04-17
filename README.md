@@ -1377,6 +1377,7 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. SuperOrigin and forks https://youtu.be/sys5PMunerc
 1. Pull, push, commit with Forks https://youtu.be/J5xli-BmDzM
 1. Github git branch repo pull request code exchange explained https://youtu.be/ZW5gLj687qw
+1. Git multi branch made simple https://youtu.be/zVfK-Rxt1Iw 
 1. Lynda Git Essential Training: The Basics with Kevin Skoglund
 
 ### Github
