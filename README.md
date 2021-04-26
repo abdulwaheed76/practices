@@ -1144,6 +1144,9 @@ You should not come late in any and all cases unless you have explicit permissio
 ## Early signout
 Early signout is not allowed. If you do, you should spend that time in the next day in addition to the days time. If you think you have completed your tasks before dayend time, **a)** thinkg again and make sure they are fully completed **b)** if they are completed, ask for next tasks if project manager is available. If project manager is not available, start reading and understanding the next stories and tasks for future. 
 
+## Normal routine
+Just follow the normal routine. We do not encourage late sittings. If you do late sittings on your own (without explicit instructions from manager), the the late sitting is on you (your choice) and this cannot be compensated / swapped with normal working hours. However in few cases, the manager or adminstration may provide you benefits. As a side note, it is mostly observed that new commers often try to learn and try to accomplish their tasks with help of extra late sittings (at their own choice) or normal developers to complete their 'due' tasks.
+
 # Penalties and rewards
 Bright career of developer and quality and efficient work at company side demands discipline. Time of developer is precious and time of reviewers and managers is costly and cannot be used to keep on entertaining, informing, correcting and explaining same or similar things repeatedly. This is simply not viable nor affordable. Thus following penalties apply and will be modified from time to time.
 
