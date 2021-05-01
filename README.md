@@ -1356,6 +1356,8 @@ official first priority tutorials
 1. select https://www.youtube.com/watch?v=GbVP4Ac2QAo
 1. migrations https://www.youtube.com/watch?v=YEh7yPr8oGE
 
+### SQL
+1. DB schema decision with entity involvment https://www.youtube.com/watch?v=P4AUdfHS9Bc
 
 ### Spring
 1. spring intro in 10 mns https://www.youtube.com/watch?v=gq4S-ovWVlM
