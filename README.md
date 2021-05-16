@@ -1359,6 +1359,8 @@ official first priority tutorials
 ### SQL
 1. DB schema decision with entity involvment https://www.youtube.com/watch?v=P4AUdfHS9Bc
 
+### Java
+1. Is java difficult? Few things in this video might be incorrect but just listen to it https://www.youtube.com/watch?v=mCOSgYilwNs
 ### Spring
 1. spring intro in 10 mns https://www.youtube.com/watch?v=gq4S-ovWVlM
 1. spring boot https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
