@@ -1417,6 +1417,18 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
 1. react intro newbie 1 - https://youtu.be/CWNX5U_spmE
 
+## Vanila javascript possibilities
+1. Vanila javascript based component https://www.youtube.com/watch?v=vLkPBj9ZaU0
+
+## SSR server side rendering
+1. Getspeed https://youtu.be/Kg0Q_YaQ3Gk?t=421
+
+## Wordpress
+
+1. Custom wordpress theme https://youtu.be/ZJKAwJq9_xM?t=416
+2. Custom wordpress theme https://www.youtube.com/watch?v=-h7gOJbIpmo
+3. Custom wordpress theme https://www.youtube.com/watch?v=pFMgAWkrk8o
+
 ## Vim
 
 ## Pros of vim
@@ -1429,6 +1441,9 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 ## Who uses Vim
 
 1. Microsoft manager, auther of typescript language server https://www.youtube.com/watch?v=lbkjXWeWY-o
+
+## Misc
+1. Presentation in vim https://www.youtube.com/watch?v=GDa7hrbcCB8
 
 
 # Queue
