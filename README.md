@@ -1419,8 +1419,12 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 
 ## Vim
 
+## Pros of vim
+1. Vim as a competitive advantage https://www.youtube.com/watch?v=4WTV6ZCY4qo
 1. How vim saves time https://www.youtube.com/watch?v=bshMXXX40_4
-1. Vim without plugins https://www.youtube.com/watch?v=XA2WjJbmmoM&t=3846s
+
+## Vim core
+1. Do most without vim plugins https://www.youtube.com/watch?v=XA2WjJbmmoM&t=3846s
 
 
 # Queue
