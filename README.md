@@ -1426,6 +1426,10 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 ## Vim core
 1. Do most without vim plugins https://www.youtube.com/watch?v=XA2WjJbmmoM&t=3846s
 
+## Who uses Vim
+
+1. Microsoft manager, auther of typescript language server https://www.youtube.com/watch?v=lbkjXWeWY-o
+
 
 # Queue
 ### How to delete branches and start fresh fetch
