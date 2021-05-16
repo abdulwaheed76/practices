@@ -1417,6 +1417,9 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
 1. react intro newbie 1 - https://youtu.be/CWNX5U_spmE
 
+## Vim
+
+1. Vim without plugins https://www.youtube.com/watch?v=XA2WjJbmmoM&t=3846s
 
 
 # Queue
