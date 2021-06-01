@@ -1113,27 +1113,50 @@ You should stay connected to group collaboration software all the time
 1. Using any personal email, phone or contact in any platform, such as but limited to, github, collaboration, chat etc tools is treated as a miss conduct.
 
 # Daily routine
+
 ## What to do at day start
 Do the following in exact sequence
+
 #### Log in start time
 in attendance app if provided to you
+
 #### Message manager
 about your presence and check your emails/messanger/app for any messages that may need your attention.
+
 #### Keep communication app onn
-Whatever is your persistant communication medium, make sure it is always connected and available during sign in and sign off time
-#### Refresh task list
-assigned to you and observe any changes (specially priority and dates) and act accoringly.
+Whatever is your persistant communication medium, make sure it is always connected and available during sign in and sign off time (currently zoom, whatsapp, discoard (all three should be connected))
+
+#### Refresh / review task list
+assigned to you and observe any changes (specially priority and dates) and act accoringly. Do this in the first few minutes of the day. This should be the first actual activity you should do.
+
 #### Plan or ask questions
 If anything is unclear for the day ahead, ask questions from manager. If all is clear, plan what to do next.
 
+#### Put proposed estimated hours 
+in your task fields and observe estimated hours and due dates if manager has already filled those.
+
+#### Start your tasks
+according to the priority number in tickets and change ticket status from `new` to `in-progress` with some percentage (wherever applicable).
+
+#### Update status of tasks
+during the day at lease 2-3 times so the stakeholders do not have to ask you individually.
+
 ## What to do at day end
 Do the followings in exact sequence
-## Work and tickets complete
+
+#### Work and tickets complete
 Make sure the work assigned to you for the day is complete. Take good care to make sure that the git PR, PM tool ticket fields and all required things are complete and accurate.
+
+#### Make PRs
+
+#### Update ticket statuses
+
 ## Plan or ask questions
 If anything is unclear for the next day, ask questions from manager. If all is clear, plan what to do next.
+
 ## Message manager
-at least 1 hour to 45 minutes before signing off so (s)he can discuss things or collaborate with you if needed.
+at least 15 minutes before signing off so (s)he can discuss things or collaborate with you if needed.
+
 ## Log sign out time
 in attendance app if provided to you
 
