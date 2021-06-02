@@ -1148,16 +1148,17 @@ Do the followings in exact sequence
 Make sure the work assigned to you for the day is complete. Take good care to make sure that the git PR, PM tool ticket fields and all required things are complete and accurate.
 
 #### Make PRs
+And push code. This should be done daily and stable code should be daily pushed. If you have not completed something, push the stable part. By the way, the ratio of your work should have more than 90% stable part. You should not assume or say that you didn't pushed because things were not stable. In a full day, you should work considerable stable part. Its better to do 5 things 100% complete rather than 10 things 50% complete.
 
 #### Update ticket statuses
 
-## Plan or ask questions
+#### Plan or ask questions
 If anything is unclear for the next day, ask questions from manager. If all is clear, plan what to do next.
 
-## Message manager
+#### Message manager
 at least 15 minutes before signing off so (s)he can discuss things or collaborate with you if needed.
 
-## Log sign out time
+#### Log sign out time
 in attendance app if provided to you
 
 # Attendance
