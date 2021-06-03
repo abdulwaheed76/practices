@@ -1560,3 +1560,17 @@ pg_restore -U <user> -d <dbname> -Fc --no-privileges --no-owner < <filenameToRes
 ```
 psql -U devuser -d devdb -h localhost
 ```
+
+### HTML connector and charts
+
+1. https://anseki.github.io/leader-line/
+2. https://anseki.github.io/plain-draggable/
+3. https://gojs.net/beta/samples/pageFlow.html
+4. https://js.cytoscape.org/demos/architecture/
+5. http://bl.ocks.org/Neilos/584b9a5d44d5fe00f779
+6. https://bost.ocks.org/mike/fisheye/
+7. https://bost.ocks.org/mike/hive/
+8. https://observablehq.com/@d3/hierarchical-edge-bundling
+9. https://observablehq.com/@d3/tidy-tree
+10. https://dmitrybaranovskiy.github.io/raphael/graffle.html
+11. 
