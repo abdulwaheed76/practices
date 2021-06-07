@@ -111,6 +111,10 @@ https://luciopaiva.com/markdown-toc/
 
 # Development Env Setup
 ## Git
+### If you install on windows
+It is **important** that you choose this option `Checkout as is, commit unix style line endings`
+![image](https://user-images.githubusercontent.com/6178423/120978305-0134a980-c77d-11eb-9e2d-0e2bbf5c18ca.png)
+
 #### ssh keys
 add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm. https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
@@ -160,6 +164,9 @@ Expertise in Linux is also a key important skill in the developers life which he
 On Ubuntu its simple to do `sudo apt install redis-server`. On windows its hard to find a clean setup. Ask you manager for download file if you are unable to find one in 5-10 minutes. As of November 2020, `https://redis.io/download` does not have redis for windows available.
 
 (for windows go to program files, locate redis folder, then go to bin folder. In windows explorer location bar, type cmd. Then type `redis-cli`. If you get a command prompt `theip>`. If this happens, it means redis is running.) If not, you need to start redis within bin folder. (to be continued).
+
+### Redis on windows
+https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.msi
 
 ## Database postgres
 On ubuntu, use the following commands
