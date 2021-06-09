@@ -1354,6 +1354,7 @@ official first priority tutorials
 
 1. i18n basics https://youtu.be/LrVxEM_7GzE
 1. i18n example https://youtu.be/FLJBguJRxFA
+2. i18n details https://youtu.be/O0ZzMII3hV8
 
 ## Frontent
 
