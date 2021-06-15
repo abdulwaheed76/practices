@@ -1361,8 +1361,12 @@ official first priority tutorials
 ### Mix
 1. How to bypass frontend form validation https://youtu.be/lXttrBti82E
 
+### Coding practices
+1. React code reusability https://youtu.be/VgRyPndPNlI
+
 ### Typescript
 1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
+
 ### React core
 1. React in 5 minutes https://www.youtube.com/watch?v=MRIMT0xPXFI
 1. React in 30 mins with a todo list app https://youtu.be/hQAHSlTtcmY?t=171
