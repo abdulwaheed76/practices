@@ -1585,4 +1585,7 @@ psql -U devuser -d devdb -h localhost
 8. https://observablehq.com/@d3/hierarchical-edge-bundling
 9. https://observablehq.com/@d3/tidy-tree
 10. https://dmitrybaranovskiy.github.io/raphael/graffle.html
-11. 
+
+### Git
+1. `git push origin local-name:remote-name`
+
