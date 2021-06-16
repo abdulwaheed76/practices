@@ -1514,10 +1514,11 @@ mvn spring-boot:run
 ### Remote collaboration
 1. Let the world, your friends, neighbours and your family know that you are *on duty* while  in office timings.
 2. Let all know that this is your career and this career will be with you for life time.
-3. Let them know that this is remote work but not less formal than any on-premises office work or duty.
+3. Let them know that this is remote work but not less professional and formal than any on-premises office work or duty.
 4. Create 'do not disturb' or 'silence please' signs all over the walls at your work area, lock the room, repartition the room, do whatever it takes to have a healthy working environment.
-5. You are not expected to be absent/ unreacheable for more than 2 minutes, without informing your manager and then informing again on your return. Its ok to just inform and leave for a 3 minute walk, posture change, water, tea, washroom break etc.
-6. Hardware / internet issues and other issues. Internet issues, computer issues, etc. These are not even meant to be discussed here as you all are adults. 
+5. You are not expected to be absent/ unreacheable for more than 5 minutes, without informing your manager and then informing again on your return. Its ok to just inform and leave for a 5 minute walk, posture change, water, tea, washroom break etc 1-2 times a day.
+6. Keep zoom/ discord/ any chat platform used to be connected and respond to 'unmute requests'.
+7. Hardware / internet issues and other issues. Internet issues, computer issues, etc. These are not even meant to be discussed here as you all are adults. 
     1. If primary pc or internet makes problems, install zoom and discord on mobile as backup (always) and have a cheap data package for mobile sim card (always). Make a hotspot. In short, do whats needed as its your responsibility. 
     2. If you have a mic / speaker issue, connect with your mobile phone based zoom / discord and share screen in desktop with another user (instance of ) zoom / discord.
 8. Failure to not make measures or repeated absence may result in cards being issued. https://github.com/thesircle/cq-policy#disciplinary-procedure
