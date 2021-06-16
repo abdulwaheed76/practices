@@ -1589,3 +1589,10 @@ psql -U devuser -d devdb -h localhost
 ### Git
 1. `git push origin local-name:remote-name`
 
+
+### Translation
+
+1. PDF https://www.onlinedoctranslator.com/en/translationform
+1. PDF https://www.protranslate.net/en/order/
+
+
