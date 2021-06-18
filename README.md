@@ -1573,6 +1573,9 @@ pg_restore -U <user> -d <dbname> -Fc --no-privileges --no-owner < <filenameToRes
 ```
 psql -U devuser -d devdb -h localhost
 ```
+### Postgres misc
+
+uuid generator. Use v4. https://www.uuidgenerator.net
 
 ### HTML connector and charts
 
