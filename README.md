@@ -1366,6 +1366,7 @@ official first priority tutorials
 
 ### Typescript
 1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
+2. frontend and typescript overview https://youtu.be/oIYYWdYcnb8    
 
 ### React core
 1. React in 5 minutes https://www.youtube.com/watch?v=MRIMT0xPXFI
