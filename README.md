@@ -1306,7 +1306,8 @@ Avoid
 # Tutorials
 
 
-## Code 
+## Code and strategy
+1. internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
 1. Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
 1. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
 
