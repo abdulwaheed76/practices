@@ -1423,6 +1423,9 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. Pull, push, commit with Forks https://youtu.be/J5xli-BmDzM
 1. Github git branch repo pull request code exchange explained https://youtu.be/ZW5gLj687qw
 1. Git multi branch made simple https://youtu.be/zVfK-Rxt1Iw 
+1. Git rebase https://www.youtube.com/watch?v=kMvLn8WcAII
+1. Git rebase https://www.youtube.com/watch?v=CRlGDDprdOQ
+1. Git rebase https://www.youtube.com/watch?v=f1wnYdLEpgI
 1. Lynda Git Essential Training: The Basics with Kevin Skoglund
 
 ### Github
