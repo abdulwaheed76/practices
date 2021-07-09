@@ -1361,6 +1361,7 @@ official first priority tutorials
 
 ### Mix
 1. How to bypass frontend form validation https://youtu.be/lXttrBti82E
+1. Forgot password strategy https://youtu.be/GeqkAcshjoA
 
 ### Coding practices
 1. React code reusability https://youtu.be/VgRyPndPNlI
