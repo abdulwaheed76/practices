@@ -1391,6 +1391,9 @@ official first priority tutorials
 1. Angular 8 urdu https://www.youtube.com/watch?v=wGPZJDw3Ee4&ab_channel=LearnInUrdu
 1. Angular https://www.youtube.com/watch?v=k5E2AVpwsko&t=5606s
 
+### Sass scss
+1. Kendo sass scss styling theming https://youtu.be/yUjkD7hHi3Y
+
 ### Knex 
 1. updating    https://www.youtube.com/watch?v=aWLlh_Gn_oA
 1. select https://www.youtube.com/watch?v=GbVP4Ac2QAo
