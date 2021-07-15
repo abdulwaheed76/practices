@@ -169,7 +169,7 @@ On Ubuntu its simple to do `sudo apt install redis-server`. On windows its hard 
 https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.msi
 
 ## Database postgres
-On ubuntu, use the following commands
+On ubuntu and windows, use the following commands
 ```
 sudo apt install postgresql
 sudo -u postgres psql;    (for windows go to program files, locate postgres folder, then go to bin folder. In windows explorer location bar, type cmd. Then type `psql -U postgres`. You will be prompted for password that you setup during installation. Rest is same for linux and windows)
@@ -180,7 +180,8 @@ grant all privileges on database mydb to myuser; // some times for some hibernat
 CREATE EXTENSION "uuid-ossp";
 
 ```
-`mydb,myuser,mypass` etc should be replaced with the credentials and details given in your project config file. See your config file to create matching datbase and user/pass.
+**Important**:
+`mydb,myuser,mypass` etc should be replaced with the credentials and details given in your project config file. For example, your project name is `abc-nbk`. Then your `dbname, username, password` all should be `abc`. Mostly this would be already coded in the config files. So see those first. See your config file to create matching datbase and user/pass. Configs must be in `src/config` or at root of project directory of `..-bk..` project.
 
 For windows, visit https://www.postgresql.org/download/ and download pgadmin as well.
 You should search youtube on how to create database, user, set password in pgadmin/postgres.
