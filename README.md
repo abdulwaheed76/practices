@@ -531,7 +531,7 @@ Always try best to close, finalize and **get old pull/merge requests first** bef
 ## Daily PRs routine
 
 ### One PR per day
-There should be one PR per day (which is consisting of all PR part 1 + PR part 2). The PR should have a complete functionality including test code. **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. It does not matter how big or small the code and functionality is, but it should be a stable and complete functionality presented in a PR everyday at least 1 hour before day end time. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
+There should be one PR per day (which is consisting of all PR part 1 + PR part 2). The PR should have a complete functionality including test code. **This is mandatory**. If you fail to get it approved, you have not achieved the full success of the day. It does not matter how big or small the code and functionality is, but it should be a **stable and complete** functionality presented in a PR everyday at least 1 hour before day end time. You should file a PR before few hours of the day so it defintily get approved (assuming that it might have some issues and it might take you some time before dayend to resolve those issues and get the PR finally approved).
 
 See [getting-things-done](#getting-things-done) for more information
 
