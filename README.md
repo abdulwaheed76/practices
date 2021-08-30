@@ -8,6 +8,7 @@
   - [Database Redis](#database-redis)
   - [Database postgres](#database-postgres)
 - [Development process](#development-process)
+  - [Work Flow](#work-flow) 
   - [Tests](#tests)
   - [Documentation](#documentation)
   - [API docs](#api-docs)
@@ -188,6 +189,55 @@ You should search youtube on how to create database, user, set password in pgadm
 
 # Development process
 
+## Work flow
+
+### Terminologies:
+
+SM: Scheduled meeting.
+PR: github based pull request
+Inform manager: via whatsapp text message.
+Inform team: via zoom group text chat.
+PM tool: Project management tool that has tasks/ tickets in it.
+
+### The most important thing
+1. The most importantt thing to do here is be responsible avoiding mistakes.
+    1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later work is also affected. So its best to be careful in start. 
+
+### Day start
+1. Inform manager via whatsapp, at time of sign in (start work) 
+
+### Inavailability 
+1. Inform 5 minutes before taking any kind of long/short break (to manager and team)
+2. Inform again on your return (to manager and team)
+
+### Meetings
+1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
+1. Do not be absent at the scheduled meeting times unless special permission is given
+1  In SM, it's better to ask questions in this time (for blockers, you can message manager anytime).
+1. In SM, present PRs of whatever stable work you have done so far. Develop in such a way that on each meeting you have something (small or big) flawless to get merged. So make PR(s) ready on each meeting time. Small reviews are good to have. It is your responsibility to get it merged. Watch out github emails for @mentions or when issues are made. If it has no or minor mistakes, it will get merged in 2-10 minutes. If this is not the case, then it means you did not completed it flawlessly.    
+1. In SM, review PRs of peers. (ask manager to whose work you should review daily or see task field of 'reviewer' or short cut link on right panel of pm tool)
+
+### Execution
+1. At day start, wrapp up any pending work form previous working day.
+1. then see all tasks and starting with the highest prority first, 
+    1. Invest roughly 5% of task time in making "strategy" 
+    1. understand and keep filling in "proposted estimated time" in hours field 
+1. Get that strategy approved and reviewed by manager
+1. "After" all the above and if strategy is approved, start a task as per highest priority number in pm tool and mark task status as "inprogress"
+1. Make PR 1 of a task, get it approved.
+1. "If" PR 1 of a task is approved, Make PR 2 of that same task, get it approved.
+1. Your first priority, generally, is to fully complete old things before moving to any new. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle.
+1. Switch to another task. 
+1. Repeat.
+1. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than do 10 things 50%
+
+### Signoff
+1. Inform manager and team textually at  least 10 minutes before sign off.
+
+### Lunch / rest break
+1. Inform manager and team textually at least 5 minutes before taking a lunch / rest break.
+1. It is mandatory to take at least 30 mins break during a day and it should not be during the first 2 hours or last 2 hours of work day time.
+1. Normal time is 1 hour break. 1 hour 30 mins on Fridays for Muslims.
 
 ## Tests
 If your project has unit test/ integration tests/ automation tests enforced, do not file PR without them. In most cases, integration tests are mandatory. Do not forget to ask from your manager.
