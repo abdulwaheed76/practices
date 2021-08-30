@@ -210,13 +210,6 @@ PM tool: Project management tool that has tasks/ tickets in it.
 1. Inform 5 minutes before taking any kind of long/short break (to manager and team)
 2. Inform again on your return (to manager and team)
 
-### Meetings
-1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
-1. Do not be absent at the scheduled meeting times unless special permission is given
-1  In SM, it's better to ask questions in this time (for blockers, you can message manager anytime).
-1. In SM, present PRs of whatever stable work you have done so far. Develop in such a way that on each meeting you have something (small or big) flawless to get merged. So make PR(s) ready on each meeting time. Small reviews are good to have. It is your responsibility to get it merged. Watch out github emails for @mentions or when issues are made. If it has no or minor mistakes, it will get merged in 2-10 minutes. If this is not the case, then it means you did not completed it flawlessly.    
-1. In SM, review PRs of peers. (ask manager to whose work you should review daily or see task field of 'reviewer' or short cut link on right panel of pm tool)
-
 ### Execution
 1. At day start, wrapp up any pending work form previous working day.
 1. then see all tasks and starting with the highest prority first, 
@@ -230,6 +223,13 @@ PM tool: Project management tool that has tasks/ tickets in it.
 1. Switch to another task. 
 1. Repeat.
 1. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than do 10 things 50%
+
+### Meetings
+1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
+1. Do not be absent at the scheduled meeting times unless special permission is given
+1  In SM, it's better to ask questions in this time (for blockers, you can message manager anytime).
+1. In SM, present PRs of whatever stable work you have done so far. Develop in such a way that on each meeting you have something (small or big) flawless to get merged. So make PR(s) ready on each meeting time. Small reviews are good to have. It is your responsibility to get it merged. Watch out github emails for @mentions or when issues are made. If it has no or minor mistakes, it will get merged in 2-10 minutes. If this is not the case, then it means you did not completed it flawlessly.    
+1. In SM, review PRs of peers. (ask manager to whose work you should review daily or see task field of 'reviewer' or short cut link on right panel of pm tool)
 
 ### Signoff
 1. Inform manager and team textually at  least 10 minutes before sign off.
@@ -1360,13 +1360,14 @@ Avoid
 ## Code and strategy
 1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
 1. Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
-1. Sample strategy making  (can be extended where needed but this is a must have in all cases) https://youtu.be/_cLq9KfIHWY
-1. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
+3. Sample strategy making  (can be extended where needed but this is a must have in all cases) https://youtu.be/_cLq9KfIHWY
+4. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
 
 
 ## Self review
 1. Self review attitude 2021 08 24  https://youtu.be/wAsnZs-MSOU
 1. Bug vs improvement self qa flawless delivery 2021 08 19 https://youtu.be/L7_k6vRkMIg
+1. Bugs vs preference https://youtu.be/rP7cDLhMPzA
 
 ## Javascript Misc
 
@@ -1484,6 +1485,7 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. Pull, push, commit with Forks https://youtu.be/J5xli-BmDzM
 1. Github git branch repo pull request code exchange explained https://youtu.be/ZW5gLj687qw
 1. Git multi branch made simple https://youtu.be/zVfK-Rxt1Iw 
+1. Multi branch, multi pr, multi functionality https://youtu.be/t-fNSEgqe4I
 1. Git rebase https://www.youtube.com/watch?v=kMvLn8WcAII
 1. Git rebase https://www.youtube.com/watch?v=CRlGDDprdOQ
 1. Git rebase https://www.youtube.com/watch?v=f1wnYdLEpgI
