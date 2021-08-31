@@ -146,7 +146,7 @@ Please read this and follow consistently. All are adults here and need not to be
 
 1. [remote-collaboration](#remote-collaboration) 
 2. [online-remote-groups](#online-remote-groups)
-3. 
+
 ## Execution
 1. At day start, do cpp or at lease pull from super origin.
 2. wrap up any pending work form previous working day.
@@ -171,6 +171,8 @@ Please read this and follow consistently. All are adults here and need not to be
 5. [no-such-thing-as-qa](#no-such-thing-as-qa)
 6. [do-only-whats-required](#do-only-whats-required)
 7. [smart-done](#smart-done)
+8. [pull-requests--merge-requests](#pull-requests--merge-requests)
+9. [daily-prs-routine](#daily-prs-routine)
 
 ## Meetings
 1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
