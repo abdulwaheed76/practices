@@ -130,9 +130,9 @@ Please read this and follow consistently. All are adults here and need not to be
 1. The most importantt thing to do here is be responsible avoiding mistakes.
     1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later work is also affected. So its best to be careful in start. 
 
-(qa-quality-assurance)[#qa-quality-assurance]
-(work-and-self-management)[#work-and-self-management]
-(you)[#you]
+[qa-quality-assurance](#qa-quality-assurance)
+[work-and-self-management](#work-and-self-management)
+[you](#you)
 
 ## Day start
 1. Inform manager via whatsapp, at time of sign in (start work) 
