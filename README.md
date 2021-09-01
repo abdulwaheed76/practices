@@ -149,21 +149,18 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 1. At day start, do cpp or at least pull from super origin. [#git-1](#git-1)
 2. wrap up any pending work form previous working day.
 3. then see all tasks and starting with the highest prority first (in project tool), Video: [#project-tool](#project-tool), Link: [#project-management-tool](#project-management-tool)
-    1. Invest roughly 5% of task time in making "strategy"  Video: [initial-strategy-making](#initial-strategy-making)
-    1. understand and keep filling in "proposted estimated time" in hours field in ticket(s)
+    1. Invest roughly 5% of task time in making "strategy"  Video: [initial-strategy-making](#initial-strategy-making), [do-only-whats-required](#do-only-whats-required)
+    1. understand and keep filling in "proposted estimated time" in hours field in ticket(s) [estimations-and-requirement-gathering](#estimations-and-requirement-gathering)
 4. Get that strategy approved and reviewed by manager
 5. "After" all the above and if strategy is approved, start a task as per highest priority number in pm tool and mark task status as "inprogress" 
 6. Make PR 1 of a task, get it approved.  PR1 should not engage you for more than 50% of total task time in any case. If that is the case, then something is happening wrong (for the most cases)  Link: [pull-requests--merge-requests](#pull-requests--merge-requests), Video: [pull-request-flow](pull-request-flow)
 7. Do cpp. Link: [cpp---commit-pull-push](#cpp---commit-pull-push),
-8. "If" PR 1 of a task is approved, Make PR 2 of that same task, get it approved.
+8. "If" PR 1 of a task is approved, Make PR 2 of that same task, get it approved. But first check code and functionality thoroughly yourself. Link:  [no-such-thing-as-qa](#no-such-thing-as-qa)
 9. Your first priority, generally, is to fully complete old things before moving to any new. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle. 13. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than doing 10 things 50%. Link: [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
 10. Do cpp. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
 11. Switch to another task. 
-12. Repeat.
+12. Repeat.  Link: [daily-prs-routine](#daily-prs-routine)
 
-Links: [#project-management-tool](#project-management-tool), [cpp---commit-pull-push](#cpp---commit-pull-push), [project-management-tool](#project-management-tool), [project-management](#project-management), [estimations-and-requirement-gathering](#estimations-and-requirement-gathering), [no-such-thing-as-qa](#no-such-thing-as-qa), [do-only-whats-required](#do-only-whats-required), [smart-done](#smart-done), [pull-requests--merge-requests](#pull-requests--merge-requests), [daily-prs-routine](#daily-prs-routine)
-
-Videos: [initial-strategy-making](#initial-strategy-making), [pull-request-flow](pull-request-flow), [#git-1](#git-1), [#project-tool](#project-tool)
 
 ## Meetings
 1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
