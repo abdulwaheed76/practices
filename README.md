@@ -132,6 +132,8 @@ Please read this and follow consistently. All are adults here and need not to be
 
 Links: [definition-of-mistake](#definition-of-mistake), [no-such-thing-as-qa](#no-such-thing-as-qa), [qa-quality-assurance](#qa-quality-assurance), [work-and-self-management](#work-and-self-management), [you](#you)
 
+Videos: [#self-review](#self-review), 
+
 ## Day start
 1. Inform manager via whatsapp, at time of sign in (start work) 
 
@@ -162,7 +164,7 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 
 Links: [cpp---commit-pull-push](#cpp---commit-pull-push), [project-management-tool](#project-management-tool), [project-management](#project-management), [estimations-and-requirement-gathering](#estimations-and-requirement-gathering), [no-such-thing-as-qa](#no-such-thing-as-qa), [do-only-whats-required](#do-only-whats-required), [smart-done](#smart-done), [pull-requests--merge-requests](#pull-requests--merge-requests), [daily-prs-routine](#daily-prs-routine)
 
-Videos: 
+Videos: [initial-strategy-making](#initial-strategy-making), [pull-request-flow](pull-request-flow), 
 
 ## Meetings
 1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
@@ -181,6 +183,8 @@ Videos:
 ## Setup and for new commers
 
 Links: [#development-env-setup](#development-env-setup)
+
+Videos: [#project-tool](#project-tool), [#directory-structure-1](#directory-structure-1), [#typescript, Daos, frontend overview](#typescript-2), [#react-core](#react-core), [#sass-scss and themeing](#sass-scss), [#knex](#knex), [#codding-discussions](#codding-discussions), [#i18n](#i18n), [#git-1](#git-1), 
 
 # Development Env Setup
 ## Git
