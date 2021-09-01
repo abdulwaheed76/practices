@@ -112,14 +112,14 @@ https://luciopaiva.com/markdown-toc/
 
 # Terminologies:
 
-SM: Scheduled meeting.
-PR: github based pull request
-Inform manager: via whatsapp text message.
-Inform team: via zoom group text chat.
-PM tool: Project management tool that has tasks/ tickets in it.
-CPP: commit, pull, push. Commit locally, pull from S-O, push to your own origin in exactly this sequence.
-Own origin/your origin/ `O-O`: When you make a fork of project from S-O, it will create a project in your own github account. That is your origin.
-Super origin / `S-O`: master repositories with preceeding `ab159ab` in github git url. The repository where you should make PRs and get your work merged.
+1. SM: Scheduled meeting.
+2. PR: github based pull request
+3. Inform manager: via whatsapp text message.
+4. Inform team: via zoom group text chat.
+5. PM tool: Project management tool that has tasks/ tickets in it.
+6. CPP: commit, pull, push. Commit locally, pull from S-O, push to your own origin in exactly this sequence.
+7. Own origin/your origin/ `O-O`: When you make a fork of project from S-O, it will create a project in your own github account. That is your origin.
+8. Super origin / `S-O`: master repositories with preceeding `ab159ab` in github git url. The repository where you should make PRs and get your work merged.
 
 # Workflow
 
@@ -127,8 +127,8 @@ Super origin / `S-O`: master repositories with preceeding `ab159ab` in github gi
 Please read this and follow consistently. All are adults here and need not to be reminded every time. These things are important and thus written with effort. Nothing further needs to be written any further to insist more.
 
 ## The most important thing
-1. The most importantt thing to do here is be responsible avoiding mistakes.
-    1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later work is also affected. So its best to be careful in start. 
+1. The most importantt thing to do here is be responsible and avoiding mistakes.
+    1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later work (which is based on initial work) is also affected. So its best to be careful in start. 
 
 Links: [definition-of-mistake](#definition-of-mistake), [no-such-thing-as-qa](#no-such-thing-as-qa), [qa-quality-assurance](#qa-quality-assurance), [work-and-self-management](#work-and-self-management), [you](#you)
 
@@ -146,25 +146,24 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 
 
 ## Execution
-1. At day start, do cpp or at lease pull from super origin.
+1. At day start, do cpp or at least pull from super origin. [#git-1](#git-1)
 2. wrap up any pending work form previous working day.
-3. then see all tasks and starting with the highest prority first, 
-    1. Invest roughly 5% of task time in making "strategy" 
-    1. understand and keep filling in "proposted estimated time" in hours field 
+3. then see all tasks and starting with the highest prority first (in project tool), Video: [#project-tool](#project-tool), Link: [#project-management-tool](#project-management-tool)
+    1. Invest roughly 5% of task time in making "strategy"  Video: [initial-strategy-making](#initial-strategy-making)
+    1. understand and keep filling in "proposted estimated time" in hours field in ticket(s)
 4. Get that strategy approved and reviewed by manager
-5. "After" all the above and if strategy is approved, start a task as per highest priority number in pm tool and mark task status as "inprogress"
-6. Make PR 1 of a task, get it approved.  PR1 should not engage you for more than 50% of total task time in any case. If that is the case, then something is happening wrong (for the most cases)
-7. Do cpp.
+5. "After" all the above and if strategy is approved, start a task as per highest priority number in pm tool and mark task status as "inprogress" 
+6. Make PR 1 of a task, get it approved.  PR1 should not engage you for more than 50% of total task time in any case. If that is the case, then something is happening wrong (for the most cases)  Link: [pull-requests--merge-requests](#pull-requests--merge-requests), Video: [pull-request-flow](pull-request-flow)
+7. Do cpp. Link: [cpp---commit-pull-push](#cpp---commit-pull-push),
 8. "If" PR 1 of a task is approved, Make PR 2 of that same task, get it approved.
-9. Your first priority, generally, is to fully complete old things before moving to any new. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle.
-10. Do cpp.
+9. Your first priority, generally, is to fully complete old things before moving to any new. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle. 13. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than doing 10 things 50%. Link: [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
+10. Do cpp. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
 11. Switch to another task. 
 12. Repeat.
-13. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than do 10 things 50%
 
-Links: [cpp---commit-pull-push](#cpp---commit-pull-push), [project-management-tool](#project-management-tool), [project-management](#project-management), [estimations-and-requirement-gathering](#estimations-and-requirement-gathering), [no-such-thing-as-qa](#no-such-thing-as-qa), [do-only-whats-required](#do-only-whats-required), [smart-done](#smart-done), [pull-requests--merge-requests](#pull-requests--merge-requests), [daily-prs-routine](#daily-prs-routine)
+Links: [#project-management-tool](#project-management-tool), [cpp---commit-pull-push](#cpp---commit-pull-push), [project-management-tool](#project-management-tool), [project-management](#project-management), [estimations-and-requirement-gathering](#estimations-and-requirement-gathering), [no-such-thing-as-qa](#no-such-thing-as-qa), [do-only-whats-required](#do-only-whats-required), [smart-done](#smart-done), [pull-requests--merge-requests](#pull-requests--merge-requests), [daily-prs-routine](#daily-prs-routine)
 
-Videos: [initial-strategy-making](#initial-strategy-making), [pull-request-flow](pull-request-flow), 
+Videos: [initial-strategy-making](#initial-strategy-making), [pull-request-flow](pull-request-flow), [#git-1](#git-1), [#project-tool](#project-tool)
 
 ## Meetings
 1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
