@@ -150,8 +150,8 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 2. wrap up any pending work form previous working day.
 3. then see all tasks and starting with the highest prority first (in project tool), Video: [#project-tool](#project-tool), Link: [#project-management-tool](#project-management-tool)
     1. Invest roughly 5% of task time in making "strategy"  Video: [initial-strategy-making](#initial-strategy-making), [do-only-whats-required](#do-only-whats-required)
-    1. understand and keep filling in "proposted estimated time" in hours field in ticket(s). This time will include all the time you ever had or will invest on the ticket. This includes strategy making, discussions, pr1, pr2, pr3 (if any), bug resolution time (if any). [estimations-and-requirement-gathering](#estimations-and-requirement-gathering)
-4. Get that strategy approved and reviewed by manager
+    2. Get that strategy approved and reviewed by manager
+    3. Keep filling in "proposted estimated time" in hours field in ticket(s). This time will include all the time you ever had or will invest on the ticket. This includes strategy making, discussions, pr1, pr2, pr3 (if any), bug resolution time (if any). [estimations-and-requirement-gathering](#estimations-and-requirement-gathering)
 5. "After" all the above and if strategy is approved, start a task as per highest priority number in pm tool and mark task status as "inprogress" 
 6. Make PR 1 of a task, get it approved.  PR1 should not engage you for more than 50% of total task time in any case. If that is the case, then something is happening wrong (for the most cases)  Link: [pull-requests--merge-requests](#pull-requests--merge-requests), Video: [pull-request-flow](pull-request-flow)
 7. Do cpp. Link: [cpp---commit-pull-push](#cpp---commit-pull-push),
