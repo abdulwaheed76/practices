@@ -130,11 +130,7 @@ Please read this and follow consistently. All are adults here and need not to be
 1. The most importantt thing to do here is be responsible avoiding mistakes.
     1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later work is also affected. So its best to be careful in start. 
 
-1. [qa-quality-assurance](#qa-quality-assurance)
-2. [work-and-self-management](#work-and-self-management)
-3. [you](#you)
-4. [no-such-thing-as-qa](#no-such-thing-as-qa)
-5. [definition-of-mistake](#definition-of-mistake)
+Links: [definition-of-mistake](#definition-of-mistake), [no-such-thing-as-qa](#no-such-thing-as-qa), [qa-quality-assurance](#qa-quality-assurance), [work-and-self-management](#work-and-self-management), [you](#you)
 
 ## Day start
 1. Inform manager via whatsapp, at time of sign in (start work) 
@@ -144,8 +140,8 @@ Please read this and follow consistently. All are adults here and need not to be
 2. Inform again on your return (to manager and team)
 3. Do not be absent at the scheduled meeting times unless special permission is given
 
-1. [remote-collaboration](#remote-collaboration) 
-2. [online-remote-groups](#online-remote-groups)
+Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#remote-collaboration) 
+
 
 ## Execution
 1. At day start, do cpp or at lease pull from super origin.
@@ -164,15 +160,9 @@ Please read this and follow consistently. All are adults here and need not to be
 12. Repeat.
 13. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than do 10 things 50%
 
-1. [cpp---commit-pull-push](#cpp---commit-pull-push)
-2. [project-management-tool](#project-management-tool)
-3. [project-management](#project-management)
-4. [estimations-and-requirement-gathering](#estimations-and-requirement-gathering)
-5. [no-such-thing-as-qa](#no-such-thing-as-qa)
-6. [do-only-whats-required](#do-only-whats-required)
-7. [smart-done](#smart-done)
-8. [pull-requests--merge-requests](#pull-requests--merge-requests)
-9. [daily-prs-routine](#daily-prs-routine)
+Links: [cpp---commit-pull-push](#cpp---commit-pull-push), [project-management-tool](#project-management-tool), [project-management](#project-management), [estimations-and-requirement-gathering](#estimations-and-requirement-gathering), [no-such-thing-as-qa](#no-such-thing-as-qa), [do-only-whats-required](#do-only-whats-required), [smart-done](#smart-done), [pull-requests--merge-requests](#pull-requests--merge-requests), [daily-prs-routine](#daily-prs-routine)
+
+Videos: 
 
 ## Meetings
 1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
@@ -190,7 +180,7 @@ Please read this and follow consistently. All are adults here and need not to be
 
 ## Setup and for new commers
 
-[#development-env-setup](#development-env-setup)
+Links: [#development-env-setup](#development-env-setup)
 
 # Development Env Setup
 ## Git
