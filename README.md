@@ -1383,6 +1383,7 @@ Avoid
 ## Initial Strategy making
 1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
 3. Sample strategy making  (can be extended where needed but this is a must have in all cases) https://youtu.be/_cLq9KfIHWY
+4. Sample strategy sagp social urls https://youtu.be/2OSSVKB6ZDM
 
 ## Pull request flow
 1. Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
