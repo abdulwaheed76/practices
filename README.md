@@ -1390,12 +1390,15 @@ Avoid
 # Tutorials
 
 
-## Code and strategy
+## Initial Strategy making
 1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
-1. Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
 3. Sample strategy making  (can be extended where needed but this is a must have in all cases) https://youtu.be/_cLq9KfIHWY
-4. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
 
+## Pull request flow
+1. Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
+
+## Codding discussions
+5. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
 
 ## Self review
 1. Self review attitude 2021 08 24  https://youtu.be/wAsnZs-MSOU
