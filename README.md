@@ -160,6 +160,9 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 10. Do cpp. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
 11. Switch to another task. 
 12. Repeat.  Link: [daily-prs-routine](#daily-prs-routine)
+13. Before the last hour of your team sign off time (e.g if sign off time is 10pm, last hour starts at 9pm), 
+    1. Update tasks/tickets in PM tool with latest correct status (of course you would be doing this thoughout the day also)
+    2. present your final PRs of the work done in that day and review PRs of all others. (of course you would be doing this thoughout the day in SMs also)
 
 
 ## Meetings
