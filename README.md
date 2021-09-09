@@ -142,6 +142,10 @@ Videos: [#self-review](#self-review),
 2. Inform again on your return (to manager and team)
 3. Do not be absent at the scheduled meeting times unless special permission is given
 
+## Blockers
+1. If you ever get into blockers (e.g PM tool not running, system crash for more than 5 minutes, or any other disability for more than 5 minutes), ANYthing that limits you to work, you should message (and call if no timely reply/he is busy) your manager at your earliest.
+2. If you do not inform AND get an acknowledgment from manager (that he knows about it), it will be considered that you were not working that time. Ie work hours will not be considered.
+
 Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#remote-collaboration) 
 
 
