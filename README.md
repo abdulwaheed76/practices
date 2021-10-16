@@ -405,7 +405,9 @@ an other example
         |      |
        login  show error
 ```
-sample dot file (can be viewed in https://edotor.net/)
+sample dot file (can be viewed in https://edotor.net/ , for drawing connectors with must, use right click to start and left to stop in http://magjac.com/graphviz-visual-editor/ )
+
+Dot syntax https://graphviz.org/documentation/
 
 listen to conversation about layout https://youtu.be/M00Mh43NQvE
 
