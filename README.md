@@ -380,7 +380,7 @@ All functionality should be tested before making a PR (self testing). Run and **
 ### Process flow 
 Process flow should be in text form as DOT files ( https://en.wikipedia.org/wiki/DOT_(graph_description_language) ) and part of git. One of the reason is that git can show diffs and changes better than changes in diagrams.
 
-Sample:
+#### Process flow diagrame Sample:
 ```
                 abc <----
                 |       |
@@ -411,7 +411,7 @@ Dot syntax https://graphviz.org/documentation/
 
 listen to conversation about layout https://youtu.be/M00Mh43NQvE
 
-Mini UML
+### Mini UML
 ```
 digraph {
     node [
@@ -437,7 +437,7 @@ digraph {
 
 }
 ```
-Process flow
+### Process flow
 ```
 digraph {
     node [shape="box"]
@@ -453,7 +453,7 @@ digraph {
 }
 
 ```
-ERD
+### ERD
 ```
 digraph G {
     graph [
