@@ -199,7 +199,10 @@ It is **important** that you choose this option `Checkout as is, commit unix sty
 add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm. https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 ### Remove name, email 
-locally and on github.com settings
+For both local and on github.com settings
+
+For local, use global email setting config git config --global user.email "MY_NAME@HIDDEN.com". // replace MY_NAME with your nickname.
+For github.com, visit https://github.com/settings/emails and check the checkbox that says "Keep my email addresses private"
 
 
 ## Node, npm
