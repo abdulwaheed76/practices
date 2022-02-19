@@ -687,43 +687,43 @@ This can be best informed by the following examples. If you are not following th
 file, func,     desc
 prefix prefix
                 examples
-["c", c,   "controller"], 
+["ct", ct,   "controller"], 
                 cUser.ts//controller
                 cUser()//controller
 ["Cp", Cp,   "component"], 
                 CpUser.tsx //comp
                 CpUser()//comp
-["h", use,   "hook"], // only exception for function name. Latter has 'use'
+["hk", use,   "hook"], // only exception for function name. Latter has 'use'
                 hUser.tsx
                 useUser()
 ["ctx", ctx, "context"],
                 ctxUser.tsx
                 ctxUser()
-["a", a,     "api"],
+["ap", ap,     "api"],
                 aUser.ts/tsx
                 aUser()
-["d", d,     "dao"],
+["do", do,     "dao"],
                 dUser.ts
                 dUser()
-["m", m,     "model"],
+["md", md,     "model"],
                 mUser.ts
                 mUser()
-["s", s,     "service"],
+["sr", sr,     "service"],
                 sUser.ts
                 sUser()
-["u", u,     "util"],
+["ut", ut,     "util"],
                 uUser.ts
                 uUser()
 ["cfg", cfg, "config"],
                 cfgUser.ts
                 cfgUser()
-["r", r,     "route"],
+["rt", rt,     "route"],
                 rUser.ts
                 rUser()
 ["st", st,   "style/css"],
                 stUser.ts
                 st-user {}
-["t", t,     "types"],
+["tp", tp,     "types"],
                 tUser.ts
                 tUser = {} //types and interfaces
 ["dt", dt,   "data"],
