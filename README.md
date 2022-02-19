@@ -669,7 +669,7 @@ This can be best informed by the following examples. If you are not following th
 1. slicing done - login page
 1. frontend form validation - login page
 ## Function names
-1. isValidEmail(email)// returns true/false
+1. sIsValidEmail(email)// returns true/false
 ## Variable names
 1. userArray
 1. userMap
@@ -682,6 +682,57 @@ This can be best informed by the following examples. If you are not following th
 ## Notes for names
 1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
 
+## Mixure of names of files and functions for backend and frontend
+```
+file, func,     desc
+prefix prefix
+                examples
+["c", c,   "controller"], 
+                cUser.ts//controller
+                cUser()//controller
+["Cp", Cp,   "component"], 
+                CpUser.tsx //comp
+                CpUser()//comp
+["h", use,   "hook"], // only exception for function name. Latter has 'use'
+                hUser.tsx
+                useUser()
+["ctx", ctx, "context"],
+                ctxUser.tsx
+                ctxUser()
+["a", a,     "api"],
+                aUser.ts/tsx
+                aUser()
+["d", d,     "dao"],
+                dUser.ts
+                dUser()
+["m", m,     "model"],
+                mUser.ts
+                mUser()
+["s", s,     "service"],
+                sUser.ts
+                sUser()
+["u", u,     "util"],
+                uUser.ts
+                uUser()
+["cfg", cfg, "config"],
+                cfgUser.ts
+                cfgUser()
+["r", r,     "route"],
+                rUser.ts
+                rUser()
+["st", st,   "style/css"],
+                stUser.ts
+                st-user {}
+["t", t,     "types"],
+                tUser.ts
+                tUser = {} //types and interfaces
+["dt", dt,   "data"],
+                dtUser.ts
+                dtUser()
+["mw", mw,   "middleware"],
+                mwUser.ts
+                mwUser()
+```
 ## Comments
 ## Code comments
 #### Commented code for later use
@@ -967,6 +1018,8 @@ Do not repeat your self
 
 ## Directory structure
 ### Frontend react based
+
+NOTE, naming conventions are incorrect here. Refer naming convention section. The following is just to show you structure. This will also be updated soon. Refer to real/model projects that will be given to you by manager.
 ```
 src
     components (or modules)    
