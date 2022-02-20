@@ -852,9 +852,16 @@ To be continued..
 # You
 ## Who are our favourites? Top qualities?
 Weighed according to numbers below
-1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE qualities are combination of two.
-  - Compliance / responsible behaviour : Not letting us repeat ever- Anything informed and instructed once, should never be needed to be repeated, should happen and complied in future with care. 
-  - Dedication - You should work hard with your heart and motivation. A determination to become better. If you have these two qualities, you just got passed 50% acceptability already. Rest will follow (for us and for your career).
+1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE quality is:
+  - Compliance / responsible behaviour : If you have this **one** trait, you will have these for example:
+    1. No repetitive mistakes, 
+    2. no carelessness, 
+    3. not ot letting us repeat ever
+    4. Anything informed and instructed once, would never be needed to be repeated, should happen and complied in future with care. 
+    5. Dedication - You should work hard with your heart and motivation. 
+    6. A determination to become better. 
+If you have this one quality, you just got passed 50% acceptability already. Rest will follow (for us and for your career).
+Later comes
 1. Your skills
 1. Your experience
 1. Your qualification
@@ -899,6 +906,38 @@ Of course, start a the tasks with most highest priority first.
 
 ## Your work time
 1. Each day, the total estimated time of tickets done by you should be equal to the daily work time expected from you. The ticket estimated time is entered by project manager and is viewable in the field "Estimated time" in each ticket.
+
+
+# Project exectuion workflow
+
+## Requirement understanding
+1. User story
+2. Wireframes
+
+## Level 0 Estimates (ballbark)
+1. WBS on spreadsheet with time investment 2% of total project time. Lets say the full project exectuion and complete might be 100 hours. Then at this stage of estimation, we should spend about 2% (which is 2 hours).
+ 
+## Level 1 Estimates 
+1. WBS extended with 10% of time investment.
+    2. story understanding
+    3. wireframe understanding
+    4. discussion and initial strategy 
+    5. initial db design flow diagram
+6. Send estimates to product owner
+
+## Coding and execution
+
+We will do the following for each task one by one. Finish task, the do the same for the next task of the project.
+For each task, we should do these in the `info`git repository of project:
+1. Coding - 50% of total time be spend on this phase (this time can vary because it depends on project as well)
+    1. extended , revised db desigh (final)
+    2. extended , revised flow diagrams (detailed and final)
+    3. req / resp model
+    4. pseudo code (PR 1). Goes both in project repo and in info repo
+2. Testing - 20% of total time (this time can vary because it depends on project as well)
+    1. API tests
+    2. Unit tests
+    3. e2e (if informed by manager and applicable)
 
 # Estimations and requirement gathering
 ## How can I improve estimate and execution
