@@ -127,53 +127,58 @@ https://luciopaiva.com/markdown-toc/
 Please read this and follow consistently. All are adults here and need not to be reminded every time. These things are important and thus written with effort. Nothing further needs to be written any further to insist more.
 
 ## The most important thing
-1. The most importantt thing to do here is be responsible and avoiding mistakes.
-    1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later work (which is based on initial work) is also affected. So its best to be careful in start. 
+1. The most importantt thing to do here is be responsible and avoiding mistakes. This the first and one of the most important trait that you should buildm first. This does not requires a lot of time. It just requires a changed and improved attitude and behaviour.
+    1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later tasks (which is based on initial work) is also affected. So its best to be careful in start. 
 
 Links: [definition-of-mistake](#definition-of-mistake), [no-such-thing-as-qa](#no-such-thing-as-qa), [qa-quality-assurance](#qa-quality-assurance), [work-and-self-management](#work-and-self-management), [you](#you)
 
 Videos: [#self-review](#self-review), 
 
 ## Day start
-1. Inform manager via whatsapp, at time of sign in (start work) 
+1. Inform manager via discord, at time of sign in (start work) 
 
 ## Inavailability 
-1. Inform 5 minutes before taking any kind of long/short break (to manager and team)
-2. Inform again on your return (to manager and team)
+1. Inform 5 minutes before taking any kind of long/short break (to manager)
+2. Inform again on your return (to manager)
 3. Do not be absent at the scheduled meeting times unless special permission is given
 
 ## Blockers
-1. If you ever get into blockers (e.g PM tool not running, system crash for more than 5 minutes, or any other disability for more than 5 minutes), ANYthing that limits you to work, you should message (and call if no timely reply/he is busy) your manager at your earliest.
+1. If you ever get into blockers (e.g PM tool not running, system crash for more than 5 minutes, or any other disability for more than 5 minutes), Anything that limits you to work, you should message your manager at your earliest (and call if no timely reply/he is busy).
 2. If you do not inform AND get an acknowledgment from manager (that he knows about it), it will be considered that you were not working that time. Ie work hours will not be considered.
 
 Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#remote-collaboration) 
 
 
 ## Execution
-1. At day start, do cpp or at least **pull** from super origin. [#git-1](#git-1)
-2. wrap up any pending work form **previous** working day.
+1. At day start, do `cpp` or at least **pull** from super origin. [#git-1](#git-1)
+2. wrap up any pending work form **previous** working day. Old work should be wrapped up and approved in PR with more priority before moving to new tasks.
 3. then see all tasks and starting with the **highest prority first** (in project tool), Video: [#project-tool](#project-tool), Link: [#project-management-tool](#project-management-tool)
-    1. Invest roughly 5% of task time in making "**strategy**"  Video: [initial-strategy-making](#initial-strategy-making), [do-only-whats-required](#do-only-whats-required)
+    1. Invest roughly 5% of task time in making "**strategy**"  Video: [initial-strategy-making](#initial-strategy-making), [do-only-whats-required](#do-only-whats-required). See this for more details [#project-exectuion-workflow](#project-exectuion-workflow)
     2. Keep filling in "**proposted estimated time**" in hours field in ticket(s). This time will include all the time you ever had or will invest on the ticket. This includes strategy making, discussions, pr1, pr2, pr3 (if any), bug resolution time (if any). [estimations-and-requirement-gathering](#estimations-and-requirement-gathering)
     3. Get that **strategy approved** and reviewed by manager and also show him proposed estimates field time while sharing the strategy.
 5. "After" all the above and if strategy is approved, start a task as per highest priority number in pm tool and mark task status as "**in-progress**". Ideally, you should have only **"one" ticket to have "in-progress"** status at a single time because it is discouraged to do many many tickets all at same time. Fully make one ticket complete, then move to other.
-6. **Make PR 1** of a task, get it approved.  PR1 should not engage you for more than 50% of total task time in any case. If that is the case, then something is happening wrong (for the most cases)  Link: [pull-requests--merge-requests](#pull-requests--merge-requests), Video: [pull-request-flow](pull-request-flow)
+6. **Make PR 1** of a task, see [#coding-and-execution](#coding-and-execution), get it approved. If you are investing more time than mentioned in the link, then something is happening wrong (for the most cases)  Link: [pull-requests--merge-requests](#pull-requests--merge-requests), Video: [pull-request-flow](pull-request-flow)
 7. Do **cpp**. Link: [cpp---commit-pull-push](#cpp---commit-pull-push),
-8. "If" PR 1 of a task is approved, **Make PR 2** of that same task, get it approved. But first check code and functionality thoroughly yourself. Link:  [no-such-thing-as-qa](#no-such-thing-as-qa)
-9. Your first priority, generally, is to **fully complete old things before moving to any new**. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than doing 10 things 50%. Link: [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
+8. "If" PR 1 of a task is approved, **Make PR 2** of that same task, get it approved. But first check code and functionality thoroughly yourself. Link: [#coding-and-execution](#coding-and-execution)  [no-such-thing-as-qa](#no-such-thing-as-qa) with manual and automated testing (ask manager for details if applicable for each project and task).
+9. Your first priority, generally, is to **fully complete old things before moving to any new**. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and do not move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than doing 10 things 50%. Link: [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
 10. Do **cpp** again. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
 11. Switch to **another** task. 
 12. **Repeat**.  Link: [daily-prs-routine](#daily-prs-routine)
-13. Before the **last hour** of your team sign off time (e.g if sign off time is 10pm, last hour starts at 9pm), 
+13. Before the **last one hour** of your team sign off time:
     1. **Update tasks**/tickets in PM tool with latest correct **status** (of course you would be doing this thoughout the day also)
     2. present your **final PRs** of the work done in that day and review PRs of all others. (of course you would be doing this thoughout the day in SMs also)
 
+## Repetitive mistakes in PR.
+1. It is one of the most catastrophic. Please avoid.
 
 ## Meetings
-1. Scheduled meeting times:  12pm-12:15pm, 3pm-3:15pm, 6pm-6:15pm, 9pm-10pm.
+1. Scheduled meeting times:  10pm-10:15pm (scrum), 3pm, 7pm.
 1  In SM, it's better to **ask questions** in this time (for blockers, you can message manager anytime).
 1. In SM, **present PRs** of whatever **stable work** you have done so far. Develop in such a way that on each meeting you have something (small or big) flawless to get merged. So make PR(s) ready on each meeting time. Small reviews are good to have. It is your responsibility to get it merged. Watch out github emails for @mentions or when issues are made. If it has no or minor mistakes, it will get merged in 2-10 minutes. If this is not the case, then it means you did not completed it flawlessly.    
 1. In SM, **review PRs of peers**. (ask manager to whose work you should review daily or see task field of 'reviewer' or short cut link on right panel of pm tool)
+
+## Asking for help
+You should not ask anyone in an unscheduled way. People might be working and concentrating on their own work. You can message (anyone) at each clock hour. E.g 10am, 11am, 12pm, 1pm .. so on. A clock hour is when its a full hour (hour needle is at the digit exactly).
 
 ## Signoff
 1. **Inform manager** and **team** textually at least 10 minutes before sign off.
@@ -910,34 +915,31 @@ Of course, start a the tasks with most highest priority first.
 
 # Project exectuion workflow
 
-## Requirement understanding
-1. User story
-2. Wireframes
-
-## Level 0 Estimates (ballbark)
-1. WBS on spreadsheet with time investment 2% of total project time. Lets say the full project exectuion and complete might be 100 hours. Then at this stage of estimation, we should spend about 2% (which is 2 hours).
- 
-## Level 1 Estimates 
-1. WBS extended with 10% of time investment.
-    2. story understanding
-    3. wireframe understanding
-    4. discussion and initial strategy 
-    5. initial db design flow diagram
-6. Send estimates to product owner
-
-## Coding and execution
-
-We will do the following for each task one by one. Finish task, the do the same for the next task of the project.
-For each task, we should do these in the `info`git repository of project:
-1. Coding - 50% of total time be spend on this phase (this time can vary because it depends on project as well)
-    1. extended , revised db desigh (final)
-    2. extended , revised flow diagrams (detailed and final)
-    3. req / resp model
-    4. pseudo code (PR 1). Goes both in project repo and in info repo
-2. Testing - 20% of total time (this time can vary because it depends on project as well)
-    1. API tests
-    2. Unit tests
-    3. e2e (if informed by manager and applicable)
+1. **Requirement understanding**
+    1. User story - reading, understanding, initial question / answer session
+    2. Wireframes
+1. **Level 0 Estimates** (ballbark)
+    1. **WBS** on spreadsheet with time investment 2% of total project time. Lets say the full project exectuion and complete might be 100 hours. Then at this stage of estimation, we should spend about 2% (which is 2 hours).
+1. **Level 1 Estimates** 
+    1. **WBS extended** (enough to start execution). This phase should consume 10% of total project time investment.
+        1. story understanding
+        1. wireframe understanding
+        1. discussion and initial strategy 
+        1. initial db design flow diagram
+    6. Send estimates to product owner
+1. **Coding and execution**
+    We will do the following **for each task one by one**. Finish task, then do the same for the next task of the project.
+    For each task, we should do these in the `info`git repository of project:
+    1. PR 1 - 20% max of total time be spend on this phase (this time can vary because it depends on project as well)
+        1. extended , revised **db desigh (final)**
+        2. extended , revised **flow diagrams (detailed and final)**
+        3. **req / resp model**
+        4. **pseudo code (PR 1)**. Goes both in project repo and in info repo
+    1. **Coding** - 30% of the total time.
+    1. **Testing** - 20% of total time (this time can vary because it depends on project as well)
+        1. API tests
+        2. Unit tests
+        3. e2e (if informed by manager and applicable)
 
 # Estimations and requirement gathering
 ## How can I improve estimate and execution
