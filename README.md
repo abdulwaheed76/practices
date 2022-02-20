@@ -216,8 +216,8 @@ Do not install node by any other means but only use nvm. Follow this link and us
 
 For windows: https://github.com/coreybutler/nvm-windows
 
-
-
+##### node version
+As of date we are using 14.16.1 for most projects. Please use this or ask manager. Otherwise most likely you might have challenges in setting up project.
 
 
 ## IDE
@@ -688,6 +688,7 @@ This can be best informed by the following examples. If you are not following th
 1. Function and variable names can be a big long e.g even to 20 characters but they should **smartly** and **clearly** explain the meaning and purpose. I.e be **self explanatory**.
 
 ## Mixure of names of files and functions for backend and frontend
+Note that react component file will always have C capital at start but for other files, if it has a class, the first char will be capital. If it does not have a file, the first char will be small case. So file name can be pascal or camel case.
 ```
 file, func,     desc
 prefix prefix
@@ -741,7 +742,7 @@ prefix prefix
 ## Comments
 ## Code comments
 #### Commented code for later use
-If unused commented code is present and developer needs it for future reference, move it to the bottom most of file.
+If unused commented code is present and developer needs it for future reference, move it to another notes file.
 
 
 
