@@ -127,8 +127,9 @@ https://luciopaiva.com/markdown-toc/
 Please read this and follow consistently. All are adults here and need not to be reminded every time. These things are important and thus written with effort. Nothing further needs to be written any further to insist more.
 
 ## The most important thing
-1. The most importantt thing to do here is be responsible and avoiding mistakes. This the first and one of the most important trait that you should buildm first. This does not requires a lot of time. It just requires a changed and improved attitude and behaviour.
-    1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later tasks (which is based on initial work) is also affected. So its best to be careful in start. 
+1. The most importantt thing to do here is be responsible and avoiding mistakes. This is the first and one of the most important trait that you should build. This does not requires a lot of time. It just requires a changed and improved attitude and behaviour.
+1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later tasks (which is based on initial work) is also affected. So its best to be careful in start. 
+1. Sometimes its also not wise to overdo and cost of being 1000% perfect is higher than the profit. Sometimes done is better than perfect. But lets not go in that debate. [definition-of-mistake](#definition-of-mistake) is quite clear in this article.
 
 Links: [definition-of-mistake](#definition-of-mistake), [no-such-thing-as-qa](#no-such-thing-as-qa), [qa-quality-assurance](#qa-quality-assurance), [work-and-self-management](#work-and-self-management), [you](#you)
 
@@ -693,45 +694,45 @@ Note that react component file will always have C capital at start but for other
 file, func,     desc
 prefix prefix
                 examples
-["ct", ct,   "controller"], 
-                cUser.ts//controller
-                cUser()//controller
-["Cp", Cp,   "component"], 
+["ct", ct,   "controller", 
+                ctUser.ts//controller //or CtUser.ts if class
+                ctUser()//controller  //or CtUser() if class
+["Cp", Cp,   "component", 
                 CpUser.tsx //comp
                 CpUser()//comp
-["hk", use,   "hook"], // only exception for function name. Latter has 'use'
-                hUser.tsx
+["hk", use,   "hook", // only exception for function name. Latter has 'use'
+                hkUser.tsx
                 useUser()
-["ctx", ctx, "context"],
+["ctx", ctx, "context",
                 ctxUser.tsx
                 ctxUser()
-["ap", ap,     "api"],
-                aUser.ts/tsx
-                aUser()
-["do", do,     "dao"],
-                dUser.ts
-                dUser()
-["md", md,     "model"],
-                mUser.ts
-                mUser()
+["ap", ap,     "api",
+                apUser.ts/tsx
+                apUser()
+["do", do,     "dao",
+                doUser.ts
+                doUser()
+["md", md,     "model",
+                mdUser.ts
+                mdUser()
 ["sr", sr,     "service"],
-                sUser.ts
-                sUser()
+                srUser.ts
+                srUser()
 ["ut", ut,     "util"],
-                uUser.ts
-                uUser()
+                utUser.ts
+                utUser()
 ["cfg", cfg, "config"],
                 cfgUser.ts
                 cfgUser()
 ["rt", rt,     "route"],
-                rUser.ts
-                rUser()
+                rtUser.ts
+                rtUser()
 ["st", st,   "style/css"],
                 stUser.ts
                 st-user {}
 ["tp", tp,     "types"],
-                tUser.ts
-                tUser = {} //types and interfaces
+                tpUser.ts
+                tpUser = {} //types and interfaces
 ["dt", dt,   "data"],
                 dtUser.ts
                 dtUser()
