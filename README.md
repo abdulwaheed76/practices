@@ -1506,6 +1506,11 @@ Avoid
 1. Bug vs improvement self qa flawless delivery 2021 08 19 https://youtu.be/L7_k6vRkMIg
 1. Bugs vs preference https://youtu.be/rP7cDLhMPzA
 
+## Personality
+1. Resourcefullnes problem solver https://youtu.be/nKRXiuug59k
+1. Resourcefullnes problem solver part 2 https://youtu.be/f_MgVusUJdQ 
+
+
 ## Javascript Misc
 
 ### Javascript core 
