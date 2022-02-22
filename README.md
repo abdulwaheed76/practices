@@ -173,10 +173,26 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 1. It is one of the most catastrophic. Please avoid.
 
 ## Meetings
-1. Scheduled meeting times:  10pm-10:15pm (scrum), 3pm, 7pm.
+1. Scheduled meeting times:  10pm-10:15pm (scrum), 3pm, 7pm. 
+    1. Please create alarms on mobile for meeting times
+    1. Start speaking yourself with the sequence of people that would be informed to you by your manager (sequence of your turn to speak).
+    1. Speak one by one. (about your 
+        1. status, what you did already, 
+        1. what are you doing and 
+        1. future plan, 
+        1. any problems 
+        1. or request for separate meeting, 
+        2. Your work PR status (approved, not approved, issues found etc). Ideally your PR should have no or less issues and as a result, it should be approved within few minutes (very quickly).
+    1. You should share your screen and show your work related to the above points. 
+    1. Ideal time for such meetings is 1-2 minutes per person (unless prolonged by Manager). So keep everything prepared and ready beforehand (what ever you want to show/ speak/ discuss).
+    1. Please do this in a systematic and well organized way with less handholding and asking/informing same questions/ instructions.
+
+Further notes:
 1  In SM, it's better to **ask questions** in this time (for blockers, you can message manager anytime).
-1. In SM, **present PRs** of whatever **stable work** you have done so far. Develop in such a way that on each meeting you have something (small or big) flawless to get merged. So make PR(s) ready on each meeting time. Small reviews are good to have. It is your responsibility to get it merged. Watch out github emails for @mentions or when issues are made. If it has no or minor mistakes, it will get merged in 2-10 minutes. If this is not the case, then it means you did not completed it flawlessly.    
-1. In SM, **review PRs of peers**. (ask manager to whose work you should review daily or see task field of 'reviewer' or short cut link on right panel of pm tool)
+1. In SM, **present PRs** of whatever **stable work** you have done so far. Develop in such a way that on each meeting you have something (small or big) flawless to get merged. So make PR(s) ready on each meeting time.
+1. Whatever you have done, should be in an accurate and stable form in terms of functionality and code. 
+1. Small reviews are good to have. It is **your responsibility** to get it merged. Watch out github emails for @mentions or when issues are made. If it has no or minor mistakes, it will get merged in 2-10 minutes. If this is not the case, then most likely it means you did not completed it flawlessly.    
+3. In SM, **review PRs of peers**. (ask manager to whose work you should review daily or see task field of 'reviewer' or short cut link on right panel of pm tool)
 
 ## Asking for help
 You should not ask anyone in an unscheduled way. People might be working and concentrating on their own work. You can message (anyone) at each clock hour. E.g 10am, 11am, 12pm, 1pm .. so on. A clock hour is when its a full hour (hour needle is at the digit exactly).
