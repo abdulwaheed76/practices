@@ -1507,8 +1507,10 @@ Avoid
 1. Bugs vs preference https://youtu.be/rP7cDLhMPzA
 
 ## Personality
+1. Responsible behaviour https://youtu.be/W2hWQFA7tgA
 1. Resourcefullnes problem solver https://youtu.be/nKRXiuug59k
 1. Resourcefullnes problem solver part 2 https://youtu.be/f_MgVusUJdQ 
+1. Inner and outer world https://youtu.be/3RtPd_wWAfk
 
 
 ## Javascript Misc
