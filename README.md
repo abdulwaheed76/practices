@@ -1527,6 +1527,7 @@ Avoid
 1. Resourcefullnes problem solver https://youtu.be/nKRXiuug59k
 1. Resourcefullnes problem solver part 2 https://youtu.be/f_MgVusUJdQ 
 1. Inner and outer world https://youtu.be/3RtPd_wWAfk
+1. Mistakes, carelessness https://youtu.be/nMVhlYyrJ-E
 
 
 ## Javascript Misc
