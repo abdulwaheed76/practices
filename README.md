@@ -265,10 +265,54 @@ You should try your **best** not to use windows but linux for develoment as it w
 
 Expertise in Linux is also a key important skill in the developers life which he would face the need for any way.
 
-## Database Redis
-On Ubuntu its simple to do `sudo apt install redis-server`. On windows its hard to find a clean setup. Ask you manager for download file if you are unable to find one in 5-10 minutes. As of November 2020, `https://redis.io/download` does not have redis for windows available.
+## Fork projects from github
+1. First of all, fork the project before following any of the steps below
 
-(for windows go to program files, locate redis folder, then go to bin folder. In windows explorer location bar, type cmd. Then type `redis-cli`. If you get a command prompt `theip>`. If this happens, it means redis is running.) If not, you need to start redis within bin folder. (to be continued).
+You will see this on the main repository(ies) of the projects.
+Main repository link will look like this: 
+`https://github.com/ab159ab/<project-name>`
+Project name may end with `bk`,`fe`,or `info`. These are backend, frontend, information repositories respectively, of the same project.
+
+![App Screenshot](https://www.cloudsavvyit.com/p/uploads/2021/11/8f84e8a9.png?trim=1,1&bg-color=000&pad=1,1)
+
+2. The fork process will ask you that on which account you want to fork the project. Choose your account.
+Once fork is made, it will be seen as in `https://github.com/<your-account>/<project-name>.
+Note here that this fork will not contain `ab159ab`. The main repository and this fork repository are different.
+
+3. Use this forked repository to clone. Do NOT clone from the main `ab159ab` repository.
+
+```bash
+  git clone git@github.com:<you-id>/<project-name>.git
+```
+
+4. Go to the project directory
+
+```bash
+  cd <project-name>
+```
+
+5. Install dependencies
+
+```bash
+  npm install
+```
+At this pont, you also need to install databases like postgresql and redis most probably for most projects (not all though). Configs of databases are in `bk` (backend projects). Search for `config` files and follow the instructions written in the database sections below. 
+
+6. Once databases are setup, now you most probably would want to run these in the backend 
+    `npm run dbMigrations` 
+    `npm run dbSeeds` 
+    There maybe some spelling variaions in old projects. Please see package.json for exact script names
+    
+7. Start the servers of both frontend and backend.
+
+```bash
+  npm start
+```
+
+## Database Redis
+On Ubuntu its simple to do `sudo apt install redis-server`. **On windows** its hard to find a clean setup. Ask you manager for download file if you are unable to find one in 5-10 minutes. As of November 2020, `https://redis.io/download` does not have redis for windows available.
+
+(for **windows** go to program files, locate redis folder, then go to bin folder. In windows explorer location bar, type cmd. Then type `redis-cli`. If you get a command prompt `theip>`. If this happens, it means redis is running.) If not, you need to start redis within bin folder. (to be continued).
 
 ### Redis on windows
 https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.msi
@@ -277,7 +321,10 @@ https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x6
 On ubuntu and windows, use the following commands
 ```
 sudo apt install postgresql
-sudo -u postgres psql;    (for windows go to program files, locate postgres folder, then go to bin folder. In windows explorer location bar, type cmd. Then type `psql -U postgres`. You will be prompted for password that you setup during installation. Rest is same for linux and windows)
+sudo -u postgres psql;    (for windows go to program files, locate postgres folder, then go to bin folder. 
+In windows explorer location bar, type cmd. Then type `psql -U postgres`. 
+You will be prompted for password that you setup during installation. Rest is same for linux and windows.
+You can also use pgadmin application. Please youtube as its versions change.)
 create database mydb;
 \c mydb;
 create user myuser with encrypted password 'mypass';
@@ -696,9 +743,6 @@ This can be best informed by the following examples. If you are not following th
 1. userArray
 1. userMap
 1. users | userList //list of objects
-## Css variable names
-1. list-item
-1. list-item-container
 ## Directory names
 1. directoryName
 ## Notes for names
@@ -756,12 +800,196 @@ prefix prefix
                 mwUser.ts
                 mwUser()
 ```
+
+## Css variable names
+1. list-item
+1. list-item-container
+
+The component should have a unique class name applied only on root element of that component, 
+The class name should be named after that component name.
+
+**Example:**
+```javascript
+  const CpMyTest = () => {
+    return (
+      <div className="cp-my-test-root"> {/* Notice the className consists of component name */}
+        <CpOtherSub />
+        <div className="wrapper">
+          <CpMore />
+          { /* so on... */ }
+        </div>
+      </div>
+    )
+}
+```
+
+Each component will have own style `.scss` file.
+all the component styles should be wrapped inside a single unique parent class name.
+
+```scss
+  // As u can see, the classname .wrapper scoped now, Now if we have the same classname applied anywhere else in app that won't be affected
+  .cp-my-test-root { ✔️
+    .wrapper { ✔️
+      
+    }
+  }
+```
+```scss 
+  .cp-my-test-root { ❌️
+    
+  }
+  .wrapper { ❌
+  
+  }
+```
+## React components
+
+### Component PropTypes naming convention:
+Just name the component props type as `PropTypes`
+
+**Example:**
+```typescript
+  type PropTypes = {}; ✔️
+
+  const CpMyTest = (props: PropTypes) => { /**/ }
+```
+
+```typescript
+  type MyCustomNamedType = {}; ❌
+
+  const CpMyTest = (props: MyCustomNamedType) => { /**/ }
+```
+
+### Page Components naming convention:
+
+Components that compose the entire UI using smaller components should be suffixed with the **Page** word.
+
+Or just think whatever component is declared in routes file should have this name criteria.
+**Example:**
+```javascript
+  // folder and filename: loginPage/CpLoginPage.tsx
+  const CpLoginPage = () => { ✔️
+    return (
+      <div className="cp-login-page-root"> {/* Notice the className consists of component name */}
+        <CpOther />
+        <CpWrapper>
+          {/* so on... */}
+        </CpWrapper>
+      </div>
+    )
+}
+```
+
+### Available Wrapper Components:
+___
+
+### Form Controls
+
+These are the few default form control components available in the project.
+
+You can find all the form components at this path ``src/components/form``
+
+**Example:**
+The components use **react-hook-form** for managing form state and validation.
+
+- ```<CpFormTextFieldInput />```
+- ```<CpFormCheckboxInput />```
+- ```<CpFormRadioInput />```
+- ```<CpFormSwitchInput />```
+- ```<CpFormSelectionInput />```
+- ```<CpForm />```
+
+See Below, for examples usage of each control.
+
+### Usage/Examples
+
+```javascript
+const CpTestComponent = () => {
+  const methods = useForm({
+    defaultValues: {},
+  });
+
+  return (
+    <CpForm methods={methods} onSubmit={methods.handleSubmit(console.log)}>
+      <CpFormTextFieldInput name="fn" label="First Name" required />
+      <br />
+      <CpFormCheckboxInput name="cb" label="Agree terms & conditions" required />
+      <br />
+      <CpFormRadioInput
+        name="radio"
+        label="Allow or not ?"
+        required
+        data={[
+          { label: "Male", value: "male" },
+          { label: "Female", value: "female" },
+        ]}
+      />
+      <br />
+      <CpFormSelectionInput
+        name="select"
+        required
+        label="Select Me"
+        data={[
+          { label: "User 1", value: "user1" },
+          { label: "User 2", value: "user2" },
+          { label: "User 3", value: "user3" },
+        ]}
+      />
+      <br />
+      <CpFormSwitchInput label="Switch Me" name="switch" required />
+      <br />
+      <button onClick={() => methods.reset()}>Clear</button>
+      <button type="submit">Submit</button>
+    </CpForm>
+  );
+};
+```
+
+### Dialog Components
+
+These are the variations of dialog components. 
+
+- ```<CpDialog1 />```  => sweetAlert dialog
+- ```<CpDialog2 />```  => material dialog v1
+- ```<CpDialog3 />```  => material dialog v2
+
+(✨ optional) There is a handy hook which you can use to display the dialog 
+without having to set up everything manually. See example below.
+
+````javascript
+  const [dialog, close] = useDialog({ title: "Simple Dialog" });
+
+  return (
+    <button onClick={
+      () => dialog({
+        onConfirm: close,
+        onClose: close,
+        children: <p>Lorem ipsum dolor sit amet, consectetur...</p>,
+        type: "info",   // if using dialog1 then you can specify type
+      }, "dialog3") // you can switch between different dialogs
+    }>
+      Show dialog
+    </button>
+  )
+````
+
+### Importing modules 
+
+- do not import anything from any UI library directly, instead import via `moduleImports.ts` file (think `moduleImports.ts` as a middle man which import and export)
+  ```javascript
+    import { TextField } from "@mui/material"; ❌ ️
+    // instead
+    import { CpTextField } from "moduleImports"; ✔️
+  ```
+You can find the `moduleImports.ts` file in `src/shared/moduleImports/moduleImports.ts`
+
+- icons should be imported from `iconImports.ts` file
+
+
 ## Comments
 ## Code comments
 #### Commented code for later use
 If unused commented code is present and developer needs it for future reference, move it to another notes file.
-
-
 
 
 # Project management
