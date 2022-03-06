@@ -1881,6 +1881,10 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. For detailed javaee related concepts (caustion, few are a bit old so you should make sure if anything is depricated), https://innovalog.atlassian.net/wiki/spaces/JMCF/pages/141892372/Calculated+scripted+Text+Html+custom+field+type
 1. spring boot, jpa, hibernate in 1 hour https://www.youtube.com/watch?v=MaI0_XdpdP8
 
+## Diagraming and tools
+### Dot graphviz
+1. How to create process flow diagrames https://youtu.be/KPblF9LfTp0
+
 ## Git / github
 
 ### Git
