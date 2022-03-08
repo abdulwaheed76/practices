@@ -1762,6 +1762,7 @@ Avoid
 5. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
 
 ## Self review
+1. How to self review https://youtu.be/nxhpVWcvHjI
 1. Self review attitude 2021 08 24  https://youtu.be/wAsnZs-MSOU
 1. Bug vs improvement self qa flawless delivery 2021 08 19 https://youtu.be/L7_k6vRkMIg
 1. Bugs vs preference https://youtu.be/rP7cDLhMPzA
