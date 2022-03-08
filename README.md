@@ -1910,6 +1910,9 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. Project tool - gantt and stories https://youtu.be/wiq8lbz2RhE
 1. Project tool - task life cycle https://youtu.be/-0EH_lFeYBk
 
+### Activity sheet 
+1. How to update status on sheet https://youtu.be/mLMNsMp5Wx8
+
 ## Basic way of working
 ### Directory structure
 1. Node, react https://youtu.be/grnmgw9vqDk
