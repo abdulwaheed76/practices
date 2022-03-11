@@ -1734,6 +1734,8 @@ Avoid
 1. Asking for information that is already clearly present in appointment, policy or practices documents. This means employee had not carefully read the said and is irresponsibly consuming managemnt's time. However, if something is really missing, we welcome questions.
 
 # List of libs/framework approved for PR 2/3
+## Third party libs/frameworks
+
 ```
     All exact version number of libs mentioned in tpl project package.json
     any @types for typescript
@@ -1744,6 +1746,8 @@ Avoid
     react-alert": "^7.0.2",
     "react-alert-template-basic
 ```
+## Inhous made libs
+All modules shoulds be found and listed with details by developers here: https://github.com/ab159ab/module-info
 
 # Tutorials
 
