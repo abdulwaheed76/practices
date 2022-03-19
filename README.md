@@ -1188,20 +1188,26 @@ Of course, start a the tasks with most highest priority first.
         1. wireframe understanding
         1. discussion and initial strategy 
         1. initial db design flow diagram
-    6. Send estimates to product owner
-1. **Coding and execution**
-    We will do the following **for each task one by one**. Finish task, then do the same for the next task of the project.
-    For each task, we should do these in the `info`git repository of project:
-    1. PR 1 - 20% max of total time be spend on this phase (this time can vary because it depends on project as well)
-        1. extended , revised **db desigh (final)**
-        2. extended , revised **flow diagrams (detailed and final)**
-        3. **req / resp model**
-        4. **pseudo code (PR 1)**. Goes both in project repo and in info repo
-    1. **Coding** - 30% of the total time.
-    1. **Testing** - 20% of total time (this time can vary because it depends on project as well)
-        1. API tests
-        2. Unit tests
-        3. e2e (if informed by manager and applicable)
+        1. Send estimates to product owner
+1. **Testing** & **Coding** - 70-88% total time - 
+20% for automated testing, 
+50% for coding/execution/etc and 
+0-18% e2e. 
+(this time can vary because it depends on project as well). 
+We will do the following **for each task one by one**. 
+Finish task, then do the same for the next task of the project.
+    1. extended , revised **db desigh (final)**
+    1. extended , revised **flow diagrams (detailed and final)**
+    1. **req / resp pesudo and entity models**
+    1. **api tests pseudo**
+    1. **pseudo code (PR 1)**. 
+    1. Complete **api tests** (and optional unit test) and **coding**
+    1. e2e functionality part only (via cypress if informed by manager and applicable)
+    1. e2e ui/view part only (via cypress if informed by manager and applicable) 
+
+# Task allocation between members
+## Ownership
+1. No one will do a task fully alone. There will be at least 3 members. One **pair**, one **strategic owner (sto)**. For example for a task or sub task, one person will may do coding, the other may do api tests. This can go vice versa in the next task. The sto is responsible to review the high level strategy of each task. But that does not excludes strategy responsibilty from the other two executors by any means.
 
 # Estimations and requirement gathering
 ## How can I improve estimate and execution
