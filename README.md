@@ -153,26 +153,83 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 ## Execution
 1. At day start, do `cpp` or at least **pull** from super origin. [#git-1](#git-1)
 2. wrap up any pending work form **previous** working day. Old work should be wrapped up and approved in PR with more priority before moving to new tasks.
-3. then see all tasks and starting with the **highest prority first** (in project tool), Video: [#project-tool](#project-tool), Link: [#project-management-tool](#project-management-tool)
-    1. Invest roughly 5% of task time in making "**strategy**"  Video: [initial-strategy-making](#initial-strategy-making), [do-only-whats-required](#do-only-whats-required). See this for more details [#project-exectuion-workflow](#project-exectuion-workflow)
-    2. Keep filling in "**proposted estimated time**" in hours field in ticket(s). This time will include all the time you ever had or will invest on the ticket. This includes strategy making, discussions, pr1, pr2, pr3 (if any), bug resolution time (if any). [estimations-and-requirement-gathering](#estimations-and-requirement-gathering)
-    3. Get that **strategy approved** and reviewed by manager and also show him proposed estimates field time while sharing the strategy.
-5. "After" all the above and if strategy is approved, start a task as per highest priority number in pm tool and mark task status as "**in-progress**". Ideally, you should have only **"one" ticket to have "in-progress"** status at a single time because it is discouraged to do many many tickets all at same time. Fully make one ticket complete, then move to other.
-6. **Make PR 1** of a task, see [#coding-and-execution](#coding-and-execution), get it approved. If you are investing more time than mentioned in the link, then something is happening wrong (for the most cases)  Link: [pull-requests--merge-requests](#pull-requests--merge-requests), Video: [pull-request-flow](pull-request-flow)
+3. then see all tasks and starting with the **highest prority first** (in project tool or at top in sheet if spreadsheet is used), Video: [#project-tool](#project-tool), Link: [#project-management-tool](#project-management-tool) [#activity-sheet](#activity-sheet)
+    1. ~~IGNORE THIS FOR NOW. Invest roughly 5% of task time in making "**strategy**"  Video: [initial-strategy-making](#initial-strategy-making), [do-only-whats-required](#do-only-whats-required). See this for more details [#project-exectuion-workflow](#project-exectuion-workflow)~~
+    2. ~~IGNORE THIS FOR NOW. Keep filling in "**proposted estimated time**" in hours field in ticket(s). This time will include all the time you ever had or will invest on the ticket. This includes strategy making, discussions, pr1, pr2, pr3 (if any), bug resolution time (if any). [estimations-and-requirement-gathering](#estimations-and-requirement-gathering)~~
+    3. ~~IGNORE THIS FOR NOW. Get that **strategy approved** and reviewed by manager and also show him proposed estimates field time while sharing the strategy~~.
+5. ~~IGNORE THIS FOR NOW. "After" all the above and if strategy is approved, start a task as per highest priority number in pm tool and mark task status as "**in-progress**". Ideally, you should have only **"one" ticket to have "in-progress"** status at a single time because it is discouraged to do many many tickets all at same time. Fully make one ticket complete, then move to other~~.
+6. ~~IGNORE THIS FOR NOW. **Make PR 1** of a task, see [#coding-and-execution](#coding-and-execution), get it approved. If you are investing more time than mentioned in the link, then something is happening wrong (for the most cases)  Link: [pull-requests--merge-requests](#pull-requests--merge-requests), Video: [pull-request-flow](pull-request-flow)~~
 7. Do **cpp**. Link: [cpp---commit-pull-push](#cpp---commit-pull-push),
-8. "If" PR 1 of a task is approved, **Make PR 2** of that same task, get it approved. But first check code and functionality thoroughly yourself. Link: [#coding-and-execution](#coding-and-execution)  [no-such-thing-as-qa](#no-such-thing-as-qa) with manual and automated testing (ask manager for details if applicable for each project and task).
-9. Your first priority, generally, is to **fully complete old things before moving to any new**. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and do not move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than doing 10 things 50%. Link: [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
-10. Do **cpp** again. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
-11. Switch to **another** task. 
-12. **Repeat**.  Link: [daily-prs-routine](#daily-prs-routine)
-13. Before the **last one hour** of your team sign off time:
+8. Follow workflow metnioned here [#project-exectuion-workflow](#project-exectuion-workflow)
+9. "If" PR 1 of a task is approved, **Make PR 2** of that same task, get it approved. But first check code and functionality thoroughly yourself. Link: [#coding-and-execution](#coding-and-execution)  [no-such-thing-as-qa](#no-such-thing-as-qa) with manual and automated testing (ask manager for details if applicable for each project and task).
+10. Your first priority, generally, is to **fully complete old things before moving to any new**. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and do not move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than doing 10 things 50%. Link: [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
+11. Do **cpp** again. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
+12. Switch to **another** task. 
+13. **Repeat**.  Link: [daily-prs-routine](#daily-prs-routine)
+14. Before the **last one hour** of your team sign off time:
     1. **Update tasks**/tickets in PM tool with latest correct **status** (of course you would be doing this thoughout the day also)
     2. present your **final PRs** of the work done in that day and review PRs of all others. (of course you would be doing this thoughout the day in SMs also)
 
 ## Repetitive mistakes in PR.
 1. It is one of the most catastrophic. Please avoid.
 
-## Meetings
+# Project exectuion workflow
+
+## Requirement understanding
+1. User story - reading, understanding, initial question / answer session
+2. Wireframes
+
+## Level 0 Estimates (ballbark)
+3. **WBS** on spreadsheet with time investment 2% of total project time. Lets say the full project exectuion and completion might be guessed at this stage to be 100 hours. Then at this stage of estimation, we should spend about 2% (which is 2 hours).
+
+## Level 1 Estimates 
+4. WBS extended (enough to start execution). This phase should consume 10% of total project time investment.
+
+4.1 story understanding
+
+4.2 wireframe understanding
+
+4.3 discussion and initial strategy 
+
+4.4 initial db design 
+
+4.5 flow diagrams
+
+4.6 Send estimates to product owner
+
+## Testing & Coding - 70-88% total time. 
+5. 10-20% for automated testing, 
+50% for coding/execution/etc and 
+0-18% e2e. 
+(this time can vary because it depends on project as well). 
+
+We will do the following **for each task one by one**. 
+Finish task, then do the same for the next task of the project.
+
+5.1 extended , revised **db desigh (final)**
+
+5.2 extended , revised **flow diagrams (detailed and final)**
+
+5.3 **req / resp pesudo and entity models**
+
+5.4 **api tests pseudo**
+
+5.5 **pseudo code (PR 1)** (via code nav app wherever applicable)
+
+5.6 Complete **api tests** - PR2,PR3 (and optional unit test)
+
+5.7 Complete **coding** - PR2,PR3 for the task
+
+5.8 e2e functionality part only (via cypress if informed by manager and applicable)
+
+5.9 e2e ui/view part only (via cypress if informed by manager and applicable) 
+
+# Task allocation between members
+## Ownership
+1. No one should do a task fully alone. There will be at least 3 members. One himself, One **pair** and one **strategic owner (sto)**. For example for a task or sub task, one person will may do coding, the other may do api tests. Or one may do fronend, other may do backend. This can go vice versa in the next task but the sequence of work flow described above should not change. The sto is responsible to be aware and to review the high level strategy of each task. But that does not excludes strategy responsibilty from the other two executors by any means.
+
+
+# Meetings
 
 ### Meeting schedule
 1. Scheduled meeting times:  10pm-10:15pm (scrum), 3pm, 7pm. 
@@ -182,21 +239,25 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 ### Meeting process before meeting start
 1. First of all, type 'ready' in group chat, when you are ready.
     1. Ready means that you have your work done so far open in from of you to show on screen, have PR made, and updated your status in pm tool / sheet.
-1. Then send your PR in group chat for others to review and you can review PR of others as well (whatever the methodology of your group and team is).
+1. Then send your PR in group chat and past link in sheet for others to review and you can review PR of others as well (whatever the methodology of your group and team is).
 
 ### During meeting
+1. Per person you, should take 1 minute (unless prolonged by Manager). So arrange your speach, screen, application etc accordingly beforehand.
 1. Speak one by one as per given sequence by your manager / lead, about your 
-    1. status, what you did already (most probably with showing your screen) 
-    1. what are you doing and 
-    1. future plan, 
-    1. any problems 
-    1. or request for separate meeting, 
-    1. Your work PR status (approved, not approved, issues found etc). 
-    1. Ideal time for such meetings is 1-2 minutes per person (unless prolonged by Manager). So keep everything prepared and ready beforehand (what ever you want to show/ speak/ discuss).
+    1. **status**, what you did already (most probably with **showing** your **screen**) 
+    1. what are you **doing now** and 
+    1. your **future plan**, 
+    1. any **problems**? 
+    1. or request for **separate meeting** due to problems or any other reason, 
+    1. Your work **PR status** (approved, not approved, issues found etc). 
     1. Please do this in a systematic and well organized way with less handholding and asking/informing same questions/ instructions.
+    1. Above said should be carried out like this. Each point has a purpose. E.g few things might also be written in task sheet and one might say **"I am doing as per my sheet. That's the status and no issues"** but on the contrary, showing screen, verbally telling status of each item above in few seconds allows quick review of lead/manager and every team member/stakeholder listens without digging through the work sheet (in few seconds).
+    1. No need to say "yes/hello" on your turn. **Simply start** the above stated. 
+    1. **Listen to what others speak**. This is advantageous in team collaboration. 
         
 ### PR per meeting
 1. Ideally your PR should have no or less issues and as a result, it should be approved within few minutes (very quickly).
+1. PR should be **`lintAutoFix`ed** and have no lint errors (at least of your code)
 1. **present PRs** of whatever **stable work** you have done so far. Develop in such a way that on each meeting you have something (small or big) flawless to get merged. So make PR(s) ready on each meeting time.
 1. Whatever you have done, should be in an accurate and stable form in terms of functionality and code. 
 1. Small reviews are good to have. It is **your responsibility** to get it merged. Watch out github emails for @mentions or when issues are made. If it has no or minor mistakes, it will get merged in 2-10 minutes. If this is not the case, then most likely it means you did not completed it flawlessly.    
@@ -205,8 +266,9 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 ### PR Deviations
 1. If you are not able to get your PRs merged on each SM, it means something needs to be optimized. Please discuss with your manaager. 
 
+# Misc topics
 ## Asking for help
-You should not ask anyone in an unscheduled way. People might be working and concentrating on their own work. You can message (anyone) at each clock hour. E.g 10am, 11am, 12pm, 1pm .. so on. A clock hour is when its a full hour (hour needle is at the digit exactly).
+You should not ask anyone in an unscheduled way. People might be working and concentrating on their own work. You can message (anyone) in group chat at each clock hour. E.g 10am, 11am, 12pm, 1pm .. so on. A clock hour is when its a full hour (hour needle is at the digit exactly).
 
 ## Signoff
 1. **Inform manager** and **team** textually at least 10 minutes before sign off.
@@ -1120,10 +1182,10 @@ To be continued..
 ## Who are our favourites? Top qualities?
 Weighed according to numbers below
 1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE quality is:
-  - Compliance / responsible behaviour : If you have this **one** trait, you will have these for example:
+  - Responsible behaviour : If you have this **one** trait, you will have these for example:
     1. No repetitive mistakes, 
     2. no carelessness, 
-    3. not ot letting us repeat ever
+    3. not letting us repeat ever
     4. Anything informed and instructed once, would never be needed to be repeated, should happen and complied in future with care. 
     5. Dedication - You should work hard with your heart and motivation. 
     6. A determination to become better. 
@@ -1174,40 +1236,6 @@ Of course, start a the tasks with most highest priority first.
 ## Your work time
 1. Each day, the total estimated time of tickets done by you should be equal to the daily work time expected from you. The ticket estimated time is entered by project manager and is viewable in the field "Estimated time" in each ticket.
 
-
-# Project exectuion workflow
-
-1. **Requirement understanding**
-    1. User story - reading, understanding, initial question / answer session
-    2. Wireframes
-1. **Level 0 Estimates** (ballbark)
-    1. **WBS** on spreadsheet with time investment 2% of total project time. Lets say the full project exectuion and complete might be 100 hours. Then at this stage of estimation, we should spend about 2% (which is 2 hours).
-1. **Level 1 Estimates** 
-    1. **WBS extended** (enough to start execution). This phase should consume 10% of total project time investment.
-        1. story understanding
-        1. wireframe understanding
-        1. discussion and initial strategy 
-        1. initial db design flow diagram
-        1. Send estimates to product owner
-1. **Testing** & **Coding** - 70-88% total time - 
-20% for automated testing, 
-50% for coding/execution/etc and 
-0-18% e2e. 
-(this time can vary because it depends on project as well). 
-We will do the following **for each task one by one**. 
-Finish task, then do the same for the next task of the project.
-    1. extended , revised **db desigh (final)**
-    1. extended , revised **flow diagrams (detailed and final)**
-    1. **req / resp pesudo and entity models**
-    1. **api tests pseudo**
-    1. **pseudo code (PR 1)**. 
-    1. Complete **api tests** (and optional unit test) and **coding**
-    1. e2e functionality part only (via cypress if informed by manager and applicable)
-    1. e2e ui/view part only (via cypress if informed by manager and applicable) 
-
-# Task allocation between members
-## Ownership
-1. No one will do a task fully alone. There will be at least 3 members. One **pair**, one **strategic owner (sto)**. For example for a task or sub task, one person will may do coding, the other may do api tests. This can go vice versa in the next task. The sto is responsible to review the high level strategy of each task. But that does not excludes strategy responsibilty from the other two executors by any means.
 
 # Estimations and requirement gathering
 ## How can I improve estimate and execution
