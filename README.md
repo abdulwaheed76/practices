@@ -1785,6 +1785,11 @@ All modules shoulds be found and listed with details by developers here: https:/
 
 # Tutorials
 
+## Automated tests
+
+1. what are tests https://youtu.be/FQi4R6qlbSU
+1. tests pseudo https://youtu.be/YAjfwQRSrIg
+1. test dependency on other tests and data  https://youtu.be/fMw4jKLUdGk
 
 ## Initial Strategy making
 1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
