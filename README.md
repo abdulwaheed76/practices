@@ -1785,11 +1785,11 @@ All modules shoulds be found and listed with details by developers here: https:/
 
 # Tutorials
 
-## Automated tests
+## PR 1 pseudo things
 
-1. what are tests https://youtu.be/FQi4R6qlbSU
-1. tests pseudo https://youtu.be/YAjfwQRSrIg
+1. pseudo api tests https://youtu.be/4ki3WWWbVUg
 1. test dependency on other tests and data  https://youtu.be/fMw4jKLUdGk
+1. req response model https://youtu.be/B7WlwGw4_Bc
 
 ## Initial Strategy making
 1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
