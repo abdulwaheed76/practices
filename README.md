@@ -1789,9 +1789,10 @@ All modules shoulds be found and listed with details by developers here: https:/
 
 1. Workflow https://www.youtube.com/watch?v=AY_ox3Zp9Y8
 1. Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
-1. pseudo api tests https://youtu.be/4ki3WWWbVUg
-1. test dependency on other tests and data  https://youtu.be/fMw4jKLUdGk
-1. req response model https://youtu.be/B7WlwGw4_Bc
+1. Pseudo api tests https://youtu.be/4ki3WWWbVUg
+1. Test dependency on other tests and data  https://youtu.be/fMw4jKLUdGk
+1. Req response model https://youtu.be/B7WlwGw4_Bc
+1. Segregation of tasks PR 1 and PR 2 https://youtu.be/7tOMTbo0NF8
 
 ## Initial Strategy making
 1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
