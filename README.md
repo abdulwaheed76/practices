@@ -270,6 +270,10 @@ Finish task, then do the same for the next task of the project.
 ## Asking for help
 You should not ask anyone in an unscheduled way. People might be working and concentrating on their own work. You can message (anyone) in group chat at each clock hour. E.g 10am, 11am, 12pm, 1pm .. so on. A clock hour is when its a full hour (hour needle is at the digit exactly).
 
+Other examples maybe, if your PR is not approved in schedule meeting and you think any delay will affect the timeline, then you can request reviewer to review it at a clock hour.
+
+The last resort for super urgent things where you or more people are blocked and also have no other alternative task is to raise red flags and ask for help from your pair, strategy owner, lead or manager (sequencially).
+
 ## Signoff
 1. **Inform manager** and **team** textually at least 10 minutes before sign off.
 
