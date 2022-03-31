@@ -254,7 +254,10 @@ Finish task, then do the same for the next task of the project.
     1. Above said should be carried out like this. Each point has a purpose. E.g few things might also be written in task sheet and one might say **"I am doing as per my sheet. That's the status and no issues"** but on the contrary, showing screen, verbally telling status of each item above in few seconds allows quick review of lead/manager and every team member/stakeholder listens without digging through the work sheet (in few seconds).
     1. No need to say "yes/hello" on your turn. **Simply start** the above stated. 
     1. **Listen to what others speak**. This is advantageous in team collaboration. 
-        
+
+### After meeting
+1. STO should sync up with team members to make sure everthing is on track. If everything is on track (ideally), then there will be less need for any detail discussion. Few verbal sentences and screenshare would suffice.
+
 ### PR per meeting
 1. Ideally your PR should have no or less issues and as a result, it should be approved within few minutes (very quickly).
 1. PR should be **`lintAutoFix`ed** and have no lint errors (at least of your code)
