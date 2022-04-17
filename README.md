@@ -1324,7 +1324,11 @@ Clients, product owners, project managers may try their best to clarify things b
 ## What happenes if estimates do not match outcome
 Your job performance score will be affected.
 
-
+## Estimation for unknown bugs
+1. It is comparatively hard to estimate time for bugs. This is why the first day / few hours of sprint is for understanding. Once you understand task or bug, its easy to estimate.
+1. Note, it's estimation first. When execution /fixing/development start: that is the sprint start time. 
+1. Still bug resolution estimate is tougher as compared to normal task estimate. But the point is "try your best to estimate" and all will be ok.
+1. One of the main reasons to estimate is so that we can compare between "what we thought" vs "what we had to do". And improve on it later or keep good things in future.
 
 
 # Coding practices
