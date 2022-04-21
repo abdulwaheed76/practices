@@ -1827,6 +1827,7 @@ All modules shoulds be found and listed with details by developers here: https:/
 1. Resourcefullnes problem solver part 2 https://youtu.be/f_MgVusUJdQ 
 1. Inner and outer world https://youtu.be/3RtPd_wWAfk
 1. Mistakes, carelessness https://youtu.be/nMVhlYyrJ-E
+1. Pull request review delegation https://youtu.be/4ekRhisqzhQ 
 
 
 ## Javascript Misc
