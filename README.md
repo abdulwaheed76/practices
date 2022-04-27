@@ -1138,7 +1138,18 @@ If a hazard comes like train out of order or delayed, or type puncture of a car.
 
 To explain, a soldier might say: if we had to go to a city from another city in a predetermined time, we will find a way; any way; and get the job done. There are only few corner cases in which you can't do it. E.g you get stuck by lightening and die on the way.
 
-
+## What should be my general priorities and preferences
+Top ones to be done first. This is a list on what to do things first if you have multiple things. This is general prority list. Things may differ case by case of course.
+1. Delegation - any tasks on which others' work is dependant. It can be, but not limited to
+    1. PRs reviews (you doing PR review of others)
+    2. assigning tasks to others
+    3. explaining tasks to others while you delegate
+    4. actually planning on how to delegate (maybe at start of the day/sprint etc)
+1. You old work. 
+    1. Your old unmerged PRs.
+    2. Anything pending, unfinished things (before you move to new things)
+1. Clarity of vision and strategy   
+  
 
 ## Change in requirements
 #### I created something and it got changed. Why?
