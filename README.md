@@ -1147,8 +1147,9 @@ Top ones to be done first. This is a list on what to do things first if you have
     4. actually planning on how to delegate (maybe at start of the day/sprint etc)
 1. You old work. 
     1. Your old unmerged PRs.
-    2. Anything pending, unfinished things (before you move to new things)
-1. Clarity of vision and strategy   
+    2. Anything pending, unfinished things (before you move to new things). Do not do new things unless old things are concluded.
+1. Clarity of vision and strategy for new things.
+1. Normal tasks  
   
 
 ## Change in requirements
