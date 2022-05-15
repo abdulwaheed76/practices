@@ -234,13 +234,18 @@ One himself, One **pair** and one **strategic owner (sto)**. For example for a t
 ## STO
 The sto is responsible to be aware and to review the high level strategy of each task. But that does not excludes strategy responsibilty from the other two executors by any means. STO can simply overrule and review strategy. But if doer/pair doubts this, they should talk to the manager.
 
-## Important rule of task execution
+# Important rule of task execution
 The following are the litmus paper tests, important rules the will determine if the task is executed correctly or not. At all points in time, for any sprint, any task, any person, any team member
+## Team coordination
 1. Task should have at above 3 roles (2 pairs and a sto).
 2. Task should be executed in such a away that suppose, if one of the 3 members  vanishes/disappears in thin air, the others will not be confused. Because each of the others will know exactly what and how the vanished person was doing. 
 3. Ones a "one single smallest identifieable" task is completed, and revewed by manager, there should be brief technical flow notes in `-info` repository and a video on the strategy used to do the task. E.g you created a login feature. You should explain the auth mechanism, steps, flow, syntax code and all the 3 roled persons mentioned above should acknowedge a 100% understanding of it in writing/via tool.
 4. If one of the 3 team members ever need to ask a question from one of the other 2, (after the task was done and some time  passed), it means the above steps were not completed correctly.
 5. If one of the 3 team members are questioned by manager or asked to continue the task and they are not aware on what and how something and anything at any level is happening, that is alarming as well.
+
+## PR coordination
+1. PRs will be reviewed in depth and full responsibility by pairs and STOs of that team/feature/project. There might be a final review by manager or teamlead or some third person but this would be a quick review. Lets say in 15 minutes of whatever work was done by all the group members (of the online group) in a day. Lets call it `Delta review`.
+2. If someone is not able to get at least 1 PR merged in a day (which should not be the case and is alarming), you should explicitly message project manager 15 minutes before leaving at dayend.
 
 
 # Meetings
