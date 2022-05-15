@@ -162,11 +162,12 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 7. Do **cpp**. Link: [cpp---commit-pull-push](#cpp---commit-pull-push),
 8. Follow workflow metnioned here [#project-exectuion-workflow](#project-exectuion-workflow)
 9. "If" PR 1 of a task is approved, **Make PR 2** of that same task, get it approved. But first check code and functionality thoroughly yourself. Link: [#coding-and-execution](#coding-and-execution)  [no-such-thing-as-qa](#no-such-thing-as-qa) with manual and automated testing (ask manager for details if applicable for each project and task).
-10. Your first priority, generally, is to **fully complete old things before moving to any new**. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and do not move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than doing 10 things 50%. Link: [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
-11. Do **cpp** again. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
-12. Switch to **another** task. 
-13. **Repeat**.  Link: [daily-prs-routine](#daily-prs-routine)
-14. Before the **last one hour** of your team sign off time:
+10. In every PR2, you should attach a short **video**, inside PR, of not more than 10 seconds (ideally) to show functionality of your work done.
+11. Your first priority, generally, is to **fully complete old things before moving to any new**. It is best to get the merged and get them marked as complete/approved. Note that completeness can be related to a full task or a sub task as well. Small or large but it should be complete. Not hanging in the middle. Do and complete old tasks first before moving to new tasks. Do not keep the tasks as unfinished and do not move to new ones unless informed by manager. It is better to fully complete 5 out of 10 things rather than doing 10 things 50%. Link: [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
+12. Do **cpp** again. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
+13. Switch to **another** task. 
+14. **Repeat**.  Link: [daily-prs-routine](#daily-prs-routine)
+15. Before the **last one hour** of your team sign off time:
     1. **Update tasks**/tickets in PM tool with latest correct **status** (of course you would be doing this thoughout the day also)
     2. present your **final PRs** of the work done in that day and review PRs of all others. (of course you would be doing this thoughout the day in SMs also)
 
@@ -237,6 +238,10 @@ The sto is responsible to be aware and to review the high level strategy of each
 The following are the litmus paper tests, important rules the will determine if the task is executed correctly or not. At all points in time, for any sprint, any task, any person, any team member
 1. Task should have at above 3 roles (2 pairs and a sto).
 2. Task should be executed in such a away that suppose, if one of the 3 members  vanishes/disappears in thin air, the others will not be confused. Because each of the others will know exactly what and how the vanished person was doing. 
+3. Ones a "one single smallest identifieable" task is completed, and revewed by manager, there should be brief technical flow notes in `-info` repository and a video on the strategy used to do the task. E.g you created a login feature. You should explain the auth mechanism, steps, flow, syntax code and all the 3 roled persons mentioned above should acknowedge a 100% understanding of it in writing/via tool.
+4. If one of the 3 team members ever need to ask a question from one of the other 2, (after the task was done and some time  passed), it means the above steps were not completed correctly.
+5. If one of the 3 team members are questioned by manager or asked to continue the task and they are not aware on what and how something and anything at any level is happening, that is alarming as well.
+
 
 # Meetings
 
