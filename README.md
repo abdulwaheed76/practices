@@ -170,6 +170,7 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 15. Before the **last one hour** of your team sign off time:
     1. **Update tasks**/tickets in PM tool with latest correct **status** (of course you would be doing this thoughout the day also)
     2. present your **final PRs** of the work done in that day and review PRs of all others. (of course you would be doing this thoughout the day in SMs also)
+    3. If someone is **not able to get at least 1 PR merged in a day** (which should not be the case and is alarming), you should explicitly message project manager 15 minutes before leaving at dayend.
 
 ## Repetitive mistakes in PR.
 1. It is one of the most catastrophic. Please avoid.
@@ -245,7 +246,6 @@ The following are the litmus paper tests, important rules the will determine if 
 
 ## PR coordination
 1. PRs will be reviewed in depth and full responsibility by pairs and STOs of that team/feature/project. There might be a final review by manager or teamlead or some third person but this would be a quick review. Lets say in 15 minutes of whatever work was done by all the group members (of the online group) in a day. Lets call it `Delta review`.
-2. If someone is not able to get at least 1 PR merged in a day (which should not be the case and is alarming), you should explicitly message project manager 15 minutes before leaving at dayend.
 
 
 # Meetings
