@@ -114,12 +114,12 @@ https://luciopaiva.com/markdown-toc/
 
 1. SM: Scheduled meeting.
 2. PR: github based pull request
-3. Inform manager: via whatsapp text message.
-4. Inform team: via zoom group text chat.
+3. Inform manager: via whatsapp text message, discord.
+4. Inform team: via zoom group text chat, google chat and voice.
 5. PM tool: Project management tool that has tasks/ tickets in it.
-6. CPP: commit, pull, push. Commit locally, pull from S-O, push to your own origin in exactly this sequence.
-7. Own origin/your origin/ `O-O`: When you make a fork of project from S-O, it will create a project in your own github account. That is your origin.
-8. Super origin / `S-O`: master repositories with preceeding `ab159ab` in github git url. The repository where you should make PRs and get your work merged.
+6. CPP: commit, pull, push. Commit locally, pull from SO, push to your own origin in exactly this sequence.
+7. Own origin/your origin/ `OO`: When you make a fork of project from SO, it will create a project in your own github account. That is your origin.
+8. Super origin / `SO`: master repositories with preceeding `ab159ab` in github git url. The repository where you should make PRs and get your work merged.
 
 # Workflow
 
@@ -199,7 +199,7 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
 
 ## Testing & Coding - 70-88% total time. 
 5. 10-20% for automated testing, 
-50% for coding/execution/etc and 
+50-80% for coding/execution/etc and 
 0-18% e2e. 
 (this time can vary because it depends on project as well). 
 
@@ -225,9 +225,18 @@ Finish task, then do the same for the next task of the project.
 5.9 e2e ui/view part only (via cypress if informed by manager and applicable) 
 
 # Task allocation between members
-## Ownership
-1. No one should do a task fully alone. There will be at least 3 members. One himself, One **pair** and one **strategic owner (sto)**. For example for a task or sub task, one person will may do coding, the other may do api tests. Or one may do fronend, other may do backend. This can go vice versa in the next task but the sequence of work flow described above should not change. The sto is responsible to be aware and to review the high level strategy of each task. But that does not excludes strategy responsibilty from the other two executors by any means.
+## Kind of team members
+No one should do a task fully alone. There will be at least 3 roles (usually each role belongs a a different person but sometimes 1 person may have 2 roles and other may have 1 role). 
 
+One himself, One **pair** and one **strategic owner (sto)**. For example for a task or sub task, one person will may do coding, the other may do api tests. Or one may do fronend, other may do backend. This can go vice versa in the next task but the sequence of work flow described above should not change. 
+
+## STO
+The sto is responsible to be aware and to review the high level strategy of each task. But that does not excludes strategy responsibilty from the other two executors by any means. STO can simply overrule and review strategy. But if doer/pair doubts this, they should talk to the manager.
+
+## Important rule of task execution
+The following are the litmus paper tests, important rules the will determine if the task is executed correctly or not. At all points in time, for any sprint, any task, any person, any team member
+1. Task should have at above 3 roles (2 pairs and a sto).
+2. Task should be executed in such a away that suppose, if one of the 3 members  vanishes/disappears in thin air, the others will not be confused. Because each of the others will know exactly what and how the vanished person was doing. 
 
 # Meetings
 
@@ -1185,13 +1194,14 @@ Completion of a task with minimum acceptable qaulity (does whats needed, passes 
 
 ## Definition of mistake
 1. ANY thing that is done outside explicit rules of company policy and this practices doc. e.g but NOT limited to 
-    1. not following **code** rules, 
-    2. causing **PR issues** to be filed which are not just a difference of opinion but technical / business mistake or carelessness. 
-    3. missing prominent / critical issues while **reviewing a PR** (someone else's code)
+    2. not following **code** rules, 
+    3. causing **PR issues** to be filed which are not just a difference of opinion but technical / business mistake or carelessness. 
+    4. missing prominent / critical issues while **reviewing a PR** (someone else's code)
 1. ANY thing that shows absence of due care, ownership and responsible behaviour. e.g but NOT limited to
-    1. not taking enough measures to undertand **requirments** of a task. It is your responsibility to clear up things if not clear already.
-    2. forgetting** or implementing requirments **incorrectly**
-    3. **asking** the same thing **more than once** (you should take notes if you fear to forget) or not following anything said by lead / manager thus (s)he had to remind more than once.
+    1. for something you might have to say "Oh I/you forgot to do this", "I/you missed this", "I/you should have done this", "this is not stable and for production / public / clients"
+    2. not taking enough measures to undertand **requirments** of a task. It is your responsibility to clear up things if not clear already.
+    3. forgetting** or implementing requirments **incorrectly**
+    4. **asking** the same thing **more than once** (you should take notes if you fear to forget) or not following anything said by lead / manager thus (s)he had to remind more than once.
 1. Proposing, researching, concluding or implementing ANY thing that is least expected from one's level e.g but NOT limited to 
     1. **missing** some important aspect of documentation while research or study
     2. **making a PR issue**, suggesting something without proper knowledge and **certainity**
