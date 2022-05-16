@@ -123,6 +123,24 @@ https://luciopaiva.com/markdown-toc/
 
 # Workflow
 
+## Workflow cheatsheet
+The following is a synopsis of quick access of workflow. You should still see details ahead of it.
+1. Day start
+    1. Message manager
+    1. Update task statuses
+    1. Check assigned tasks
+    1. Do not do new tasks without fully finishing old tasks first
+    1. Start/resume tasks as per priority
+1. At each SM
+    1. Message in group, for SM; participate
+    1. Review PRs, get your PR reviewed and merged
+    1. Sync up with team members (doer, pair, sto)
+    1. Do CPP, resume tasks
+1. At dayend
+    1. Regardless of quantity of work, make sure your work is stable for public/client use.
+    1. Message manager 10-15 minutes before leaving.
+    1. (Temporary: make a very short list of mistakes/issues/inefficiencyes + brilliant work done by others + anything you like to improve and send it to manager. So 2 headings: "Good things", "To be improved things" for things that whatever you have noticed in the day)
+
 ## Follow workflow religiously 
 Please read this and follow consistently. All are adults here and need not to be reminded every time. These things are important and thus written with effort. Nothing further needs to be written any further to insist more.
 
