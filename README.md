@@ -141,7 +141,7 @@ The following is a synopsis of quick access of workflow. You should still see de
     1. Delta reviewer reviews all PRs of the day in all projects (merged or open) at last SM (within 15 minutes).
     1. Message manager (that you are leaving) 10-15 minutes before leaving .
     1. Also message manager if you were not able to get at all the work done to be merged via PRs.
-    1. (Temporary: make a very short list of mistakes/issues/inefficiencyes + brilliant work done by others + anything you like to improve and send it to manager. So 2 headings: "Good things", "To be improved things" for things that whatever you have noticed in the day)
+    1. (Temporary: make a very short list of mistakes/issues/inefficiencies + brilliant work done by others + anything you like to improve and send it to manager. So 2 headings: "Good things", "To be improved things" for things that whatever you have noticed in the day)
   
 ## Follow workflow religiously 
 Please read this and follow consistently. All are adults here and need not to be reminded every time. These things are important and thus written with effort. Nothing further needs to be written any further to insist more.
