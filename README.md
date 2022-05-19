@@ -2192,3 +2192,15 @@ uuid generator. Use v4. https://www.uuidgenerator.net
 1. Google meet mute tab https://chrome.google.com/webstore/detail/mute-tab/blljobffcekcbopmkgfhpcjmbfnelkfg  Use this plugin to mute multiple meeting rooms/tabs and unmute only the one you want to listen to.
 1. Show notifications for google meet and also can download chats as text file https://chrome.google.com/webstore/detail/notifs-for-meet/iinecemgdedknjoenecmgjlghnkmbofc
 
+### Helper configs 
+1. Node file watcher for linux 
+```
+# insert the new value into the system config
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+# check that the new value was applied
+cat /proc/sys/fs/inotify/max_user_watches
+
+# config variable name (not runnable)
+fs.inotify.max_user_watches=524288
+```
