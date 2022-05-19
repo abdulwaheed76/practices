@@ -2187,4 +2187,8 @@ uuid generator. Use v4. https://www.uuidgenerator.net
 1. PDF https://www.onlinedoctranslator.com/en/translationform
 1. PDF https://www.protranslate.net/en/order/
 
+### Helper utilities for collaboration
+
+1. Google meet mute tab https://chrome.google.com/webstore/detail/mute-tab/blljobffcekcbopmkgfhpcjmbfnelkfg  Use this plugin to mute multiple meeting rooms/tabs and unmute only the one you want to listen to.
+1. Show notifications for google meet and also can download chats as text file https://chrome.google.com/webstore/detail/notifs-for-meet/iinecemgdedknjoenecmgjlghnkmbofc
 
