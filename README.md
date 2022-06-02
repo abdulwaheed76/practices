@@ -1881,6 +1881,8 @@ All modules shoulds be found and listed with details by developers here: https:/
 1. Mistakes, carelessness https://youtu.be/nMVhlYyrJ-E
 1. Pull request review delegation https://youtu.be/4ekRhisqzhQ 
 
+## Asking for help
+1. How to get help from others https://youtu.be/lfCE_jf0RaY
 
 ## Javascript Misc
 
