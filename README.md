@@ -2206,3 +2206,18 @@ cat /proc/sys/fs/inotify/max_user_watches
 # config variable name (not runnable)
 fs.inotify.max_user_watches=524288
 ```
+
+## Few preferences
+
+### choosing tools for docs and management
+In the PM tool app, drawing app, we use should
+* be configurable, changeable e.g PM tool database in our own hands, git based docs in our control, spreadsheet in our full control if downloaded, its spreadsheet.
+* can gave local backup
+* the backup should be run independent of the application service (paid or free) online
+* mostly text based, text oriented 
+
+These are few of the core values.
+
+* Beauty is not in the primary core values
+* Easy to use is ok but we do not use things just because its easy to get started
+* or its sparky and shiny
