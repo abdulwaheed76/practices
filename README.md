@@ -2209,7 +2209,7 @@ fs.inotify.max_user_watches=524288
 
 ## Few preferences
 
-### choosing tools for docs and management
+### choosing tools for docs, development and management
 In the PM tool app, drawing app, we use should
 * be configurable, changeable e.g PM tool database in our own hands, git based docs in our control, spreadsheet in our full control if downloaded, its spreadsheet.
 * can gave local backup
