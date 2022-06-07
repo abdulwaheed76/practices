@@ -336,6 +336,8 @@ Videos: [#project-tool](#project-tool), [#directory-structure-1](#directory-stru
 It is **important** that you choose this option `Checkout as is, commit unix style line endings`
 ![image](https://user-images.githubusercontent.com/6178423/120978305-0134a980-c77d-11eb-9e2d-0e2bbf5c18ca.png)
 
+Then do `npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"`
+
 #### ssh keys
 add ssh keys so you do not have to type password everytime and also you will need it for getting some of our private modules via npm. https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
