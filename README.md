@@ -473,6 +473,21 @@ If your project has unit test/ integration tests/ automation tests enforced, do 
 
 Following are the default coverages if not overriden by manager.
 
+### TDD test notes
+A typical types flow:
+
+1. insert data in database via another controller (recommended) or directly in database (less recommended). Further testing will be based on this. At this stage, you should fully know what input will result in what output later.
+2. Make different and several cases for input and output. E.g table search, sort, group, total, etc.
+3. Hit controller/ api with different params etc for things mentioned in #2
+4. Compare output of #3 with expected output. If development is not completed, tests will fail and that is fine. This will help the developer also to do development and test it seamlessly.
+
+### Notes while writing tests
+
+* no need to know db query or internal logic of code of developer. It's not the business of tester.
+* no need to know actual/real data in db, tester can insert things himself for testing, during test.
+* controller/api route should exit though. Dummy route can be made. 
+* controller/api route should not be 100% working before test is coded/started. However tester and developer, both should be 100% sure about input/expected output and requirements.
+
 #### Tools to use only for tests
 1. Jest
 1. React-testing-library
