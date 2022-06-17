@@ -274,6 +274,7 @@ The following are the litmus paper tests, important rules the will determine if 
 1. Scheduled meeting times:  10pm-10:15pm (scrum), 3pm, 7pm. 
     1. Please create alarms on mobile for meeting times
     1. Start speaking yourself with the sequence of people that would be informed to you by your manager (sequence of your turn to speak).
+1. See video(s) below (search `scrum` word) about what scrum master does.    
     
 ### Meeting process before meeting start
 1. First of all, type 'ready' in group chat, when you are ready.
@@ -1861,7 +1862,7 @@ Avoid
     react-alert": "^7.0.2",
     "react-alert-template-basic
 ```
-## Inhous made libs
+## Inhouse made libs
 All modules shoulds be found and listed with details by developers here: https://github.com/ab159ab/module-info
 
 # Tutorials
@@ -1874,6 +1875,7 @@ All modules shoulds be found and listed with details by developers here: https:/
 1. Test dependency on other tests and data  https://youtu.be/fMw4jKLUdGk
 1. Req response model https://youtu.be/B7WlwGw4_Bc
 1. Segregation of tasks PR 1 and PR 2 https://youtu.be/7tOMTbo0NF8
+1. What does scrum master do? https://www.youtube.com/watch?v=1CxWF42WQFo  https://www.youtube.com/watch?v=QbPkcfzi2HI
 
 ## Initial Strategy making
 1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
