@@ -1985,11 +1985,12 @@ official first priority tutorials
 1. Angular 8 urdu https://www.youtube.com/watch?v=wGPZJDw3Ee4&ab_channel=LearnInUrdu
 1. Angular https://www.youtube.com/watch?v=k5E2AVpwsko&t=5606s
 
-### Sass scss
+### Sass scss css
 1. Sass tutorials - inheritence and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=406s 
 1. Sass tutorials - variables and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=191s
 1. Sass tutorials - sass in 20 mins 2019 https://www.youtube.com/watch?v=Zz6eOVaaelI  
-1. Kendo sass scss styling theming https://youtu.be/yUjkD7hHi3Y
+2. Css grid layout - https://youtu.be/jV8B24rSN5o?t=230 
+3. Kendo sass scss styling theming https://youtu.be/yUjkD7hHi3Y
 
 ### Knex 
 1. updating    https://www.youtube.com/watch?v=aWLlh_Gn_oA
