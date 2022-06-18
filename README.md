@@ -1961,7 +1961,9 @@ official first priority tutorials
 
 ### Typescript
 1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
-2. frontend and typescript overview https://youtu.be/oIYYWdYcnb8    
+2. frontend and typescript overview https://youtu.be/oIYYWdYcnb8 
+1. Tutorials 1 Traversy Media https://www.youtube.com/watch?v=BCg4U1FzODs&t=1011s
+1. Tutorials 2 Academind https://www.youtube.com/watch?v=BwuLxPH8IDs
 
 ### React core
 1. React in 5 minutes https://www.youtube.com/watch?v=MRIMT0xPXFI
@@ -1984,6 +1986,9 @@ official first priority tutorials
 1. Angular https://www.youtube.com/watch?v=k5E2AVpwsko&t=5606s
 
 ### Sass scss
+1. Sass tutorials - inheritence and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=406s 
+1. Sass tutorials - variables and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=191s
+1. Sass tutorials - sass in 20 mins 2019 https://www.youtube.com/watch?v=Zz6eOVaaelI  
 1. Kendo sass scss styling theming https://youtu.be/yUjkD7hHi3Y
 
 ### Knex 
