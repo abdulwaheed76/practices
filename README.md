@@ -1284,8 +1284,8 @@ Later comes
     1. **0 sketch/wrf** - very quick creating sketch with digital pencil or wireframeing tool
     1. **0 scenarios** - scenarios, cases e.g what happens if `x` is done in a `y` way.
     1. **0 wbs** - work break down structure having tasks, sub tasks and their estimates of next level. e.g level 1 in this case (listed below). Here, the estimated proposed time will be added to all the tickets for the next level (which is level 1 in this case as current level is 0)
-    1. 0 pairReview - review all what is done in this level here.
-    1. 0 stoReview - review all what is done in this level here.
+    1. **0 pairReview** - review all what is done in this level here.
+    1. **0 stoReview** - review all what is done in this level here.
 1. Level 1
     1. **1 deepUnderstanding** 
     1. **1 pairDeepUnderstanding**
@@ -1334,6 +1334,18 @@ Later comes
     1. **closed** - Only manager should set it.
 1. Other
     1. **deferred** - deferred due to some reason. This should not be set by assignee of the task.
+
+## Task fields
+1. **status** & **% done** - Current status of task. Keep changing the status regularly. This is critical to avoid others asking you for updates that they can simply see from the PM tool if its updated.
+1. **priority** - A higher number will show higher priority.
+1. **start date** - date at which task is expected to start.
+1. **end date** - date at which task is expected to be fully completed.
+1. **proposed est time** - After studying the requirements and making an action plan and wbs, assignee or wbs creater should provide and agree to a proposed est time of accomplishment.
+1. **est time** - Estimated time determined by manager/lead after or without taking into `proposed est time`. This will be the final expectations.
+
+## Time logging
+1. Whatever the task assigned to assignee and performed, the time spent on it should be logged via tool. In the same ticket, there is an option to log time. 
+1. At the end or during the sprint, the spent time, results, proposed time, estimated time may be tallied to measure and improve results.
 
 ## Execution in PM tool
 1. Observe due date, estimated hours and discuss if needed
