@@ -112,14 +112,16 @@ https://luciopaiva.com/markdown-toc/
 
 # Terminologies:
 
-1. SM: Scheduled meeting.
-2. PR: github based pull request
-3. Inform manager: via whatsapp text message, discord.
-4. Inform team: via zoom group text chat, google chat and voice.
-5. PM tool: Project management tool that has tasks/ tickets in it.
-6. CPP: commit, pull, push. Commit locally, pull from SO, push to your own origin in exactly this sequence.
-7. Own origin/your origin/ `OO`: When you make a fork of project from SO, it will create a project in your own github account. That is your origin.
-8. Super origin / `SO`: master repositories with preceeding `ab159ab` in github git url. The repository where you should make PRs and get your work merged.
+1. **SM**: Scheduled meeting.
+2. **PR**: github based pull request
+3. **MR**: Mini online room (room dedicated for meetings where few (but not all) are participants).
+4. **Main Room**: Main online room where all should be present all the time.
+5. **Inform manager**: via whatsapp text message, discord.
+6. **Inform team**: via zoom group text chat, google chat and voice.
+7. **PM tool**: Project management tool that has tasks/ tickets in it.
+8. **CPP**: commit, pull, push. Commit locally, pull from SO, push to your own origin in exactly this sequence.
+9. **Own origin/your origin/** `OO`: When you make a fork of project from SO, it will create a project in your own github account. That is your origin.
+10. **Super origin** / `SO`: master repositories with preceeding `ab159ab` in github git url. The repository where you should make PRs and get your work merged.
 
 # Workflow
 
@@ -129,16 +131,16 @@ The following is a synopsis of quick access of workflow. You should still see de
     1. Message manager
     1. Update task statuses
     1. Check assigned tasks
-    1. Do not do new tasks without fully finishing old tasks first
-    1. Start/resume tasks as per priority
+    1. Do not do new tasks without fully finishing old tasks first. See `General priorities and preferences` section below for more details.
+    1. Start/resume tasks as per priority field in PM tool
 1. At each SM
-    1. Message in group, for SM; participate
+    1. Message in group, for SM; and participate
     1. Review PRs, get your PR reviewed and merged
     1. Sync up with team members (doer, pair, sto)
     1. Do CPP, resume tasks
 1. At dayend
     1. Regardless of quantity of work, make sure your work is stable for public/client use.
-    1. Delta reviewer reviews all PRs of the day in all projects (merged or open) at last SM (within 15 minutes).
+    1. Delta reviewer reviews all PRs of the day in all projects (merged or open) at last SM (within 15 minutes). Yes, all PRs be re-reviewed within 15 mins. This will be a quick review. Not all can be reviewed. So things can be glanced or inspected in detail at ad hoc basis. However doing this every day is important.
     1. Message manager (that you are leaving) 10-15 minutes before leaving .
     1. Also message manager if you were not able to get at all the work done to be merged via PRs.
     1. (Temporary: make a very short list of mistakes/issues/inefficiencies + brilliant work done by others + anything you like to improve and send it to manager. So 2 headings: "Good things", "To be improved things" for things that whatever you have noticed in the day)
@@ -147,13 +149,26 @@ The following is a synopsis of quick access of workflow. You should still see de
 Please read this and follow consistently. All are adults here and need not to be reminded every time. These things are important and thus written with effort. Nothing further needs to be written any further to insist more.
 
 ## The most important thing
-1. The most importantt thing to do here is be responsible and avoiding mistakes. This is the first and one of the most important trait that you should build. This does not requires a lot of time. It just requires a changed and improved attitude and behaviour.
+1. The most important thing to do here is be responsible and avoiding mistakes. This is the first and one of the most important trait that you should build. This does not requires a lot of time. It just requires a changed and improved attitude and behaviour.
 1. When one makes a mistake or is less careful (in any way regarding anything), the effects are caparable to ripple effect. More people and their time is often also involved. Even if not the case, the later tasks (which is based on initial work) is also affected. So its best to be careful in start. 
 1. Sometimes its also not wise to overdo and cost of being 1000% perfect is higher than the profit. Sometimes done is better than perfect. But lets not go in that debate. [definition-of-mistake](#definition-of-mistake) is quite clear in this article.
 
 Links: [definition-of-mistake](#definition-of-mistake), [no-such-thing-as-qa](#no-such-thing-as-qa), [qa-quality-assurance](#qa-quality-assurance), [work-and-self-management](#work-and-self-management), [you](#you)
 
 Videos: [#self-review](#self-review), 
+
+## General priorities and preferences
+**Top ones to be done first**. This is a list on what to do things first if you have multiple things. This is general prority list. Things may differ case by case of course.
+1. **Delegation** - any tasks on which others' work is dependant. It can be, but not limited to
+    1. PRs reviews (you doing PR review of others)
+    2. assigning tasks to others
+    3. explaining tasks to others while you delegate
+    4. actually planning on how to delegate (maybe at start of the day/sprint etc)
+1. Your **old work**. 
+    1. Your old unmerged PRs.
+    2. Anything pending, unfinished things (before you move to new things). Do not do new things unless old things are concluded.
+1. **Clarity of vision** and strategy for new things.
+1. **Normal tasks** - Notice that your normal/new tasks are at the end of priority. 
 
 ## Day start
 1. Inform manager via discord, at time of sign in (start work) 
@@ -1194,21 +1209,7 @@ If a hazard comes like train out of order or delayed, or type puncture of a car.
 
 **IF you are a proactive problem solver** (which is expected from a developer quite implicitly), **you will get the job done in almost same time** or very slight negligible deviations anyway. If you were not able to, then either planning needs improvement or problem solving needs improvement or there was a 100% natural unstoppable hazzard (e.g earth got destroyed and all died). There is NO third reason.
 
-To explain, a soldier might say: if we had to go to a city from another city in a predetermined time, we will find a way; any way; and get the job done. There are only few corner cases in which you can't do it. E.g you get stuck by lightening and die on the way.
-
-## What should be my general priorities and preferences
-Top ones to be done first. This is a list on what to do things first if you have multiple things. This is general prority list. Things may differ case by case of course.
-1. Delegation - any tasks on which others' work is dependant. It can be, but not limited to
-    1. PRs reviews (you doing PR review of others)
-    2. assigning tasks to others
-    3. explaining tasks to others while you delegate
-    4. actually planning on how to delegate (maybe at start of the day/sprint etc)
-1. You old work. 
-    1. Your old unmerged PRs.
-    2. Anything pending, unfinished things (before you move to new things). Do not do new things unless old things are concluded.
-1. Clarity of vision and strategy for new things.
-1. Normal tasks  
-  
+To explain, a soldier might say: if we had to go to a city from another city in a predetermined time, we will find a way; any way; and get the job done. There are only few corner cases in which you can't do it. E.g you get stuck by lightening and die on the way.  
 
 ## Change in requirements
 #### I created something and it got changed. Why?
@@ -1216,9 +1217,6 @@ Change in any project is "normal". Change could be due to many reasons; for impr
 
 #### Ok but if it had to change, why did we do it like that in the first place?
 Sometimes we don't know what the future will be. And sometimes we do know but despite that we do not do many things due to many reasons e.g but not limited to, priorities, business needs for the current time, not being fully sure of future features or even those will be needed in future.
-
-
-
 
 ## Getting things done
 Read as follows:
@@ -1308,14 +1306,14 @@ Later comes
     1. **3 e2e** - end to end testing if needed.
     1. **3 stoFuncReview** - final functionality review.
 1. Other types of tasks
-1. **Bug[SL/BK/JS/D]** - A defect in delivery for slicing / backend / Javascript / Design.
-1. **Test[uFE/uBK/iFE/iBK/e2e]** - Tests for unit test for frontend, unit test for backend, integration test for frontend, integration test for backend, end to end test.		
-1. **Design** - Graphic design (Adobe photoshop, Illustrator etc)
+    1. **Bug[SL/BK/JS/D]** - A defect in delivery for slicing / backend / Javascript / Design.
+    1. **Test[uFE/uBK/iFE/iBK/e2e]** - Tests for unit test for frontend, unit test for backend, integration test for frontend, integration test for backend, end to end test.		
+    1. **Design** - Graphic design (Adobe photoshop, Illustrator etc)
 
 ## Task statuses
 
 1. **new** - default status of each task when it is created
-1. **in progress** - assignee should promptly set this status when (s)he starts working on it.
+1. **in progress** - assignee should promptly set this status when (s)he starts working on it. If a task was somehow marked completed at any stage mentioned below and then it was rejected at any stage mentioned below; if assignee starts working on it again (obviously (s)he will to complete it), the during that time, the status of that task should again be marked as `in progress` by the assignee.
 1. **completed on localhost** - when something is working on your machine.
 1. PR & functionality - phase 1
     1. **PR created** - when pr is created after all careful checks of quality and functionality. Things maybe more or less but they should be "complete" flawlessly. PR creater should attach a video of functionality so reviewer can review it. 
