@@ -1,4 +1,4 @@
-% Last modified: 2022-07-09 00:29:55
+% Last modified: 2022-07-09 00:47:49
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -199,7 +199,7 @@ if you have multiple things. This is general prority list. Things may differ cas
 ## Day start
 1. Inform manager via discord, at time of sign in (start work) 
 
-## Inavailability 
+## Unavailability
 1. Inform 5 minutes before taking any kind of long/short break (to manager)
 2. Inform again on your return (to manager)
 3. Do not be absent at the scheduled meeting times unless special permission is given
@@ -221,9 +221,9 @@ Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#re
    be wrapped up and approved in PR with more priority before moving to new tasks.
 3. then see all tasks and starting with the **highest prority first** (
    in project tool or at top in sheet if spreadsheet is used), Video: [#
-4. project-tool](#project-tool), Link: [#project-management-tool](#project
-   -management-tool) [#activity-sheet](#activity-sheet)
-    1. ~~IGNORE THIS FOR NOW. Invest roughly 5% of task time in making 
+4. project-tool](#project-tool), Link: 
+   [#project-management-tool](#project-management-tool) [#activity-sheet](#activity-sheet)
+    1. ~~IGNORE THIS FOR NOW~~. Invest roughly 5% of task time in making 
        "**strategy**"  Video: [initial-strategy-making](#initial-strategy
     2. -making), [do-only-whats-required](#do-only-whats-required). See 
        this for more details [#project-exectuion-workflow](#project-exectuion-workflow)~~
