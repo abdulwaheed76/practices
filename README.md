@@ -1283,7 +1283,7 @@ Later comes
         1. 0 stoUnderstanding - same for sto
         1. 0 sketch/wrf - very quick creating sketch with digital pencil or wireframeing tool
         1. 0 scenarios - scenarios, cases e.g what happens if `x` is done in a `y` way.
-        1. 0 wbs - work break down structure having tasks, sub tasks and their estimates of next level. e.g level 1 in this case (listed below)
+        1. 0 wbs - work break down structure having tasks, sub tasks and their estimates of next level. e.g level 1 in this case (listed below). Here, the estimated proposed time will be added to all the tickets for the next level (which is level 1 in this case as current level is 0)
         1. 0 pairReview - review all what is done in this level here.
         1. 0 stoReview - review all what is done in this level here.
 1. Level 1
@@ -1295,11 +1295,11 @@ Later comes
         1. 1 flowDiagram - in `.dot` langauge and file. Be approved via PR
         1. 1 scenarios - No scenarios should be left here. Cover all extensively.
         1. 1 stoReview - review all what is done in this level here.
-        1. 1 finalWbs - Extensive and final
+        1. 1 finalWbs - Same as described above but extensive and final for the next level. 
 1. Level 2
         1. 2 slice - (html+css only)
         1. 2 req/resp model - Just the minimalistic model. Not the actual code.
-        1. 2 ctrTests - Full tests without writing code. Scenarios + req/resp model will help here doing this task.
+        1. 2 iBK - backend controller tests - Full tests without writing code. Scenarios + req/resp model will help here doing this task.
         1. 2 stoFuncReview - review all what is done in this level here.
 1. Level 3
         1. 3 fe - All frontend (JS, react etc)
@@ -1308,12 +1308,7 @@ Later comes
         1. 3 stoFuncReview - final functionality review.
 1. Other types of tasks
 1. Bug[SL/BK/JS/D] - A defect in delivery for slicing / backend / Javascript / Design.
-1. Test[uFE/uBK/iFE/iBK/e2e] - Tests for unit test for frontend, unit test for backend, integration test for frontend, integration test for backend, end to end test.
-1. Slice - HTML CSS slicing mostly
-1. Back - Backend
-1. Estimation - Requirement understanding and estimation time. This does not include development time. However if something is so unclear and very small amount of development is needed (usually less that 5%), it can be included in it. But 95 to 100 time is usually spend on research and requirement understanding.
-1. Research - Only or mostly research (95% above)
-1. JS	- Javascript		
+1. Test[uFE/uBK/iFE/iBK/e2e] - Tests for unit test for frontend, unit test for backend, integration test for frontend, integration test for backend, end to end test.		
 1. Design - Graphic design (Adobe photoshop, Illustrator etc)
 
 ## Task understanding
