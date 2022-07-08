@@ -1275,64 +1275,65 @@ Later comes
 
 # Project management tool
 ## Task / issue types
-1. Epic - For requirements and vision. This is the super main end of top most hierirachy. Its children may and usually are divided into multiple sprints
-1. Story - For requirements and vision. We have moved to github based story documentation now though. After reading the issue type, description and title of the task carefully, read the parent task (story or any other kind of ticket) and read all the way up to the top most ticket. Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
+1. **Epic** - For requirements and vision. This is the super main end of top most hierirachy. Its children may and usually are divided into multiple sprints
+1. **Story** - For requirements and vision. We have moved to github based story documentation now though. After reading the issue type, description and title of the task carefully, read the parent task (story or any other kind of ticket) and read all the way up to the top most ticket. Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
 1. Level 0
-    1. 0 understanding - Understand requirements
-    1. 0 pairUnderstanding - same for pair
-    1. 0 stoUnderstanding - same for sto
-    1. 0 sketch/wrf - very quick creating sketch with digital pencil or wireframeing tool
-    1. 0 scenarios - scenarios, cases e.g what happens if `x` is done in a `y` way.
-    1. 0 wbs - work break down structure having tasks, sub tasks and their estimates of next level. e.g level 1 in this case (listed below). Here, the estimated proposed time will be added to all the tickets for the next level (which is level 1 in this case as current level is 0)
+    1. **0 understanding** - Understand requirements
+    1. **0 pairUnderstanding** - same for pair
+    1. **0 stoUnderstanding** - same for sto
+    1. **0 sketch/wrf** - very quick creating sketch with digital pencil or wireframeing tool
+    1. **0 scenarios** - scenarios, cases e.g what happens if `x` is done in a `y` way.
+    1. **0 wbs** - work break down structure having tasks, sub tasks and their estimates of next level. e.g level 1 in this case (listed below). Here, the estimated proposed time will be added to all the tickets for the next level (which is level 1 in this case as current level is 0)
     1. 0 pairReview - review all what is done in this level here.
     1. 0 stoReview - review all what is done in this level here.
 1. Level 1
-    1. 1 deepUnderstanding 
-    1. 1 pairDeepUnderstanding
-    1. 1 stoDeepUnderstanding
-    1. 1 wireframe
-    1. 1 dbDesign - in `.dot` langauge and file. Be approved via PR
-    1. 1 flowDiagram - in `.dot` langauge and file. Be approved via PR
-    1. 1 scenarios - No scenarios should be left here. Cover all extensively.
-    1. 1 stoReview - review all what is done in this level here.
-    1. 1 finalWbs - Same as described above but extensive and final for the next level. 
+    1. **1 deepUnderstanding** 
+    1. **1 pairDeepUnderstanding**
+    1. **1 stoDeepUnderstanding**
+    1. **1 wireframe**
+    1. **1 dbDesign** - in `.dot` langauge and file. Be approved via PR
+    1. **1 flowDiagram** - in `.dot` langauge and file. Be approved via PR
+    1. **1 scenarios** - No scenarios should be left here. Cover all extensively.
+    1. **1 finalWbs** - Same as described above but extensive and final for the next level.
+    1. **1 stoReview** - review all what is done in this level here. 
 1. Level 2
-    1. 2 slice - (html+css only)
-    1. 2 req/resp model - Just the minimalistic model. Not the actual code.
-    1. 2 iBK - backend controller tests - Full tests without writing code. Scenarios + req/resp model will help here doing this task.
-    1. 2 stoFuncReview - review all what is done in this level here.
+    1. **2 slice** - (html+css only)
+    1. **2 req/resp model** - Just the minimalistic model. Not the actual code.
+    1. **2 iBK** - backend controller tests - Full tests without writing code. Scenarios + req/resp model will help here doing this task.
+    1. **2 stoFuncReview** - review all what is done in this level here.
 1. Level 3
-    1. 3 fe - All frontend (JS, react etc)
-    1. 3 bk - All backend (db, controllers, code etc)
-    1. 3 e2e - end to end testing if needed.
-    1. 3 stoFuncReview - final functionality review.
+    1. **3 fe** - All frontend (JS, react etc)
+    1. **3 uBK** - unit tests for backend. If this is require and we use TDD, then `uBK` will be completed before or with `bk` task.
+    1. **3 bk** - All backend (db, controllers, code etc)
+    1. **3 e2e** - end to end testing if needed.
+    1. **3 stoFuncReview** - final functionality review.
 1. Other types of tasks
-1. Bug[SL/BK/JS/D] - A defect in delivery for slicing / backend / Javascript / Design.
-1. Test[uFE/uBK/iFE/iBK/e2e] - Tests for unit test for frontend, unit test for backend, integration test for frontend, integration test for backend, end to end test.		
-1. Design - Graphic design (Adobe photoshop, Illustrator etc)
+1. **Bug[SL/BK/JS/D]** - A defect in delivery for slicing / backend / Javascript / Design.
+1. **Test[uFE/uBK/iFE/iBK/e2e]** - Tests for unit test for frontend, unit test for backend, integration test for frontend, integration test for backend, end to end test.		
+1. **Design** - Graphic design (Adobe photoshop, Illustrator etc)
 
 ## Task statuses
 
-1. new - default status of each task when it is created
-1. in progress - assignee should promptly set this status when (s)he starts working on it.
-1. completed on localhost - when something is working on your machine.
+1. **new** - default status of each task when it is created
+1. **in progress** - assignee should promptly set this status when (s)he starts working on it.
+1. **completed on localhost** - when something is working on your machine.
 1. PR & functionality - phase 1
-    1. PR created - when pr is created after all careful checks of quality and functionality. Things maybe more or less but they should be "complete" flawlessly. PR creater should attach a video of functionality so reviewer can review it. 
-    1. PR & func rejected - if issues in code/ functionality.
-    1. PR & func approved after rejections - If PR or functionality was approved but there were repetitive or major/big issues created in PR or functionality and fixed (by assignee) before approval. While setting this status, setter should add a max 100 character note. 
-    1. PR & func approved flawlessly - Reviewer should run the functionality on localhost as well and take responsibility that the app is working.
-1. PR & functionality - phase 2 - same as above but second review by someone second person.
-    1. PR & func rejected
-    1. PR & func approved after rejections 
-    1. PR & func approved flawlessly 
+    1. **PR created** - when pr is created after all careful checks of quality and functionality. Things maybe more or less but they should be "complete" flawlessly. PR creater should attach a video of functionality so reviewer can review it. 
+    1. **PR & func rejected** - if issues in code/ functionality.
+    1. **PR & func approved after rejections** - If PR or functionality was approved but there were repetitive or major/big issues created in PR or functionality and fixed (by assignee) before approval. While setting this status, setter should add a max 100 character note. 
+    1. **PR & func approved flawlessly** - Reviewer should run the functionality on localhost as well and take responsibility that the app is working.
+1. PR & functionality - phase 2 - same as above for the same PR but second review by someone second person.
+    1. **2PR & func rejected**
+    1. **2PR & func approved after rejections** 
+    1. **2PR & func approved flawlessly** 
 1. Overall status - review by STO
-    1. Task rejected
-    1. Task approved flawlessly
-    1. Task approved after rejections
+    1. **Task rejected**
+    1. **Task approved flawlessly**
+    1. **Task approved after rejections**
 1. Finalization 
-    1. closed - Only manager should set it.
+    1. **closed** - Only manager should set it.
 1. Other
-    1. deferred - deferred due to some reason. This should not be set by assignee of the task.
+    1. **deferred** - deferred due to some reason. This should not be set by assignee of the task.
 
 ## Execution in PM tool
 1. Observe due date, estimated hours and discuss if needed
