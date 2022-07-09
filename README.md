@@ -1,4 +1,4 @@
-% Last modified: 2022-07-09 17:45:12
+% Last modified: 2022-07-09 18:02:07
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -448,7 +448,7 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 ## Task fields
 1. **status** & **% done** - Current status of task. Keep changing the 
    status regularly. This is critical to avoid others asking you for updates 
-2. that they can simply see from the PM tool if its updated.
+   that they can simply see from the PM tool if its updated.
 3. **priority** - A higher number will show higher priority.
 4. **start date** - date at which task is expected to start.
 5. **end date** - date at which task is expected to be fully completed.
@@ -469,7 +469,7 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 ## How to see my tasks
 1. You can click "my page" button at top left corner but it will show limited 
    tasks. To see full task list of all projects, you should click "projects
-2. " at top and then "issues" menu. Or simply got to "/issues" url. If 
+   " at top and then "issues" menu. Or simply got to "/issues" url. If 
    graphical gantt view is required, you can click "gantt" menu or simply go to "/issues/gantt".
 3. You can play with filters above the tasklist displayed. For example, 
    if you uncheck "assignee", you will see all tasks in all projects.
@@ -482,13 +482,13 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 Ask few questions to your self
 1. Are you spending more time on things those are not important compared 
    to critical path and more important tasks? Or even slightest postion 
-2. of your activity is not even needed but you do it pationately, striving hard? Think again. Analyse the day.
+   of your activity is not even needed but you do it pationately, striving hard? Think again. Analyse the day.
 3. When you started working, did you proportioned total available time 
    of the day into tasks or you kept stuck on 2nd task out of 10 tasks 
-4. and the day passed and you found that task 3-10 for far more important than 2?
+   and the day passed and you found that task 3-10 for far more important than 2?
 5. Think again, what other developers (who finish work on time) do, that 
    you do not. Theres always something else than simple hardwork. Maybe 
-6. smartwork? Planned work? More intelligent work? More skillful work? Combination of all that defeats timeline issues.
+   smartwork? Planned work? More intelligent work? More skillful work? Combination of all that defeats timeline issues.
 7. Do this every day. It is 100% that all need improvement. Find out things 
    that you can improve. Doing this daily and consistently is the key.
 
@@ -542,11 +542,11 @@ then and provide WBS based estimates. If anything is missing, explore and ask.
 If this is the case, there can be the folowing or more reasons
 1. The task is not of your level and you need to learn before implmenting
    . In this case, the "specific" thing you have to learn and the time 
-2. for that should also go in WBS. Once thats done, further WBS will continue (portions dependant on it).
+   for that should also go in WBS. Once thats done, further WBS will continue (portions dependant on it).
 3. You have not done enough effort to breakdown the WBS properly. If so, do it.
 4. None of above but the task is a bit new to you or you have not done 
    this before OR things are of unclear or unpredictable nature. In this 
-5. case (which is rare), make a POC (proof of concept). e.g you are not 
+   case (which is rare), make a POC (proof of concept). e.g you are not 
    confident on an api integration. In this case, quickly make POSTMAP 
 6. calls and check it. If this is the case, the "specific" thing you will 
    make POC "without which you cannot proceed", should also go in WBS. 
