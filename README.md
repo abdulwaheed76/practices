@@ -1,4 +1,4 @@
-% Last modified: 2022-07-09 16:40:16
+% Last modified: 2022-07-09 17:45:12
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -266,11 +266,12 @@ Link:
 
 ## Testing & Coding - 70-88% total time. 
 5. 10-20% for automated testing, 
-   50-80% for coding/execution/etc and 
-   0-18% e2e. (this time can vary because it depends on project as well). 
-   We will do the following **for each task one by one**. 
-   Finish task, then do the same for the next task of the project.
-
+```
+ 50-80% for coding/execution/etc and 
+ 0-18% e2e. (this time can vary because it depends on project as well). 
+ We will do the following **for each task one by one**. 
+ Finish task, then do the same for the next task of the project.
+```
 5.1 extended , revised **db desigh (final)**
 5.2 extended , revised **flow diagrams (detailed and final)**
 5.3 **req / resp pesudo and entity models**
