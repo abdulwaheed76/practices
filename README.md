@@ -1,4 +1,4 @@
-% Last modified: 2022-07-09 16:28:55
+% Last modified: 2022-07-09 16:40:16
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -2019,8 +2019,10 @@ is not related, you can have multiple separate knex.transaction blocks isolated.
 If you feel theres **too much voice conversations** in remote group, you 
 can **mute the volume** but you should **be alert for any chat messages
 **. If some one wants to talk to you, (s)he should ping you on chat. You should do the same.
+
 ## Stay connected all the time
 You should stay connected to group collaboration software all the time
+
 ## Personal info
 1. Sharing of any personal information or discussing anything not related 
    to work/current tasks is treated as a miss conduct.
@@ -2126,51 +2128,8 @@ However, rather being appreciative also on diciplined and well mannered
 
 Model type assigned (single or multiple) to you will be informed to you by your manager.
 
-### Terms / definition
-1. Time duration: Week: starts at 1 hour after office start time on Monday. Ends at the same time next Monday.
-1. Rule/ Penalty point/ penalty: One point broken one time is one count 
-   per time duration. Multiple penalty count if same point broken multiple 
-2. times per time duration. Penalty will be charged each time a rule is 
-   broken. This can be once or multiple times per day. E.g You made 2 PRs 
-3. with lint errors in both, and third PR had console errors in browser
-   . You will be changed 3 penalties. Next day you did the say. Again 3 
-4. penalties totalling 6. Then on same day he put his name in code. Not total penalties are 7.
-
-#### Default reward (Model A)
-One reward is 5% of your salary. There are 4 rewards in a month. You will 
-miss a reward for 3 rules broken. Another 3 will make you lose the next 
-reward amount. The limit is upto 12 rules breakeage which results in 4 missed rewards in a month.
-
-If no rule is broken, you will get 20% of your base salary as bonus reward 
-for that month. E.g your salary is 10,000, you will get monthly 2000 bonus.
-
-
-
-#### Default penalty (Model A)
-If rule breakage count is more than or equal to 3 in a week, you will not 
-get any kind of bonus any other plans or models as well, e.g but not limited to FIB.
-
-#### Default penalty (Model B)
-Penalty amount per penalty is 1% of your monthly salary. E.g if your salary is 10,000, penalty is 100.
-This is default amount unless penalty amount is provided differently in any rule).
-
-#### FIB reward / penalty (Model A)
-1. Mentioned in policy doc
-
-#### FIB reward (Model B)
-1. If you complete your weekly sprint targets on time and with accuracy
-   / desired quality, you will get 5% of your base salary as bonus reward for that week.
-
-#### Note for managers.
-If a manager knowingly does not reports (to management) a rule breakage 
-by employee, he will pay 10 times of the penalty from his own pocket to the company.
-
-#### Written approvals
-Any exception permissions or written approvals should be kep saved by employee 
-for future reference. E.g snapshot of chat, email etc. Else the approval is not valid.
-
+# Frequent mistakes we observed
 ## Code reviews
-
 #### General
 1. Use of any library or framework without written approval in non-PR-1 
    PRs or which is not in the approved list mentioned here. Managers should 
@@ -2273,11 +2232,11 @@ Avoid
 1. Not informing timely (at least 24hours) in writing before a non-emergency leave.
 1. Not following "Daily routine" section on what to do at day start and day end. 
 1. Not taking mandatory break from work for at least 30 minutes in the 
-   midle of day (and 1 hour in total during all day (prayer, lunch, rest etc).
+   middle of day (and 1 hour in total during all day (prayer, lunch, rest etc).
 
-#### Behaviour
+#### Behavior
 Avoid
-1. Not followin anything mentioned in appointment, policy, practices or any ammendmends in the said things. 
+1. Not following anything mentioned in appointment, policy, practices or any ammendmends in the said things. 
 1. Asking for information that is already clearly present in appointment
    , policy or practices documents. This means employee had not carefully 
 2. read the said and is irresponsibly consuming managemnt's time. However
@@ -2289,12 +2248,6 @@ Avoid
 ```
     All exact version number of libs mentioned in tpl project package.json
     any @types for typescript
-    "@material-ui/*": "4.*",
-    "clsx": "1.*",
-    "material-table": "^1.68.0",
-    "moment": "^2.27.0",
-    react-alert": "^7.0.2",
-    "react-alert-template-basic
 ```
 ## Inhouse made libs
 All modules shoulds be found and listed with details by developers here: https://github.com/ab159ab/module-info
