@@ -1,4 +1,4 @@
-% Last modified: 2022-07-09 00:47:49
+% Last modified: 2022-07-09 16:28:55
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -149,7 +149,7 @@ The following is a synopsis of quick access of workflow. You should still see de
     1. Regardless of quantity of work, make sure your work is stable for public/client use.
     1. Delta reviewer reviews all PRs of the day in all projects (merged 
        or open) at last SM (within 15 minutes). Yes, all PRs be re-reviewed 
-    2. within 15 mins. This will be a quick review. Not all can be reviewed
+       within 15 mins. This will be a quick review. Not all can be reviewed
        . So things can be glanced or inspected in detail at ad hoc basis. However doing this every day is important.
     3. Message manager (that you are leaving) 10-15 minutes before leaving .
     4. Also message manager if you were not able to get at all the work done to be merged via PRs.
@@ -165,26 +165,62 @@ with effort. Nothing further needs to be written any further to insist more.
 
 ## The most important thing
 1. The most important thing to do here is be responsible and avoiding mistakes
-   . This is the first and one of the most important trait that you should 
-2. build. This does not requires a lot of time. It just requires a changed and improved attitude and behaviour.
+   . This is the first and one of the most important trait that you should build. 
+2. This does not requires a lot of time. It just requires a changed, improved attitude and behavior.
 3. When one makes a mistake or is less careful (in any way regarding anything
-   ), the effects are caparable to ripple effect. More people and their 
-4. time is often also involved. Even if not the case, the later tasks (
+   ), the effects are comparable to ripple effect. More people and their 
+   time is often also involved. Even if not the case, the later tasks (
    which is based on initial work) is also affected. So its best to be careful in start. 
 5. Sometimes its also not wise to overdo and cost of being 1000% perfect 
    is higher than the profit. Sometimes done is better than perfect. But 
-6. lets not go in that debate. [definition-of-mistake](#definition-of-mistake) is quite clear in this article.
+   lets not go in that debate. 
+   [definition-of-mistake](#definition-of-mistake) is quite clear in this article.
 
-Links: [definition-of-mistake](#definition-of-mistake), [no-such-thing-
-as-qa](#no-such-thing-as-qa), [qa-quality-assurance](#qa-quality-assurance
-), [work-and-self-management](#work-and-self-management), [you](#you)
+Links: 
+[definition-of-mistake](#definition-of-mistake), 
+[no-such-thing-as-qa](#no-such-thing-as-qa), 
+[qa-quality-assurance](#qa-quality-assurance), 
+[work-and-self-management](#work-and-self-management), 
+[you](#you)
 
 Videos: [#self-review](#self-review), 
 
+## Unavailability
+1. Inform manager about at least 5 minutes before taking any kind of long/short/lunch break 
+2. Inform again on your return (to manager)
+3. Do not be absent at the scheduled meeting times unless special permission is given
+
+## Lunch / rest break
+1. It is **mandatory** to take at least **30 mins break** during a day 
+   and it should not be during the first 2 hours or last 2 hours of work day time.
+1. Normal time is 1 hour break. 1 hour 30 mins on Fridays for Muslims.
+
+## Blockers
+1. If you ever get into blockers (e.g PM tool not running, system crash 
+   for more than 5 minutes, or any other disability for more than 5 minutes
+   ), Anything that limits you to work, you should message your manager 
+   at your earliest (and call if no timely reply/he is busy).
+3. If you do not inform AND get an acknowledgment from manager (that he 
+   knows about it), it will be considered that you were not working that time. 
+   I.e work hours will not be considered.
+
+Links: 
+[online-remote-groups](#online-remote-groups), 
+[remote-collaboration](#remote-collaboration) 
+
+[estimations-and-requirement-gathering](#estimations-and-requirement-gathering)
+[#coding-and-execution](#coding-and-execution)
+
+[cpp---commit-pull-push](#cpp---commit-pull-push),
+[#project-execution-workflow](#project-execution-workflow)
+[#coding-and-execution](#coding-and-execution)  
+[no-such-thing-as-qa](#no-such-thing-as-qa) 
+[daily-prs-routine](#daily-prs-routine)
+
 ## General priorities and preferences
 **Top ones to be done first**. This is a list on what to do things first 
-if you have multiple things. This is general prority list. Things may differ case by case of course.
-1. **Delegation** - any tasks on which others' work is dependant. It can be, but not limited to
+if you have multiple things:
+1. **Delegation** - any tasks on which others' work is dependent. It can be, but not limited to
     1. PRs reviews (you doing PR review of others)
     2. assigning tasks to others
     3. explaining tasks to others while you delegate
@@ -194,140 +230,55 @@ if you have multiple things. This is general prority list. Things may differ cas
     2. Anything pending, unfinished things (before you move to new things
        ). Do not do new things unless old things are concluded.
 1. **Clarity of vision** and strategy for new things.
-1. **Normal tasks** - Notice that your normal/new tasks are at the end of priority. 
+1. **Normal tasks** - See pm tool or task sheet for priorities and start
+   your tasks as per highest priority first.
+3. Notice that your normal/new tasks are at the end of priority. 
 
-## Day start
-1. Inform manager via discord, at time of sign in (start work) 
-
-## Unavailability
-1. Inform 5 minutes before taking any kind of long/short break (to manager)
-2. Inform again on your return (to manager)
-3. Do not be absent at the scheduled meeting times unless special permission is given
-
-## Blockers
-1. If you ever get into blockers (e.g PM tool not running, system crash 
-   for more than 5 minutes, or any other disability for more than 5 minutes
-2. ), Anything that limits you to work, you should message your manager 
-   at your earliest (and call if no timely reply/he is busy).
-3. If you do not inform AND get an acknowledgment from manager (that he 
-   knows about it), it will be considered that you were not working that time. Ie work hours will not be considered.
-
-Links: [online-remote-groups](#online-remote-groups), [remote-collaboration](#remote-collaboration) 
+Video: 
+[#project-tool](#project-tool), 
+Link: 
+[#project-management-tool](#project-management-tool) 
+[#activity-sheet](#activity-sheet)
+[initial-strategy-making](#initial-strategy-making)
+[do-only-whats-required](#do-only-whats-required)
+[#project-execution-workflow](#project-execution-workflow)
 
 
-## Execution
-1. At day start, do `cpp` or at least **pull** from super origin. [#git-1](#git-1)
-2. wrap up any pending work form **previous** working day. Old work should 
-   be wrapped up and approved in PR with more priority before moving to new tasks.
-3. then see all tasks and starting with the **highest prority first** (
-   in project tool or at top in sheet if spreadsheet is used), Video: [#
-4. project-tool](#project-tool), Link: 
-   [#project-management-tool](#project-management-tool) [#activity-sheet](#activity-sheet)
-    1. ~~IGNORE THIS FOR NOW~~. Invest roughly 5% of task time in making 
-       "**strategy**"  Video: [initial-strategy-making](#initial-strategy
-    2. -making), [do-only-whats-required](#do-only-whats-required). See 
-       this for more details [#project-exectuion-workflow](#project-exectuion-workflow)~~
-    3. ~~IGNORE THIS FOR NOW. Keep filling in "**proposted estimated time
-       **" in hours field in ticket(s). This time will include all the 
-    4. time you ever had or will invest on the ticket. This includes strategy 
-       making, discussions, pr1, pr2, pr3 (if any), bug resolution time 
-       (if any). [estimations-and-requirement-gathering](#estimations-and-requirement-gathering)~~
-    5. ~~IGNORE THIS FOR NOW. Get that **strategy approved** and reviewed 
-       by manager and also show him proposed estimates field time while sharing the strategy~~.
-5. ~~IGNORE THIS FOR NOW. "After" all the above and if strategy is approved
-   , start a task as per highest priority number in pm tool and mark task 
-6. status as "**in-progress**". Ideally, you should have only **"one" ticket 
-   to have "in-progress"** status at a single time because it is discouraged 
-   to do many many tickets all at same time. Fully make one ticket complete, then move to other~~.
-7. ~~IGNORE THIS FOR NOW. **Make PR 1** of a task, see [#coding-and-execution
-   ](#coding-and-execution), get it approved. If you are investing more 
-8. time than mentioned in the link, then something is happening wrong (
-   for the most cases)  Link: [pull-requests--merge-requests](#pull-requests
-   --merge-requests), Video: [pull-request-flow](pull-request-flow)~~
-9. Do **cpp**. Link: [cpp---commit-pull-push](#cpp---commit-pull-push),
-10. Follow workflow metnioned here [#project-exectuion-workflow](#project-exectuion-workflow)
-11. "If" PR 1 of a task is approved, **Make PR 2** of that same task, get 
-   it approved. But first check code and functionality thoroughly yourself
-12. . Link: [#coding-and-execution](#coding-and-execution)  [no-such-thing
-    -as-qa](#no-such-thing-as-qa) with manual and automated testing (ask 
-    manager for details if applicable for each project and task).
-13. In every PR2, you should attach a short **video**, inside PR, of not 
-    more than 10 seconds (ideally) to show functionality of your work done.
-14. Your first priority, generally, is to **fully complete old things before 
-    moving to any new**. It is best to get the merged and get them marked 
-15. as complete/approved. Note that completeness can be related to a full 
-    task or a sub task as well. Small or large but it should be complete
-    . Not hanging in the middle. Do and complete old tasks first before 
-    moving to new tasks. Do not keep the tasks as unfinished and do not 
-    move to new ones unless informed by manager. It is better to fully 
-    complete 5 out of 10 things rather than doing 10 things 50%. Link: 
-    [#smart-done](#smart-done), [#getting-things-done](#getting-things-done)
-16. Do **cpp** again. Link: [cpp---commit-pull-push](#cpp---commit-pull-push)
-17. Switch to **another** task. 
-18. **Repeat**.  Link: [daily-prs-routine](#daily-prs-routine)
-19. Before the **last one hour** of your team sign off time:
-    1. **Update tasks**/tickets in PM tool with latest correct **status
-       ** (of course you would be doing this thoughout the day also)
-    2. present your **final PRs** of the work done in that day and review 
-       PRs of all others. (of course you would be doing this thoughout the day in SMs also)
-    3. If someone is **not able to get at least 1 PR merged in a day** 
-       (which should not be the case and is alarming), you should explicitly 
-    4. message project manager 15 minutes before leaving at dayend.
-
-## Repetitive mistakes in PR.
-1. It is one of the most catastrophic. Please avoid.
-
-# Project exectuion workflow
+# Project execution workflow
 
 ## Requirement understanding
 1. User story - reading, understanding, initial question / answer session
 2. Wireframes
 
-## Level 0 Estimates (ballbark)
+## Level 0 Estimates (ballpark)
 3. **WBS** on spreadsheet with time investment 2% of total project time
-   . Lets say the full project exectuion and completion might be guessed 
-4. at this stage to be 100 hours. Then at this stage of estimation, we should spend about 2% (which is 2 hours).
+   . Lets say the full project execution and completion might be guessed 
+   at this stage to be 100 hours. Then at this stage of estimation, we should spend about 2% (which is 2 hours).
 
 ## Level 1 Estimates 
 4. WBS extended (enough to start execution). This phase should consume 10% of total project time investment.
-
 4.1 story understanding
-
 4.2 wireframe understanding
-
 4.3 discussion and initial strategy 
-
 4.4 initial db design 
-
 4.5 flow diagrams
-
 4.6 Send estimates to product owner
 
 ## Testing & Coding - 70-88% total time. 
 5. 10-20% for automated testing, 
-50-80% for coding/execution/etc and 
-0-18% e2e. 
-(this time can vary because it depends on project as well). 
-
-We will do the following **for each task one by one**. 
-Finish task, then do the same for the next task of the project.
+   50-80% for coding/execution/etc and 
+   0-18% e2e. (this time can vary because it depends on project as well). 
+   We will do the following **for each task one by one**. 
+   Finish task, then do the same for the next task of the project.
 
 5.1 extended , revised **db desigh (final)**
-
 5.2 extended , revised **flow diagrams (detailed and final)**
-
 5.3 **req / resp pesudo and entity models**
-
 5.4 **api tests pseudo**
-
 5.5 **pseudo code (PR 1)** (via code nav app wherever applicable)
-
 5.6 Complete **api tests** - PR2,PR3 (and optional unit test)
-
 5.7 Complete **coding** - PR2,PR3 for the task
-
 5.8 e2e functionality part only (via cypress if informed by manager and applicable)
-
 5.9 e2e ui/view part only (via cypress if informed by manager and applicable) 
 
 # Task allocation between members
@@ -373,6 +324,271 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 3. (of the online group) in a day. Lets call it `Delta review`.
 
 
+# Project management tool
+## Task / issue types
+1. **Epic** - For requirements and vision. This is the super main end of 
+   top most hierirachy. Its children may and usually are divided into multiple sprints
+1. **Story** - For requirements and vision. We have moved to github based 
+   story documentation now though. After reading the issue type, description 
+2. and title of the task carefully, read the parent task (story or any 
+   other kind of ticket) and read all the way up to the top most ticket
+3. . Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
+4. Level 0
+    1. **0 understanding** - Understand requirements - Clients, product owners, 
+       project managers may try their best to clarify things but it is your duty 
+       to clear up requirements and make up your understandings 
+       in such a way that the product owner or project manager does not says "
+       Why you did this? Where is that feature? This should have been done differently 
+       or this is missing". So clear up scope of responsibility before giving 
+       estimates and far before performing any development.
+    1. **0 pairUnderstanding** - same for pair
+    1. **0 stoUnderstanding** - same for sto
+    1. **0 sketch/wrf** - very quick creating sketch with digital pencil or wireframeing tool
+    1. **0 scenarios** - scenarios, cases e.g what happens if `x` is done in a `y` way.
+    1. **0 wbs** - work break down structure having tasks, sub tasks and 
+       their estimates of next level. E.g level 1 in this case (listed bellow). 
+       Here, the estimated proposed time will be added to all the 
+       tickets for the next level (which is level 1 in this case as current level is 0)
+    3. **0 pairReview** - review all what is done in this level here.
+    4. **0 stoReview** - review all what is done in this level here and specially the execution
+          strategy of assignees. STO should ask verbally on how the assignees will accomplish
+          the tasks. 
+5. Level 1
+    1. **1 deepUnderstanding** 
+    1. **1 pairDeepUnderstanding**
+    1. **1 stoDeepUnderstanding**
+    1. **1 wireframe**
+    1. **1 dbDesign** - in `.dot` langauge and file. Be approved via PR
+    1. **1 flowDiagram** - in `.dot` langauge and file. Be approved via PR
+    1. **1 scenarios** - No scenarios should be left here. Cover all extensively.
+    1. **1 finalWbs** - Same as described above but extensive and final for the next level.
+    1. **1 stoReview** - similar to `0 stoReview` but for this level. 
+6. Level 2
+    1. **2 html** - (html only)
+    1. **2 style** - (css/scss styling and layout only)
+    1. **2 req/resp model** - Just the minimalistic model. Not the actual code.
+    1. **2 iBK** - backend controller tests - Full tests without writing 
+       code. Scenarios + req/resp model will help here doing this task.
+    1. **2 stoFuncReview** - review all what is done in this level here.
+7. Level 3
+    1. **3 fe** - All frontend (JS, react etc)
+    1. **3 uBK** - unit tests for backend. If this is require and we use 
+       TDD, then `uBK` will be completed before or with `bk` task.
+    1. **3 bk** - All backend (db, controllers, code etc)
+    1. **3 e2e** - end to end testing if needed.
+    1. **3 stoFuncReview** - final functionality review.
+1. Level 4
+    1. **Release notes** - In -info project, make PR that describes about the business flow, 
+        technical flow, any third party lib used and reason for its preference or at least what 
+        approach did you took to complete the task. This will have some **information 
+        that is not available in story points**. E.g any library used and why preferred
+        , flow of code, technical precautions etc. This is very brief usually from 
+        **25 words to 100 words max**. Few example:
+        1. Had to convert .ai to .svg via 'outline conversion' ref https://somesite.com else text in svg gets distorted.
+        1. Preferring XYZ lib as ABC is deprecated (or has DEF issues) or GHI security concerns.
+        1. Using http v2 due to tons of advantages (list or provide link)
+        1. Pending things
+    1. **Video elaboration** - A video recording should be made by the assigner of task.
+       (s)he should explain the flow, strategy (code, architecture, user experience etc)
+       in such a way so that a totally blank/new person would understand it.
+       A litmus test of it would be that suppose you are handing over the project.
+       Create the video in such a way that the viewer will **never** have to ask a question
+       from you. No need to explain a lot of what is already in user stories though.
+8. Other types of tasks
+    1. **Bug[SL/BK/JS/D]** - A defect in delivery for slicing / backend / Javascript / Design.
+    1. **Test[uFE/uBK/iFE/iBK/e2e]** - Tests for unit test for frontend
+       , unit test for backend, integration test for frontend, integration test for backend, end to end test.		
+    1. **Design** - Graphic design (Adobe photoshop, Illustrator etc)
+
+## Task statuses
+
+1. **new** - default status of each task when it is created
+1. **in progress** - assignee should promptly set this status when (s)he 
+   starts working on it. If a task was somehow marked completed at any 
+   stage mentioned below and then it was rejected at any stage mentioned 
+   below; if assignee starts working on it again (obviously (s)he will 
+   to complete it), the during that time, the status of that task should 
+   again be marked as `in progress` by the assignee.
+   Do not start more than 1 or 2 tasks in parallel.
+   [#smart-done](#smart-done), 
+   [#getting-things-done](#getting-things-done)
+5. **completed on localhost** - when something is working on your machine.
+6. PR & functionality - phase 1 - We emphasis on early review rather than 
+    complete all and get it reviewed after that. E.g you make an app of 10 things / steps.
+    If you had made a mistake at step 2, then all steps from 2-10 might get influenced to 
+    be in the wrong direction. 
+    In these case, if review is done at step 10 (completion of app), then it 
+    would be a "too late to find" scenario and all/ most of 2-10 steps might need a refactor.
+    Whereas if the review on each step (2 in this case), only 2 will be corrected and later 
+    steps will be aligned to it.
+    The later is safer, more efficient, more time saving, needs lesser effort 
+    as a whole, gives more certainty and many other benefits.
+    1. **PR created** - when pr is created after all careful checks of 
+       quality and functionality. Things maybe more or less but they should 
+       be "complete" flawlessly. PR creater should attach a video of functionality so reviewer can review it. 
+    3. **PR & func rejected** - if issues in code/ functionality.
+    4. **PR & func approved after rejections** - If PR or functionality 
+       was approved but there were repetitive or major/big issues created 
+       in PR or functionality and fixed (by assignee) before approval. 
+       While setting this status, setter should add a max 100 character note. 
+    6. **PR & func approved flawlessly** - Reviewer should run the functionality 
+       on localhost as well and take responsibility that the app is working.
+7. PR & functionality - phase 2 - same as above for the same PR but second review by someone second person.
+    1. **2PR & func rejected**
+    1. **2PR & func approved after rejections** 
+    1. **2PR & func approved flawlessly** 
+8. Overall status - review by STO
+    1. **Task rejected**
+    1. **Task approved flawlessly**
+    1. **Task approved after rejections**
+9. Finalization 
+    1. **closed** - Only manager should set it.
+10. Other
+    1. **deferred** - deferred due to some reason. This should not be set by assignee of the task.
+
+## Task fields
+1. **status** & **% done** - Current status of task. Keep changing the 
+   status regularly. This is critical to avoid others asking you for updates 
+2. that they can simply see from the PM tool if its updated.
+3. **priority** - A higher number will show higher priority.
+4. **start date** - date at which task is expected to start.
+5. **end date** - date at which task is expected to be fully completed.
+6. **proposed est time** - After studying the requirements and making an 
+   action plan and wbs, assignee or wbs creater should provide and agree to a proposed est time of accomplishment.
+7. **est time** - Estimated time determined by manager/lead after or without 
+   taking into `proposed est time`. This will be the final expectations.
+
+## Time logging
+1. Whatever the task assigned to assignee and performed, the time spent 
+   on it should be logged via tool. In the same ticket, there is an option to log time. 
+1. At the end or during the sprint, the spent time, results, proposed time
+   , estimated time may be tallied to measure and improve results.
+1. Each day, the total estimated time of tickets done by you should be 
+   equal to the daily work time expected from you. The ticket estimated 
+   time is entered by project manager and is viewable in the field "Estimated time" in each ticket.
+
+## How to see my tasks
+1. You can click "my page" button at top left corner but it will show limited 
+   tasks. To see full task list of all projects, you should click "projects
+2. " at top and then "issues" menu. Or simply got to "/issues" url. If 
+   graphical gantt view is required, you can click "gantt" menu or simply go to "/issues/gantt".
+3. You can play with filters above the tasklist displayed. For example, 
+   if you uncheck "assignee", you will see all tasks in all projects.
+4. You can also use the shortcut links at the right side. E.g "custom queries
+   " > "assigned to me" and ask manager to create more for you if needed
+
+# Estimations and requirement gathering
+
+## How can I improve estimate and execution
+Ask few questions to your self
+1. Are you spending more time on things those are not important compared 
+   to critical path and more important tasks? Or even slightest postion 
+2. of your activity is not even needed but you do it pationately, striving hard? Think again. Analyse the day.
+3. When you started working, did you proportioned total available time 
+   of the day into tasks or you kept stuck on 2nd task out of 10 tasks 
+4. and the day passed and you found that task 3-10 for far more important than 2?
+5. Think again, what other developers (who finish work on time) do, that 
+   you do not. Theres always something else than simple hardwork. Maybe 
+6. smartwork? Planned work? More intelligent work? More skillful work? Combination of all that defeats timeline issues.
+7. Do this every day. It is 100% that all need improvement. Find out things 
+   that you can improve. Doing this daily and consistently is the key.
+
+To be continued
+
+## What is estimation
+1. Estimation is the process of understanding the requirements first.
+1. Then coming up with an action plan (tools, libraries, frameworks, process 
+   and so on with a long list of connected things).
+1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
+1. Time spend on estimation (which means all the above), is usually 2% 
+   to 10% maximum of the total time to develop the application. 1. There 
+2. is no limit on how deep someone can go in understanding, polishing a 
+   diamond, optimizing something. A developer can make a login page in 
+3. 1 hour and in 100 hours as well (trying to keep on beautifying and optimizing and adding features).
+4. Time to estimate, with smartness, should be of balance (not too low 
+   to not have unclarity and not too high to not waste time).
+5. See [getting-things-done](#getting-things-done) for more information
+
+## Sample estimation
+Suppose you have to make a login page. How much time will it take? You 
+answer might fall between 2 hours to 1 week. All depends on the joint mixture 
+of requirements, your understandings, your skillset. Lets make a WBS and estimate
+1. 1 hour : BK: Backend datababase design
+1. 2 hours: BK: User authentacation (middleware and routes)
+1. 0.5 hour: SL: Frontend slicing
+1. 1 hour: JS: Javascript interactivity
+
+Ok, good. you go 4.5 hours of work. But 
+1. How will the frontend page look like? 
+      1. Will we use bootstrap, matarial ui, foundation or custom code?
+      1. Will we use sass? or plain css is fine?
+      1. Will we use javascript for animation or css?
+      1. Will we use html5 validation or Javascript based or react based validation?
+      1. Any library we will use?
+1. Which libs to use for JS
+      1. Will we use captcha?
+      1. Will we use 2 factor authentication
+      1. Will we use redux?
+1. What measures to take for backend
+      1. Libs?
+      1. Security precautions?
+      1. So on.
+      
+## Finalize understanding first
+This is just an example, there will and must be many other questions (assuming 
+that the requirements were not clear enough). We have to make them clear 
+then and provide WBS based estimates. If anything is missing, explore and ask.
+
+## Nothing is missing but I don't know estimates.
+If this is the case, there can be the folowing or more reasons
+1. The task is not of your level and you need to learn before implmenting
+   . In this case, the "specific" thing you have to learn and the time 
+2. for that should also go in WBS. Once thats done, further WBS will continue (portions dependant on it).
+3. You have not done enough effort to breakdown the WBS properly. If so, do it.
+4. None of above but the task is a bit new to you or you have not done 
+   this before OR things are of unclear or unpredictable nature. In this 
+5. case (which is rare), make a POC (proof of concept). e.g you are not 
+   confident on an api integration. In this case, quickly make POSTMAP 
+6. calls and check it. If this is the case, the "specific" thing you will 
+   make POC "without which you cannot proceed", should also go in WBS. 
+7. Once thats done, further WBS will continue (portions dependant on it).
+      
+## Correct estimation - examplary
+1. 1 {hours} : Estimation and understanding requirements
+      1. 0.5 {hours} : Basic understandings of task
+      1. 0.5 {hours} : Talk, Research on xyz // If unclear things/ POC 
+         needed. This should be done before any other execution or final estimation of xyz or related things
+1. 1 hour : BK: Backend datababase design
+      1. {hours} : {Item} // core thinking, designing
+      1. {hours} : {Item} // creating schema in knex migration
+      1. {hours} : {Item} // test cases // further sub divide into kinds of tests
+1. 2 hours: BK: User authentacation (middleware and routes)
+      1. {hours} : {Item} // setting basic routes
+      1. {hours} : {Item} // writting middleware
+            1. {hours} : {Item} // redis database implementation
+            1. {hours} : {Item} // midleware finalization with redis + session + cookies
+      1. {hours} : {Item} // test cases
+            1. {hours} : {Item} // integration tests
+            1. {hours} : {Item} // unit tests
+1. 0.5 hour: SL: Frontend slicing
+      1. {hours} : {Item} // html part
+      1. {hours} : {Item} // css part OR sass part
+1. 1 hour: JS: Javascript interactivity
+      1. {hours} : {Item} // core
+      1. {hours} : {Item} // Integration tests
+
+## What happens if estimates do not match outcome
+Your job performance score will be affected.
+
+## Estimation for unknown bugs
+1. It is comparatively hard to estimate time for bugs. This is why the 
+   first day / few hours of sprint is for understanding. Once you understand task or bug, its easy to estimate.
+1. Note, it's estimation first. When execution /fixing/development start: that is the sprint start time. 
+1. Still bug resolution estimate is tougher as compared to normal task 
+   estimate. But the point is "try your best to estimate" and all will be ok.
+1. One of the main reasons to estimate is so that we can compare between 
+   "what we thought" vs "what we had to do". And improve on it later or keep good things in future.
+
 # Meetings
 
 ### Meeting schedule
@@ -391,7 +607,7 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 
 ### During meeting
 1. Per person you, should take 1 minute (unless prolonged by Manager). 
-   So arrange your speach, screen, application etc accordingly beforehand.
+   So arrange your speech, screen, application etc accordingly beforehand.
 1. Speak one by one as per given sequence by your manager / lead, about your 
     1. **status**, what you did already (most probably with **showing** your **screen**) 
     1. what are you **doing now** and 
@@ -400,7 +616,7 @@ if the task is executed correctly or not. At all points in time, for any sprint,
     1. or request for **separate meeting** due to problems or any other reason, 
     1. Your work **PR status** (approved, not approved, issues found etc). 
     1. Please do this in a systematic and well organized way with less 
-       handholding and asking/informing same questions/ instructions.
+       hand holding and asking/informing same questions/ instructions.
     1. Above said should be carried out like this. Each point has a purpose
        . E.g few things might also be written in task sheet and one might 
     2. say **"I am doing as per my sheet. That's the status and no issues
@@ -411,9 +627,9 @@ if the task is executed correctly or not. At all points in time, for any sprint,
     5. **Listen to what others speak**. This is advantageous in team collaboration. 
 
 ### After meeting
-1. STO should sync up with team members to make sure everthing is on track
+1. STO should sync up with team members to make sure everything is on track
    . If everything is on track (ideally), then there will be less need 
-2. for any detail discussion. Few verbal sentences and screenshare would suffice.
+2. for any detail discussion. Few verbal sentences and screen share would suffice.
 
 ### PR per meeting
 1. Ideally your PR should have no or less issues and as a result, it should 
@@ -448,14 +664,7 @@ The last resort for super urgent things where you or more people are blocked
 and also have no other alternative task is to raise red flags and ask for 
 help from your pair, strategy owner, lead or manager (sequencially).
 
-## Signoff
-1. **Inform manager** and **team** textually at least 10 minutes before sign off.
 
-## Lunch / rest break
-1. **Inform manager** and team textually at least 5 minutes before taking a lunch / rest break.
-1. It is **mandatory** to take at least **30 mins break** during a day 
-   and it should not be during the first 2 hours or last 2 hours of work day time.
-1. Normal time is 1 hour break. 1 hour 30 mins on Fridays for Muslims.
 
 ## Setup and for new commers
 
@@ -520,9 +729,9 @@ Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened
 
 
 ## Operating system
-#### *ubuntu LTS
+#### ubuntu LTS
 (**ONLY LTS**) versions are preferred
-1. **Kubuntu** (with k) If you have 16G plus ram and a quadcore and ok 
+1. **Kubuntu** (with k) If you have 16G plus ram and a quad core and ok 
    to invest system resources on beauty and features. LTS. https://kubuntu.com
 2. **Xubuntu** (with X) LTS If you don't have enough resources or just 
    want performance with ok to medium UI. https://xubuntu.org
@@ -642,7 +851,7 @@ You should search youtube on how to create database, user, set password in pgadm
 If your project has unit test/ integration tests/ automation tests enforced
 , do not file PR without them. In most cases, integration tests are mandatory. Do not forget to ask from your manager.
 
-Following are the default coverages if not overriden by manager.
+Following are the default coverage if not overridden by manager.
 
 ### TDD test notes
 A typical types flow:
@@ -651,7 +860,7 @@ A typical types flow:
    in database (less recommended). Further testing will be based on this
 2. . At this stage, you should fully know what input will result in what output later.
 3. Make different and several cases for input and output. E.g table search, sort, group, total, etc.
-4. Hit controller/ api with different params etc for things mentioned in #2
+4. Hit controller/ api with different params etc for things mentioned above.
 5. Compare output of #3 with expected output. If development is not completed
    , tests will fail and that is fine. This will help the developer also to do development and test it seamlessly.
 
@@ -659,15 +868,15 @@ A typical types flow:
 
 * no need to know db query or internal logic of code of developer. It's not the business of tester.
 * no need to know actual/real data in db, tester can insert things himself for testing, during test.
-* controller/api route should exit though. Dummy route can be made. 
-* controller/api route should not be 100% working before test is coded/
+* controller/api route should exist though. Dummy route can be made. 
+* controller/api route is required to be 100% working before test is coded/
   started. However tester and developer, both should be 100% sure about input/expected output and requirements.
 
 #### Tools to use only for tests
 1. Jest
-1. React-testing-library
+1. ~~React-testing-library~~
 1. ~~Enzyme~~-- (not permitted to use for now. Use React-testing-library)
-1. ~~Cypress~~ (not testing e2e for now but later could be used after approval to use)
+1. Cypress (not testing e2e for now but later could be used after approval to use)
 1. ~~Puppeteer~~ (not permitted to use for now. Use Cypress)
 1. Mocking: No need for now as knex will have read test database. For endpoint 
    and end to end testing, we are not making network calls however cypress/puppeteer will make real calls when used.
@@ -676,14 +885,14 @@ A typical types flow:
 1. **Unit tests and integration tests**: Use Jest
       1. Controller functions should have **100% coverage**. These will 
          be unit tests (not endpoint tests making ajax calls). For example
-      2. , you will test loginCtr.js's function loginUser('/path/login',
+         , you will test loginCtr.js's function loginUser('/path/login',
          req,res,next); by constructing req.query or req.body params and 
-      3. calling these functions. No need for network call.
+         calling these functions. No need for network call.
       4. Everything in base directory such as Base Daos or services should have **100% coverage**
       5. Everything in shared directories should have **100% coverage**
       6. Rest of the code should have at least **10% coverage** (for now
          ). Most used/referred and most important functions should be tested 
-      7. in prioroty. Important thing to note here is that **if you test 
+         in prioroty. Important thing to note here is that **if you test 
          any function, you should test it 100%**. If not, leave that function.
 1. **Endpoint tests** (type of integration test where network call is made)
       1. Endpoint tests will be making an ajax call to '/path/login' but 
@@ -732,16 +941,17 @@ jestconfig.js
 1. E2e end to end: Use Cypress (**Currently not applicable**)
       1. Test coverage is at least **1 test per view screen**. Screen is 
          a unique page content. E.g ignoring header, footer, nav bar (common 
-      2. things but also included in screen and needs test), login page 
+         things but also included in screen and needs test), login page 
          is one screen, register is another, add user another, list user 
-      3. is another. This should test CRUD operation(s) of that screen 
+         is another. 
+      1. This should test CRUD operation(s) of that screen 
          but **only focus on UI** and some data visibility in it. e.g in 
-      4. a user creation page, test should fill form, hit submit, then 
+         a user creation page, test should fill form, hit submit, then 
          view updated data, then edit it, then delete it, then add again
-      5. , view it (wait for element and match with expected result). There 
+         , view it (wait for element and match with expected result). There 
          is no need to redo and retest things that are already been tested 
-      6. in controller integration testing at backend.
-      
+         in controller integration testing at backend.
+        
 ###### Config to use for frontend react
 jestconfig.js
 ```
@@ -937,46 +1147,8 @@ To be continued
 
 # Post development
 
-## Release notes
-All PRs should have release notes about the functionality you made in that 
-PR. It should briefly describe about the business flow, technical flow, 
-any third party lib used and reason for its preference or at least what 
-approach did you took to complete the task. This will have some **information 
-that is not available in story points**. e.g any library used and why preferred
-, flow of code, technical precautions etc. This is very brief usually from **25 words to 100 words max**. Few example:
-1. Had to convert .ai to .svg via 'outline conversion' ref https://somesite.com else text in svg gets distorted.
-1. Preferring XYZ lib as ABC is deprecated (or has DEF issues) or GHI security concerns.
-1. Using http v2 due to tons of advantages (list or provide link)
-1. Pending things
-## Peer review
-Next step is to have a peer review. (Peer should switch to branch, pull, check manually, then review code on github)
-
-## lead review
-Next step is the have a final review by lead / manager.
-Each lead / managers / reviewer should add a comment of approval or reject 
-at the end of review so that the final reviewer can decide to merge the PR finally.
-
 ## Pull requests / merge requests
-### PR per feature
-1. A feature should be divided into following **main parts/categories** and all PRs should be passed step by step. 
-1. There can be more PRs than the below stated but these are the minimum and more sort of **broad categories**. 
-1. Developer should write the `category number` in PR title. E.g `login 
-   page PR category #1`. Developer should **not work/extend code based 
-   on same/previous PR functionality, until the first PR is merged/approved
-   **. This is because if there are issues in the intial PR, then the extended 
-   code based on that intial PR code will also have issues and consume 
-   more and more time. Same philosophy applies to PR categories. E.g do not go to category 2 unless 1 is approved.
-1. You should work on some other feature/project during wait time.
 #### PR part 1
-1. First PR should have all the possible **flow/achitecture with directories
-   , files and empty functions** with //TODO comments and pseudo code inside 
-   (and interfaces if Typescript is used). This will tell the approace 
-   of the the developer, will help the developer envision the big picture
-   /process/strategy. It will also get the code flow review at a much earlier 
-   stage and will eliminate gaps in expectations far ahead of time.
-1. There are many approaches in industry to make flow before coding e.g 
-   **UML** diagrams, test cases (where test cases are written before writing 
-   actual code (**TDD** test driven development)), or simply writing **empty functions/interfaces** etc.
 1. Some people may say, "**what if the code is likely or will change in 
    future? is PR 1 useless?**". Well, no. If its likely to change at a 
    greater percentage, it means the plan and structure initally made needed 
@@ -984,87 +1156,19 @@ at the end of review so that the final reviewer can decide to merge the PR final
    to make initial design should have given more advantage over the minor 
    con/disadvantage (to just remove/change an empty function/file).
 
-##### PR 1 as full strategy
-Make empty function chain (one function calling another and that calling 
-another etc) and make new files as well if needed.
-Note: Make PR 1 in such a way that you **would not have to create a new function or file in PR 2 version**.
-I.e all **functions and files should be ideally created in PR 1 in full to have full strategy**.
-
-PR 2 will only have implementation of that (filling empty functions with 
-body etc). Assume, no new fucntions / files will be allowed in PR 2 to be made
-
-##### Frontend example of PR 1
-It will include and a react app for example:
-1. All functions that ever would be needed (for example, but not limited 
-   to, routes, service, ajax call functions, alert, validation, on submit funnctions, util)
-1. All components that ever would be needed
-      1. Each component will have a body of sketchy html with no css styles
-         . This is to have a viewable sketchy layout to be understood by 
-         the person that will do PR 2. This will be more like a wireframe
-         . The app should run with working routes and sketchy structure of html/components viewable in browser.
-      1. Each component will call child components as well.
-1. Choice of libraries /frameworks and imports / configs of same
-
-##### Backend example of PR 1
-1. All functions tha ever would be needed but with no implementation code 
-   with all child components but no implementation.
-1. Choice of libraries /frameworks and imports / configs of same
-
+#### Depricated PR 1 concepts (ignore for now)
 Notes: Example of child components hierarchy but with no implmentation is
 ```
 doSomeParent(){doSomeChild1(); someOtheCode; someLibCalls;}
 doSomeChild1(){doSomeChild2(); someOtherPseudoCodeMaybe;} // to make a flow for PR 2 person to understand and implement
 doSomeChild2(){/* implementation in PR 2 only */}
 ```
-#### PR part 2
-Each function/part in PR #1 will be **implemented** (with unit tests if it is enforced in the project).
 
-##### Frontend example of PR 2
-1. All css styling
-1. Implementation of everything. E.g but not limited to functions, components
-   , ajax calls, alerts, etc. If PR 1 was made correctly, there should 
-   be no need to create any new functions/classes/items in PR 2. Just implementation would be needed.
-
-##### Backend example of PR 2
-1. Implementation of everything. If PR 1 was made correctly, there should 
-   be no need to create any new functions/classes/items in PR 2. Just implementation would be needed.
-
-#### PR part 3
-This would be **final PR** and will also make sure that other parts of 
-**application work in harmony** with the current task. If integration tests 
-and/or automation tests are enforced in the project, this PR should have those too).
-
-#### Combined PR of multiple tickets
-PR 1 and PR 3 for multiple tickets and stories can be combined in one PR 
-but PR 2 for each story should be separate. As PR 3 usually at the end 
-of multiple stories or full project and may cover multiple stories/tickets 
-and PR 1 is simple and small structure and can also be made for multiple stories/tickets.
-
-### prerequisits of PR
-In order to get your code merged in daily-stable-master branch (for PR 
-1 and PR 2), you need to do the following. **Do not make a PR Pull request without the following first done**.
 #### Create a fork and branch
 Create a fork from original repository into your own company account, then 
 clone your project git repository locally (by default the main default 
 branch will be daily-stable-master). Create a new branch from it (the main default branch). Start coding in it.
 
-It is to note that PR 3 is a separate process of merging daily-stable-master 
-branch into master branch at major releases. Usually done by leads.
-
-You may see tutorials at bottom about forking and PRs
-
-#### Pull from branch and default branch
-Before pushing code for PR, make sure you have done CPP (commit(in your 
-branch), pull (from your branch if others are working on it too. If not
-, then simply from default branch), push (to your branch))
-#### CI
-We do **contineuous integration (CI)** on github. **Make sure all checks 
-are passed** and its a green tick with your pull request and commits.
-#### linting
-One of the CI steps is linting. You can **autofix** with npm scripts in 
-package.json and then manually test for any lint errors before making a 
-Pull request. **Manually fix** if something is not autofixed. As a side 
-note, observe autofixed syntax and learn from it.
 
 ### Issues in PR
 If there are any issues in PR, they should be replied/typed in reply text 
@@ -1089,23 +1193,7 @@ you some time before dayend to resolve those issues and get the PR finally appro
 
 See [getting-things-done](#getting-things-done) for more information
 
-### PR 2 after PR 1 approval only
-Do not move to PR 2 or code anything for it if PR 1 is not approved. If 
-you wait for the reviewer, you can do other tasks and PRs but do not move to PR 2 if PR 1 is not approved
-
 ### Early review
-We emphasis on early review rather than complete all and get it reviewed 
-after that. e.g you make an app of 10 things / steps.
-
-If you had made a mistake at step 2, then all steps from 2-10 might get influenced to be in the wrong direction. 
-
-In thise case, if review is done at step 10 (completion of app), then it 
-would be a "too late to find" senario and all/ most of 2-10 steps might need a refactor.
-
-Whereas if the review on each step (2 in this case), only 2 will be corrected and later steps will be aligned to it.
-
-The later is safer, more efficient, more time saving, needs lesser effort 
-as a whole, gives more certainty and many other benefits.
 
 ### How to solve PR issues
 When an issue in PR is created, it should be fixed, code pushed, and a 
@@ -1113,7 +1201,7 @@ comment should be given in reply to the issue. A simplest comment can be
 'Fixed'. Then the creater of the issue should resolve the issue by hiting  
 the resolve button. Not the developer. When all issues are resolved, PR can be merged.
 
-## Pull request / merge request model B
+## Pull request / merge request model B (ignore for now)
 This is an alternative and discretion of manager to adapt for projects. In model B
 1. Developer will create PR on github but Github will not be used for issue 
    creation. Instead, reviewer will type issues inside code with signature
@@ -1420,42 +1508,24 @@ If unused commented code is present and developer needs it for future reference,
 
 # Project management
 ## Agile
-#### story points
-Each story / ticket is given points based on its complexity and time to 
-complete. This is achieved when requirements are understood and best course 
-of action suitable for the current business needs is concluded.
 ##### Why can't we just start coding. Why spend so much time in plan?
 1. In short, it is to act and make an "informed decision". It is good for 
    both business and developer though a developer may want to just code 
-2. for practice or just due to interest or passion on something that attracts 
+   for practice or just due to interest or passion on something that attracts 
    him/her. That thing, strategy, solution or way to doing the task may 
-3. or may not even be the best way or decision for the business needs. 
+   or may not even be the best way or decision for the business needs. 
    Think like a developer and also think about the business needs. Keep 
-4. yourself in the shoes of the product owner. If you have questions on how to think like one, ask questions.
+   yourself in the shoes of the product owner. If you have questions on how to think like one, ask questions.
 5. At no point should a ticket be started for execution until the best 
    plan of action, strategy, requirements are clear, defined and approved
-6. . E.g you want to go from city A to city B. If you search a bit and 
+   . E.g you want to go from city A to city B. If you search a bit and 
    not just blindly hit the road in your car in garage, maybe a new bus 
-7. services goes there in more comfort, shorter time, on a newly made highway 
+   services goes there in more comfort, shorter time, on a newly made highway 
    you didn't knew about before. Or maybe a cost effective bullet train
-8. . Or maybe there is a curfew news you missed that can get you in jail 
+   . Or maybe there is a curfew news you missed that can get you in jail 
    or severe. Longer or critical journeys may include feul comparisons 
-9. or going to a different city at all (changing course). All this cannot 
+   or going to a different city at all (changing course). All this cannot 
    be decided without understanding requirments and creating best course of action.
-
-#### stand up
-#### sprints
-Our typical schedule and sequence of doing things:
-1. Do the 'estimates' ticket of each story to have an understanding of 
-   requirments, action plan andnestimated time to execute for each.
-      1. Get estimationes for each story approved step by step, one by one.
-1. Once (and only when) above is approved, create PR 1 for each story.
-      1. Get PR 1 for each story approved step by step, one by one.
-1. Once (and only when) above is approved, create PR 2 for each story.
-      1. Get PR 2 for each story approved step by step, one by one.
-1. Once (and only when) above is approved, create PR 3 (optional).
-1. Finish the work accuretly as per needs, on time.
-1. Attend retrospective meeting.
 
 # Work and self management
 
@@ -1468,7 +1538,7 @@ Our typical schedule and sequence of doing things:
            less, not more. If any doubhts/suggestions, ask lead/manager.
         1. **Mistakes in code, functionality**, specially mistakes those 
            are repeated/similar in previous tasks. Every mistake (or group 
-        2. of mistakes) causes a review cycle, an issue, a new pull/push
+           of mistakes) causes a review cycle, an issue, a new pull/push
            , multiplied time of engagement (developer, reviewer(s)).
         **Remedy**: PR 1 with verbal but brief explaination of strategy to lead/manager before starting to code.
 3. Async (non-blocking) collaboration - 
@@ -1484,7 +1554,6 @@ Our typical schedule and sequence of doing things:
               2. are not blocked by each other in same task. One can do 
                  another task meanwhile the other solves it. For learnign 
               3. purpose, the helper can then explain it breifly after its done. This is less time consuming overall.
-4. Good good practices and architecture. TBC
         
 ## QA Quality Assurance
 #### No such thing as QA
@@ -1500,14 +1569,16 @@ Our typical schedule and sequence of doing things:
 ## Ownership
 Sprints are ownership of the team overall, success of a sprint is success 
 of the full team (regardless of individual tasks). You can say you may 
-hold at least 1% to 10% responsibility of overall team work. You own 100
-% of the taks specificily assigned to you. Responsibility includes, but 
+hold at least 1% to 10% responsibility of overall team work. You own 100% 
+of the takes specifically assigned to you. Responsibility includes, but 
 not limited to, completing the task with at least minimum quality and absolutely agreed time mentioned in estimates.
+
 ## Deviations
 If you encounter any deviation in attainable preplaned timeline estimates
 , promptly inform the reasons and circumstances to your lead and project 
 manager. Inform far ahead and as soon as possible when deviations are anticipated
 . NOT at the end or when time had elapsed.
+
 ## Timelines
 Once sprints and/or ticket estimats and plans are created and agreed upon
 , if there are delays in timeline without a reasonalbe cause, then the 
@@ -1527,12 +1598,12 @@ problem solver, the timeline should not be in deviation.
 
 Suppose you are going from city A to city B. Before journey, you would 
 plan your journey, what to use as transport (train/bus/car), whats the 
-journely time by each, time and money needed, schedule and see road blocks, make strategy before acting etc.
+journey time by each, time and money needed, schedule and see road blocks, make strategy before acting etc.
 
 If a hazard comes like train out of order or delayed, or type puncture 
 of a car. You should have a backup plan to resolve the situation. Get an 
 alternative route/vehicle at the spot or plan it slightly before the journey 
-even. e.g a taxi, or rent a bicycle, or simply try to fix the tyre (whatever is best suited and quickest).
+even. E.g a taxi, or rent a bicycle, or simply try to fix the tyre (whatever is best suited and quickest).
 
 **IF you are a proactive problem solver** (which is expected from a developer 
 quite implicitly), **you will get the job done in almost same time** or 
@@ -1560,33 +1631,32 @@ limited to, priorities, business needs for the current time, not being
 fully sure of future features or even those will be needed in future.
 
 ## Getting things done
-Read as follows:
 ## Do only whats required
 1. **Only do whats needed**. Nothing less, nothing more. Your time is precious
    . You should be focussed on your **specific targets and goals**. Your 
-2. time on job is company's **valuable asset** as your targeted efficiency 
+   time on job is company's **valuable asset** as your targeted efficiency 
    in it is the efficiency of the company! We want to see you valued.
 3. If you see something wrong or a room for improvement, **ask permission 
    beforehand** for any deviations because if you think something is beneficial
-4. , that may not be the case with a different perspective, it may have 
+   , that may not be the case with a different perspective, it may have 
    **side effects** or simply it may be be very **good but not needed at 
-5. the time** or at the cost of the current time. So simply **ask lead/manager and discuss first**.
+   the time** or at the cost of the current time. So simply **ask lead/manager and discuss first**.
 
-## Improvment in steps
+## Improvement in steps
 1. You might be thinking **then, how do we improve the code/funcitonality
    ?** Of course, you do but **in steps**. **First target is to complete 
-2. in a 'good way' and 'as instructed' but not in a 'perfect way'**. 
+   in a 'good way' and 'as instructed' but not in a 'perfect way'**. 
 3. Perfection is a step by step process and the steps may reach infinity 
    in some cases. We will not be able to afford time loss for completion at the cost of long perfection sessions. 
 4. So in short, get first stage workable. Get it approved, move to next 
    stage, get it approved and so on. Do not try to reach stage 10 by wanting 
-5. to learn and experiment for 9 prior stages in one go. 
+   to learn and experiment for 9 prior stages in one go. 
 6. **If your code**, on the other hand, **is below standards**, you will 
    ultimately get **PR issues anyway**... Remember them and do not repeat 
-7. them. So you/your code improves any way by default. 
+   them. So you/your code improves any way by default. 
 8. But keep a fine line between personal part of pure self learning (with 
    self motive only) and self experimenting vs completing the task as priority 
-9. and **learning through that** (which will be done any way during the process so everyone gets happy).
+   and **learning through that** (which will be done any way during the process so everyone gets happy).
 
 ## Smart done
 Suppose you have 10 things in your todo list. **5 things 100% done is better than 10 things done 50% each**.
@@ -1594,7 +1664,7 @@ If you have multiple things, do one by one, but each fully complete.
 If you have only one thing, divide it into parts. Do those parts one by one, each complete at a time.
 
 ## Definition of done
-Completion of a task with minimum acceptable qaulity (does whats needed, passes lint and code review etc).
+Complete in such a way that no one has to talk about it ever again until requirements change or get added.
 
 ## Definition of mistake
 1. ANY thing that is done outside explicit rules of company policy and this practices doc. e.g but NOT limited to 
@@ -1605,9 +1675,9 @@ Completion of a task with minimum acceptable qaulity (does whats needed, passes 
 1. ANY thing that shows absence of due care, ownership and responsible behaviour. e.g but NOT limited to
     1. for something you might have to say "Oh I/you forgot to do this", 
        "I/you missed this", "I/you should have done this", "this is not stable and for production / public / clients"
-    2. not taking enough measures to undertand **requirments** of a task
+    2. not taking enough measures to understand **requirements** of a task
        . It is your responsibility to clear up things if not clear already.
-    3. forgetting** or implementing requirments **incorrectly**
+    3. forgetting** or implementing requirements **incorrectly**
     4. **asking** the same thing **more than once** (you should take notes 
        if you fear to forget) or not following anything said by lead / manager thus (s)he had to remind more than once.
 1. Proposing, researching, concluding or implementing ANY thing that is 
@@ -1617,10 +1687,10 @@ Completion of a task with minimum acceptable qaulity (does whats needed, passes 
 To be continued..
 
 # You
-## Who are our favourites? Top qualities?
+## Who are our favorites? Top qualities?
 Weighed according to numbers below
 1. Number one quality we appreciate is not skills, appearance, experience etc. Number ONE quality is:
-  - Responsible behaviour : If you have this **one** trait, you will have these for example:
+  - Responsible behavior : If you have this **one** trait, you will have these for example:
     1. No repetitive mistakes, 
     2. no carelessness, 
     3. not letting us repeat ever
@@ -1628,290 +1698,29 @@ Weighed according to numbers below
        be repeated, should happen and complied in future with care. 
     5. Dedication - You should work hard with your heart and motivation. 
     6. A determination to become better. 
-If you have this one quality, you just got passed 50% acceptability already
-. Rest will follow (for us and for your career).
-Later comes
+         If you have this one quality, you just got passed 50% acceptability already
+         . Rest will follow (for us and for your career). Later comes
 1. Your skills
 1. Your experience
 1. Your qualification
-
-# Project management tool
-## Task / issue types
-1. **Epic** - For requirements and vision. This is the super main end of 
-   top most hierirachy. Its children may and usually are divided into multiple sprints
-1. **Story** - For requirements and vision. We have moved to github based 
-   story documentation now though. After reading the issue type, description 
-2. and title of the task carefully, read the parent task (story or any 
-   other kind of ticket) and read all the way up to the top most ticket
-3. . Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
-4. Level 0
-    1. **0 understanding** - Understand requirements
-    1. **0 pairUnderstanding** - same for pair
-    1. **0 stoUnderstanding** - same for sto
-    1. **0 sketch/wrf** - very quick creating sketch with digital pencil or wireframeing tool
-    1. **0 scenarios** - scenarios, cases e.g what happens if `x` is done in a `y` way.
-    1. **0 wbs** - work break down structure having tasks, sub tasks and 
-       their estimates of next level. e.g level 1 in this case (listed 
-    2. below). Here, the estimated proposed time will be added to all the 
-       tickets for the next level (which is level 1 in this case as current level is 0)
-    3. **0 pairReview** - review all what is done in this level here.
-    4. **0 stoReview** - review all what is done in this level here.
-5. Level 1
-    1. **1 deepUnderstanding** 
-    1. **1 pairDeepUnderstanding**
-    1. **1 stoDeepUnderstanding**
-    1. **1 wireframe**
-    1. **1 dbDesign** - in `.dot` langauge and file. Be approved via PR
-    1. **1 flowDiagram** - in `.dot` langauge and file. Be approved via PR
-    1. **1 scenarios** - No scenarios should be left here. Cover all extensively.
-    1. **1 finalWbs** - Same as described above but extensive and final for the next level.
-    1. **1 stoReview** - review all what is done in this level here. 
-6. Level 2
-    1. **2 slice** - (html+css only)
-    1. **2 req/resp model** - Just the minimalistic model. Not the actual code.
-    1. **2 iBK** - backend controller tests - Full tests without writing 
-       code. Scenarios + req/resp model will help here doing this task.
-    1. **2 stoFuncReview** - review all what is done in this level here.
-7. Level 3
-    1. **3 fe** - All frontend (JS, react etc)
-    1. **3 uBK** - unit tests for backend. If this is require and we use 
-       TDD, then `uBK` will be completed before or with `bk` task.
-    1. **3 bk** - All backend (db, controllers, code etc)
-    1. **3 e2e** - end to end testing if needed.
-    1. **3 stoFuncReview** - final functionality review.
-8. Other types of tasks
-    1. **Bug[SL/BK/JS/D]** - A defect in delivery for slicing / backend / Javascript / Design.
-    1. **Test[uFE/uBK/iFE/iBK/e2e]** - Tests for unit test for frontend
-       , unit test for backend, integration test for frontend, integration test for backend, end to end test.		
-    1. **Design** - Graphic design (Adobe photoshop, Illustrator etc)
-
-## Task statuses
-
-1. **new** - default status of each task when it is created
-1. **in progress** - assignee should promptly set this status when (s)he 
-   starts working on it. If a task was somehow marked completed at any 
-2. stage mentioned below and then it was rejected at any stage mentioned 
-   below; if assignee starts working on it again (obviously (s)he will 
-3. to complete it), the during that time, the status of that task should 
-   again be marked as `in progress` by the assignee.
-4. **completed on localhost** - when something is working on your machine.
-5. PR & functionality - phase 1
-    1. **PR created** - when pr is created after all careful checks of 
-       quality and functionality. Things maybe more or less but they should 
-    2. be "complete" flawlessly. PR creater should attach a video of functionality so reviewer can review it. 
-    3. **PR & func rejected** - if issues in code/ functionality.
-    4. **PR & func approved after rejections** - If PR or functionality 
-       was approved but there were repetitive or major/big issues created 
-    5. in PR or functionality and fixed (by assignee) before approval. 
-       While setting this status, setter should add a max 100 character note. 
-    6. **PR & func approved flawlessly** - Reviewer should run the functionality 
-       on localhost as well and take responsibility that the app is working.
-6. PR & functionality - phase 2 - same as above for the same PR but second review by someone second person.
-    1. **2PR & func rejected**
-    1. **2PR & func approved after rejections** 
-    1. **2PR & func approved flawlessly** 
-7. Overall status - review by STO
-    1. **Task rejected**
-    1. **Task approved flawlessly**
-    1. **Task approved after rejections**
-8. Finalization 
-    1. **closed** - Only manager should set it.
-9. Other
-    1. **deferred** - deferred due to some reason. This should not be set by assignee of the task.
-
-## Task fields
-1. **status** & **% done** - Current status of task. Keep changing the 
-   status regularly. This is critical to avoid others asking you for updates 
-2. that they can simply see from the PM tool if its updated.
-3. **priority** - A higher number will show higher priority.
-4. **start date** - date at which task is expected to start.
-5. **end date** - date at which task is expected to be fully completed.
-6. **proposed est time** - After studying the requirements and making an 
-   action plan and wbs, assignee or wbs creater should provide and agree to a proposed est time of accomplishment.
-7. **est time** - Estimated time determined by manager/lead after or without 
-   taking into `proposed est time`. This will be the final expectations.
-
-## Time logging
-1. Whatever the task assigned to assignee and performed, the time spent 
-   on it should be logged via tool. In the same ticket, there is an option to log time. 
-1. At the end or during the sprint, the spent time, results, proposed time
-   , estimated time may be tallied to measure and improve results.
-
-## Execution in PM tool
-1. Observe due date, estimated hours and discuss if needed
-1. Change status of task to "In progress" at the moment you start working 
-   on it. This is important to do as other stakeholders will know what is being started and being done.
-1. During the work in progress, keep on changin the percentage done accordingly.
-1. When finished, create PR (git pull request) and paste the link in the 
-   parent story of that ticket. Usually there should be an individual PR 
-2. and branch for each story and its functionality. Code of other tickets 
-   and functionality should usually not be in it. 
-3. After that, mark it as "Completed" and percentage done to 100%. A task 
-   should be marked complete if only PR 1 and PR 2 are created flawlessly.
-4. The task will be reviewed, and status will be changed to "Approved" 
-   (in which you do not need to do anything further) or to "Rejected" (
-5. in this case you should make the task status to "In progress" and then 
-   "Completed" again after fixing the objections raised).
-
-## Do it yourself
-1. Do what was written in description of task + parent tasks (when instructions in parent are in scope)
-1. Please do the needful in order to declare the task as complete / change in progress via percentage or status etc.
-1. Move to next task and change its status as well (and percentage when needed).
-1. Do this automatically every time yourself so you do not have to be reminded for each ticket.
-
-## Priority
-Of course, start a the tasks with most highest priority first.
-
-## How to see my tasks
-1. You can click "my page" button at top left corner but it will show limited 
-   tasks. To see full task list of all projects, you should click "projects
-2. " at top and then "issues" menu. Or simply got to "/issues" url. If 
-   graphical gantt view is required, you can click "gantt" menu or simply go to "/issues/gantt".
-3. You can play with filters above the tasklist displayed. For example, 
-   if you uncheck "assignee", you will see all tasks in all projects.
-4. You can also use the shortcut links at the right side. E.g "custom queries
-   " > "assigned to me" and ask manager to create more for you if needed
-
-## Your work time
-1. Each day, the total estimated time of tickets done by you should be 
-   equal to the daily work time expected from you. The ticket estimated 
-2. time is entered by project manager and is viewable in the field "Estimated time" in each ticket.
-
-
-# Estimations and requirement gathering
-## How can I improve estimate and execution
-Ask few questions to your self
-1. Are you spending more time on things those are not important compared 
-   to critical path and more important tasks? Or even slightest postion 
-2. of your activity is not even needed but you do it pationately, striving hard? Think again. Analyse the day.
-3. When you started working, did you proportioned total available time 
-   of the day into tasks or you kept stuck on 2nd task out of 10 tasks 
-4. and the day passed and you found that task 3-10 for far more important than 2?
-5. Think again, what other developers (who finish work on time) do, that 
-   you do not. Theres always something else than simple hardwork. Maybe 
-6. smartwork? planned work? more intelligent work? more skillful work? Combination of all that defeats timeline issues.
-7. Do this every day. It is 100% that all need improvement. Find out things 
-   that you can improve. Doing this daily and consistently is the key.
-
-To be continued
-
-## What is estimation
-
-1. Estimation is the process of understanding the requirements first.
-1. Then coming up with an action plan (tools, libraries, frameworks, process 
-   and so on with a long list of connected things).
-1. The main purposes of estimations are only two. Understanding with action plan and time to complete.
-1. Time spend on estimation (which means all the above), is usually 2% 
-   to 10% maximum of the total time to develop the application. 1. There 
-2. is no limit on how deep someone can go in understanding, polishing a 
-   diamond, optimizing something. A developer can make a login page in 
-3. 1 hour and in 100 hours as well (trying to keep on beautifying and optimizing and adding features).
-4. Time to estimate, with smartness, should be of balance (not too low 
-   to not have unclarity and not too high to not waste time).
-5. See [getting-things-done](#getting-things-done) for more information
-
-## Sample estimation
-Suppose you have to make a login page. How much time will it take? You 
-answer might fall between 2 hours to 1 week. All depends on the joint mixture 
-of requirements, your understandings, your skillset. Lets make a WBS and estimate
-1. 1 hour : BK: Backend datababase design
-1. 2 hours: BK: User authentacation (middleware and routes)
-1. 0.5 hour: SL: Frontend slicing
-1. 1 hour: JS: Javascript interactivity
-
-Ok, good. you go 4.5 hours of work. But 
-1. How will the frontend page look like? 
-      1. Will we use bootstrap, matarial ui, foundation or custom code?
-      1. Will we use sass? or plain css is fine?
-      1. Will we use javascript for animation or css?
-      1. Will we use html5 validation or Javascript based or react based validation?
-      1. Any library we will use?
-1. Which libs to use for JS
-      1. Will we use captcha?
-      1. Will we use 2 factor authentication
-      1. Will we use redux?
-1. What measures to take for backend
-      1. Libs?
-      1. Security precautions?
-      1. So on.
-      
-## Finalize understanding first
-This is just an example, there will and must be many other questions (assuming 
-that the requirements were not clear enough). We have to make them clear 
-then and provide WBS based estimates. If anything is missing, explore and ask.
-
-## Nothing is missing but I don't know estimates.
-If this is the case, there can be the folowing or more reasons
-1. The task is not of your level and you need to learn before implmenting
-   . In this case, the "specific" thing you have to learn and the time 
-2. for that should also go in WBS. Once thats done, further WBS will continue (portions dependant on it).
-3. You have not done enough effort to breakdown the WBS properly. If so, do it.
-4. None of above but the task is a bit new to you or you have not done 
-   this before OR things are of unclear or unpredictable nature. In this 
-5. case (which is rare), make a POC (proof of concept). e.g you are not 
-   confident on an api integration. In this case, quickly make POSTMAP 
-6. calls and check it. If this is the case, the "specific" thing you will 
-   make POC "without which you cannot proceed", should also go in WBS. 
-7. Once thats done, further WBS will continue (portions dependant on it).
-      
-## Your duty to clear up requirments
-Clients, product owners, project managers may try their best to clarify 
-things but it is your duty to clear up requirements and make up your understandings 
-in such a way that the product owner or project manager does not says "
-Why you did this? where is that feature? this should have been done differently 
-or this is missing". So clear up scope of responsibility before giving 
-estimates and far before performing any development.
-
-## Correct estimation - examplary
-1. 1 {hours} : Estimation and understanding requirements
-      1. 0.5 {hours} : Basic understandings of task
-      1. 0.5 {hours} : Talk, Research on xyz // If unclear things/ POC 
-         needed. This should be done before any other execution or final estimation of xyz or related things
-1. 1 hour : BK: Backend datababase design
-      1. {hours} : {Item} // core thinking, designing
-      1. {hours} : {Item} // creating schema in knex migration
-      1. {hours} : {Item} // test cases // further sub divide into kinds of tests
-1. 2 hours: BK: User authentacation (middleware and routes)
-      1. {hours} : {Item} // setting basic routes
-      1. {hours} : {Item} // writting middleware
-            1. {hours} : {Item} // redis database implementation
-            1. {hours} : {Item} // midleware finalization with redis + session + cookies
-      1. {hours} : {Item} // test cases
-            1. {hours} : {Item} // integration tests
-            1. {hours} : {Item} // unit tests
-1. 0.5 hour: SL: Frontend slicing
-      1. {hours} : {Item} // html part
-      1. {hours} : {Item} // css part OR sass part
-1. 1 hour: JS: Javascript interactivity
-      1. {hours} : {Item} // core
-      1. {hours} : {Item} // Integration tests
-
-## What happenes if estimates do not match outcome
-Your job performance score will be affected.
-
-## Estimation for unknown bugs
-1. It is comparatively hard to estimate time for bugs. This is why the 
-   first day / few hours of sprint is for understanding. Once you understand task or bug, its easy to estimate.
-1. Note, it's estimation first. When execution /fixing/development start: that is the sprint start time. 
-1. Still bug resolution estimate is tougher as compared to normal task 
-   estimate. But the point is "try your best to estimate" and all will be ok.
-1. One of the main reasons to estimate is so that we can compare between 
-   "what we thought" vs "what we had to do". And improve on it later or keep good things in future.
 
 
 # Coding practices
 ## libraries choice
 You should have very good reasons to choose a library. In most of the cases
 , you should **ask lead before choosing a library**.
+
 #### ES6+ over old
 **Always use ES6+ syntax over old. Take it as a mandatory rule**.
+
 ## TS over JS
 If your project is Typescript based, **use Typescript wherever possible**.
+
 #### Tests
 We use **Jest** as the testing library for unit tests and integration test and **Cypress** for automation e2e tests.
 
 ## Javascript
-#### Never disable linting
+#### Never disable linting or change git, tsconfig rules
 Do not disable linting without permission.
 
 ## Frontend
@@ -1924,6 +1733,7 @@ it increases page performance a bit and also decouples development. A css
 coder can work (almost) independantly from a javascript developer on the 
 same projects. Spliting css and js files also improves the said. Further 
 more, it also decouples style (css) and interation (javascript) logic, giving better structure to code as well.
+
 ##### External cdn or other links
 Never use (until informed by manager), any kind of external links of css
 , images, javascripts in html or js files like `<link src=.../>` or `<img 
@@ -1932,6 +1742,7 @@ performance and decreases server/network load but specially in a SAAS app
 or single page app (SPA), we use our own optimized and/or bundled resources 
 and/or if its PWA, this goes further strict as caching is involved. So 
 do not use third party linked resources. Use `import`.
+
 #### Images
 Extending above point further, to use images or make them background etc
 , use image paths in css/scss files as css/scss syntax.
@@ -2095,7 +1906,7 @@ Currently experimental but 100% enfored.
 3. Arrange functions/class in relevant folders and files. Do not worry 
    if your functions are too small or you have created too many tiny functions or too many files.
 4. Inheritence not allowed unless you really think its needed and you get 
-   apermission from project manager. For everything else, use composition instead.
+   a permission from project manager. For everything else, use composition instead.
 5. No switch statments or if/else acting like switch statements. Use functions in objects.
 6. No function parameters more than 3. If needed, make an object and pass that instead.
 7. DRY. Do not repeat yourself. Take this religiously. 
