@@ -257,30 +257,28 @@ Link:
 
 ## Level 1 Estimates 
 4. WBS extended (enough to start execution). This phase should consume 10% of total project time investment.
-4.1 story understanding
-4.2 wireframe understanding
-4.3 discussion and initial strategy 
-4.4 initial db design 
-4.5 flow diagrams
-4.6 Send estimates to product owner
+    1. story understanding
+    1. wireframe understanding
+    1. discussion and initial strategy 
+    1. initial db design 
+    1. flow diagrams
+    1. Send estimates to product owner
 
 ## Testing & Coding - 70-88% total time. 
 5. 10-20% for automated testing, 
-```
  50-80% for coding/execution/etc and 
  0-18% e2e. (this time can vary because it depends on project as well). 
  We will do the following **for each task one by one**. 
  Finish task, then do the same for the next task of the project.
-```
-5.1 extended , revised **db desigh (final)**
-5.2 extended , revised **flow diagrams (detailed and final)**
-5.3 **req / resp pesudo and entity models**
-5.4 **api tests pseudo**
-5.5 **pseudo code (PR 1)** (via code nav app wherever applicable)
-5.6 Complete **api tests** - PR2,PR3 (and optional unit test)
-5.7 Complete **coding** - PR2,PR3 for the task
-5.8 e2e functionality part only (via cypress if informed by manager and applicable)
-5.9 e2e ui/view part only (via cypress if informed by manager and applicable) 
+    1. extended , revised **db desigh (final)**
+    1. extended , revised **flow diagrams (detailed and final)**
+    1. **req / resp pesudo and entity models**
+    1. **api tests pseudo**
+    1. **pseudo code (PR 1)** (via code nav app wherever applicable)
+    1. Complete **api tests** - PR2,PR3 (and optional unit test)
+    1. Complete **coding** - PR2,PR3 for the task
+    1. e2e functionality part only (via cypress if informed by manager and applicable)
+    1. e2e ui/view part only (via cypress if informed by manager and applicable) 
 
 # Task allocation between members
 ## Kind of team members
@@ -331,9 +329,9 @@ if the task is executed correctly or not. At all points in time, for any sprint,
    top most hierirachy. Its children may and usually are divided into multiple sprints
 1. **Story** - For requirements and vision. We have moved to github based 
    story documentation now though. After reading the issue type, description 
-2. and title of the task carefully, read the parent task (story or any 
+   and title of the task carefully, read the parent task (story or any 
    other kind of ticket) and read all the way up to the top most ticket
-3. . Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
+   . Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
 4. Level 0
     1. **0 understanding** - Understand requirements - Clients, product owners, 
        project managers may try their best to clarify things but it is your duty 
