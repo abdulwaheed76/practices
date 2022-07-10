@@ -1,4 +1,4 @@
-% Last modified: 2022-07-09 18:02:07
+% Last modified: 2022-07-10 08:15:02
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -244,55 +244,19 @@ Link:
 [#project-execution-workflow](#project-execution-workflow)
 
 
-# Project execution workflow
-
-## Requirement understanding
-1. User story - reading, understanding, initial question / answer session
-2. Wireframes
-
-## Level 0 Estimates (ballpark)
-3. **WBS** on spreadsheet with time investment 2% of total project time
-   . Lets say the full project execution and completion might be guessed 
-   at this stage to be 100 hours. Then at this stage of estimation, we should spend about 2% (which is 2 hours).
-
-## Level 1 Estimates 
-4. WBS extended (enough to start execution). This phase should consume 10% of total project time investment.
-    1. story understanding
-    1. wireframe understanding
-    1. discussion and initial strategy 
-    1. initial db design 
-    1. flow diagrams
-    1. Send estimates to product owner
-
-## Testing & Coding - 70-88% total time. 
-5. 10-20% for automated testing, 
- 50-80% for coding/execution/etc and 
- 0-18% e2e. (this time can vary because it depends on project as well). 
- We will do the following **for each task one by one**. 
- Finish task, then do the same for the next task of the project.
-    1. extended , revised **db desigh (final)**
-    1. extended , revised **flow diagrams (detailed and final)**
-    1. **req / resp pesudo and entity models**
-    1. **api tests pseudo**
-    1. **pseudo code (PR 1)** (via code nav app wherever applicable)
-    1. Complete **api tests** - PR2,PR3 (and optional unit test)
-    1. Complete **coding** - PR2,PR3 for the task
-    1. e2e functionality part only (via cypress if informed by manager and applicable)
-    1. e2e ui/view part only (via cypress if informed by manager and applicable) 
-
 # Task allocation between members
 ## Kind of team members
 No one should do a task fully alone. There will be at least 3 roles (usually 
-each role belongs a a different person but sometimes 1 person may have 2 roles and other may have 1 role). 
+each role belongs to a different person but sometimes 1 person may have 2 roles and other may have 1 role). 
 
 One himself, One **pair** and one **strategic owner (sto)**. For example 
 for a task or sub task, one person will may do coding, the other may do 
-api tests. Or one may do fronend, other may do backend. This can go vice 
+api tests. Or one may do frontend, other may do backend. This can go vice 
 versa in the next task but the sequence of work flow described above should not change. 
 
 ## STO
 The sto is responsible to be aware and to review the high level strategy 
-of each task. But that does not excludes strategy responsibilty from the 
+of each task. But that does not excludes strategy responsibility from the 
 other two executors by any means. STO can simply overrule and review strategy
 . But if doer/pair doubts this, they should talk to the manager.
 
@@ -304,7 +268,7 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 2. Task should be executed in such a away that suppose, if one of the 3 
    members  vanishes/disappears in thin air, the others will not be confused
 3. . Because each of the others will know exactly what and how the vanished person was doing. 
-4. Ones a "one single smallest identifieable" task is completed, and revewed 
+4. Ones a "one single smallest identifiable" task is completed, and reviewed  
    by manager, there should be brief technical flow notes in `-info` repository 
 5. and a video on the strategy used to do the task. E.g you created a login 
    feature. You should explain the auth mechanism, steps, flow, syntax 
@@ -326,13 +290,17 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 # Project management tool
 ## Task / issue types
 1. **Epic** - For requirements and vision. This is the super main end of 
-   top most hierirachy. Its children may and usually are divided into multiple sprints
+   top most hierarchy. Its children may and usually are divided into multiple sprints
 1. **Story** - For requirements and vision. We have moved to github based 
    story documentation now though. After reading the issue type, description 
    and title of the task carefully, read the parent task (story or any 
    other kind of ticket) and read all the way up to the top most ticket
-   . Most of the times, major portion of requirements for your specific assigned ticket would be in the parent stories.
-4. Level 0
+   . Most of the times, major portion of requirements for your specific assigned ticket 
+   would be in the parent stories.
+1. Level 0 - Estimates (ballpark) - time investment 2% of total project time
+   . Lets say the full project execution and completion might be guessed 
+   at this stage to be 100 hours. Then at this stage of estimation, 
+   we should spend about 2% (which is 2 hours).
     1. **0 understanding** - Understand requirements - Clients, product owners, 
        project managers may try their best to clarify things but it is your duty 
        to clear up requirements and make up your understandings 
@@ -342,8 +310,10 @@ if the task is executed correctly or not. At all points in time, for any sprint,
        estimates and far before performing any development.
     1. **0 pairUnderstanding** - same for pair
     1. **0 stoUnderstanding** - same for sto
-    1. **0 sketch/wrf** - very quick creating sketch with digital pencil or wireframeing tool
-    1. **0 scenarios** - scenarios, cases e.g what happens if `x` is done in a `y` way.
+    1. **0 sketch/wrf** - very quick creating sketch with digital pencil or wireframing tool
+    1. **0 scenarios** - scenarios, cases e.g `z` happens if `x` is done in a `y` way.
+       The `x`, `y` & `z` will be written in `-test` projects as .md file and later when 
+       iBK is done, this md file is renamed to .ts executable test file. 
     1. **0 wbs** - work break down structure having tasks, sub tasks and 
        their estimates of next level. E.g level 1 in this case (listed bellow). 
        Here, the estimated proposed time will be added to all the 
@@ -352,31 +322,35 @@ if the task is executed correctly or not. At all points in time, for any sprint,
     4. **0 stoReview** - review all what is done in this level here and specially the execution
           strategy of assignees. STO should ask verbally on how the assignees will accomplish
           the tasks. 
-5. Level 1
+5. Level 1 - Estimates - extended (enough to start execution). 20% of total time. 
+   This phase should consume 10% of total project time investment.
     1. **1 deepUnderstanding** 
     1. **1 pairDeepUnderstanding**
     1. **1 stoDeepUnderstanding**
     1. **1 wireframe**
-    1. **1 dbDesign** - in `.dot` langauge and file. Be approved via PR
-    1. **1 flowDiagram** - in `.dot` langauge and file. Be approved via PR
+    1. **1 dbDesign** - in `.dot` language and file. Be approved via PR
+    1. **1 flowDiagram** - in `.dot` language and file. Be approved via PR
     1. **1 scenarios** - No scenarios should be left here. Cover all extensively.
     1. **1 finalWbs** - Same as described above but extensive and final for the next level.
     1. **1 stoReview** - similar to `0 stoReview` but for this level. 
-6. Level 2
+6. Level 2 - Base - 20% of total time.
     1. **2 html** - (html only)
     1. **2 style** - (css/scss styling and layout only)
-    1. **2 req/resp model** - Just the minimalistic model. Not the actual code.
+    1. **2 req/resp model** - Just the minimalist model. Not the actual code.
     1. **2 iBK** - backend controller tests - Full tests without writing 
-       code. Scenarios + req/resp model will help here doing this task.
+       code. Scenarios + req/resp model will be the basis of iBK here.
     1. **2 stoFuncReview** - review all what is done in this level here.
-7. Level 3
-    1. **3 fe** - All frontend (JS, react etc)
+7. Level 3 - Execute - 50% +/- of total time.
+    1. **3 js** - All frontend (JS, react etc)
     1. **3 uBK** - unit tests for backend. If this is require and we use 
        TDD, then `uBK` will be completed before or with `bk` task.
     1. **3 bk** - All backend (db, controllers, code etc)
-    1. **3 e2e** - end to end testing if needed.
+    1. **3 e2eV** - end to end testing if needed. ui/view part only 
+       (via cypress if informed by manager and applicable) 
+    1. **3 e2eF** - end to end testing if needed. Functionality part only 
+       (via cypress if informed by manager and applicable)
     1. **3 stoFuncReview** - final functionality review.
-1. Level 4
+1. Level 4 - Post Execution - 2% of total time.
     1. **Release notes** - In -info project, make PR that describes about the business flow, 
         technical flow, any third party lib used and reason for its preference or at least what 
         approach did you took to complete the task. This will have some **information 
@@ -394,6 +368,7 @@ if the task is executed correctly or not. At all points in time, for any sprint,
        Create the video in such a way that the viewer will **never** have to ask a question
        from you. No need to explain a lot of what is already in user stories though.
 8. Other types of tasks
+    1. **BugBundle** - Just a wrapper ticket to hold bugs in it.
     1. **Bug[SL/BK/JS/D]** - A defect in delivery for slicing / backend / Javascript / Design.
     1. **Test[uFE/uBK/iFE/iBK/e2e]** - Tests for unit test for frontend
        , unit test for backend, integration test for frontend, integration test for backend, end to end test.		
