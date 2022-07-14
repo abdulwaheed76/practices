@@ -1,4 +1,4 @@
-% Last modified: 2022-07-10 08:15:02
+% Last modified: 2022-07-10 19:08:36
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -288,6 +288,10 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 
 
 # Project management tool
+## Task type FAQs
+1. Which is the most important step or task? - Answer: Writing,covering all
+   possible and correct scenarios after understanding the requirements.
+
 ## Task / issue types
 1. **Epic** - For requirements and vision. This is the super main end of 
    top most hierarchy. Its children may and usually are divided into multiple sprints
@@ -312,8 +316,8 @@ if the task is executed correctly or not. At all points in time, for any sprint,
     1. **0 stoUnderstanding** - same for sto
     1. **0 sketch/wrf** - very quick creating sketch with digital pencil or wireframing tool
     1. **0 scenarios** - scenarios, cases e.g `z` happens if `x` is done in a `y` way.
-       The `x`, `y` & `z` will be written in `-test` projects as .md file and later when 
-       iBK is done, this md file is renamed to .ts executable test file. 
+       The `x`, `y` & `z` will be written in `-test` projects as .md file and later 
+       iBK will be done via this .md file by renaming it to .ts executable test file. 
     1. **0 wbs** - work break down structure having tasks, sub tasks and 
        their estimates of next level. E.g level 1 in this case (listed bellow). 
        Here, the estimated proposed time will be added to all the 
