@@ -1,4 +1,4 @@
-% Last modified: 2022-07-14 14:54:59
+% Last modified: 2022-07-14 19:52:58
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -291,6 +291,12 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 ## Task type FAQs
 1. Which is the most important step or task? - Answer: Writing,covering all
    possible and correct scenarios after understanding the requirements.
+1. Example of scenarios:
+    1. `action_expectedResult` <--- valid scenario and test case pseudo 
+    1. loginWithIncorrectCred_401ErrorSent
+    1. register with existing email _ reroute to forgot password page with message
+    1. any and everything thinkable, doable, actionable, reactionable by 
+       user, system, naturally.
 
 ## Task / issue types
 1. **Epic** - For requirements and vision. This is the super main end of 
