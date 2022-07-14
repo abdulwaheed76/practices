@@ -1,4 +1,4 @@
-% Last modified: 2022-07-10 19:08:36
+% Last modified: 2022-07-14 14:44:44
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -2416,6 +2416,8 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
 1. Project tool - gantt and stories https://youtu.be/wiq8lbz2RhE
 1. Project tool - task life cycle https://youtu.be/-0EH_lFeYBk
+1. create multiple tasks part 1 https://youtu.be/fPq67N1Pjaw 
+1. create multiple tasks part 2 https://youtu.be/JSe7VW0I6AU  
 
 ### Activity sheet 
 1. How to update status on sheet https://youtu.be/mLMNsMp5Wx8
