@@ -1,4 +1,4 @@
-% Last modified: 2022-07-14 14:44:44
+% Last modified: 2022-07-14 14:54:59
 # Table of contents
 
 - [Terminologies](#terminologies)
@@ -334,9 +334,11 @@ if the task is executed correctly or not. At all points in time, for any sprint,
     1. **1 wireframe**
     1. **1 dbDesign** - in `.dot` language and file. Be approved via PR
     1. **1 flowDiagram** - in `.dot` language and file. Be approved via PR
-    1. **1 scenarios** - No scenarios should be left here. Cover all extensively.
-    1. **1 finalWbs** - Same as described above but extensive and final for the next level.
-    1. **1 stoReview** - similar to `0 stoReview` but for this level. 
+    1. **1 scenarios** - No scenarios should be left here. Cover all extensively. 
+       Definition and litmus test of complete scenario set: Whatever action/reaction/step is
+       executable by end user/system/by natural factors is a scenario.
+    3. **1 finalWbs** - Same as described above but extensive and final for the next level.
+    4. **1 stoReview** - similar to `0 stoReview` but for this level. 
 6. Level 2 - Base - 20% of total time.
     1. **2 html** - (html only)
     1. **2 style** - (css/scss styling and layout only)
