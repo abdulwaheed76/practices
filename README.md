@@ -1552,6 +1552,11 @@ If unused commented code is present and developer needs it for future reference,
    Do not ever rely on those or expect that someone will spoon feed you 
 4. about your mistakes. Mistakes are deficiencies those should be minimized rather being casual about them.
 
+#### Test before delivery
+1. Please note that you "always" have to test "EvErYtHiNg" if its working, before you declare it complete and deliver it.
+1. Contrary can cost "HuGe" problems with time, cost, production/server discrepancies, issues, data corruption, loss of business and customers. 
+1. The point is not to be a robot and 1000% "the perfect human ever" but the point is "do what should have been done by you in the first place"
+
 ## Ownership
 Sprints are ownership of the team overall, success of a sprint is success 
 of the full team (regardless of individual tasks). You can say you may 
