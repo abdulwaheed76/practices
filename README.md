@@ -1554,6 +1554,7 @@ If unused commented code is present and developer needs it for future reference,
 
 #### Test before delivery
 1. Please note that you "always" have to test "EvErYtHiNg" if its working, before you declare it complete and deliver it.
+1. Let me repeat again. "NEVER" declare something as complete, without testing it if it is ready for public / production use and quality.
 1. Contrary can cost "HuGe" problems with time, cost, production/server discrepancies, issues, data corruption, loss of business and customers. 
 1. The point is not to be a robot and 1000% "the perfect human ever" but the point is "do what should have been done by you in the first place"
 
