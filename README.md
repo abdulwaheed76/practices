@@ -700,7 +700,7 @@ and then install the latest **LTS** version of nodejs via https://github
 For windows: https://github.com/coreybutler/nvm-windows
 
 ##### node version
-As of date we are using 14.16.1 for most projects. Please use this or ask 
+As of date we are using 16.15.1 for most projects. Please use this or ask 
 manager. Otherwise most likely you might have challenges in setting up project.
 
 
