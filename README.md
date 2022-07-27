@@ -716,15 +716,21 @@ Note that you should have **minimum of 4Gb ram**. Minimum **8Gb recommened
 
 ## Operating system
 #### ubuntu LTS
-(**ONLY LTS**) versions are preferred
+(**ONLY LTS**) versions are allowed <--- take good care while choosing.
 1. **Kubuntu** (with k) If you have 16G plus ram and a quad core and ok 
    to invest system resources on beauty and features. LTS. https://kubuntu.com
 2. **Xubuntu** (with X) LTS If you don't have enough resources or just 
    want performance with ok to medium UI. https://xubuntu.org
 
-#### Windows (NOT preferred)
-Try using virtualbox based ubuntu server with `bridged network` option 
-in network tab so you get an ip for the machine to which you can access to (via browser or IDE in wondws for coding)
+```
+sudo snap install code --classic; 
+sudo apt install git chromium-browser firefox xubuntu-restricted-addons vlc redis postgresql;
+```
+
+
+#### Windows (NOT allowed)
+~~Try using virtualbox based ubuntu server with `bridged network` option 
+in network tab so you get an ip for the machine to which you can access to (via browser or IDE in wondws for coding)~~
 
 ~~If you use windows, you have to do the following in package.json (we 
 have not made special windows commands yet as we mostly use and encourage 
