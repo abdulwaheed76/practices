@@ -297,6 +297,21 @@ if the task is executed correctly or not. At all points in time, for any sprint,
     1. register with existing email _ reroute to forgot password page with message
     1. any and everything thinkable, doable, actionable, reactionable by 
        user, system, naturally.
+       
+## Task flow and steps
+1. Each task should be performed from top to bottom. I.e the tasks / ticket types mentioned 
+at top should be done first. The sequence is exactly as per the list below.
+1. Not more than 2 tasks should be given to new joiners at a single time.
+1. This is for all but even more emphasised for new joiners is that for each 
+task, (s)he should share understandings and strategy plan with pair first, 
+then share brief summary of understanding and strategy/steps with STO. 
+The task should be started only after all are synchronized and on the same page. 
+1. Review process, when the task is done, is also with same sequence. 
+Pair first, then STO
+1. Consider it as a **sin, a software crime, a blunder** to declare a task as 
+complete and move to a new task while the old task is actually not complete 
+or with flaws or with bugs or not production ready or not ready for public 
+facing or not as per requirements.
 
 ## Task / issue types
 1. **Epic** - For requirements and vision. This is the super main end of 
@@ -349,12 +364,12 @@ if the task is executed correctly or not. At all points in time, for any sprint,
     1. **2 html** - (html only)
     1. **2 style** - (css/scss styling and layout only)
     1. **2 req/resp model** - Just the minimalist model. Not the actual code.
-    1. **2 iBK** - backend controller tests - Full tests without writing 
-       code. Scenarios + req/resp model will be the basis of iBK here.
+    1. **2 iBK** - integration test = backend controller tests = Full tests without writing 
+       code that is to be tested. E.g you don't write login functionality but you do write test code that checks `/login` route and its expected functionality. It ( the test) will of course fail as there would be not login code written. Scenarios + req/resp model will be the basis of iBK here.
     1. **2 stoFuncReview** - review all what is done in this level here.
 7. Level 3 - Execute - 50% +/- of total time.
     1. **3 js** - All frontend (JS, react etc)
-    1. **3 uBK** - unit tests for backend. If this is require and we use 
+    1. **3 uBK** - unit tests for backend. **If this is required by manager** and we use 
        TDD, then `uBK` will be completed before or with `bk` task.
     1. **3 bk** - All backend (db, controllers, code etc)
     1. **3 e2eV** - end to end testing if needed. ui/view part only 
@@ -637,7 +652,18 @@ Your job performance score will be affected.
    needs to be optimized. Please discuss with your manaager. 
 
 # Misc topics
-## Asking for help
+
+## Asking for help by new joiners
+1. Seniors should give hints, directions and practice doc links to new comers. 
+New joiners should be able to setup, understand workflow and configure things themselves. 
+2. If they can't carefully read and follow already written instructions in practice doc, 
+seniors should not spent a lot time spoonfeeding them. Many many devs have confgured things themselves, including even inexperienced  computer science graduates. Everyone and anyone 
+who is a new comer is expected to do this himself. 
+3. The basic issue here is not experience. Its the apptitude + problem solving skills +
+ responsibility + ownership potion that the person should drink a couple of times daily.
+4. I would like to add an opinionated movie clip here https://youtu.be/Uk280jVuH1w?t=104
+
+## Asking for help in general
 You should not ask anyone in an unscheduled way. People might be working 
 and concentrating on their own work. You can message (anyone) in group 
 chat at each clock hour. E.g 10am, 11am, 12pm, 1pm .. so on. A clock hour 
@@ -649,7 +675,6 @@ you think any delay will affect the timeline, then you can request reviewer to r
 The last resort for super urgent things where you or more people are blocked 
 and also have no other alternative task is to raise red flags and ask for 
 help from your pair, strategy owner, lead or manager (sequencially).
-
 
 
 ## Setup and for new commers
