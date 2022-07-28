@@ -1,4 +1,4 @@
-% Last modified: 2022-07-14 19:52:58
+% Last modified: 2022-07-29 19:52:58
 # Table of contents
 
 - [Terminologies](#terminologies)
