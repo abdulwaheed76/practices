@@ -661,7 +661,7 @@ seniors should not spent a lot time spoonfeeding them. Many many devs have confg
 who is a new comer is expected to do this himself. 
 3. The basic issue here is not experience. Its the apptitude + problem solving skills +
  responsibility + ownership potion that the person should drink a couple of times daily.
-4. I would like to add an opinionated movie clip here https://youtu.be/Uk280jVuH1w?t=104
+4. I would like to add an opinionated movie clip here https://youtu.be/Uk280jVuH1w?t=99
 
 ## Asking for help in general
 You should not ask anyone in an unscheduled way. People might be working 
