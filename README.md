@@ -2483,6 +2483,7 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 ## Basic way of working
 ### Directory structure
 1. Node, react https://youtu.be/grnmgw9vqDk
+2. Basic ajax controller database flow https://youtu.be/ik-D4-ngJPw
 
 ## Basics
 
