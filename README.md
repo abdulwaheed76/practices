@@ -1,4 +1,7 @@
 % Last modified: 2022-07-29 19:52:58
+
+Practice doc overview https://youtu.be/4q4eNV-Rczg
+
 # Table of contents
 
 - [Terminologies](#terminologies)
