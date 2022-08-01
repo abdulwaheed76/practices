@@ -197,6 +197,7 @@ Videos: [#self-review](#self-review),
 1. It is **mandatory** to take at least **30 mins break** during a day 
    and it should not be during the first 2 hours or last 2 hours of work day time or during SMs (Scheduled meetings).
 1. Normal time is 1 hour break. 1 hour 30 mins on Fridays for Muslims.
+1. You can take break anytime during the day except the above mentioned times. Just inform manager 10 minutes before taking break and inform when you return via his personal chat tool (discord etc).
 
 ## Blockers
 1. If you ever get into blockers (e.g PM tool not running, system crash 
