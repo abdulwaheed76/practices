@@ -195,7 +195,7 @@ Videos: [#self-review](#self-review),
 
 ## Lunch / rest break
 1. It is **mandatory** to take at least **30 mins break** during a day 
-   and it should not be during the first 2 hours or last 2 hours of work day time.
+   and it should not be during the first 2 hours or last 2 hours of work day time or during SMs (Scheduled meetings).
 1. Normal time is 1 hour break. 1 hour 30 mins on Fridays for Muslims.
 
 ## Blockers
