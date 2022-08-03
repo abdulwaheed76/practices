@@ -482,7 +482,7 @@ facing or not as per requirements.
 4. You can also use the shortcut links at the right side. E.g "custom queries
    " > "assigned to me" and ask manager to create more for you if needed
 
-# Estimations and requirement gathering
+# WBS, Estimations and requirement gathering
 
 ## How can I improve estimate and execution
 Ask few questions to your self
@@ -500,7 +500,7 @@ Ask few questions to your self
 
 To be continued
 
-## What is estimation
+## What is estimation or wbs - work break down structure
 1. Estimation is the process of understanding the requirements first.
 1. Then coming up with an action plan (tools, libraries, frameworks, process 
    and so on with a long list of connected things).
