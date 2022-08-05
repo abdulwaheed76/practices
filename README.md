@@ -293,14 +293,18 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 
 # Project management tool
 ## Task type FAQs
-1. Which is the most important step or task? - Answer: Writing,covering all
-   possible and correct scenarios after understanding the requirements.
+1. Which is the **most important step** or task? - Answer: Writing,covering all
+   possible and correct **scenarios** after understanding the requirements.
 1. Example of scenarios:
     1. `action_expectedResult` <--- valid scenario and test case pseudo 
     1. loginWithIncorrectCred_401ErrorSent
     1. register with existing email _ reroute to forgot password page with message
     1. any and everything thinkable, doable, actionable, reactionable by 
-       user, system, naturally.
+       user, system, naturally
+ 1. There need not to be a **PR of tasks** in which you do not write, draw, video or with **no input** on anything. e.g but not limited to understanding tasks.
+ 2. `-info` projects is textual informational project having stories, requirements etc
+ 3. `-test` project has backend / frontend test cases (unit, integration, e2e) etc.
+ 4. `-bk` / `-fe` projects have backend, frontend code respectively.
        
 ## Task flow and steps
 1. Each task should be performed from top to bottom. I.e the tasks / ticket types mentioned 
@@ -337,16 +341,17 @@ facing or not as per requirements.
        Why you did this? Where is that feature? This should have been done differently 
        or this is missing". So clear up scope of responsibility before giving 
        estimates and far before performing any development.
-    1. **0 pairUnderstanding** - same for pair
-    1. **0 stoUnderstanding** - same for sto
-    1. **0 sketch/wrf** - very quick creating sketch with digital pencil or wireframing tool
+    1. **0 pairUnderstanding** - same for pair (task assigned to pair only)
+    1. **0 stoUnderstanding** - same for sto (task assigned to sto only)
+    1. **0 sketch/wireframe** - very quick creating sketch with digital pencil or wireframing tool. PR in `-info` project.
     1. **0 scenarios** - scenarios, cases e.g `z` happens if `x` is done in a `y` way.
-       The `x`, `y` & `z` will be written in `-test` projects as .md file and later 
-       iBK will be done via this .md file by renaming it to .ts executable test file. 
+       The `x`, `y` & `z` will be written in `-info` projects as .md files. 
     1. **0 wbs** - work break down structure having tasks, sub tasks and 
        their estimates of next level. E.g level 1 in this case (listed bellow). 
        Here, the estimated proposed time will be added to all the 
-       tickets for the next level (which is level 1 in this case as current level is 0)
+       tickets for the next level (which is level 1 in this case as current level is 0). 
+       Search this document for more details. There are extensive samples and guidance
+       awailable in this document.
     3. **0 pairReview** - review all what is done in this level here.
     4. **0 stoReview** - review all what is done in this level here and specially the execution
           strategy of assignees. STO should ask verbally on how the assignees will accomplish
@@ -359,7 +364,13 @@ facing or not as per requirements.
     1. **1 wireframe**
     1. **1 dbDesign** - in `.dot` language and file. Be approved via PR
     1. **1 flowDiagram** - in `.dot` language and file. Be approved via PR
-    1. **1 scenarios** - No scenarios should be left here. Cover all extensively. 
+    1. **1 scenarios / 1 iBKskeliton** - Create empty functions in `-test` project. 
+       Initial source of these
+       will be the `0 scenarios`. No scenarios should be left here. Cover all extensively. 
+       If you think that something needs to be added here, do so in scenario .md files in 
+       `-info` project as well as in `-test` project in .ts files.
+       Doer, pair and sto should tally tests in `-info` .md files and `-test` .ts files.
+       Both should be same. 
        Definition and litmus test of complete scenario set: Whatever action/reaction/step is
        executable by end user/system/by natural factors is a scenario.
     3. **1 finalWbs** - Same as described above but extensive and final for the next level.
@@ -369,7 +380,11 @@ facing or not as per requirements.
     1. **2 style** - (css/scss styling and layout only)
     1. **2 req/resp model** - Just the minimalist model. Not the actual code.
     1. **2 iBK** - integration test = backend controller tests = Full tests without writing 
-       code that is to be tested. E.g you don't write login functionality but you do write test code that checks `/login` route and its expected functionality. It ( the test) will of course fail as there would be not login code written. Scenarios + req/resp model will be the basis of iBK here.
+       code that is to be tested. E.g you don't write login functionality but you do write test 
+       code that checks `/login` route and its expected functionality. It ( the test) will of 
+       course fail as there would be not login code written. Scenarios + req/resp model will 
+       be the basis of iBK here.
+       **ALL** `1 scenarios` / `1 iBKskeliton` / `0 scenarios` should be implemented here.
     1. **2 stoFuncReview** - review all what is done in this level here.
 7. Level 3 - Execute - 50% +/- of total time.
     1. **3 js** - All frontend (JS, react etc)
