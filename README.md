@@ -305,27 +305,25 @@ if the task is executed correctly or not. At all points in time, for any sprint,
     1. any and everything thinkable, doable, actionable, reactionable by 
        user, system, naturally
  1. There need not to be a **PR of tasks** in which you do not write, draw, video or with **no input** on anything. e.g but not limited to understanding tasks.
- 2. `-info` projects is textual informational project having stories, requirements etc
- 3. `-test` project has backend / frontend test cases (unit, integration, e2e) etc.
- 4. `-bk` / `-fe` projects have backend, frontend code respectively.
- 1. Hierarchy of .md and .ts files:
-``` 
-    scenario.md will be one file per feature e.g 
-      registerUserScenarios.md, 
-      loginUserScenarios.md
-      forgotPasswordScenarios.md
-      documentAttachmentScenarios.md
-      but .ts file can have any structure.
-        e.g for registerUserScenarios.md may have:
-          registerByReferal scenarios section
-          registerNormally scenarios section
-          registerByGmail scenrios section
-        and there can be multiple .ts files for iBK. e.g:
-          registerUser/    directory may have
-          registerByReferal.ts 
-          registerNormally.ts 
-          registerByGmail.ts 
-```
+ 1. `-info` projects is textual informational project having stories, requirements etc
+ 1. `-test` project has backend / frontend test cases (unit, integration, e2e) etc.
+ 1. `-bk` / `-fe` projects have backend, frontend code respectively.
+ 1. Hierarchy of `.md` and `.ts` files:
+    1. **scenarios** `.md` will be one file per feature e.g 
+        1. registerUserScenarios.md, 
+        1. loginUserScenarios.md
+        1. forgotPasswordScenarios.md
+        1. documentAttachmentScenarios.md
+        1. **e.g** for registerUserScenarios.md may have:
+        1. registerByReferal scenarios section
+        1. registerNormally scenarios section
+        1. registerByGmail scenrios section
+    1. For **uBK / iBK / e2e** `.ts` files there can be multiple `.ts` files for iBK. **e.g**:
+        1. registerUser/    directory may have
+        1. registerByReferal.ts 
+        1. registerNormally.ts 
+        1. registerByGmail.ts 
+
        
 ## Task flow and steps
 1. Each task should be performed from top to bottom. I.e the tasks / ticket types mentioned 
