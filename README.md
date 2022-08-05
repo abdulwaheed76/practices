@@ -295,7 +295,10 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 ## Task type FAQs
 1. Which is the **most important step** or task? - Answer: Writing,covering all
    possible and correct **scenarios** after understanding the requirements.
-1. Example of scenarios:
+1. Example of scenarios for both .md file in "-info" and .ts in "-test" projects
+    The only difference will be that .md will have some more textual elaboration
+    of these test cases/ scenarios. By the way, if the name of scenario is self 
+    explanatory, then there will be less need of elaboration / comments:
     1. `action_expectedResult` <--- valid scenario and test case pseudo 
     1. loginWithIncorrectCred_401ErrorSent
     1. register with existing email _ reroute to forgot password page with message
@@ -305,6 +308,24 @@ if the task is executed correctly or not. At all points in time, for any sprint,
  2. `-info` projects is textual informational project having stories, requirements etc
  3. `-test` project has backend / frontend test cases (unit, integration, e2e) etc.
  4. `-bk` / `-fe` projects have backend, frontend code respectively.
+ 1. Hierarchy of .md and .ts files:
+``` 
+    scenario.md will be one file per feature e.g 
+      registerUserScenarios.md, 
+      loginUserScenarios.md
+      forgotPasswordScenarios.md
+      documentAttachmentScenarios.md
+      but .ts file can have any structure.
+        e.g for registerUserScenarios.md may have:
+          registerByReferal scenarios section
+          registerNormally scenarios section
+          registerByGmail scenrios section
+        and there can be multiple .ts files for iBK. e.g:
+          registerUser/    directory may have
+          registerByReferal.ts 
+          registerNormally.ts 
+          registerByGmail.ts 
+```
        
 ## Task flow and steps
 1. Each task should be performed from top to bottom. I.e the tasks / ticket types mentioned 
