@@ -1,4 +1,4 @@
-% Last modified: 2022-07-29 19:52:58
+% Last modified: 2022-08-06 19:51:05
 
 Practice doc overview https://youtu.be/4q4eNV-Rczg
 
@@ -292,6 +292,9 @@ if the task is executed correctly or not. At all points in time, for any sprint,
 
 
 # Project management tool
+
+1. Workflow (some parts depricated) https://www.youtube.com/watch?v=AY_ox3Zp9Y8
+
 ## Task type FAQs
 1. Which is the **most important step** or task? - Answer: Writing,covering all
    possible and correct **scenarios** after understanding the requirements.
@@ -341,6 +344,13 @@ or with flaws or with bugs or not production ready or not ready for public
 facing or not as per requirements.
 
 ## Task / issue types
+Following vidoes maybe a little outdated with concrete info but
+the concept is same. e.g there may be new ticket types and statuses
+as of today than shown in videos but the basic flow would be mostly
+same.
+1. Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
+1. Project tool - task life cycle https://youtu.be/-0EH_lFeYBk
+1. Project tool - gantt and stories https://youtu.be/wiq8lbz2RhE
 1. **Epic** - For requirements and vision. This is the super main end of 
    top most hierarchy. Its children may and usually are divided into multiple sprints
 1. **Story** - For requirements and vision. We have moved to github based 
@@ -377,12 +387,14 @@ facing or not as per requirements.
           the tasks. 
 5. Level 1 - Estimates - extended (enough to start execution). 20% of total time. 
    This phase should consume 10% of total project time investment.
+   Strategy making optimization https://youtu.be/aCaWohyRhxM
     1. **1 deepUnderstanding** 
     1. **1 pairDeepUnderstanding**
     1. **1 stoDeepUnderstanding**
     1. **1 wireframe**
     1. **1 dbDesign** - in `.dot` language and file. Be approved via PR
-    1. **1 flowDiagram** - in `.dot` language and file. Be approved via PR
+        1. How to create process flow diagrames https://youtu.be/KPblF9LfTp0
+    1. **1 flowDiagram** - in `.dot` language and file. Be approved via PR.
     1. **1 scenarios / 1 iBKskeliton** - Create empty functions in `-test` project. 
        Initial source of these
        will be the `0 scenarios`. No scenarios should be left here. Cover all extensively. 
@@ -392,24 +404,50 @@ facing or not as per requirements.
        Both should be same. 
        Definition and litmus test of complete scenario set: Whatever action/reaction/step is
        executable by end user/system/by natural factors is a scenario.
+        1. Why and how do tests before coding  
+           https://youtu.be/LX9DcQGuc7Q
     3. **1 finalWbs** - Same as described above but extensive and final for the next level.
     4. **1 stoReview** - similar to `0 stoReview` but for this level. 
 6. Level 2 - Base - 20% of total time.
     1. **2 html** - (html only)
     1. **2 style** - (css/scss styling and layout only)
+    1. Sass tutorials - inheritence and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=406s 
+        1. Sass tutorials - variables and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=191s
+        1. Sass tutorials - sass in 20 mins 2019 https://www.youtube.com/watch?v=Zz6eOVaaelI  
+        2. Css grid layout - https://youtu.be/jV8B24rSN5o?t=230 
+        3. Kendo sass scss styling theming https://youtu.be/yUjkD7hHi3Y
     1. **2 req/resp model** - Just the minimalist model. Not the actual code.
+        1. Req response model https://youtu.be/B7WlwGw4_Bc
     1. **2 iBK** - integration test = backend controller tests = Full tests without writing 
        code that is to be tested. E.g you don't write login functionality but you do write test 
        code that checks `/login` route and its expected functionality. It ( the test) will of 
        course fail as there would be not login code written. Scenarios + req/resp model will 
        be the basis of iBK here.
        **ALL** `1 scenarios` / `1 iBKskeliton` / `0 scenarios` should be implemented here.
+        1. Pseudo api tests https://youtu.be/4ki3WWWbVUg
+        1. Test dependency on other tests and data  https://youtu.be/fMw4jKLUdGk
     1. **2 stoFuncReview** - review all what is done in this level here.
 7. Level 3 - Execute - 50% +/- of total time.
+    1. Directory structure Node, react https://youtu.be/grnmgw9vqDk
+    1. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
+    1. React code reusability https://youtu.be/VgRyPndPNlI
+    2. frontend and typescript overview https://youtu.be/oIYYWdYcnb8 
+    1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
+    1. Ajax calls, react custom hooks https://www.youtube.com/watch?v=lvQgZqvIY6M&feature=youtu.be
+    1. For newbies
+        1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
+        1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
+        1. react intro newbie 1 - https://youtu.be/CWNX5U_spmE
+        2. Basic ajax controller database flow https://youtu.be/ik-D4-ngJPw
     1. **3 js** - All frontend (JS, react etc)
     1. **3 uBK** - unit tests for backend. **If this is required by manager** and we use 
        TDD, then `uBK` will be completed before or with `bk` task.
     1. **3 bk** - All backend (db, controllers, code etc)
+        1. How to bypass frontend form validation. Do NOT rely on frontend only to validate 
+           https://youtu.be/lXttrBti82E
+        3. knex updating https://www.youtube.com/watch?v=aWLlh_Gn_oA
+        4. knex select https://www.youtube.com/watch?v=GbVP4Ac2QAo
+        5. knex migrations https://www.youtube.com/watch?v=YEh7yPr8oGE
     1. **3 e2eV** - end to end testing if needed. ui/view part only 
        (via cypress if informed by manager and applicable) 
     1. **3 e2eF** - end to end testing if needed. Functionality part only 
@@ -452,6 +490,11 @@ facing or not as per requirements.
    [#smart-done](#smart-done), 
    [#getting-things-done](#getting-things-done)
 5. **completed on localhost** - when something is working on your machine.
+    1. How to self review https://youtu.be/nxhpVWcvHjI
+    1. Self review attitude 2021 08 24  https://youtu.be/wAsnZs-MSOU
+    2. Bug vs improvement self qa flawless delivery https://youtu.be/L7_k6vRkMIg?t=404
+    1. Bugs vs preference https://youtu.be/rP7cDLhMPzA
+    3. Multi tasking, missing things https://youtu.be/wAsnZs-MSOU?t=454
 6. PR & functionality - phase 1 - We emphasis on early review rather than 
     complete all and get it reviewed after that. E.g you make an app of 10 things / steps.
     If you had made a mistake at step 2, then all steps from 2-10 might get influenced to 
@@ -464,9 +507,20 @@ facing or not as per requirements.
     as a whole, gives more certainty and many other benefits.
     1. **PR created** - when pr is created after all careful checks of 
        quality and functionality. Things maybe more or less but they should 
-       be "complete" flawlessly. PR creater should attach a video of functionality so reviewer can review it. 
+       be "complete" flawlessly. PR creator should attach a video of functionality so reviewer can review it. 
+        1. Pull request/ Merge request: https://youtu.be/uPt-bP_bKmQ
+        1. Forking at github https://www.youtube.com/watch?v=nT8KGYVurIU
+        1. SuperOrigin and forks https://youtu.be/sys5PMunerc
+        1. Pull, push, commit with Forks https://youtu.be/J5xli-BmDzM
+        1. Github git branch repo pull request code exchange explained https://youtu.be/ZW5gLj687qw
+        1. Git multi branch made simple https://youtu.be/zVfK-Rxt1Iw 
+        1. Multi branch, multi pr, multi functionality https://youtu.be/t-fNSEgqe4I
     3. **PR & func rejected** - if issues in code/ functionality.
-    4. **PR & func approved after rejections** - If PR or functionality 
+        1. Mistakes, carelessness https://youtu.be/nMVhlYyrJ-E
+        1. Responsible behaviour https://youtu.be/W2hWQFA7tgA
+        1. Resourcefullnes problem solver https://youtu.be/nKRXiuug59k
+        1. Resourcefullnes problem solver part 2 https://youtu.be/f_MgVusUJdQ 
+    5. **PR & func approved after rejections** - If PR or functionality 
        was approved but there were repetitive or major/big issues created 
        in PR or functionality and fixed (by assignee) before approval. 
        While setting this status, setter should add a max 100 character note. 
@@ -476,6 +530,7 @@ facing or not as per requirements.
     1. **2PR & func rejected**
     1. **2PR & func approved after rejections** 
     1. **2PR & func approved flawlessly** 
+    1. Pull request review delegation (for seniors) https://youtu.be/4ekRhisqzhQ 
 8. Overall status - review by STO
     1. **Task rejected**
     1. **Task approved flawlessly**
@@ -636,7 +691,10 @@ Your job performance score will be affected.
     1. Start speaking yourself with the sequence of people that would be 
        informed to you by your manager (sequence of your turn to speak).
 1. See video(s) below (search `scrum` word) about what scrum master does.    
-    
+
+### Scrum master
+1. What does scrum master do? https://www.youtube.com/watch?v=1CxWF42WQFo  https://www.youtube.com/watch?v=QbPkcfzi2HI
+
 ### Meeting process before meeting start
 1. First of all, type 'ready' in group chat, when you are ready.
     1. Ready means that you have your work done so far open in from of 
@@ -2327,38 +2385,21 @@ All modules shoulds be found and listed with details by developers here: https:/
 
 ## Workflow, PR 1 pseudo etc
 
-1. Workflow https://www.youtube.com/watch?v=AY_ox3Zp9Y8
-1. Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
-1. Pseudo api tests https://youtu.be/4ki3WWWbVUg
-1. Test dependency on other tests and data  https://youtu.be/fMw4jKLUdGk
-1. Req response model https://youtu.be/B7WlwGw4_Bc
-1. Segregation of tasks PR 1 and PR 2 https://youtu.be/7tOMTbo0NF8
-1. What does scrum master do? https://www.youtube.com/watch?v=1CxWF42WQFo  https://www.youtube.com/watch?v=QbPkcfzi2HI
+1. (depricated) Code PR 1, 2 (Pull request) with peer https://youtu.be/BJuwXc10bow
+1. (depricated) Segregation of tasks PR 1 and PR 2 https://youtu.be/7tOMTbo0NF8
+
+## Delegation 
+1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
 
 ## Initial Strategy making
-1. Internal make sure strategy is followed correctly by others and pr 1 https://youtu.be/EhgLR4alv1I
-2. What is strategy making https://youtu.be/FLLW9Dl_pDE
-3. Sample strategy making  (can be extended where needed but this is a 
+
+2. (depricated) What is strategy making https://youtu.be/FLLW9Dl_pDE
+3. (depricated) Sample strategy making  (can be extended where needed but this is a 
    must have in all cases) https://youtu.be/_cLq9KfIHWY
-4. Sample strategy sagp social urls https://youtu.be/2OSSVKB6ZDM
-5. Strategy making optimization https://youtu.be/aCaWohyRhxM
-
-## Codding discussions
-5. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
-
-## Self review
-1. How to self review https://youtu.be/nxhpVWcvHjI
-1. Self review attitude 2021 08 24  https://youtu.be/wAsnZs-MSOU
-1. Bug vs improvement self qa flawless delivery 2021 08 19 https://youtu.be/L7_k6vRkMIg
-1. Bugs vs preference https://youtu.be/rP7cDLhMPzA
+4. (depricated) Sample strategy sagp social urls https://youtu.be/2OSSVKB6ZDM
 
 ## Personality
-1. Responsible behaviour https://youtu.be/W2hWQFA7tgA
-1. Resourcefullnes problem solver https://youtu.be/nKRXiuug59k
-1. Resourcefullnes problem solver part 2 https://youtu.be/f_MgVusUJdQ 
 1. Inner and outer world https://youtu.be/3RtPd_wWAfk
-1. Mistakes, carelessness https://youtu.be/nMVhlYyrJ-E
-1. Pull request review delegation https://youtu.be/4ekRhisqzhQ 
 
 ## Asking for help
 1. How to get help from others https://youtu.be/lfCE_jf0RaY
@@ -2414,15 +2455,11 @@ official first priority tutorials
 ## Frontent
 
 ### Mix
-1. How to bypass frontend form validation https://youtu.be/lXttrBti82E
 1. Forgot password strategy https://youtu.be/GeqkAcshjoA
 
 ### Coding practices
-1. React code reusability https://youtu.be/VgRyPndPNlI
 
 ### Typescript
-1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
-2. frontend and typescript overview https://youtu.be/oIYYWdYcnb8 
 1. Tutorials 1 Traversy Media https://www.youtube.com/watch?v=BCg4U1FzODs&t=1011s
 1. Tutorials 2 Academind https://www.youtube.com/watch?v=BwuLxPH8IDs
 
@@ -2439,24 +2476,11 @@ official first priority tutorials
     1. array rendering with unique id https://www.youtube.com/watch?v=ke1pkMV44iU
     1. form handling https://www.youtube.com/watch?v=7Vo_VCcWupQ&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=21
     1. useState https://www.youtube.com/watch?v=O6P86uwfdR0
-1. Ajax calls, custom hooks https://www.youtube.com/watch?v=lvQgZqvIY6M&feature=youtu.be
 1. Lynda React essential training 
 
 ### Angular
 1. Angular 8 urdu https://www.youtube.com/watch?v=wGPZJDw3Ee4&ab_channel=LearnInUrdu
 1. Angular https://www.youtube.com/watch?v=k5E2AVpwsko&t=5606s
-
-### Sass scss css
-1. Sass tutorials - inheritence and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=406s 
-1. Sass tutorials - variables and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=191s
-1. Sass tutorials - sass in 20 mins 2019 https://www.youtube.com/watch?v=Zz6eOVaaelI  
-2. Css grid layout - https://youtu.be/jV8B24rSN5o?t=230 
-3. Kendo sass scss styling theming https://youtu.be/yUjkD7hHi3Y
-
-### Knex 
-1. updating    https://www.youtube.com/watch?v=aWLlh_Gn_oA
-1. select https://www.youtube.com/watch?v=GbVP4Ac2QAo
-1. migrations https://www.youtube.com/watch?v=YEh7yPr8oGE
 
 ### SQL
 1. DB schema decision with entity involvment https://www.youtube.com/watch?v=P4AUdfHS9Bc
@@ -2481,20 +2505,10 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 2. .net/wiki/spaces/JMCF/pages/141892372/Calculated+scripted+Text+Html+custom+field+type
 3. spring boot, jpa, hibernate in 1 hour https://www.youtube.com/watch?v=MaI0_XdpdP8
 
-## Diagraming and tools
-### Dot graphviz
-1. How to create process flow diagrames https://youtu.be/KPblF9LfTp0
 
 ## Git / github
 
 ### Git
-1. Pull request/ Merge request: https://youtu.be/uPt-bP_bKmQ
-1. Forking at github https://www.youtube.com/watch?v=nT8KGYVurIU
-1. SuperOrigin and forks https://youtu.be/sys5PMunerc
-1. Pull, push, commit with Forks https://youtu.be/J5xli-BmDzM
-1. Github git branch repo pull request code exchange explained https://youtu.be/ZW5gLj687qw
-1. Git multi branch made simple https://youtu.be/zVfK-Rxt1Iw 
-1. Multi branch, multi pr, multi functionality https://youtu.be/t-fNSEgqe4I
 1. Git rebase https://www.youtube.com/watch?v=kMvLn8WcAII
 1. Git rebase https://www.youtube.com/watch?v=CRlGDDprdOQ
 1. Git rebase https://www.youtube.com/watch?v=f1wnYdLEpgI
@@ -2505,22 +2519,15 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 
 ## Project tool
 ### Info gathering
-1. Project tool - Info gathering https://youtu.be/vt4ymkGjco8
-1. Project tool - why divide story into different tasks https://youtu.be/9e_hn905-tw
-1. Project tool - gantt and stories https://youtu.be/wiq8lbz2RhE
-1. Project tool - task life cycle https://youtu.be/-0EH_lFeYBk
+1. (depricated) Project tool - Info gathering https://youtu.be/vt4ymkGjco8
 1. create multiple tasks part 1 https://youtu.be/fPq67N1Pjaw 
 1. create multiple tasks part 2 https://youtu.be/JSe7VW0I6AU  
 
 ### Activity sheet 
-1. How to update status on sheet https://youtu.be/mLMNsMp5Wx8
+1. (depricated) How to update status on sheet https://youtu.be/mLMNsMp5Wx8
 
 ## Basic way of working
-### Directory structure
-1. Node, react https://youtu.be/grnmgw9vqDk
-2. Basic ajax controller database flow https://youtu.be/ik-D4-ngJPw
 
-## Basics
 
 ### Algorithms
 1. Big O notation https://www.youtube.com/watch?v=IR_S8BC8KI0
@@ -2535,10 +2542,6 @@ maven https://www.youtube.com/watch?v=al7bRZzz4oU&list=PL92E89440B7BFD0F6
 1. Some examples https://renenyffenegger.ch/notes/tools/Graphviz/examples
    /index https://www.graphviz.org/Gallery/directed/cluster.html
 
-### Architecture for newbies
-1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
-1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
-1. react intro newbie 1 - https://youtu.be/CWNX5U_spmE
 
 ## Vanila javascript possibilities
 1. Vanila javascript based component https://www.youtube.com/watch?v=vLkPBj9ZaU0
