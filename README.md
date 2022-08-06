@@ -1,4 +1,4 @@
-% Last modified: 2022-08-06 19:51:05
+% Last modified: 2022-08-06 20:03:25
 
 Practice doc overview https://youtu.be/4q4eNV-Rczg
 
@@ -411,7 +411,7 @@ same.
 6. Level 2 - Base - 20% of total time.
     1. **2 html** - (html only)
     1. **2 style** - (css/scss styling and layout only)
-    1. Sass tutorials - inheritence and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=406s 
+        1. Sass tutorials - inheritence and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=406s 
         1. Sass tutorials - variables and more https://www.youtube.com/watch?v=nu5mdN2JIwM&t=191s
         1. Sass tutorials - sass in 20 mins 2019 https://www.youtube.com/watch?v=Zz6eOVaaelI  
         2. Css grid layout - https://youtu.be/jV8B24rSN5o?t=230 
@@ -430,19 +430,19 @@ same.
 7. Level 3 - Execute - 50% +/- of total time.
     1. Directory structure Node, react https://youtu.be/grnmgw9vqDk
     1. Open / close and if / else / switch statements https://www.youtube.com/watch?v=-ptMtJAdj40
-    1. React code reusability https://youtu.be/VgRyPndPNlI
-    2. frontend and typescript overview https://youtu.be/oIYYWdYcnb8 
-    1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
-    1. Ajax calls, react custom hooks https://www.youtube.com/watch?v=lvQgZqvIY6M&feature=youtu.be
     1. For newbies
         1. Basic app architecture and learning - https://youtu.be/OmZhSqgo6TQ
         1. node backend newbie 1 - https://youtu.be/T7oYz2rICsc
         1. react intro newbie 1 - https://youtu.be/CWNX5U_spmE
         2. Basic ajax controller database flow https://youtu.be/ik-D4-ngJPw
     1. **3 js** - All frontend (JS, react etc)
+        1. frontend and typescript overview https://youtu.be/oIYYWdYcnb8 
+        1. React code reusability https://youtu.be/VgRyPndPNlI
+        1. Ajax calls, react custom hooks https://www.youtube.com/watch?v=lvQgZqvIY6M&feature=youtu.be
     1. **3 uBK** - unit tests for backend. **If this is required by manager** and we use 
        TDD, then `uBK` will be completed before or with `bk` task.
     1. **3 bk** - All backend (db, controllers, code etc)
+        1. Typescript models and DAOs https://youtu.be/AXyJHMksgXM
         1. How to bypass frontend form validation. Do NOT rely on frontend only to validate 
            https://youtu.be/lXttrBti82E
         3. knex updating https://www.youtube.com/watch?v=aWLlh_Gn_oA
